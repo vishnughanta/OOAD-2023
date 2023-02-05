@@ -1,23 +1,23 @@
 package activities;
 
-import staff.Intern;
-import staff.Mechanic;
-import staff.Salesperson;
-import vehicles.Car;
-import vehicles.PerformanceCar;
-import vehicles.Pickup;
+import interfaces.RandomGenerator;
+import abstracts.Staff;
+import abstracts.Vehicle;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Activity {
     private static double budget;
-    protected static List<Intern> interns;
-    protected static List<Salesperson> salespersons;
-    protected static List<Mechanic> mechanics;
-    protected static List<Car> cars;
-    protected static List<Pickup> pickups;
-    protected static List<PerformanceCar> performanceCars;
+    protected RandomGenerator randomGenerator;
+    protected static List<Staff> interns;
+    protected static List<Staff> salespersons;
+    protected static List<Staff> mechanics;
+    protected static List<Vehicle> cars;
+    protected static List<Vehicle> pickups;
+    protected static List<Vehicle> performanceCars;
+    protected List<Vehicle> soldVehicles;
+    protected List<Staff> departedStaff;
 
     public Activity() {
         interns = new ArrayList<>();

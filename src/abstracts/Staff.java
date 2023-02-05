@@ -1,8 +1,8 @@
-package staff;
+package abstracts;
 
 import interfaces.NameGenerator;
 
-abstract class Staff {
+public abstract class Staff {
     protected NameGenerator nameGenerator;
     protected String name;
     protected double salary;
@@ -40,5 +40,13 @@ abstract class Staff {
 
     public void setTotalDaysWorked(int totalDaysWorked) {
         this.totalDaysWorked = totalDaysWorked;
+    }
+
+    public boolean isWorked() {
+        return worked;
+    }
+
+    public void setWorked(boolean worked) {
+        this.worked = worked;
     }
 }

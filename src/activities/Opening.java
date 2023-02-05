@@ -3,9 +3,11 @@ package activities;
 import staff.Intern;
 import staff.Mechanic;
 import staff.Salesperson;
+import abstracts.Staff;
 import vehicles.Car;
 import vehicles.PerformanceCar;
 import vehicles.Pickup;
+import abstracts.Vehicle;
 
 public class Opening extends Activity {
     
@@ -28,7 +30,7 @@ public class Opening extends Activity {
 
     private void addPerformanceCars(int performanceCarsToBeAdded) {
         for(int i=0; i<performanceCarsToBeAdded; i++) {
-            PerformanceCar performanceCar = new PerformanceCar();
+            Vehicle performanceCar = new PerformanceCar();
             double performanceCarCostPrice = performanceCar.getCostPrice();
             if(getBudget() < performanceCarCostPrice) modifyOperatingBudget();
             performanceCars.add(performanceCar);
@@ -44,7 +46,7 @@ public class Opening extends Activity {
 
     private void addPickups(int pickupsToBeAdded) {
         for(int i=0; i<pickupsToBeAdded; i++) {
-            Pickup pickup = new Pickup();
+            Vehicle pickup = new Pickup();
             double pickupCostPrice = pickup.getCostPrice();
             if(getBudget() < pickupCostPrice) modifyOperatingBudget();
             pickups.add(pickup);
@@ -60,7 +62,7 @@ public class Opening extends Activity {
 
     private void addCars(int carsToBeAdded) {
         for(int i=0; i<carsToBeAdded; i++) {
-            Car car = new Car();
+            Vehicle car = new Car();
             double carCostPrice = car.getCostPrice();
             if(getBudget() < carCostPrice) modifyOperatingBudget();
             cars.add(car);
@@ -82,7 +84,7 @@ public class Opening extends Activity {
 
     private void addInterns(int internsToBeAdded) {
         for(int i=0; i<internsToBeAdded; i++) {
-            Intern intern = new Intern();
+            Staff intern = new Intern();
             interns.add(intern);
         }
     }
@@ -95,7 +97,7 @@ public class Opening extends Activity {
 
     private void addSalesPersons(int salesPersonsToBeAdded) {
         for(int i=0; i<salesPersonsToBeAdded; i++) {
-            Salesperson salesperson = new Salesperson();
+            Staff salesperson = new Salesperson();
             salespersons.add(salesperson);
         }
     }
@@ -108,7 +110,7 @@ public class Opening extends Activity {
 
     private void addMechanics(int mechanicsToBeAdded) {
         for(int i=0; i<mechanicsToBeAdded; i++) {
-            Mechanic mechanic = new Mechanic();
+            Staff mechanic = new Mechanic();
             mechanics.add(mechanic);
         }
     }

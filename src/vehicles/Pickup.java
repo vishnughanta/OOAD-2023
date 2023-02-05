@@ -1,7 +1,9 @@
 package vehicles;
 
+import abstracts.Vehicle;
 import enums.Cleanliness;
 import enums.Condition;
+import enums.VehicleType;
 import functions.RandomNumberGenerator;
 import functions.VehicleName;
 
@@ -16,6 +18,7 @@ public class Pickup extends Vehicle {
         washBonus = 100;
         repairBonus = 200;
         salesBonus = 300;
+        vehicleType = VehicleType.PICKUP;
 
         if(randomConditionNumber == 0) {
             condition = Condition.NEW;

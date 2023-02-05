@@ -1,14 +1,16 @@
-package vehicles;
+package abstracts;
 
 import enums.Cleanliness;
 import enums.Condition;
+import enums.VehicleType;
 import interfaces.NameGenerator;
 import interfaces.RandomGenerator;
 
 
-abstract class Vehicle {
+public abstract class Vehicle {
     protected NameGenerator nameGenerator;
     protected RandomGenerator randomNumberGenerator;
+    protected VehicleType vehicleType;
     protected String name;
     protected Condition condition;
     protected Cleanliness cleanliness;
@@ -80,5 +82,13 @@ abstract class Vehicle {
 
     public void setSalePrice(double salePrice) {
         this.salePrice = salePrice;
+    }
+
+    public VehicleType getVehicleType() {
+        return vehicleType;
+    }
+
+    public void setVehicleType(VehicleType vehicleType) {
+        this.vehicleType = vehicleType;
     }
 }

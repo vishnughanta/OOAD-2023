@@ -1,5 +1,6 @@
 package staff;
 
+import abstracts.Staff;
 import functions.StaffName;
 
 public class Salesperson extends Staff {
@@ -8,5 +9,6 @@ public class Salesperson extends Staff {
         this.salary = 300;
         this.name = nameGenerator.generateName();
         this.worked = false;
+        this.totalDaysWorked = 0;
     }
 }

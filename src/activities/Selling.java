@@ -39,6 +39,7 @@ public class Selling extends Activity {
             if(buyer.getVehicleType().equals(VehicleType.CAR)) sellCars(salesperson);
             else if(buyer.getVehicleType().equals(VehicleType.PICKUP)) sellPickups(salesperson);
             else sellPerformanceCars(salesperson);
+            salesperson.setWorked(true);
         }
     }
 

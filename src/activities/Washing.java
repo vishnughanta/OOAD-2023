@@ -18,25 +18,25 @@ public class Washing extends Activity {
         cleanVehicles = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
         segregateVehicles();
-        shuffleCars();
-        cleanCarsInterns();
+        shuffleVehicles();
+        cleanCarsByInterns();
     }
 
-    private void cleanCarsInterns() {
-        List<Vehicle> carsToBeCleaned = new ArrayList<>();
-        carsToBeCleaned.addAll(dirtyVehicles);
-        carsToBeCleaned.addAll(cleanVehicles);
+    private void cleanCarsByInterns() {
+        List<Vehicle> vehiclesToBeCleaned = new ArrayList<>();
+        vehiclesToBeCleaned.addAll(dirtyVehicles);
+        vehiclesToBeCleaned.addAll(cleanVehicles);
 
         for(Staff intern : interns) {
             for(int i = 0; i<2; i++) {
-                if(carsToBeCleaned.isEmpty()) break;
-                Vehicle vehicle = carsToBeCleaned.get(0);
+                if(vehiclesToBeCleaned.isEmpty()) break;
+                Vehicle vehicle = vehiclesToBeCleaned.get(0);
                 cleanVehicles(vehicle);
                 setInternWorkedStatus(intern);
                 if(vehicle.getCleanliness().equals(Cleanliness.SPARKLING)) setInternBonus(intern, vehicle);
-                carsToBeCleaned.remove(0);
+                vehiclesToBeCleaned.remove(0);
             }
-            if(carsToBeCleaned.isEmpty()) break;
+            if(vehiclesToBeCleaned.isEmpty()) break;
         }
     }
 
@@ -61,7 +61,7 @@ public class Washing extends Activity {
         }
     }
 
-    private void shuffleCars() {
+    private void shuffleVehicles() {
         Collections.shuffle(dirtyVehicles);
         Collections.shuffle(cleanVehicles);
     }

@@ -2,6 +2,8 @@ package activities;
 
 import abstracts.Staff;
 import functions.RandomNumberGenerator;
+import staff.Mechanic;
+import staff.Salesperson;
 
 public class Ending extends Activity {
     public Ending() {
@@ -26,7 +28,8 @@ public class Ending extends Activity {
             randomNumber = randomGenerator.generateRandomNumber(0, interns.size()-1);
             Staff addedIntern = interns.get(randomNumber);
             interns.remove(addedIntern);
-            mechanics.add(addedIntern);
+            Staff newMechanic = new Mechanic(addedIntern.getName(), addedIntern.getTotalDaysWorked(), addedIntern.getBonus());
+            mechanics.add(newMechanic);
         }
     }
 
@@ -40,7 +43,8 @@ public class Ending extends Activity {
             randomNumber = randomGenerator.generateRandomNumber(0, interns.size()-1);
             Staff addedIntern = interns.get(randomNumber);
             interns.remove(addedIntern);
-            salespersons.add(addedIntern);
+            Staff newSalesperson = new Salesperson(addedIntern.getName(), addedIntern.getTotalDaysWorked(), addedIntern.getBonus());
+            salespersons.add(newSalesperson);
         }
     }
 
@@ -63,6 +67,9 @@ public class Ending extends Activity {
     private void calculateSalespersonsPay() {
         for(Staff salesperson : salespersons) {
             if(salesperson.isWorked()) {
+                if(getBudget() < salesperson.getSalary()) {
+                    modifyOperatingBudget();
+                }
                 setBudget(getBudget() - salesperson.getSalary());
                 salesperson.setTotalDaysWorked(salesperson.getTotalDaysWorked() + 1);
             }
@@ -72,6 +79,9 @@ public class Ending extends Activity {
     private void calculateMechanicsPay() {
         for(Staff mechanic : mechanics) {
             if(mechanic.isWorked()) {
+                if(getBudget() < mechanic.getSalary()) {
+                    modifyOperatingBudget();
+                }
                 setBudget(getBudget() - mechanic.getSalary());
                 mechanic.setTotalDaysWorked(mechanic.getTotalDaysWorked() + 1);
             }
@@ -81,6 +91,9 @@ public class Ending extends Activity {
     private void calculateInternsPay() {
         for(Staff intern : interns) {
             if(intern.isWorked()) {
+                if(getBudget() < intern.getSalary()) {
+                    modifyOperatingBudget();
+                }
                 setBudget(getBudget() - intern.getSalary());
                 intern.setTotalDaysWorked(intern.getTotalDaysWorked() + 1);
             }

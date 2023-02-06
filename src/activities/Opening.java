@@ -14,6 +14,7 @@ public class Opening extends Activity {
     public Opening() {
         checkStaff();
         checkVehicles();
+        //System.out.println(cars);
     }
 
     private void checkVehicles() {
@@ -35,6 +36,8 @@ public class Opening extends Activity {
             if(getBudget() < performanceCarCostPrice) modifyOperatingBudget();
             performanceCars.add(performanceCar);
             setBudget(getBudget() - performanceCarCostPrice);
+            //System.out.println(performanceCar.getCleanliness());
+            System.out.println("Purchased Performance Car " + performanceCar.getName() + " with a cost price of " + Double.toString(performanceCar.getCostPrice()));
         }
     }
 
@@ -51,6 +54,7 @@ public class Opening extends Activity {
             if(getBudget() < pickupCostPrice) modifyOperatingBudget();
             pickups.add(pickup);
             setBudget(getBudget() - pickupCostPrice);
+            System.out.println("Purchased Pickup " + pickup.getName() + " with a cost price of " + Double.toString(pickup.getCostPrice()));
         }
     }
 
@@ -67,6 +71,7 @@ public class Opening extends Activity {
             if(getBudget() < carCostPrice) modifyOperatingBudget();
             cars.add(car);
             setBudget(getBudget() - carCostPrice);
+            System.out.println("Purchased Car " + car.getName() + " with a cost price of " + Double.toString(car.getCostPrice()));
         }
     }
 
@@ -86,7 +91,7 @@ public class Opening extends Activity {
         for(int i=0; i<internsToBeAdded; i++) {
             Staff intern = new Intern();
             interns.add(intern);
-            System.out.println(intern.getName());
+            System.out.println("Hired Intern " + intern.getName() + " with a daily salary of " + Double.toString(intern.getSalary()));
         }
 
     }
@@ -102,7 +107,7 @@ public class Opening extends Activity {
         for(int i=0; i<salesPersonsToBeAdded; i++) {
             Staff salesperson = new Salesperson();
             salespersons.add(salesperson);
-            System.out.println(salesperson.getName());
+            System.out.println("Hired Salesperson " + salesperson.getName() + " with a daily salary of " + Double.toString(salesperson.getSalary()));
         }
     }
 
@@ -117,7 +122,7 @@ public class Opening extends Activity {
         for(int i=0; i<mechanicsToBeAdded; i++) {
             Staff mechanic = new Mechanic();
             mechanics.add(mechanic);
-            System.out.println(mechanic.getName());
+            System.out.println("Hired Mechanic " + mechanic.getName() + " with a daily salary of " + Double.toString(mechanic.getSalary()));
         }
     }
 }

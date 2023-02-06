@@ -30,6 +30,8 @@ public class Car extends Vehicle {
             costPrice = costPrice/2;
         }
 
+        this.salePrice = 2 * costPrice;
+
         if(randomCleanlinessNumber == 0) {
             cleanliness = Cleanliness.SPARKLING;
         } else if (randomCleanlinessNumber == 1) {

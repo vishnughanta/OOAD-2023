@@ -8,6 +8,6 @@ public class RandomNumberGenerator implements RandomGenerator {
 
     @Override
     public int generateRandomNumber(int lowerBound, int upperBound) {
-        return ThreadLocalRandom.current().nextInt(lowerBound, upperBound);
+        return ThreadLocalRandom.current().nextInt(lowerBound, upperBound+1);
     }
 }

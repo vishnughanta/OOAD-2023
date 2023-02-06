@@ -30,6 +30,8 @@ public class Pickup extends Vehicle {
             costPrice = costPrice/2;
         }
 
+        this.salePrice = 2 * costPrice;
+
         if(randomCleanlinessNumber >=1 && randomCleanlinessNumber <=5) {
             cleanliness = Cleanliness.SPARKLING;
         } else if (randomCleanlinessNumber > 5 && randomCleanlinessNumber <=40 )  {

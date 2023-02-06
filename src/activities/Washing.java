@@ -31,7 +31,7 @@ public class Washing extends Activity {
             for(int i = 0; i<2; i++) {
                 if(vehiclesToBeCleaned.isEmpty()) break;
                 Vehicle vehicle = vehiclesToBeCleaned.get(0);
-                cleanVehicles(vehicle);
+                cleanVehicles(intern, vehicle);
                 setInternWorkedStatus(intern);
                 if(vehicle.getCleanliness().equals(Cleanliness.SPARKLING)) setInternBonus(intern, vehicle);
                 vehiclesToBeCleaned.remove(0);
@@ -49,15 +49,26 @@ public class Washing extends Activity {
         intern.setBonus(intern.getBonus() + washBonus);
     }
 
-    private void cleanVehicles(Vehicle vehicle) {
+    private void cleanVehicles(Staff intern, Vehicle vehicle) {
+        int randomNumber = randomGenerator.generateRandomNumber(1,100);
         if(vehicle.getCleanliness().equals(Cleanliness.DIRTY)) {
-            int randomNumber = randomGenerator.generateRandomNumber(1,100);
-            if(randomNumber >= 1 && randomNumber <= 80 ) vehicle.setCleanliness(Cleanliness.CLEAN);
-            else if(randomNumber > 80 && randomNumber <=90) vehicle.setCleanliness(Cleanliness.SPARKLING);
+            if(randomNumber >= 1 && randomNumber <= 80 ) {
+                vehicle.setCleanliness(Cleanliness.CLEAN);
+                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " and made it clean");
+            }
+            else if(randomNumber > 80 && randomNumber <=90) {
+                vehicle.setCleanliness(Cleanliness.SPARKLING);
+                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " and made it sparkling(Earned " + Double.toString(vehicle.getWashBonus()) + " )");
+            }
         } else {
-            int randomNumber = randomGenerator.generateRandomNumber(1,100);
-            if(randomNumber >= 1 && randomNumber <= 5 ) vehicle.setCleanliness(Cleanliness.DIRTY);
-            else if(randomNumber > 5 && randomNumber <=40) vehicle.setCleanliness(Cleanliness.SPARKLING);
+            if(randomNumber >= 1 && randomNumber <= 5 ) {
+                vehicle.setCleanliness(Cleanliness.DIRTY);
+                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " and made it dirty");
+            }
+            else if(randomNumber > 5 && randomNumber <=40) {
+                vehicle.setCleanliness(Cleanliness.SPARKLING);
+                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " and made it sparkling(Earned " + Double.toString(vehicle.getWashBonus()) + " )");
+            }
         }
     }
 
@@ -68,6 +79,8 @@ public class Washing extends Activity {
 
     private void segregateVehicles() {
         segregateCars();
+        //System.out.println(dirtyVehicles);
+        //System.out.println(cleanVehicles);
         segregatePickups();
         segregatePerformanceCars();
     }
@@ -75,24 +88,26 @@ public class Washing extends Activity {
     private void segregatePerformanceCars() {
         for (Vehicle vehicle : performanceCars) {
             Cleanliness cleanlinessState = vehicle.getCleanliness();
-            if (cleanlinessState.equals(Cleanliness.DIRTY)) dirtyVehicles.add(vehicle);
-            else if (cleanlinessState.equals(Cleanliness.CLEAN)) cleanVehicles.add(vehicle);
+            if (cleanlinessState == Cleanliness.DIRTY) dirtyVehicles.add(vehicle);
+            else if (cleanlinessState == Cleanliness.CLEAN) cleanVehicles.add(vehicle);
         }
     }
 
     private void segregatePickups() {
         for (Vehicle vehicle : pickups) {
             Cleanliness cleanlinessState = vehicle.getCleanliness();
-            if (cleanlinessState.equals(Cleanliness.DIRTY)) dirtyVehicles.add(vehicle);
-            else if (cleanlinessState.equals(Cleanliness.CLEAN)) cleanVehicles.add(vehicle);
+            if (cleanlinessState == Cleanliness.DIRTY) dirtyVehicles.add(vehicle);
+            else if (cleanlinessState == Cleanliness.CLEAN) cleanVehicles.add(vehicle);
         }
     }
 
     private void segregateCars() {
         for (Vehicle vehicle : cars) {
+            //System.out.println(vehicle.getName());
             Cleanliness cleanlinessState = vehicle.getCleanliness();
-            if (cleanlinessState.equals(Cleanliness.DIRTY)) dirtyVehicles.add(vehicle);
-            else if (cleanlinessState.equals(Cleanliness.CLEAN)) cleanVehicles.add(vehicle);
+            //System.out.println(cleanlinessState);
+            if (cleanlinessState == Cleanliness.DIRTY) dirtyVehicles.add(vehicle);
+            else if (cleanlinessState == Cleanliness.CLEAN) cleanVehicles.add(vehicle);
         }
     }
 

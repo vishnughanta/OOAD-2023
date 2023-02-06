@@ -16,17 +16,22 @@ public class Activity {
     protected static List<Vehicle> cars;
     protected static List<Vehicle> pickups;
     protected static List<Vehicle> performanceCars;
-    protected List<Vehicle> soldVehicles;
-    protected List<Staff> departedStaff;
+    protected static List<Vehicle> soldVehicles;
+    protected static List<Staff> departedStaff;
 
-    public Activity() {
+    static {
         interns = new ArrayList<>();
         salespersons = new ArrayList<>();
         mechanics = new ArrayList<>();
         cars = new ArrayList<>();
         pickups = new ArrayList<>();
         performanceCars = new ArrayList<>();
+        soldVehicles = new ArrayList<>();
+        departedStaff = new ArrayList<>();
         budget = 500000;
+    }
+
+    public Activity() {
     }
 
     protected static double getBudget() {

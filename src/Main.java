@@ -1,6 +1,9 @@
+import activities.Activity;
+import activities.Opening;
+
 public class Main {
     public static void main(String[] args) {
-
-        System.out.println("Hello world!");
+        Activity activity = new Activity();
+        Opening opening = new Opening();
     }
 }

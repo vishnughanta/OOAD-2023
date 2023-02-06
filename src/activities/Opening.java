@@ -86,19 +86,23 @@ public class Opening extends Activity {
         for(int i=0; i<internsToBeAdded; i++) {
             Staff intern = new Intern();
             interns.add(intern);
+            System.out.println(intern.getName());
         }
+
     }
 
     private void checkSalesPersons() {
         int currentSalesPersonSize = salespersons.size();
         int salesPersonsToBeAdded = 3 - currentSalesPersonSize;
         addSalesPersons(salesPersonsToBeAdded);
+
     }
 
     private void addSalesPersons(int salesPersonsToBeAdded) {
         for(int i=0; i<salesPersonsToBeAdded; i++) {
             Staff salesperson = new Salesperson();
             salespersons.add(salesperson);
+            System.out.println(salesperson.getName());
         }
     }
 
@@ -106,12 +110,14 @@ public class Opening extends Activity {
         int currentMechanics = mechanics.size();
         int mechanicsToBeAdded = 3 - currentMechanics;
         addMechanics(mechanicsToBeAdded);
+
     }
 
     private void addMechanics(int mechanicsToBeAdded) {
         for(int i=0; i<mechanicsToBeAdded; i++) {
             Staff mechanic = new Mechanic();
             mechanics.add(mechanic);
+            System.out.println(mechanic.getName());
         }
     }
 }

@@ -26,6 +26,7 @@ public class Activity {
         cars = new ArrayList<>();
         pickups = new ArrayList<>();
         performanceCars = new ArrayList<>();
+        budget = 500000;
     }
 
     protected static double getBudget() {

@@ -54,20 +54,20 @@ public class Washing extends Activity {
         if(vehicle.getCleanliness().equals(Cleanliness.DIRTY)) {
             if(randomNumber >= 1 && randomNumber <= 80 ) {
                 vehicle.setCleanliness(Cleanliness.CLEAN);
-                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " and made it clean");
+                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " " + vehicle.getName() + " and made it clean");
             }
             else if(randomNumber > 80 && randomNumber <=90) {
                 vehicle.setCleanliness(Cleanliness.SPARKLING);
-                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " and made it sparkling(Earned " + Double.toString(vehicle.getWashBonus()) + " )");
+                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " " + vehicle.getName() + " and made it sparkling(Earned " + Double.toString(vehicle.getWashBonus()) + " Wash Bonus)");
             }
         } else {
             if(randomNumber >= 1 && randomNumber <= 5 ) {
                 vehicle.setCleanliness(Cleanliness.DIRTY);
-                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " and made it dirty");
+                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " " + vehicle.getName()  + " and made it dirty");
             }
             else if(randomNumber > 5 && randomNumber <=40) {
                 vehicle.setCleanliness(Cleanliness.SPARKLING);
-                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " and made it sparkling(Earned " + Double.toString(vehicle.getWashBonus()) + " )");
+                System.out.println("Intern " + intern.getName() + " washed " + vehicle.getVehicleType() + " " + vehicle.getName() + " and made it sparkling(Earned " + Double.toString(vehicle.getWashBonus()) + " Wash Bonus)");
             }
         }
     }

@@ -50,10 +50,12 @@ public class Repairing extends Activity {
             if(vehicle.getCondition().equals(Condition.BROKEN)) {
                 vehicle.setCondition(Condition.USED);
                 vehicle.setSalePrice(1.5 * vehicle.getSalePrice());
+                System.out.println("Mechanic " + mechanic.getName() + " repaired " + vehicle.getName() + " and made it used (Earned " + Double.toString(vehicle.getRepairBonus()) +" Repair Bonus)");
                 mechanic.setBonus(mechanic.getBonus() + vehicle.getRepairBonus());
             }
             else {
                 vehicle.setCondition(Condition.NEW);
+                System.out.println("Mechanic " + mechanic.getName() + " repaired " + vehicle.getName() + " and made it like new (Earned " + Double.toString(vehicle.getRepairBonus()) +" Repair Bonus)");
                 vehicle.setSalePrice(1.25 * vehicle.getSalePrice());
             }
         }

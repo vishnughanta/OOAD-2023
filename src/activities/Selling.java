@@ -3,6 +3,7 @@ package activities;
 import abstracts.Staff;
 import abstracts.Vehicle;
 import buyer.Buyer;
+import enums.BuyingType;
 import enums.Cleanliness;
 import enums.Condition;
 import enums.VehicleType;
@@ -36,54 +37,64 @@ public class Selling extends Activity {
             Buyer buyer = new Buyer();
             int indexOfSalesPerson = randomGenerator.generateRandomNumber(0,2);
             Staff salesperson = salespersons.get(indexOfSalesPerson);
-            if(buyer.getVehicleType().equals(VehicleType.CAR)) sellCars(salesperson);
-            else if(buyer.getVehicleType().equals(VehicleType.PICKUP)) sellPickups(salesperson);
-            else sellPerformanceCars(salesperson);
+            if(buyer.getVehicleType().equals(VehicleType.CAR)) sellCars(salesperson, buyer);
+            else if(buyer.getVehicleType().equals(VehicleType.PICKUP)) sellPickups(salesperson, buyer);
+            else sellPerformanceCars(salesperson, buyer);
             salesperson.setWorked(true);
         }
     }
 
-    private void sellCars(Staff salesperson) {
+    private void sellCars(Staff salesperson, Buyer buyer) {
         if(!carsToBeSold.isEmpty()) {
-            sellVehicleOfType(salesperson, carsToBeSold);
+            sellVehicleOfType(salesperson, buyer, carsToBeSold);
         } else {
-            sellVehiclesNotOfType(salesperson, performanceCarsToBeSold,pickupsToBeSold);
+            sellVehiclesNotOfType(salesperson, buyer, performanceCarsToBeSold,pickupsToBeSold);
         }
     }
 
-    private void sellPickups(Staff salesperson) {
+    private void sellPickups(Staff salesperson, Buyer buyer) {
         if(!pickupsToBeSold.isEmpty()) {
-            sellVehicleOfType(salesperson, pickupsToBeSold);
+            sellVehicleOfType(salesperson, buyer, pickupsToBeSold);
         } else {
-            sellVehiclesNotOfType(salesperson, carsToBeSold, performanceCarsToBeSold);
+            sellVehiclesNotOfType(salesperson, buyer, carsToBeSold, performanceCarsToBeSold);
         }
     }
 
-    private void sellPerformanceCars(Staff salesperson) {
+    private void sellPerformanceCars(Staff salesperson, Buyer buyer) {
         if(!performanceCarsToBeSold.isEmpty()) {
-            sellVehicleOfType(salesperson, performanceCarsToBeSold);
+            sellVehicleOfType(salesperson, buyer, performanceCarsToBeSold);
         }
         else {
-            sellVehiclesNotOfType(salesperson, carsToBeSold,pickupsToBeSold);
+            sellVehiclesNotOfType(salesperson, buyer, carsToBeSold,pickupsToBeSold);
         }
     }
 
-    private void sellVehicleOfType(Staff salesperson, List<Vehicle> list) {
+    private void sellVehicleOfType(Staff salesperson, Buyer buyer, List<Vehicle> list) {
         Vehicle vehicle = list.get(0);
-        int chanceOfBuying = 50;
+
+        int chanceOfBuying = 0;
+        if(buyer.getBuyingType() == BuyingType.JUST_LOOKING) chanceOfBuying = 10;
+        else if(buyer.getBuyingType() == BuyingType.WANTS_ONE) chanceOfBuying = 40;
+        else chanceOfBuying = 70;
+
         if(vehicle.getCleanliness().equals(Cleanliness.SPARKLING)) chanceOfBuying += 10;
         if(vehicle.getCondition().equals(Condition.NEW)) chanceOfBuying += 10;
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
         if(randomNumber>=1 && randomNumber<=chanceOfBuying) sellVehicle(salesperson, vehicle);
     }
 
-    private void sellVehiclesNotOfType(Staff salesperson, List<Vehicle> list1, List<Vehicle> list2) {
+    private void sellVehiclesNotOfType(Staff salesperson, Buyer buyer, List<Vehicle> list1, List<Vehicle> list2) {
         List<Vehicle> otherCars = new ArrayList<>();
         otherCars.addAll(list1);
         otherCars.addAll(list2);
         sortCarsByCostPrice(otherCars);
         Vehicle vehicle = otherCars.get(0);
-        int chanceOfBuying = 30;
+
+        int chanceOfBuying = 0;
+        if(buyer.getBuyingType() == BuyingType.JUST_LOOKING) chanceOfBuying = 0;
+        else if(buyer.getBuyingType() == BuyingType.WANTS_ONE) chanceOfBuying = 20;
+        else chanceOfBuying = 50;
+
         if(vehicle.getCleanliness().equals(Cleanliness.SPARKLING)) chanceOfBuying += 10;
         if(vehicle.getCondition().equals(Condition.NEW)) chanceOfBuying += 10;
         int randomNumber = randomGenerator.generateRandomNumber(1,100);

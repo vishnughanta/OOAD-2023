@@ -10,5 +10,6 @@ public class Intern extends Staff {
         this.name = nameGenerator.generateName();
         this.worked = false;
         this.totalDaysWorked = 0;
+        this.bonus = 0;
     }
 }

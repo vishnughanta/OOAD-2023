@@ -15,7 +15,6 @@ public class Repairing extends Activity {
     public Repairing() {
         vehiclesToBeRepaired = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
-        //System.out.println(cars);
         segregateVehicles();
         shuffleVehicles();
         repairVehiclesMechanics();
@@ -51,13 +50,13 @@ public class Repairing extends Activity {
                 vehicle.setCondition(Condition.USED);
                 vehicle.setSalePrice(1.5 * vehicle.getSalePrice());
                 System.out.println("Mechanic " + mechanic.getName() + " repaired " + vehicle.getName() + " and made it used (Earned " + Double.toString(vehicle.getRepairBonus()) +" Repair Bonus)");
-                mechanic.setBonus(mechanic.getBonus() + vehicle.getRepairBonus());
             }
             else {
                 vehicle.setCondition(Condition.NEW);
                 System.out.println("Mechanic " + mechanic.getName() + " repaired " + vehicle.getName() + " and made it like new (Earned " + Double.toString(vehicle.getRepairBonus()) +" Repair Bonus)");
                 vehicle.setSalePrice(1.25 * vehicle.getSalePrice());
             }
+            mechanic.setBonus(mechanic.getBonus() + vehicle.getRepairBonus());
         }
 
     }

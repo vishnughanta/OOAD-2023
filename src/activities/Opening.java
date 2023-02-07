@@ -14,7 +14,6 @@ public class Opening extends Activity {
     public Opening() {
         checkStaff();
         checkVehicles();
-        //System.out.println(cars);
     }
 
     private void checkVehicles() {

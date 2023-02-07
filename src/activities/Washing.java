@@ -79,8 +79,6 @@ public class Washing extends Activity {
 
     private void segregateVehicles() {
         segregateCars();
-        //System.out.println(dirtyVehicles);
-        //System.out.println(cleanVehicles);
         segregatePickups();
         segregatePerformanceCars();
     }
@@ -103,9 +101,7 @@ public class Washing extends Activity {
 
     private void segregateCars() {
         for (Vehicle vehicle : cars) {
-            //System.out.println(vehicle.getName());
             Cleanliness cleanlinessState = vehicle.getCleanliness();
-            //System.out.println(cleanlinessState);
             if (cleanlinessState == Cleanliness.DIRTY) dirtyVehicles.add(vehicle);
             else if (cleanlinessState == Cleanliness.CLEAN) cleanVehicles.add(vehicle);
         }

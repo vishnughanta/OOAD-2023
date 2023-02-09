@@ -7,20 +7,22 @@ import enums.BuyingType;
 import enums.Cleanliness;
 import enums.Condition;
 import enums.VehicleType;
+import functions.RandomNumberGenerator;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
 public class Selling extends Activity {
-    List<Vehicle> carsToBeSold;
-    List<Vehicle> performanceCarsToBeSold;
-    List<Vehicle> pickupsToBeSold;
+    private List<Vehicle> carsToBeSold;
+    private List<Vehicle> performanceCarsToBeSold;
+    private List<Vehicle> pickupsToBeSold;
     private int numberOfBuyers;
     public Selling() {
         carsToBeSold = new ArrayList<>();
         performanceCarsToBeSold = new ArrayList<>();
         pickupsToBeSold = new ArrayList<>();
+        randomGenerator = new RandomNumberGenerator();
         segregateVehicles();
     }
 
@@ -80,7 +82,10 @@ public class Selling extends Activity {
         if(vehicle.getCleanliness().equals(Cleanliness.SPARKLING)) chanceOfBuying += 10;
         if(vehicle.getCondition().equals(Condition.NEW)) chanceOfBuying += 10;
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
-        if(randomNumber>=1 && randomNumber<=chanceOfBuying) sellVehicle(salesperson, vehicle);
+        if(randomNumber>=1 && randomNumber<=chanceOfBuying) {
+            sellVehicle(salesperson, vehicle);
+            System.out.println("Sold vehicles of type");
+        }
     }
 
     private void sellVehiclesNotOfType(Staff salesperson, Buyer buyer, List<Vehicle> list1, List<Vehicle> list2) {
@@ -98,7 +103,10 @@ public class Selling extends Activity {
         if(vehicle.getCleanliness().equals(Cleanliness.SPARKLING)) chanceOfBuying += 10;
         if(vehicle.getCondition().equals(Condition.NEW)) chanceOfBuying += 10;
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
-        if(randomNumber>=1 && randomNumber<=chanceOfBuying) sellVehicle(salesperson, vehicle);
+        if(randomNumber>=1 && randomNumber<=chanceOfBuying) {
+            sellVehicle(salesperson, vehicle);
+            System.out.println("Sold vehicles not of type");
+        }
     }
 
     private void sellVehicle(Staff salesperson, Vehicle vehicle) {

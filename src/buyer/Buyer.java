@@ -14,8 +14,8 @@ public class Buyer extends Buyers {
         else this.vehicleType = VehicleType.PERFORMANCE_CAR;
 
         randomNumber = randomGenerator.generateRandomNumber(0,2);
-        if(randomNumber == 0) this.buyingType = BuyingType.JUST_LOOKING
-        else if(randomNumber == 1) this.buyingType = BuyingType.WANTS_ONE
+        if(randomNumber == 0) this.buyingType = BuyingType.JUST_LOOKING;
+        else if(randomNumber == 1) this.buyingType = BuyingType.WANTS_ONE;
         else this.buyingType = BuyingType.NEEDS_ONE;
 
     }

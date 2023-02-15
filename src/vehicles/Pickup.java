@@ -11,7 +11,7 @@ public class Pickup extends Vehicle {
     public Pickup() {
         nameGenerator = new VehicleName();
         randomNumberGenerator = new RandomNumberGenerator();
-        this.name = nameGenerator.generateName();
+        this.name = "Pickup" + "-" + Vehicle.pickupNumber;
         this.costPrice = randomNumberGenerator.generateRandomNumber(10000,40000);
         int randomConditionNumber = randomNumberGenerator.generateRandomNumber(0,2);
         int randomCleanlinessNumber = randomNumberGenerator.generateRandomNumber(1,100);

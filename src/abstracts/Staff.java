@@ -3,6 +3,9 @@ package abstracts;
 import interfaces.NameGenerator;
 
 public abstract class Staff {
+    public static int internNumber = 0;
+    public static int mechanicNumber = 0;
+    public static int salespersonNumber = 0;
     protected NameGenerator nameGenerator;
     protected String name;
     protected double salary;

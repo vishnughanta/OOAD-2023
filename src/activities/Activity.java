@@ -32,6 +32,7 @@ public class Activity {
     }
 
     public Activity() {
+
     }
 
     protected static double getBudget() {

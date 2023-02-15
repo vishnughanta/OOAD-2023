@@ -7,15 +7,15 @@ public class Salesperson extends Staff {
     public Salesperson() {
         nameGenerator = new StaffName();
         this.salary = 300;
-        this.name = nameGenerator.generateName();
+        this.name = "Salesperson-" + Staff.salespersonNumber;
         this.worked = false;
         this.totalDaysWorked = 0;
         this.bonus = 0;
     }
 
-    public Salesperson(String name, int totalDaysWorked, double bonus) {
+    public Salesperson(int totalDaysWorked, double bonus) {
         this.salary = 300;
-        this.name = name;
+        this.name = "Salesperson-" + Staff.salespersonNumber;
         this.worked = false;
         this.totalDaysWorked = totalDaysWorked;
         this.bonus = bonus;

@@ -2,12 +2,13 @@ package functions;
 
 import interfaces.RandomGenerator;
 
-import java.util.concurrent.ThreadLocalRandom;
+import java.util.Random;
 
 public class RandomNumberGenerator implements RandomGenerator {
 
     @Override
     public int generateRandomNumber(int lowerBound, int upperBound) {
-        return ThreadLocalRandom.current().nextInt(lowerBound, upperBound+1);
+        Random random = new Random();
+        return random.nextInt(lowerBound, upperBound+1);
     }
 }

@@ -8,6 +8,9 @@ import interfaces.RandomGenerator;
 
 
 public abstract class Vehicle {
+    public static int carNumber = 0;
+    public static int performanceCarNumber = 0;
+    public static int pickupNumber = 0;
     protected NameGenerator nameGenerator;
     protected RandomGenerator randomNumberGenerator;
     protected VehicleType vehicleType;

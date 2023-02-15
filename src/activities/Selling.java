@@ -18,12 +18,16 @@ public class Selling extends Activity {
     private List<Vehicle> performanceCarsToBeSold;
     private List<Vehicle> pickupsToBeSold;
     private int numberOfBuyers;
-    public Selling() {
+    public Selling(int day) {
+        System.out.println("Selling..");
+        System.out.println();
         carsToBeSold = new ArrayList<>();
         performanceCarsToBeSold = new ArrayList<>();
         pickupsToBeSold = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
         segregateVehicles();
+        sellVehicles(day);
+        System.out.println();
     }
 
     private void segregateVehicles() {
@@ -84,7 +88,7 @@ public class Selling extends Activity {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
         if(randomNumber>=1 && randomNumber<=chanceOfBuying) {
             sellVehicle(salesperson, vehicle);
-            System.out.println("Sold vehicle " + vehicle.getVehicleType() + " " + vehicle.getName() + " by Salesperson " + salesperson.getName() + " of type");
+            System.out.println("Sold vehicle " + vehicle.getName() + " by " + salesperson.getName());
         }
     }
 
@@ -105,7 +109,7 @@ public class Selling extends Activity {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
         if(randomNumber>=1 && randomNumber<=chanceOfBuying) {
             sellVehicle(salesperson, vehicle);
-            System.out.println("Sold vehicles not of type");
+            System.out.println("Sold vehicle " + vehicle.getName() + " by " + salesperson.getName());
         }
     }
 

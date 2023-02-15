@@ -11,7 +11,7 @@ public class PerformanceCar extends Vehicle {
     public PerformanceCar() {
         nameGenerator = new VehicleName();
         randomNumberGenerator = new RandomNumberGenerator();
-        this.name = nameGenerator.generateName();
+        this.name = "Performance Car" + "-" + Vehicle.performanceCarNumber;
         this.costPrice = randomNumberGenerator.generateRandomNumber(20000,40000);
         int randomConditionNumber = randomNumberGenerator.generateRandomNumber(0,2);
         int randomCleanlinessNumber = randomNumberGenerator.generateRandomNumber(0,2);

@@ -11,7 +11,7 @@ public class Car extends Vehicle {
     public Car() {
         nameGenerator = new VehicleName();
         randomNumberGenerator = new RandomNumberGenerator();
-        this.name = nameGenerator.generateName();
+        this.name = "Car" + "-" + Vehicle.carNumber;
         this.costPrice = randomNumberGenerator.generateRandomNumber(10000,20000);
         int randomConditionNumber = randomNumberGenerator.generateRandomNumber(0,2);
         int randomCleanlinessNumber = randomNumberGenerator.generateRandomNumber(0,2);
@@ -24,7 +24,7 @@ public class Car extends Vehicle {
             condition = Condition.NEW;
         } else if (randomConditionNumber == 1) {
             condition = Condition.USED;
-            costPrice -= costPrice * 0.2;
+            costPrice = costPrice * 0.8;
         } else{
             condition = Condition.BROKEN;
             costPrice = costPrice/2;

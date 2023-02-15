@@ -7,9 +7,12 @@ import staff.Salesperson;
 
 public class Ending extends Activity {
     public Ending() {
+        System.out.println("Ending..");
+        System.out.println();
         randomGenerator = new RandomNumberGenerator();
         calculatePayByDay();
         quitStaff();
+        System.out.println();
     }
 
     private void quitStaff() {
@@ -20,15 +23,21 @@ public class Ending extends Activity {
 
     private void quitMechanics() {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
+
         if(randomNumber >=1 && randomNumber <= 10) {
             randomNumber = randomGenerator.generateRandomNumber(0,2);
             Staff removedMechanic = mechanics.get(randomNumber);
+
             mechanics.remove(removedMechanic);
             departedStaff.add(removedMechanic);
+            System.out.println(removedMechanic.getName() + " has quit the FNCD");
+
             randomNumber = randomGenerator.generateRandomNumber(0, interns.size()-1);
             Staff addedIntern = interns.get(randomNumber);
             interns.remove(addedIntern);
-            Staff newMechanic = new Mechanic(addedIntern.getName(), addedIntern.getTotalDaysWorked(), addedIntern.getBonus());
+
+            Staff newMechanic = new Mechanic(addedIntern.getTotalDaysWorked(), addedIntern.getBonus());
+            Staff.mechanicNumber++;
             mechanics.add(newMechanic);
         }
     }
@@ -40,10 +49,12 @@ public class Ending extends Activity {
             Staff removedSalesperson = salespersons.get(randomNumber);
             salespersons.remove(removedSalesperson);
             departedStaff.add(removedSalesperson);
+            System.out.println(removedSalesperson.getName() + " has quit the FNCD");
             randomNumber = randomGenerator.generateRandomNumber(0, interns.size()-1);
             Staff addedIntern = interns.get(randomNumber);
             interns.remove(addedIntern);
-            Staff newSalesperson = new Salesperson(addedIntern.getName(), addedIntern.getTotalDaysWorked(), addedIntern.getBonus());
+            Staff newSalesperson = new Salesperson(addedIntern.getTotalDaysWorked(), addedIntern.getBonus());
+            Staff.salespersonNumber++;
             salespersons.add(newSalesperson);
         }
     }

@@ -12,6 +12,9 @@ import abstracts.Vehicle;
 public class Opening extends Activity {
     
     public Opening() {
+        System.out.println("Opening..");
+        System.out.println("Current budget: " + getBudget());
+        System.out.println();
         checkStaff();
         checkVehicles();
     }
@@ -32,11 +35,15 @@ public class Opening extends Activity {
         for(int i=0; i<performanceCarsToBeAdded; i++) {
             Vehicle performanceCar = new PerformanceCar();
             double performanceCarCostPrice = performanceCar.getCostPrice();
-            if(getBudget() < performanceCarCostPrice) modifyOperatingBudget();
+            if(getBudget() < performanceCarCostPrice) {
+                modifyOperatingBudget();
+            }
             performanceCars.add(performanceCar);
             setBudget(getBudget() - performanceCarCostPrice);
-            System.out.println("Purchased Performance Car " + performanceCar.getName() + " with a cost price of " + Double.toString(performanceCar.getCostPrice()));
+            System.out.println("Purchased " + performanceCar.getName() + " with a cost price of " + Double.toString(performanceCar.getCostPrice()));
+            Vehicle.performanceCarNumber++;
         }
+        System.out.println();
     }
 
     private void checkPickups() {
@@ -49,11 +56,15 @@ public class Opening extends Activity {
         for(int i=0; i<pickupsToBeAdded; i++) {
             Vehicle pickup = new Pickup();
             double pickupCostPrice = pickup.getCostPrice();
-            if(getBudget() < pickupCostPrice) modifyOperatingBudget();
+            if(getBudget() < pickupCostPrice) {
+                modifyOperatingBudget();
+            }
             pickups.add(pickup);
             setBudget(getBudget() - pickupCostPrice);
-            System.out.println("Purchased Pickup " + pickup.getName() + " with a cost price of " + Double.toString(pickup.getCostPrice()));
+            System.out.println("Purchased " + pickup.getName() + " with a cost price of " + Double.toString(pickup.getCostPrice()));
+            Vehicle.pickupNumber++;
         }
+        System.out.println();
     }
 
     private void checkCars() {
@@ -69,8 +80,10 @@ public class Opening extends Activity {
             if(getBudget() < carCostPrice) modifyOperatingBudget();
             cars.add(car);
             setBudget(getBudget() - carCostPrice);
-            System.out.println("Purchased Car " + car.getName() + " with a cost price of " + Double.toString(car.getCostPrice()));
+            System.out.println("Purchased " +  car.getCondition() + " " + car.getCleanliness() + " " + car.getName() + " with a cost price of " + car.getCostPrice());
+            Vehicle.carNumber++;
         }
+        System.out.println();
     }
 
     private void checkStaff() {
@@ -89,9 +102,10 @@ public class Opening extends Activity {
         for(int i=0; i<internsToBeAdded; i++) {
             Staff intern = new Intern();
             interns.add(intern);
-            System.out.println("Hired Intern " + intern.getName() + " with a daily salary of " + Double.toString(intern.getSalary()));
+            System.out.println("Hired " + intern.getName());
+            Staff.internNumber++;
         }
-
+        System.out.println();
     }
 
     private void checkSalesPersons() {
@@ -105,8 +119,10 @@ public class Opening extends Activity {
         for(int i=0; i<salesPersonsToBeAdded; i++) {
             Staff salesperson = new Salesperson();
             salespersons.add(salesperson);
-            System.out.println("Hired Salesperson " + salesperson.getName() + " with a daily salary of " + Double.toString(salesperson.getSalary()));
+            System.out.println("Hired " + salesperson.getName());
+            Staff.salespersonNumber++;
         }
+        System.out.println();
     }
 
     private void checkMechanics() {
@@ -120,7 +136,9 @@ public class Opening extends Activity {
         for(int i=0; i<mechanicsToBeAdded; i++) {
             Staff mechanic = new Mechanic();
             mechanics.add(mechanic);
-            System.out.println("Hired Mechanic " + mechanic.getName() + " with a daily salary of " + Double.toString(mechanic.getSalary()));
+            System.out.println("Hired " + mechanic.getName());
+            Staff.mechanicNumber++;
         }
+        System.out.println();
     }
 }

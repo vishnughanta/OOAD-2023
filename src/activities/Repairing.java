@@ -13,23 +13,28 @@ import java.util.List;
 public class Repairing extends Activity {
     private List<Vehicle> vehiclesToBeRepaired;
     public Repairing() {
+        System.out.println("Repairing..");
+        System.out.println();
         vehiclesToBeRepaired = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
-
         segregateVehicles();
         shuffleVehicles();
         repairVehiclesMechanics();
+        System.out.println();
     }
 
     private void repairVehiclesMechanics() {
         for(Staff mechanic : mechanics) {
             for(int i=0; i<2; i++) {
                 if(vehiclesToBeRepaired.isEmpty()) break;
-                Vehicle vehicle = vehiclesToBeRepaired.get(0);
+                int indexOfVehicleToBeRepaired = randomGenerator.generateRandomNumber(0, vehiclesToBeRepaired.size()-1);
+                Vehicle vehicle = vehiclesToBeRepaired.get(indexOfVehicleToBeRepaired);
                 repairVehicles(mechanic, vehicle);
                 updateCleanlinessState(vehicle);
                 mechanic.setWorked(true);
-                vehiclesToBeRepaired.remove(0);
+                if(vehicle.getCondition() == Condition.NEW) {
+                    vehiclesToBeRepaired.remove(indexOfVehicleToBeRepaired);
+                }
             }
             if(vehiclesToBeRepaired.isEmpty()) break;
         }
@@ -50,11 +55,11 @@ public class Repairing extends Activity {
             if(vehicle.getCondition().equals(Condition.BROKEN)) {
                 vehicle.setCondition(Condition.USED);
                 vehicle.setSalePrice(1.5 * vehicle.getSalePrice());
-                System.out.println("Mechanic " + mechanic.getName() + " repaired " + vehicle.getName() + " and made it used (Earned " + Double.toString(vehicle.getRepairBonus()) +" Repair Bonus)");
+                System.out.println(mechanic.getName() + " repaired " + vehicle.getName() + " and made it used (Earned " + Double.toString(vehicle.getRepairBonus()) +" Repair Bonus)");
             }
             else {
                 vehicle.setCondition(Condition.NEW);
-                System.out.println("Mechanic " + mechanic.getName() + " repaired " + vehicle.getName() + " and made it like new (Earned " + Double.toString(vehicle.getRepairBonus()) +" Repair Bonus)");
+                System.out.println(mechanic.getName() + " repaired " + vehicle.getName() + " and made it like new (Earned " + Double.toString(vehicle.getRepairBonus()) +" Repair Bonus)");
                 vehicle.setSalePrice(1.25 * vehicle.getSalePrice());
             }
             mechanic.setBonus(mechanic.getBonus() + vehicle.getRepairBonus());

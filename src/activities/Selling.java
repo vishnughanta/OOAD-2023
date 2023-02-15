@@ -84,7 +84,7 @@ public class Selling extends Activity {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
         if(randomNumber>=1 && randomNumber<=chanceOfBuying) {
             sellVehicle(salesperson, vehicle);
-            System.out.println("Sold vehicles of type");
+            System.out.println("Sold vehicle " + vehicle.getVehicleType() + " " + vehicle.getName() + " by Salesperson " + salesperson.getName() + " of type");
         }
     }
 

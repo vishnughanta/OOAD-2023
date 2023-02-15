@@ -6,8 +6,6 @@ public class Main {
         Activity opening = new Opening();
         Activity washing = new Washing();
         Activity repairing = new Repairing();
-        Selling selling = new Selling();
-        selling.sellVehicles(10);
-
+        Activity selling = new Selling();
     }
 }

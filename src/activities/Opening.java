@@ -35,7 +35,6 @@ public class Opening extends Activity {
             if(getBudget() < performanceCarCostPrice) modifyOperatingBudget();
             performanceCars.add(performanceCar);
             setBudget(getBudget() - performanceCarCostPrice);
-            //System.out.println(performanceCar.getCleanliness());
             System.out.println("Purchased Performance Car " + performanceCar.getName() + " with a cost price of " + Double.toString(performanceCar.getCostPrice()));
         }
     }

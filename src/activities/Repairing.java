@@ -15,6 +15,7 @@ public class Repairing extends Activity {
     public Repairing() {
         vehiclesToBeRepaired = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
+
         segregateVehicles();
         shuffleVehicles();
         repairVehiclesMechanics();

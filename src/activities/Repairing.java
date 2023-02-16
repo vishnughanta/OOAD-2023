@@ -5,6 +5,7 @@ import abstracts.Vehicle;
 import enums.Cleanliness;
 import enums.Condition;
 import functions.RandomNumberGenerator;
+import printer.Printer;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -17,6 +18,7 @@ public class Repairing extends Activity {
         System.out.println();
         vehiclesToBeRepaired = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
+        printer = new Printer();
         segregateVehicles();
         shuffleVehicles();
         repairVehiclesMechanics();
@@ -51,20 +53,20 @@ public class Repairing extends Activity {
 
     private void repairVehicles(Staff mechanic, Vehicle vehicle) {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
+        boolean hasRepaired = false;
         if(randomNumber > 0 && randomNumber <= 80) {
+            hasRepaired = true;
             if(vehicle.getCondition().equals(Condition.BROKEN)) {
                 vehicle.setCondition(Condition.USED);
                 vehicle.setSalePrice(1.5 * vehicle.getSalePrice());
-                System.out.println(mechanic.getName() + " repaired " + vehicle.getName() + " and made it used (Earned " + Double.toString(vehicle.getRepairBonus()) +" Repair Bonus)");
             }
             else {
                 vehicle.setCondition(Condition.NEW);
-                System.out.println(mechanic.getName() + " repaired " + vehicle.getName() + " and made it like new (Earned " + Double.toString(vehicle.getRepairBonus()) +" Repair Bonus)");
                 vehicle.setSalePrice(1.25 * vehicle.getSalePrice());
             }
             mechanic.setBonus(mechanic.getBonus() + vehicle.getRepairBonus());
         }
-
+        printer.printRepairedVehicles(mechanic, vehicle, hasRepaired);
     }
 
     private void shuffleVehicles() {

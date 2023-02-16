@@ -3,6 +3,7 @@ package activities;
 import interfaces.RandomGenerator;
 import abstracts.Staff;
 import abstracts.Vehicle;
+import printer.Printer;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +19,10 @@ public class Activity {
     protected static List<Vehicle> performanceCars;
     protected static List<Vehicle> soldVehicles;
     protected static List<Staff> departedStaff;
+    protected static List<Staff> dailyDepartingStaff;
+    protected static List<Vehicle> dailySoldVehicles;
+    protected static double dailySales;
+    protected Printer printer;
 
     static {
         interns = new ArrayList<>();
@@ -28,6 +33,9 @@ public class Activity {
         performanceCars = new ArrayList<>();
         soldVehicles = new ArrayList<>();
         departedStaff = new ArrayList<>();
+        dailyDepartingStaff = new ArrayList<>();
+        dailySoldVehicles = new ArrayList<>();
+        dailySales = 0;
         budget = 500000;
     }
 
@@ -46,5 +54,13 @@ public class Activity {
     protected void modifyOperatingBudget() {
         System.out.println("Adding 250000 to the operating budget");
         Activity.budget += 250000;
+    }
+
+    public static double getDailySales() {
+        return dailySales;
+    }
+
+    public static void setDailySales(double dailySales) {
+        Activity.dailySales = dailySales;
     }
 }

@@ -8,6 +8,7 @@ import enums.Cleanliness;
 import enums.Condition;
 import enums.VehicleType;
 import functions.RandomNumberGenerator;
+import printer.Printer;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -21,6 +22,7 @@ public class Selling extends Activity {
     public Selling(int day) {
         System.out.println("Selling..");
         System.out.println();
+        printer = new Printer();
         carsToBeSold = new ArrayList<>();
         performanceCarsToBeSold = new ArrayList<>();
         pickupsToBeSold = new ArrayList<>();
@@ -29,6 +31,7 @@ public class Selling extends Activity {
         sellVehicles(day);
         System.out.println();
     }
+
 
     private void segregateVehicles() {
         segregateCars();
@@ -88,7 +91,9 @@ public class Selling extends Activity {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
         if(randomNumber>=1 && randomNumber<=chanceOfBuying) {
             sellVehicle(salesperson, vehicle);
-            System.out.println("Sold vehicle " + vehicle.getName() + " by " + salesperson.getName());
+            printer.printSoldVehicles(salesperson, vehicle);
+            setDailySales(getDailySales() + vehicle.getSalePrice());
+            dailySoldVehicles.add(vehicle);
         }
     }
 
@@ -109,7 +114,9 @@ public class Selling extends Activity {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
         if(randomNumber>=1 && randomNumber<=chanceOfBuying) {
             sellVehicle(salesperson, vehicle);
-            System.out.println("Sold vehicle " + vehicle.getName() + " by " + salesperson.getName());
+            printer.printSoldVehicles(salesperson, vehicle);
+            setDailySales(getDailySales() + vehicle.getSalePrice());
+            dailySoldVehicles.add(vehicle);
         }
     }
 

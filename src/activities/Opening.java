@@ -1,5 +1,6 @@
 package activities;
 
+import printer.Printer;
 import staff.Intern;
 import staff.Mechanic;
 import staff.Salesperson;
@@ -15,6 +16,7 @@ public class Opening extends Activity {
         System.out.println("Opening..");
         System.out.println("Current budget: " + getBudget());
         System.out.println();
+        printer = new Printer();
         checkStaff();
         checkVehicles();
     }
@@ -29,6 +31,7 @@ public class Opening extends Activity {
         int currentPerformanceCarsSize = performanceCars.size();
         int performanceCarsToBeAdded = 4 - currentPerformanceCarsSize;
         addPerformanceCars(performanceCarsToBeAdded);
+        if(performanceCarsToBeAdded!=0) System.out.println();
     }
 
     private void addPerformanceCars(int performanceCarsToBeAdded) {
@@ -40,16 +43,16 @@ public class Opening extends Activity {
             }
             performanceCars.add(performanceCar);
             setBudget(getBudget() - performanceCarCostPrice);
-            System.out.println("Purchased " + performanceCar.getName() + " with a cost price of " + Double.toString(performanceCar.getCostPrice()));
+            printer.printPurchasedVehiclesInOpening(performanceCar);
             Vehicle.performanceCarNumber++;
         }
-        System.out.println();
     }
 
     private void checkPickups() {
         int currentPickupsSize = pickups.size();
         int pickupsToBeAdded = 4 - currentPickupsSize;
         addPickups(pickupsToBeAdded);
+        if(pickupsToBeAdded!=0) System.out.println();
     }
 
     private void addPickups(int pickupsToBeAdded) {
@@ -61,16 +64,16 @@ public class Opening extends Activity {
             }
             pickups.add(pickup);
             setBudget(getBudget() - pickupCostPrice);
-            System.out.println("Purchased " + pickup.getName() + " with a cost price of " + Double.toString(pickup.getCostPrice()));
+            printer.printPurchasedVehiclesInOpening(pickup);
             Vehicle.pickupNumber++;
         }
-        System.out.println();
     }
 
     private void checkCars() {
         int currentCarSize = cars.size();
         int carsToBeAdded = 4 - currentCarSize;
         addCars(carsToBeAdded);
+        if(carsToBeAdded!=0) System.out.println();
     }
 
     private void addCars(int carsToBeAdded) {
@@ -80,10 +83,9 @@ public class Opening extends Activity {
             if(getBudget() < carCostPrice) modifyOperatingBudget();
             cars.add(car);
             setBudget(getBudget() - carCostPrice);
-            System.out.println("Purchased " +  car.getCondition() + " " + car.getCleanliness() + " " + car.getName() + " with a cost price of " + car.getCostPrice());
+            printer.printPurchasedVehiclesInOpening(car);
             Vehicle.carNumber++;
         }
-        System.out.println();
     }
 
     private void checkStaff() {
@@ -96,49 +98,47 @@ public class Opening extends Activity {
         int currentInternSize = interns.size();
         int internsToBeAdded = 3 - currentInternSize;
         addInterns(internsToBeAdded);
+        if(internsToBeAdded!=0) System.out.println();
     }
 
     private void addInterns(int internsToBeAdded) {
         for(int i=0; i<internsToBeAdded; i++) {
             Staff intern = new Intern();
             interns.add(intern);
-            System.out.println("Hired " + intern.getName());
+            printer.printHiredStaffInOpening(intern);
             Staff.internNumber++;
         }
-        System.out.println();
     }
 
     private void checkSalesPersons() {
         int currentSalesPersonSize = salespersons.size();
         int salesPersonsToBeAdded = 3 - currentSalesPersonSize;
         addSalesPersons(salesPersonsToBeAdded);
-
+        if(salesPersonsToBeAdded!=0) System.out.println();
     }
 
     private void addSalesPersons(int salesPersonsToBeAdded) {
         for(int i=0; i<salesPersonsToBeAdded; i++) {
             Staff salesperson = new Salesperson();
             salespersons.add(salesperson);
-            System.out.println("Hired " + salesperson.getName());
+            printer.printHiredStaffInOpening(salesperson);
             Staff.salespersonNumber++;
         }
-        System.out.println();
     }
 
     private void checkMechanics() {
         int currentMechanics = mechanics.size();
         int mechanicsToBeAdded = 3 - currentMechanics;
         addMechanics(mechanicsToBeAdded);
-
+        if(mechanicsToBeAdded!=0) System.out.println();
     }
 
     private void addMechanics(int mechanicsToBeAdded) {
         for(int i=0; i<mechanicsToBeAdded; i++) {
             Staff mechanic = new Mechanic();
             mechanics.add(mechanic);
-            System.out.println("Hired " + mechanic.getName());
+            printer.printHiredStaffInOpening(mechanic);
             Staff.mechanicNumber++;
         }
-        System.out.println();
     }
 }

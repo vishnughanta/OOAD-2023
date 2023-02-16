@@ -12,6 +12,8 @@ public abstract class Staff {
     protected double bonus;
     protected int totalDaysWorked;
     protected boolean worked;
+    protected double cummSalary;
+    protected double cummBonus;
 
     public String getName() {
         return name;
@@ -51,5 +53,21 @@ public abstract class Staff {
 
     public void setWorked(boolean worked) {
         this.worked = worked;
+    }
+
+    public double getCummSalary() {
+        return cummSalary;
+    }
+
+    public void setCummSalary(double cummSalary) {
+        this.cummSalary = cummSalary;
+    }
+
+    public double getCummBonus() {
+        return cummBonus;
+    }
+
+    public void setCummBonus(double cummBonus) {
+        this.cummBonus = cummBonus;
     }
 }

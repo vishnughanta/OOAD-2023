@@ -4,6 +4,7 @@ import enums.Cleanliness;
 import functions.RandomNumberGenerator;
 import abstracts.Staff;
 import abstracts.Vehicle;
+import printer.Printer;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,6 +20,7 @@ public class Washing extends Activity {
         dirtyVehicles = new ArrayList<>();
         cleanVehicles = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
+        printer = new Printer();
         segregateVehicles();
         shuffleVehicles();
         cleanCarsByInterns();
@@ -57,25 +59,30 @@ public class Washing extends Activity {
 
     private void cleanVehicles(Staff intern, Vehicle vehicle) {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
+        boolean hasCleaned = false;
+        boolean hasBonus = false;
         if(vehicle.getCleanliness().equals(Cleanliness.DIRTY)) {
             if(randomNumber >= 1 && randomNumber <= 80 ) {
                 vehicle.setCleanliness(Cleanliness.CLEAN);
-                System.out.println(intern.getName() + " washed " + vehicle.getName() + " and made it Clean");
+                hasCleaned = true;
             }
             else if(randomNumber > 80 && randomNumber <=90) {
                 vehicle.setCleanliness(Cleanliness.SPARKLING);
-                System.out.println(intern.getName() + " washed " + vehicle.getName() + " and made it Sparkling(Earned " + Double.toString(vehicle.getWashBonus()) + " Wash Bonus)");
+                hasCleaned = true;
+                hasBonus = true;
             }
         } else {
             if(randomNumber >= 1 && randomNumber <= 5 ) {
                 vehicle.setCleanliness(Cleanliness.DIRTY);
-                System.out.println(intern.getName() + " washed " + vehicle.getName()  + " and made it Dirty");
+                hasCleaned = true;
             }
             else if(randomNumber > 5 && randomNumber <=40) {
                 vehicle.setCleanliness(Cleanliness.SPARKLING);
-                System.out.println(intern.getName() + " washed " + vehicle.getName() + " and made it Sparkling(Earned " + Double.toString(vehicle.getWashBonus()) + " Wash Bonus)");
+                hasCleaned = true;
+                hasBonus = true;
             }
         }
+        printer.printWashedVehicles(intern, vehicle, hasCleaned, hasBonus);
     }
 
     private void shuffleVehicles() {

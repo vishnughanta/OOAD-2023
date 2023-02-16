@@ -1,5 +1,7 @@
 package abstracts;
-
+/*
+This abstract class is the parent of all the types of Vehicles.
+ */
 import enums.Cleanliness;
 import enums.Condition;
 import enums.VehicleType;
@@ -23,6 +25,10 @@ public abstract class Vehicle {
     protected double costPrice;
     protected double salePrice;
 
+    /*
+    Getters and setter methods
+    This supports ENCAPSULATION.
+     */
     public String getName() {
         return name;
     }

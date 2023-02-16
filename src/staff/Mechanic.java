@@ -1,5 +1,7 @@
 package staff;
-
+/*
+This class is for attributes of the Mechanic type.
+ */
 import abstracts.Staff;
 import functions.StaffName;
 

@@ -10,7 +10,10 @@ import printer.Printer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
+/*
+This class is for the Repairing activity.
+Contains all the methods for repairing.
+ */
 public class Repairing extends Activity {
     private List<Vehicle> vehiclesToBeRepaired;
     public Repairing() {

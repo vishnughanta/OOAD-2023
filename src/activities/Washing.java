@@ -9,7 +9,10 @@ import printer.Printer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
+/*
+This class is for the Washing activity.
+Contains all the methods for washing.
+ */
 public class Washing extends Activity {
     private List<Vehicle> dirtyVehicles;
     private List<Vehicle> cleanVehicles;

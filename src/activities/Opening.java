@@ -9,7 +9,10 @@ import vehicles.Car;
 import vehicles.PerformanceCar;
 import vehicles.Pickup;
 import abstracts.Vehicle;
-
+/*
+This class is for the Opening activity.
+Contains all the methods for opening the day.
+ */
 public class Opening extends Activity {
     
     public Opening() {

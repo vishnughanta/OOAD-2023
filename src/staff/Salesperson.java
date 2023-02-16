@@ -1,5 +1,7 @@
 package staff;
-
+/*
+This class is for attributes of the Salesperson type - Inheritance
+ */
 import abstracts.Staff;
 import functions.StaffName;
 

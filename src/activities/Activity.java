@@ -8,6 +8,10 @@ import printer.Printer;
 import java.util.ArrayList;
 import java.util.List;
 
+/*
+This class is for initiating the activity on a whole.
+Contains the common attributes for all the activities.
+ */
 public class Activity {
     private static double budget;
     protected RandomGenerator randomGenerator;

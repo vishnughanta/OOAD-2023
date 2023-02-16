@@ -1,5 +1,7 @@
 package staff;
-
+/*
+This class is for attributes of the Intern type.
+ */
 import abstracts.Staff;
 import functions.StaffName;
 

@@ -1,5 +1,7 @@
 package abstracts;
-
+/*
+This abstract class is the parent of all the types of Staff.
+ */
 import interfaces.NameGenerator;
 
 public abstract class Staff {
@@ -14,7 +16,10 @@ public abstract class Staff {
     protected boolean worked;
     protected double cummSalary;
     protected double cummBonus;
-
+    /*
+    Getters and setter methods
+    This supports ENCAPSULATION.
+     */
     public String getName() {
         return name;
     }

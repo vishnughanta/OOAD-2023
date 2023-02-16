@@ -1,5 +1,7 @@
 package vehicles;
-
+/*
+This class is for attributes of the Car type.
+ */
 import abstracts.Vehicle;
 import enums.Cleanliness;
 import enums.Condition;

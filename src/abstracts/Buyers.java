@@ -1,5 +1,8 @@
 package abstracts;
-
+/*
+This abstract class is for the common features in Buyer class.
+This will help to scale when there are more than 1 type of buyers.
+ */
 import enums.BuyingType;
 import enums.VehicleType;
 import interfaces.RandomGenerator;

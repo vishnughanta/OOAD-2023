@@ -13,7 +13,10 @@ import printer.Printer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
+/*
+This class is for the Selling activity.
+Contains all the methods for selling.
+ */
 public class Selling extends Activity {
     private List<Vehicle> carsToBeSold;
     private List<Vehicle> performanceCarsToBeSold;

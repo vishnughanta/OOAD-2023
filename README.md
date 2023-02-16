@@ -1,4 +1,4 @@
-# OOAD Homework - Friendly Neighborhood Car Dealership
+# OOAD Homework - Friendly Neighbourhood Car Dealership
 #### Team Members: Nikhil Panda & Vishnu Ghanta
 #### Java Version: Java 18
 

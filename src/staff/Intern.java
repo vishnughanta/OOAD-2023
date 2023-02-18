@@ -13,5 +13,6 @@ public class Intern extends Staff {
         this.worked = false;
         this.totalDaysWorked = 0;
         this.bonus = 0;
+        //added new comments
     }
 }

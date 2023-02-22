@@ -3,5 +3,8 @@ package enums;
 public enum VehicleType {
     PERFORMANCE_CAR,
     CAR,
-    PICKUP
+    PICKUP,
+    ELECTRIC_CAR,
+    MONSTER_TRUCK,
+    MOTORCYCLE
 }

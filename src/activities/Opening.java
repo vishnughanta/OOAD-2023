@@ -1,13 +1,12 @@
 package activities;
 
 import printer.Printer;
+import staff.Driver;
 import staff.Intern;
 import staff.Mechanic;
 import staff.Salesperson;
 import abstracts.Staff;
-import vehicles.Car;
-import vehicles.PerformanceCar;
-import vehicles.Pickup;
+import vehicles.*;
 import abstracts.Vehicle;
 /*
 This class is for the Opening activity.
@@ -28,6 +27,72 @@ public class Opening extends Activity {
         checkCars();
         checkPickups();
         checkPerformanceCars();
+        checkMotorcycles();
+        checkMonsterTrucks();
+        checkElectricCars();
+    }
+
+    private void checkElectricCars() {
+        int currentElectricCarsSize = electricCars.size();
+        int electricCarsToBeAdded = 4 - currentElectricCarsSize;
+        addElectricCars(electricCarsToBeAdded);
+        if(electricCarsToBeAdded!=0) System.out.println();
+    }
+
+    private void addElectricCars(int electricCarsToBeAdded) {
+        for(int i=0; i<electricCarsToBeAdded; i++) {
+            Vehicle electricCar = new ElectricCar();
+            double electricCarCostPrice = electricCar.getCostPrice();
+            if(getBudget() < electricCarCostPrice) {
+                modifyOperatingBudget();
+            }
+            electricCars.add(electricCar);
+            setBudget(getBudget() - electricCarCostPrice);
+            printer.printPurchasedVehiclesInOpening(electricCar);
+            Vehicle.electricCarNumber++;
+        }
+    }
+
+    private void checkMonsterTrucks() {
+        int currentMonsterTruckSize = monsterTrucks.size();
+        int monsterTrucksToBeAdded = 4 - currentMonsterTruckSize;
+        addMonsterTrucks(monsterTrucksToBeAdded);
+        if(monsterTrucksToBeAdded!=0) System.out.println();
+    }
+
+    private void addMonsterTrucks(int monsterTrucksToBeAdded) {
+        for(int i=0; i<monsterTrucksToBeAdded; i++) {
+            Vehicle monsterTruck = new MonsterTruck();
+            double monsterTruckCostPrice = monsterTruck.getCostPrice();
+            if(getBudget() < monsterTruckCostPrice) {
+                modifyOperatingBudget();
+            }
+            monsterTrucks.add(monsterTruck);
+            setBudget(getBudget() - monsterTruckCostPrice);
+            printer.printPurchasedVehiclesInOpening(monsterTruck);
+            Vehicle.monsterTruckNumber++;
+        }
+    }
+
+    private void checkMotorcycles() {
+        int currentMotorcyleSize = motorcycles.size();
+        int motorcyclesToBeAdded = 4 - currentMotorcyleSize;
+        addMotorcycles(motorcyclesToBeAdded);
+        if(motorcyclesToBeAdded!=0) System.out.println();
+    }
+
+    private void addMotorcycles(int motorcyclesToBeAdded) {
+        for(int i=0; i<motorcyclesToBeAdded; i++) {
+            Vehicle motorcycle = new Motorcycle();
+            double motorcycleCostPrice = motorcycle.getCostPrice();
+            if(getBudget() < motorcycleCostPrice) {
+                modifyOperatingBudget();
+            }
+            motorcycles.add(motorcycle);
+            setBudget(getBudget() - motorcycleCostPrice);
+            printer.printPurchasedVehiclesInOpening(motorcycle);
+            Vehicle.motorcycleNumber++;
+        }
     }
 
     private void checkPerformanceCars() {
@@ -95,6 +160,23 @@ public class Opening extends Activity {
         checkMechanics();
         checkSalesPersons();
         checkInterns();
+        checkDrivers();
+    }
+
+    private void checkDrivers() {
+        int currentDriverSize = drivers.size();
+        int driversToBeAdded = 3 - currentDriverSize;
+        addDrivers(driversToBeAdded);
+        if(driversToBeAdded!=0) System.out.println();
+    }
+
+    private void addDrivers(int driversToBeAdded) {
+        for(int i=0; i<driversToBeAdded; i++) {
+            Staff driver = new Driver();
+            drivers.add(driver);
+            printer.printHiredStaffInOpening(driver);
+            Staff.driverNumber++;
+        }
     }
 
     private void checkInterns() {

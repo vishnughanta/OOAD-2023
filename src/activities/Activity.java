@@ -18,9 +18,13 @@ public class Activity {
     protected static List<Staff> interns;
     protected static List<Staff> salespersons;
     protected static List<Staff> mechanics;
+    protected static List<Staff> drivers;
     protected static List<Vehicle> cars;
     protected static List<Vehicle> pickups;
     protected static List<Vehicle> performanceCars;
+    protected static List<Vehicle> electricCars;
+    protected static List<Vehicle> monsterTrucks;
+    protected static List<Vehicle> motorcycles;
     protected static List<Vehicle> soldVehicles;
     protected static List<Staff> departedStaff;
     protected static List<Staff> dailyDepartingStaff;
@@ -32,9 +36,13 @@ public class Activity {
         interns = new ArrayList<>();
         salespersons = new ArrayList<>();
         mechanics = new ArrayList<>();
+        drivers = new ArrayList<>();
         cars = new ArrayList<>();
         pickups = new ArrayList<>();
         performanceCars = new ArrayList<>();
+        electricCars = new ArrayList<>();
+        monsterTrucks = new ArrayList<>();
+        motorcycles = new ArrayList<>();
         soldVehicles = new ArrayList<>();
         departedStaff = new ArrayList<>();
         dailyDepartingStaff = new ArrayList<>();

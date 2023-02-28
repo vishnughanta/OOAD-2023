@@ -10,8 +10,8 @@ public class ElectricCar extends Vehicle {
     protected double range;
 
     public ElectricCar() {
-        this.range = randomNumberGenerator.generateRandomNumber(60, 400);
         randomNumberGenerator = new RandomNumberGenerator();
+        this.range = randomNumberGenerator.generateRandomNumber(60, 400);
         this.name = "Electric Car" + "-" + Vehicle.carNumber;
         this.costPrice = randomNumberGenerator.generateRandomNumber(10000,20000);
         int randomConditionNumber = randomNumberGenerator.generateRandomNumber(0,2);
@@ -40,5 +40,7 @@ public class ElectricCar extends Vehicle {
         } else {
             cleanliness = Cleanliness.DIRTY;
         }
+
+        if(condition == Condition.NEW) range += 100;
     }
 }

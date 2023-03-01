@@ -137,6 +137,4 @@ public class Washing extends Activity {
             else if (cleanlinessState == Cleanliness.CLEAN) cleanVehicles.add(vehicle);
         }
     }
-
-
 }

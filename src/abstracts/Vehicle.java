@@ -16,6 +16,7 @@ public abstract class Vehicle {
     public static int motorcycleNumber = 0;
     public static int monsterTruckNumber = 0;
     public static int electricCarNumber = 0;
+    private int racesWon;
 
     protected NameGenerator nameGenerator;
     protected RandomGenerator randomNumberGenerator;
@@ -103,5 +104,13 @@ public abstract class Vehicle {
 
     public void setVehicleType(VehicleType vehicleType) {
         this.vehicleType = vehicleType;
+    }
+
+    public int getRacesWon() {
+        return racesWon;
+    }
+
+    public void setRacesWon(int racesWon) {
+        this.racesWon = racesWon;
     }
 }

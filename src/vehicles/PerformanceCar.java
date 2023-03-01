@@ -41,5 +41,7 @@ public class PerformanceCar extends Vehicle {
         } else {
             cleanliness = Cleanliness.DIRTY;
         }
+
+        setRacesWon(0);
     }
 }

@@ -1,15 +1,23 @@
 package staff;
 
 import abstracts.Staff;
-import functions.StaffName;
 
 public class Driver extends Staff {
+    private int racesWon;
     public Driver() {
-        nameGenerator = new StaffName();
-        this.salary = 100;
-        this.name = "Driver-" + Staff.driverNumber;
-        this.worked = false;
-        this.totalDaysWorked = 0;
-        this.bonus = 0;
+        setSalary(350);
+        setName("Driver-" + Staff.driverNumber);
+        setWorked(false);
+        setTotalDaysWorked(0);
+        setBonus(0);
+        setRacesWon(0);
+    }
+
+    public int getRacesWon() {
+        return racesWon;
+    }
+
+    public void setRacesWon(int racesWon) {
+        this.racesWon = racesWon;
     }
 }

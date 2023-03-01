@@ -1,10 +1,15 @@
 package activities;
 
 import enums.Cleanliness;
+import enums.WashingMethod;
+import functions.Chemical;
+import functions.Detailed;
+import functions.ElbowGrease;
 import functions.RandomNumberGenerator;
 import abstracts.Staff;
 import abstracts.Vehicle;
 import printer.Printer;
+import staff.Intern;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -31,23 +36,29 @@ public class Washing extends Activity {
     }
 
     private void cleanCarsByInterns() {
-        List<Vehicle> vehiclesToBeCleaned = new ArrayList<>();
-        vehiclesToBeCleaned.addAll(dirtyVehicles);
-        vehiclesToBeCleaned.addAll(cleanVehicles);
-
         for(Staff intern : interns) {
             for(int i = 0; i<2; i++) {
-                if(vehiclesToBeCleaned.isEmpty()) break;
-                int indexOfWashedVehicle = randomGenerator.generateRandomNumber(0,vehiclesToBeCleaned.size()-1);
-                Vehicle vehicle = vehiclesToBeCleaned.get(indexOfWashedVehicle);
-                cleanVehicles(intern, vehicle);
-                setInternWorkedStatus(intern);
-                if(vehicle.getCleanliness().equals(Cleanliness.SPARKLING)) {
-                    setInternBonus(intern, vehicle);
-                    vehiclesToBeCleaned.remove(indexOfWashedVehicle);
+                if(!dirtyVehicles.isEmpty()) {
+                    assignVehicle(intern, dirtyVehicles);
+                }
+                else if(!cleanVehicles.isEmpty()) {
+                    assignVehicle(intern, cleanVehicles);
+                }
+                else {
+                    break;
                 }
             }
-            if(vehiclesToBeCleaned.isEmpty()) break;
+            if(dirtyVehicles.isEmpty() && cleanVehicles.isEmpty()) break;
+        }
+    }
+
+    private void assignVehicle(Staff intern, List<Vehicle> listOfVehiclesToBeCleaned) {
+        int indexOfWashedVehicle = randomGenerator.generateRandomNumber(0,listOfVehiclesToBeCleaned.size()-1);
+        Vehicle vehicle = listOfVehiclesToBeCleaned.get(indexOfWashedVehicle);
+        cleanVehicles(intern, vehicle);
+        setInternWorkedStatus(intern);
+        if(vehicle.getCleanliness().equals(Cleanliness.SPARKLING)) {
+            listOfVehiclesToBeCleaned.remove(indexOfWashedVehicle);
         }
     }
 
@@ -62,29 +73,33 @@ public class Washing extends Activity {
 
     private void cleanVehicles(Staff intern, Vehicle vehicle) {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
+        Cleanliness initialCleanliness = vehicle.getCleanliness();
         boolean hasCleaned = false;
         boolean hasBonus = false;
-        if(vehicle.getCleanliness().equals(Cleanliness.DIRTY)) {
-            if(randomNumber >= 1 && randomNumber <= 80 ) {
-                vehicle.setCleanliness(Cleanliness.CLEAN);
-                hasCleaned = true;
-            }
-            else if(randomNumber > 80 && randomNumber <=90) {
-                vehicle.setCleanliness(Cleanliness.SPARKLING);
-                hasCleaned = true;
-                hasBonus = true;
-            }
-        } else {
-            if(randomNumber >= 1 && randomNumber <= 5 ) {
-                vehicle.setCleanliness(Cleanliness.DIRTY);
-                hasCleaned = true;
-            }
-            else if(randomNumber > 5 && randomNumber <=40) {
-                vehicle.setCleanliness(Cleanliness.SPARKLING);
-                hasCleaned = true;
-                hasBonus = true;
-            }
+
+        Intern internTypeCast = (Intern) intern;
+
+        if(internTypeCast.getWashingMethod() == WashingMethod.CHEMICAL) {
+            interfaces.WashingMethod washingMethod = new Chemical();
+            washingMethod.wash(vehicle);
         }
+        else if(internTypeCast.getWashingMethod() == WashingMethod.DETAILED) {
+            interfaces.WashingMethod washingMethod = new Detailed();
+            washingMethod.wash(vehicle);
+        }
+        else {
+            interfaces.WashingMethod washingMethod = new ElbowGrease();
+            washingMethod.wash(vehicle);
+        }
+
+        if(vehicle.getCleanliness() == Cleanliness.SPARKLING) {
+            setInternBonus(intern, vehicle);
+            hasBonus = true;
+        }
+        if(vehicle.getCleanliness() != initialCleanliness) {
+            hasCleaned = true;
+        }
+
         printer.printWashedVehicles(intern, vehicle, hasCleaned, hasBonus);
     }
 

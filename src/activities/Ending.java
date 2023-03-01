@@ -6,10 +6,13 @@ Contains all the methods for ending the day.
 import abstracts.Staff;
 import functions.RandomNumberGenerator;
 import printer.Printer;
+import staff.Driver;
 import staff.Mechanic;
 import staff.Salesperson;
 
 import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
 
 public class Ending extends Activity {
     public Ending() {
@@ -28,13 +31,27 @@ public class Ending extends Activity {
     }
 
     private void generateDailyReport() {
-        printer.printDailyReport(interns, mechanics, salespersons, cars, performanceCars, pickups, dailyDepartingStaff, dailySoldVehicles, dailySales);
+        printer.printDailyReport(interns, mechanics, salespersons, drivers, cars, performanceCars, pickups, electricCars, motorcycles, monsterTrucks, dailyDepartingStaff, dailySoldVehicles, dailySales);
     }
 
     private void quitStaff() {
         quitMechanics();
         quitSalesperson();
         quitInterns();
+        quitDrivers();
+    }
+
+    private void quitDrivers() {
+        Iterator<Staff> iterator = drivers.iterator();
+        while(iterator.hasNext()) {
+            Driver driver = (Driver)iterator.next();
+            if(driver.isInjured()) {
+                iterator.remove();
+                departedStaff.add(driver);
+                dailyDepartingStaff.add(driver);
+                printer.printQuitStaff(driver);
+            }
+        }
     }
 
     private void quitMechanics() {
@@ -96,51 +113,26 @@ public class Ending extends Activity {
     }
 
     private void calculatePayByDay() {
-        calculateInternsPay();
-        calculateMechanicsPay();
-        calculateSalespersonsPay();
+        calculateStaffPayByType();
     }
 
-    private void calculateSalespersonsPay() {
-        for(Staff salesperson : salespersons) {
-            if(salesperson.isWorked()) {
-                if(getBudget() < salesperson.getSalary()) {
+    private void calculateStaffPayByType() {
+        List<Staff> staffList = new ArrayList<>();
+        staffList.addAll(interns);
+        staffList.addAll(mechanics);
+        staffList.addAll(salespersons);
+        staffList.addAll(drivers);
+
+        for(Staff staff : staffList) {
+            if(staff.isWorked()) {
+                while(getBudget() < staff.getSalary()) {
                     modifyOperatingBudget();
                 }
-                setBudget(getBudget() - salesperson.getSalary());
-                salesperson.setTotalDaysWorked(salesperson.getTotalDaysWorked() + 1);
-                salesperson.setCummSalary(salesperson.getCummSalary() + salesperson.getSalary());
-                salesperson.setWorked(false);
+                setBudget(getBudget() - staff.getSalary());
+                staff.setTotalDaysWorked(staff.getTotalDaysWorked() + 1);
+                staff.setCummSalary(staff.getCummSalary() + staff.getSalary());
+                staff.setWorked(false);
             }
         }
     }
-
-    private void calculateMechanicsPay() {
-        for(Staff mechanic : mechanics) {
-            if(mechanic.isWorked()) {
-                if(getBudget() < mechanic.getSalary()) {
-                    modifyOperatingBudget();
-                }
-                setBudget(getBudget() - mechanic.getSalary());
-                mechanic.setTotalDaysWorked(mechanic.getTotalDaysWorked() + 1);
-                mechanic.setCummSalary(mechanic.getCummSalary() + mechanic.getSalary());
-                mechanic.setWorked(false);
-            }
-        }
-    }
-
-    private void calculateInternsPay() {
-        for(Staff intern : interns) {
-            if(intern.isWorked()) {
-                if(getBudget() < intern.getSalary()) {
-                    modifyOperatingBudget();
-                }
-                setBudget(getBudget() - intern.getSalary());
-                intern.setTotalDaysWorked(intern.getTotalDaysWorked() + 1);
-                intern.setCummSalary(intern.getCummSalary() + intern.getSalary());
-                intern.setWorked(false);
-            }
-        }
-    }
-
 }

@@ -13,10 +13,10 @@ public class FNCDHelper {
             Activity washing = new Washing();
             Activity repairing = new Repairing();
             Activity selling = new Selling(day);
-            Activity ending = new Ending();
             if(day%7==3 || day%7==0) {
                 Activity racing = new Racing();
             }
+            Activity ending = new Ending();
             System.out.println();
         }
     }

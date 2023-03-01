@@ -4,6 +4,7 @@ import abstracts.Staff;
 
 public class Driver extends Staff {
     private int racesWon;
+    private boolean isInjured;
     public Driver() {
         setSalary(350);
         setName("Driver-" + Staff.driverNumber);
@@ -11,6 +12,7 @@ public class Driver extends Staff {
         setTotalDaysWorked(0);
         setBonus(0);
         setRacesWon(0);
+        setInjured(false);
     }
 
     public int getRacesWon() {
@@ -19,5 +21,13 @@ public class Driver extends Staff {
 
     public void setRacesWon(int racesWon) {
         this.racesWon = racesWon;
+    }
+
+    public boolean isInjured() {
+        return isInjured;
+    }
+
+    public void setInjured(boolean injured) {
+        isInjured = injured;
     }
 }

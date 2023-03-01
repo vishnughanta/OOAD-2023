@@ -5,6 +5,7 @@ import abstracts.Vehicle;
 import enums.Condition;
 import functions.LinkDriverToVehicle;
 import functions.RandomNumberGenerator;
+import printer.Printer;
 import staff.Driver;
 
 import java.util.ArrayList;
@@ -22,8 +23,12 @@ public class Racing extends Activity {
         vehiclesToRace = new ArrayList<>();
         driverToVehicleList = new ArrayList<>();
         raceVehicles = new ArrayList<>();
+        printer = new Printer();
+        System.out.println("Racing..");
+        System.out.println();
         shuffleDrivers();
         simulateRace();
+        System.out.println();
     }
 
     private void assignNullAndShuffleRaceVehicles() {
@@ -44,7 +49,6 @@ public class Racing extends Activity {
         Collections.shuffle(vehiclesToRace);
         assignDriverToVehicles();
         determineRacePositions();
-
     }
 
     private void determineRacePositions() {
@@ -55,16 +59,17 @@ public class Racing extends Activity {
     private void lastRacePositions() {
         for(int i=15; i<20; i++) {
             if(raceVehicles.get(i) != null) {
-                assignLostVehicles(raceVehicles.get(i));
+                assignLostVehicles(raceVehicles.get(i), i);
             }
         }
     }
 
-    private void assignLostVehicles(LinkDriverToVehicle linkDriverToVehicle) {
+    private void assignLostVehicles(LinkDriverToVehicle linkDriverToVehicle, int position) {
         Driver driver = linkDriverToVehicle.getDriver();
         Vehicle vehicle = linkDriverToVehicle.getVehicle();
         vehicle.setCondition(Condition.BROKEN);
         assignDriverStatus(driver);
+        printer.printLastRacePositions(linkDriverToVehicle, position);
     }
 
     private void assignDriverStatus(Driver driver) {
@@ -75,31 +80,32 @@ public class Racing extends Activity {
     }
 
     private void assignDriverInjured(Driver driver) {
-        drivers.remove(driver);
-        departedStaff.add(driver);
+        driver.setInjured(true);
     }
 
 
     private void firstRacePositions() {
         for(int i=0; i<3; i++) {
             if(raceVehicles.get(i) != null) {
-                assignWinVehicles(raceVehicles.get(i));
+                assignWinVehicles(raceVehicles.get(i), i);
             }
         }
     }
 
-    private void assignWinVehicles(LinkDriverToVehicle linkDriverToVehicle) {
+    private void assignWinVehicles(LinkDriverToVehicle linkDriverToVehicle, int position) {
         Driver driver = linkDriverToVehicle.getDriver();
         Vehicle vehicle = linkDriverToVehicle.getVehicle();
         int racesWonByVehicle = vehicle.getRacesWon();
         vehicle.setRacesWon(racesWonByVehicle + 1);
-        if(vehicle.getRacesWon() > 1) {
+
+        if(vehicle.getRacesWon() > 0) {
             double initialSalesPrice = vehicle.getSalePrice();
             vehicle.setSalePrice(1.1 * initialSalesPrice);
         }
 
         int racesWonByDriver = driver.getRacesWon();
         driver.setRacesWon(racesWonByDriver + 1);
+        printer.printFirstRacePositions(linkDriverToVehicle, position);
     }
 
     private void assignVehicleType() {
@@ -131,8 +137,6 @@ public class Racing extends Activity {
         raceVehicles.addAll(driverToVehicleList);
         assignNullAndShuffleRaceVehicles();
     }
-
-
 }
 
 

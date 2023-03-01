@@ -77,30 +77,18 @@ public class Repairing extends Activity {
     }
 
     private void segregateVehicles() {
-        segregateCars();
-        segregatePickups();
-        segregatePerformanceCars();
+        segregateVehiclesOfType(cars);
+        segregateVehiclesOfType(performanceCars);
+        segregateVehiclesOfType(pickups);
+        segregateVehiclesOfType(electricCars);
+        segregateVehiclesOfType(monsterTrucks);
+        segregateVehiclesOfType(motorcycles);
     }
 
-    private void segregatePerformanceCars() {
-        for (Vehicle vehicle : performanceCars) {
+    private void segregateVehiclesOfType(List<Vehicle> vehiclesToBeSegregated) {
+        for(Vehicle vehicle : vehiclesToBeSegregated) {
             Condition condition = vehicle.getCondition();
             if (condition.equals(Condition.BROKEN) || condition.equals(Condition.USED)) vehiclesToBeRepaired.add(vehicle);
         }
     }
-
-    private void segregatePickups() {
-        for (Vehicle vehicle : pickups) {
-            Condition condition = vehicle.getCondition();
-            if (condition.equals(Condition.BROKEN) || condition.equals(Condition.USED)) vehiclesToBeRepaired.add(vehicle);
-        }
-    }
-
-    private void segregateCars() {
-        for (Vehicle vehicle : cars) {
-            Condition condition = vehicle.getCondition();
-            if (condition.equals(Condition.BROKEN) || condition.equals(Condition.USED)) vehiclesToBeRepaired.add(vehicle);
-        }
-    }
-
 }

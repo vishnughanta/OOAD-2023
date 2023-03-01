@@ -4,12 +4,14 @@ import abstracts.Staff;
 import abstracts.Vehicle;
 import enums.Cleanliness;
 import enums.Condition;
+import functions.LinkDriverToVehicle;
+import staff.Driver;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class Printer {
-    public void printDailyReport(List<Staff> interns, List<Staff> mechanics, List<Staff> salespersons, List<Vehicle> cars, List<Vehicle> performanceCars, List<Vehicle> pickups, List<Staff> dailyDepartingStaff, List<Vehicle> dailySoldVehicles, double dailySales) {
+    public void printDailyReport(List<Staff> interns, List<Staff> mechanics, List<Staff> salespersons, List<Staff> drivers, List<Vehicle> cars, List<Vehicle> performanceCars, List<Vehicle> pickups, List<Vehicle> electricCars, List<Vehicle> motorcycles, List<Vehicle> monsterTrucks, List<Staff> dailyDepartingStaff, List<Vehicle> dailySoldVehicles, double dailySales) {
         System.out.println("Daily Report..");
         System.out.println();
         List<Staff> workingStaff = new ArrayList<>();
@@ -17,12 +19,16 @@ public class Printer {
         workingStaff.addAll(interns);
         workingStaff.addAll(mechanics);
         workingStaff.addAll(salespersons);
+        workingStaff.addAll(drivers);
         printStaffDetails(workingStaff, dailyDepartingStaff);
 
         List<Vehicle> vehiclesInInventory = new ArrayList<>();
         vehiclesInInventory.addAll(cars);
         vehiclesInInventory.addAll(performanceCars);
         vehiclesInInventory.addAll(pickups);
+        vehiclesInInventory.addAll(electricCars);
+        vehiclesInInventory.addAll(motorcycles);
+        vehiclesInInventory.addAll(monsterTrucks);
 
         printVehicleDetails(vehiclesInInventory, dailySoldVehicles);
 
@@ -125,5 +131,17 @@ public class Printer {
         if(vehicle.getCleanliness() == Cleanliness.CLEAN) return "Clean";
         else if(vehicle.getCleanliness() == Cleanliness.SPARKLING) return "Sparkling";
         else return "Dirty";
+    }
+
+    public void printFirstRacePositions(LinkDriverToVehicle linkDriverToVehicle, int position) {
+        Driver driver = linkDriverToVehicle.getDriver();
+        Vehicle vehicle = linkDriverToVehicle.getVehicle();
+        System.out.println(driver.getName() + " with " + vehicle.getName() + " has finished in " + position + " position");
+    }
+
+    public void printLastRacePositions(LinkDriverToVehicle linkDriverToVehicle, int position) {
+        Driver driver = linkDriverToVehicle.getDriver();
+        Vehicle vehicle = linkDriverToVehicle.getVehicle();
+        System.out.println(driver.getName() + " with " + vehicle.getName() + " has finished in " + position + " position");
     }
 }

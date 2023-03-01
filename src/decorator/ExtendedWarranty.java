@@ -8,8 +8,8 @@ public class ExtendedWarranty extends AddOnDecorator {
         this.vehicle = vehicle;
     }
 
-    public void assignFinalSalePriceAfterAddOns() {
-        double initialSalePrice = vehicle.getSalePrice();
-        vehicle.setFinalSalePrice(getFinalSalePrice() + initialSalePrice*0.2);
+    public double getFinalPriceAfterAddOns() {
+        vehicle.setSalePrice(getSalePrice());
+        return vehicle.getFinalPriceAfterAddOns() + vehicle.getSalePrice()*0.2;
     }
 }

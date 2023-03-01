@@ -8,8 +8,8 @@ public class RoadRescueCoverage extends AddOnDecorator {
         this.vehicle = vehicle;
     }
 
-    public void assignFinalSalePriceAfterAddOns() {
-        double initialSalePrice = vehicle.getSalePrice();
-        vehicle.setFinalSalePrice(getFinalSalePrice() + initialSalePrice*0.02);
+    public double getFinalPriceAfterAddOns() {
+        vehicle.setSalePrice(getSalePrice());
+        return vehicle.getFinalPriceAfterAddOns() + vehicle.getSalePrice()*0.02;
     }
 }

@@ -121,4 +121,8 @@ public abstract class Vehicle {
     public void setFinalSalePrice(double finalSalePrice) {
         this.finalSalePrice = finalSalePrice;
     }
+
+    public double getFinalPriceAfterAddOns() {
+        return getSalePrice();
+    }
 }

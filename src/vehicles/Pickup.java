@@ -23,23 +23,23 @@ public class Pickup extends Vehicle {
         vehicleType = VehicleType.PICKUP;
 
         if(randomConditionNumber == 0) {
-            condition = Condition.NEW;
+            setCondition(Condition.NEW);
         } else if (randomConditionNumber == 1) {
-            condition = Condition.USED;
-            costPrice = costPrice * 0.8;
+            setCondition(Condition.USED);
+            setCostPrice(getCostPrice()*0.8);
         } else{
-            condition = Condition.BROKEN;
-            costPrice = costPrice/2;
+            setCondition(Condition.BROKEN);
+            setCostPrice(getCostPrice()*0.5);
         }
 
         this.salePrice = 2 * costPrice;
 
-        if(randomCleanlinessNumber >=1 && randomCleanlinessNumber <=5) {
-            cleanliness = Cleanliness.SPARKLING;
-        } else if (randomCleanlinessNumber > 5 && randomCleanlinessNumber <=40 )  {
-            cleanliness = Cleanliness.CLEAN;
+        if(randomCleanlinessNumber == 0) {
+            setCleanliness(Cleanliness.SPARKLING);
+        } else if (randomCleanlinessNumber == 1) {
+            setCleanliness(Cleanliness.CLEAN);
         } else {
-            cleanliness = Cleanliness.DIRTY;
+            setCleanliness(Cleanliness.DIRTY);
         }
 
          setRacesWon(0);

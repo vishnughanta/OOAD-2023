@@ -4,12 +4,16 @@ import abstracts.Staff;
 import abstracts.Vehicle;
 import buyer.Buyer;
 import decorator.ExtendedWarranty;
+import decorator.RoadRescueCoverage;
+import decorator.SatelliteRadio;
+import decorator.Undercoating;
 import enums.BuyingType;
 import enums.Cleanliness;
 import enums.Condition;
 import enums.VehicleType;
 import functions.RandomNumberGenerator;
 import printer.Printer;
+import staff.Salesperson;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -19,9 +23,8 @@ This class is for the Selling activity.
 Contains all the methods for selling.
  */
 public class Selling extends Activity {
-    private List<Vehicle> carsToBeSold;
-    private List<Vehicle> performanceCarsToBeSold;
-    private List<Vehicle> pickupsToBeSold;
+    private List<Vehicle> listToBeSegregated, carsToBeSold, performanceCarsToBeSold, pickupsToBeSold, electricCarsToBeSold, motorcyclesToBeSold, monsterTrucksToBeSold;
+    private List<Vehicle> listToBeSoldOfType, listToBeSoldNotOfType;
     private int numberOfBuyers;
     public Selling(int day) {
         System.out.println("Selling..");
@@ -30,6 +33,11 @@ public class Selling extends Activity {
         carsToBeSold = new ArrayList<>();
         performanceCarsToBeSold = new ArrayList<>();
         pickupsToBeSold = new ArrayList<>();
+        electricCarsToBeSold = new ArrayList<>();
+        motorcyclesToBeSold = new ArrayList<>();
+        monsterTrucksToBeSold = new ArrayList<>();
+        listToBeSoldOfType = new ArrayList<>();
+        listToBeSoldNotOfType = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
         segregateVehicles();
         sellVehicles(day);
@@ -38,9 +46,12 @@ public class Selling extends Activity {
 
 
     private void segregateVehicles() {
-        segregateCars();
-        segregatePickups();
-        segregatePerformanceCars();
+        segregateVehiclesByType(cars);
+        segregateVehiclesByType(pickups);
+        segregateVehiclesByType(performanceCars);
+        segregateVehiclesByType(electricCars);
+        segregateVehiclesByType(motorcycles);
+        segregateVehiclesByType(monsterTrucks);
     }
 
     public void sellVehicles(int day) {
@@ -50,36 +61,52 @@ public class Selling extends Activity {
             Buyer buyer = new Buyer();
             int indexOfSalesPerson = randomGenerator.generateRandomNumber(0,2);
             Staff salesperson = salespersons.get(indexOfSalesPerson);
-            if(buyer.getVehicleType().equals(VehicleType.CAR)) sellCars(salesperson, buyer);
-            else if(buyer.getVehicleType().equals(VehicleType.PICKUP)) sellPickups(salesperson, buyer);
-            else sellPerformanceCars(salesperson, buyer);
+            sellVehiclesByType(salesperson, buyer);
             salesperson.setWorked(true);
         }
     }
 
-    private void sellCars(Staff salesperson, Buyer buyer) {
-        if(!carsToBeSold.isEmpty()) {
-            sellVehicleOfType(salesperson, buyer, carsToBeSold);
-        } else {
-            sellVehiclesNotOfType(salesperson, buyer, performanceCarsToBeSold,pickupsToBeSold);
+    private void sellVehiclesByType(Staff staff, Buyer buyer) {
+        if(buyer.getVehicleType() == VehicleType.CAR) {
+            if(!carsToBeSold.isEmpty()) listToBeSoldOfType = carsToBeSold;
+            else addVehiclesNotOfType(pickupsToBeSold, performanceCarsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, monsterTrucksToBeSold);
         }
+
+        else if(buyer.getVehicleType() == VehicleType.PERFORMANCE_CAR) {
+            if(!performanceCarsToBeSold.isEmpty()) listToBeSoldOfType = performanceCarsToBeSold;
+            else addVehiclesNotOfType(pickupsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, monsterTrucksToBeSold);
+        }
+
+        else if(buyer.getVehicleType() == VehicleType.PICKUP) {
+            if(!pickupsToBeSold.isEmpty()) listToBeSoldOfType = pickupsToBeSold;
+            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, monsterTrucksToBeSold);
+        }
+
+        else if(buyer.getVehicleType() == VehicleType.ELECTRIC_CAR) {
+            if(!electricCarsToBeSold.isEmpty()) listToBeSoldOfType = electricCarsToBeSold;
+            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, pickupsToBeSold, monsterTrucksToBeSold);
+        }
+
+        else if(buyer.getVehicleType() == VehicleType.MOTORCYCLE) {
+            if(!motorcyclesToBeSold.isEmpty()) listToBeSoldOfType = motorcyclesToBeSold;
+            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, pickupsToBeSold, electricCarsToBeSold, monsterTrucksToBeSold);
+        }
+
+        else if(buyer.getVehicleType() == VehicleType.MONSTER_TRUCK) {
+            if(!monsterTrucksToBeSold.isEmpty()) listToBeSoldOfType = monsterTrucksToBeSold;
+            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, pickupsToBeSold);
+        }
+
+        if(!listToBeSoldOfType.isEmpty()) sellVehicleOfType(staff, buyer,listToBeSoldOfType);
+        else sellVehiclesNotOfType(staff, buyer, listToBeSoldNotOfType);
     }
 
-    private void sellPickups(Staff salesperson, Buyer buyer) {
-        if(!pickupsToBeSold.isEmpty()) {
-            sellVehicleOfType(salesperson, buyer, pickupsToBeSold);
-        } else {
-            sellVehiclesNotOfType(salesperson, buyer, carsToBeSold, performanceCarsToBeSold);
-        }
-    }
-
-    private void sellPerformanceCars(Staff salesperson, Buyer buyer) {
-        if(!performanceCarsToBeSold.isEmpty()) {
-            sellVehicleOfType(salesperson, buyer, performanceCarsToBeSold);
-        }
-        else {
-            sellVehiclesNotOfType(salesperson, buyer, carsToBeSold,pickupsToBeSold);
-        }
+    private void addVehiclesNotOfType(List<Vehicle> list1, List<Vehicle> list2, List<Vehicle> list3, List<Vehicle> list4, List<Vehicle> list5) {
+        listToBeSoldNotOfType.addAll(list1);
+        listToBeSoldNotOfType.addAll(list2);
+        listToBeSoldNotOfType.addAll(list3);
+        listToBeSoldNotOfType.addAll(list4);
+        listToBeSoldNotOfType.addAll(list5);
     }
 
     private void sellVehicleOfType(Staff salesperson, Buyer buyer, List<Vehicle> list) {
@@ -101,10 +128,8 @@ public class Selling extends Activity {
         }
     }
 
-    private void sellVehiclesNotOfType(Staff salesperson, Buyer buyer, List<Vehicle> list1, List<Vehicle> list2) {
-        List<Vehicle> otherCars = new ArrayList<>();
-        otherCars.addAll(list1);
-        otherCars.addAll(list2);
+    private void sellVehiclesNotOfType(Staff salesperson, Buyer buyer, List<Vehicle> list) {
+        List<Vehicle> otherCars = new ArrayList<>(list);
         sortCarsByCostPrice(otherCars);
         Vehicle vehicle = otherCars.get(0);
 
@@ -127,19 +152,47 @@ public class Selling extends Activity {
 
     private void sellAddOns(Vehicle vehicle) {
         Vehicle tempVehicle = vehicle;
+
         int extendedWarrantyChance = randomGenerator.generateRandomNumber(1,100);
         if(extendedWarrantyChance >0 && extendedWarrantyChance <=25) {
             tempVehicle = new ExtendedWarranty(vehicle);
-
         }
+
+        int roadRescueCoverageChance = randomGenerator.generateRandomNumber(1,100);
+        if(roadRescueCoverageChance >0 && roadRescueCoverageChance <=5) {
+            tempVehicle = new RoadRescueCoverage(vehicle);
+        }
+
+        int satelliteRadioChance = randomGenerator.generateRandomNumber(1,100);
+        if(satelliteRadioChance >0 && satelliteRadioChance <=5) {
+            tempVehicle = new SatelliteRadio(vehicle);
+        }
+
+        int undercoatingChance = randomGenerator.generateRandomNumber(1,100);
+        if(undercoatingChance >0 && undercoatingChance <=5) {
+            tempVehicle = new Undercoating(vehicle);
+        }
+
+        vehicle.setFinalSalePrice(tempVehicle.getFinalPriceAfterAddOns());
 
 
     }
 
     private void sellVehicle(Staff salesperson, Vehicle vehicle) {
-        if(vehicle.getVehicleType().equals(VehicleType.CAR)) sellCar(salesperson, vehicle);
-        else if(vehicle.getVehicleType().equals(VehicleType.PICKUP)) sellPickup(salesperson, vehicle);
-        else sellPerformanceCar(salesperson, vehicle);
+        if(vehicle.getVehicleType().equals(VehicleType.CAR)) sellAndRemoveVehicleOfType(salesperson, vehicle, carsToBeSold, cars);
+        else if(vehicle.getVehicleType().equals(VehicleType.PICKUP)) sellAndRemoveVehicleOfType(salesperson, vehicle, pickupsToBeSold, pickups);
+        else if(vehicle.getVehicleType() == VehicleType.PERFORMANCE_CAR) sellAndRemoveVehicleOfType(salesperson, vehicle, performanceCarsToBeSold, performanceCars);
+        else if(vehicle.getVehicleType() == VehicleType.ELECTRIC_CAR) sellAndRemoveVehicleOfType(salesperson, vehicle, electricCarsToBeSold, electricCars);
+        else if(vehicle.getVehicleType() == VehicleType.MOTORCYCLE) sellAndRemoveVehicleOfType(salesperson, vehicle, motorcyclesToBeSold, motorcycles);
+        else sellAndRemoveVehicleOfType(salesperson, vehicle, monsterTrucksToBeSold, monsterTrucks);
+    }
+
+    private void sellAndRemoveVehicleOfType(Staff staff, Vehicle vehicle, List<Vehicle> listOfVehicleTypeSold, List<Vehicle> listOfVehicle) {
+        listOfVehicleTypeSold.remove(vehicle);
+        listOfVehicle.remove(vehicle);
+        soldVehicles.add(vehicle);
+        setBudget(getBudget() + vehicle.getSalePrice());
+        staff.setBonus(staff.getBonus() + vehicle.getSalesBonus());
     }
 
     private void sellPerformanceCar(Staff staff, Vehicle vehicle) {
@@ -164,30 +217,35 @@ public class Selling extends Activity {
         soldVehicles.add(vehicle);
         setBudget(getBudget() + vehicle.getSalePrice());
         staff.setBonus(staff.getBonus() + vehicle.getSalesBonus());
-
     }
 
-    private void segregatePerformanceCars() {
-        for(Vehicle performanceCar : performanceCars) {
-            if(!performanceCar.getCondition().equals(Condition.BROKEN)) performanceCarsToBeSold.add(performanceCar);
+    private void segregateVehiclesByType(List<Vehicle> vehiclesToBeSegregated) {
+        if(vehiclesToBeSegregated.equals(cars)) {
+            listToBeSegregated = carsToBeSold;
         }
-        sortCarsByCostPrice(performanceCarsToBeSold);
-    }
-
-    private void segregatePickups() {
-        for(Vehicle pickup : pickups) {
-            if(!pickup.getCondition().equals(Condition.BROKEN)) pickupsToBeSold.add(pickup);
+        else if(vehiclesToBeSegregated.equals(performanceCars)) {
+            listToBeSegregated = pickupsToBeSold;
         }
-        sortCarsByCostPrice(pickupsToBeSold);
-    }
-
-    private void segregateCars() {
-        for(Vehicle car : cars) {
-            if(!car.getCondition().equals(Condition.BROKEN)) carsToBeSold.add(car);
+        else if(vehiclesToBeSegregated.equals(pickups)) {
+            listToBeSegregated = pickupsToBeSold;
         }
-        sortCarsByCostPrice(carsToBeSold);
-    }
+        else if(vehiclesToBeSegregated.equals(electricCars)) {
+            listToBeSegregated = electricCarsToBeSold;
+        }
+        else if(vehiclesToBeSegregated.equals(motorcycles)) {
+            listToBeSegregated = motorcyclesToBeSold;
+        }
+        else {
+            listToBeSegregated = monsterTrucksToBeSold;
+        }
 
+        for(Vehicle vehicle : vehiclesToBeSegregated) {
+            if(vehicle.getCondition() != Condition.BROKEN) {
+                listToBeSegregated.add(vehicle);
+            }
+        }
+        sortCarsByCostPrice(listToBeSegregated);
+    }
     private void sortCarsByCostPrice(List<Vehicle> list) {
         Collections.sort(list, (obj1, obj2) -> (int) (obj2.getCostPrice() - obj1.getCostPrice()));
     }

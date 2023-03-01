@@ -23,24 +23,25 @@ public class Car extends Vehicle {
         vehicleType = VehicleType.CAR;
 
         if(randomConditionNumber == 0) {
-            condition = Condition.NEW;
+            setCondition(Condition.NEW);
         } else if (randomConditionNumber == 1) {
-            condition = Condition.USED;
-            costPrice = costPrice * 0.8;
+            setCondition(Condition.USED);
+            setCostPrice(getCostPrice()*0.8);
         } else{
-            condition = Condition.BROKEN;
-            costPrice = costPrice/2;
+            setCondition(Condition.BROKEN);
+            setCostPrice(getCostPrice()*0.5);
         }
 
         this.salePrice = 2 * costPrice;
 
         if(randomCleanlinessNumber == 0) {
-            cleanliness = Cleanliness.SPARKLING;
+            setCleanliness(Cleanliness.SPARKLING);
         } else if (randomCleanlinessNumber == 1) {
-            cleanliness = Cleanliness.CLEAN;
+            setCleanliness(Cleanliness.CLEAN);
         } else {
-            cleanliness = Cleanliness.DIRTY;
+            setCleanliness(Cleanliness.DIRTY);
         }
+
         setFinalSalePrice(getSalePrice());
     }
 }

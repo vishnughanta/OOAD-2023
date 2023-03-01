@@ -3,6 +3,7 @@ package activities;
 import interfaces.RandomGenerator;
 import abstracts.Staff;
 import abstracts.Vehicle;
+import interfaces.WashingMethod;
 import printer.Printer;
 import subscriber.SubscriberObject;
 
@@ -14,23 +15,11 @@ This class is for initiating the activity on a whole.
 Contains the common attributes for all the activities.
  */
 public class Activity {
-    private static double budget;
     protected RandomGenerator randomGenerator;
-    protected static List<Staff> interns;
-    protected static List<Staff> salespersons;
-    protected static List<Staff> mechanics;
-    protected static List<Staff> drivers;
-    protected static List<Vehicle> cars;
-    protected static List<Vehicle> pickups;
-    protected static List<Vehicle> performanceCars;
-    protected static List<Vehicle> electricCars;
-    protected static List<Vehicle> monsterTrucks;
-    protected static List<Vehicle> motorcycles;
-    protected static List<Vehicle> soldVehicles;
-    protected static List<Staff> departedStaff;
-    protected static List<Staff> dailyDepartingStaff;
-    protected static List<Vehicle> dailySoldVehicles;
-    protected static double dailySales;
+    protected static double budget, dailySales;
+    protected static List<Staff> interns, salespersons, mechanics, drivers, departedStaff, dailyDepartingStaff;
+    protected static List<Vehicle> cars, pickups, performanceCars, electricCars, monsterTrucks, motorcycles, soldVehicles, dailySoldVehicles;
+    protected WashingMethod washingMethod;
     protected static SubscriberObject subscriberObject;
     protected Printer printer;
 

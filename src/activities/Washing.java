@@ -80,15 +80,15 @@ public class Washing extends Activity {
         Intern internTypeCast = (Intern) intern;
 
         if(internTypeCast.getWashingMethod() == WashingMethod.CHEMICAL) {
-            interfaces.WashingMethod washingMethod = new Chemical();
+            washingMethod = new Chemical();
             washingMethod.wash(vehicle);
         }
         else if(internTypeCast.getWashingMethod() == WashingMethod.DETAILED) {
-            interfaces.WashingMethod washingMethod = new Detailed();
+            washingMethod = new Detailed();
             washingMethod.wash(vehicle);
         }
         else {
-            interfaces.WashingMethod washingMethod = new ElbowGrease();
+            washingMethod = new ElbowGrease();
             washingMethod.wash(vehicle);
         }
 
@@ -109,29 +109,16 @@ public class Washing extends Activity {
     }
 
     private void segregateVehicles() {
-        segregateCars();
-        segregatePickups();
-        segregatePerformanceCars();
+        segregateVehiclesOfType(cars);
+        segregateVehiclesOfType(performanceCars);
+        segregateVehiclesOfType(pickups);
+        segregateVehiclesOfType(electricCars);
+        segregateVehiclesOfType(monsterTrucks);
+        segregateVehiclesOfType(motorcycles);
     }
 
-    private void segregatePerformanceCars() {
-        for (Vehicle vehicle : performanceCars) {
-            Cleanliness cleanlinessState = vehicle.getCleanliness();
-            if (cleanlinessState == Cleanliness.DIRTY) dirtyVehicles.add(vehicle);
-            else if (cleanlinessState == Cleanliness.CLEAN) cleanVehicles.add(vehicle);
-        }
-    }
-
-    private void segregatePickups() {
-        for (Vehicle vehicle : pickups) {
-            Cleanliness cleanlinessState = vehicle.getCleanliness();
-            if (cleanlinessState == Cleanliness.DIRTY) dirtyVehicles.add(vehicle);
-            else if (cleanlinessState == Cleanliness.CLEAN) cleanVehicles.add(vehicle);
-        }
-    }
-
-    private void segregateCars() {
-        for (Vehicle vehicle : cars) {
+    private void segregateVehiclesOfType(List<Vehicle> vehiclesToBeSegregated) {
+        for(Vehicle vehicle : vehiclesToBeSegregated) {
             Cleanliness cleanlinessState = vehicle.getCleanliness();
             if (cleanlinessState == Cleanliness.DIRTY) dirtyVehicles.add(vehicle);
             else if (cleanlinessState == Cleanliness.CLEAN) cleanVehicles.add(vehicle);

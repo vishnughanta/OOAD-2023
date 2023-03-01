@@ -4,6 +4,7 @@ import interfaces.RandomGenerator;
 import abstracts.Staff;
 import abstracts.Vehicle;
 import printer.Printer;
+import subscriber.SubscriberObject;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,6 +31,7 @@ public class Activity {
     protected static List<Staff> dailyDepartingStaff;
     protected static List<Vehicle> dailySoldVehicles;
     protected static double dailySales;
+    protected static SubscriberObject subscriberObject;
     protected Printer printer;
 
     static {
@@ -74,5 +76,125 @@ public class Activity {
 
     public static void setDailySales(double dailySales) {
         Activity.dailySales = dailySales;
+    }
+
+    public static List<Staff> getInterns() {
+        return interns;
+    }
+
+    public static void setInterns(List<Staff> interns) {
+        Activity.interns = interns;
+    }
+
+    public static List<Staff> getSalespersons() {
+        return salespersons;
+    }
+
+    public static void setSalespersons(List<Staff> salespersons) {
+        Activity.salespersons = salespersons;
+    }
+
+    public static List<Staff> getMechanics() {
+        return mechanics;
+    }
+
+    public static void setMechanics(List<Staff> mechanics) {
+        Activity.mechanics = mechanics;
+    }
+
+    public static List<Staff> getDrivers() {
+        return drivers;
+    }
+
+    public static void setDrivers(List<Staff> drivers) {
+        Activity.drivers = drivers;
+    }
+
+    public static List<Vehicle> getCars() {
+        return cars;
+    }
+
+    public static void setCars(List<Vehicle> cars) {
+        Activity.cars = cars;
+    }
+
+    public static List<Vehicle> getPickups() {
+        return pickups;
+    }
+
+    public static void setPickups(List<Vehicle> pickups) {
+        Activity.pickups = pickups;
+    }
+
+    public static List<Vehicle> getPerformanceCars() {
+        return performanceCars;
+    }
+
+    public static void setPerformanceCars(List<Vehicle> performanceCars) {
+        Activity.performanceCars = performanceCars;
+    }
+
+    public static List<Vehicle> getElectricCars() {
+        return electricCars;
+    }
+
+    public static void setElectricCars(List<Vehicle> electricCars) {
+        Activity.electricCars = electricCars;
+    }
+
+    public static List<Vehicle> getMonsterTrucks() {
+        return monsterTrucks;
+    }
+
+    public static void setMonsterTrucks(List<Vehicle> monsterTrucks) {
+        Activity.monsterTrucks = monsterTrucks;
+    }
+
+    public static List<Vehicle> getMotorcycles() {
+        return motorcycles;
+    }
+
+    public static void setMotorcycles(List<Vehicle> motorcycles) {
+        Activity.motorcycles = motorcycles;
+    }
+
+    public static List<Vehicle> getSoldVehicles() {
+        return soldVehicles;
+    }
+
+    public static void setSoldVehicles(List<Vehicle> soldVehicles) {
+        Activity.soldVehicles = soldVehicles;
+    }
+
+    public static List<Staff> getDepartedStaff() {
+        return departedStaff;
+    }
+
+    public static void setDepartedStaff(List<Staff> departedStaff) {
+        Activity.departedStaff = departedStaff;
+    }
+
+    public static List<Staff> getDailyDepartingStaff() {
+        return dailyDepartingStaff;
+    }
+
+    public static void setDailyDepartingStaff(List<Staff> dailyDepartingStaff) {
+        Activity.dailyDepartingStaff = dailyDepartingStaff;
+    }
+
+    public static List<Vehicle> getDailySoldVehicles() {
+        return dailySoldVehicles;
+    }
+
+    public static void setDailySoldVehicles(List<Vehicle> dailySoldVehicles) {
+        Activity.dailySoldVehicles = dailySoldVehicles;
+    }
+
+    public static SubscriberObject getSubscriberObject() {
+        return subscriberObject;
+    }
+
+    public static void setSubscriberObject(SubscriberObject subscriberObject) {
+        Activity.subscriberObject = subscriberObject;
     }
 }

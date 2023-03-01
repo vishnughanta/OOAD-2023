@@ -17,7 +17,6 @@ public abstract class Vehicle {
     public static int monsterTruckNumber = 0;
     public static int electricCarNumber = 0;
     private int racesWon;
-
     protected NameGenerator nameGenerator;
     protected RandomGenerator randomNumberGenerator;
     protected VehicleType vehicleType;
@@ -29,6 +28,7 @@ public abstract class Vehicle {
     protected double salesBonus;
     protected double costPrice;
     protected double salePrice;
+    protected double finalSalePrice;
 
     /*
     Getters and setter methods
@@ -112,5 +112,13 @@ public abstract class Vehicle {
 
     public void setRacesWon(int racesWon) {
         this.racesWon = racesWon;
+    }
+
+    public double getFinalSalePrice() {
+        return finalSalePrice;
+    }
+
+    public void setFinalSalePrice(double finalSalePrice) {
+        this.finalSalePrice = finalSalePrice;
     }
 }

@@ -3,6 +3,7 @@ package activities;
 import abstracts.Staff;
 import abstracts.Vehicle;
 import buyer.Buyer;
+import decorator.ExtendedWarranty;
 import enums.BuyingType;
 import enums.Cleanliness;
 import enums.Condition;
@@ -117,10 +118,22 @@ public class Selling extends Activity {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
         if(randomNumber>=1 && randomNumber<=chanceOfBuying) {
             sellVehicle(salesperson, vehicle);
+            sellAddOns(vehicle);
             printer.printSoldVehicles(salesperson, vehicle);
             setDailySales(getDailySales() + vehicle.getSalePrice());
             dailySoldVehicles.add(vehicle);
         }
+    }
+
+    private void sellAddOns(Vehicle vehicle) {
+        Vehicle tempVehicle = vehicle;
+        int extendedWarrantyChance = randomGenerator.generateRandomNumber(1,100);
+        if(extendedWarrantyChance >0 && extendedWarrantyChance <=25) {
+            tempVehicle = new ExtendedWarranty(vehicle);
+
+        }
+
+
     }
 
     private void sellVehicle(Staff salesperson, Vehicle vehicle) {

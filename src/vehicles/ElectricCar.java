@@ -42,5 +42,6 @@ public class ElectricCar extends Vehicle {
         }
 
         if(condition == Condition.NEW) range += 100;
+        setFinalSalePrice(getSalePrice());
     }
 }

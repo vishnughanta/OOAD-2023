@@ -41,6 +41,7 @@ public class Motorcycle extends Vehicle {
             cleanliness = Cleanliness.DIRTY;
         }
         setRacesWon(0);
+        setFinalSalePrice(getSalePrice());
     }
 
 }

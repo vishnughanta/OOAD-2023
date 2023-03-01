@@ -43,5 +43,6 @@ public class PerformanceCar extends Vehicle {
         }
 
         setRacesWon(0);
+        setFinalSalePrice(getSalePrice());
     }
 }

@@ -41,5 +41,6 @@ public class Car extends Vehicle {
         } else {
             cleanliness = Cleanliness.DIRTY;
         }
+        setFinalSalePrice(getSalePrice());
     }
 }

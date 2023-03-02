@@ -128,7 +128,9 @@ public class Ending extends Activity {
                 while(getBudget() < staff.getSalary()) {
                     modifyOperatingBudget();
                 }
-                setBudget(getBudget() - staff.getSalary());
+                double salary = staff.getSalary();
+                updateStaffAmount(subscriberObject, salary);
+                setBudget(getBudget() - salary);
                 staff.setTotalDaysWorked(staff.getTotalDaysWorked() + 1);
                 staff.setCummSalary(staff.getCummSalary() + staff.getSalary());
                 staff.setWorked(false);

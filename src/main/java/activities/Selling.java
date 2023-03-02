@@ -123,7 +123,9 @@ public class Selling extends Activity {
             sellVehicle(salesperson, vehicle);
             sellAddOns(vehicle);
             printer.printSoldVehicles(salesperson, vehicle, subscriberObject);
-            setDailySales(getDailySales() + vehicle.getSalePrice());
+            double finalSalePrice = vehicle.getFinalSalePrice();
+            updateFNCDAmount(subscriberObject, finalSalePrice);
+            setDailySales(getDailySales() + vehicle.getFinalSalePrice());
             dailySoldVehicles.add(vehicle);
         }
     }
@@ -144,6 +146,7 @@ public class Selling extends Activity {
         if(randomNumber>=1 && randomNumber<=chanceOfBuying) {
             sellVehicle(salesperson, vehicle);
             sellAddOns(vehicle);
+            setBudget(getBudget() + vehicle.getFinalSalePrice());
             printer.printSoldVehicles(salesperson, vehicle, subscriberObject);
             setDailySales(getDailySales() + vehicle.getSalePrice());
             dailySoldVehicles.add(vehicle);
@@ -191,8 +194,9 @@ public class Selling extends Activity {
         listOfVehicleTypeSold.remove(vehicle);
         listOfVehicle.remove(vehicle);
         soldVehicles.add(vehicle);
-        setBudget(getBudget() + vehicle.getSalePrice());
-        staff.setBonus(staff.getBonus() + vehicle.getSalesBonus());
+        double saleBonus = vehicle.getSalesBonus();
+        updateStaffAmount(subscriberObject, saleBonus);
+        staff.setBonus(staff.getBonus() + saleBonus);
     }
 
     private void segregateVehiclesByType(List<Vehicle> vehiclesToBeSegregated) {

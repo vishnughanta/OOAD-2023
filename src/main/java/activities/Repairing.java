@@ -67,7 +67,9 @@ public class Repairing extends Activity {
                 vehicle.setCondition(Condition.NEW);
                 vehicle.setSalePrice(1.25 * vehicle.getSalePrice());
             }
-            mechanic.setBonus(mechanic.getBonus() + vehicle.getRepairBonus());
+            double repairBonus = vehicle.getRepairBonus();
+            updateStaffAmount(subscriberObject, repairBonus);
+            mechanic.setBonus(mechanic.getBonus() + repairBonus);
         }
         printer.printRepairedVehicles(mechanic, vehicle, hasRepaired, subscriberObject);
     }

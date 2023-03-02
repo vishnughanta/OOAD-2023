@@ -129,6 +129,7 @@ public class Racing extends Activity {
 
         while(countOfVehicles < 3 && !vehiclesToRace.isEmpty() && vehiclesToRace.size() > countOfVehicles) {
             Driver driver = (Driver) shuffledDrivers.get(countOfVehicles);
+            driver.setWorked(true);
             Vehicle vehicle = vehiclesToRace.get(countOfVehicles);
             driverToVehicleList.add(new LinkDriverToVehicle(driver, vehicle));
             countOfVehicles++;

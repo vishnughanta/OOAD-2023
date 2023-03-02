@@ -1,0 +1,24 @@
+Intern-2 has washed Motorcycle-6 and made it Clean
+Intern-2 has washed Motorcycle-6
+Intern-3 has washed Performance Car-4 and made it Clean
+Intern-3 has washed Monster Truck Batman-1 and made it Clean
+Intern-4 has washed Performance Car-4
+Intern-4 has washed Monster Truck Bear Foot (F-150)-1 and made it Clean
+Salesperson-1 has sold Car-4 for a sale price of $21094.0 (Earned a sale bonus of $300.0)
+Daily Report..
+
+Working Staff:
+Intern-2		900.0	450.0	9
+Intern-3		300.0	0.0	3
+Intern-4		200.0	0.0	2
+Mechanic-0		1600.0	2010.0	8
+Mechanic-2		1600.0	2740.0	8
+Mechanic-3		200.0	450.0	7
+Salesperson-0		1500.0	1680.0	5
+Salesperson-1		1200.0	390.0	4
+Salesperson-3		300.0	300.0	8
+Driver-0		0.0	0.0	0
+Driver-1		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Departed Staff:
+No one quit the FNCD today

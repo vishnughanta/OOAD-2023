@@ -86,7 +86,7 @@ public class MonsterTruck extends Vehicle {
         washBonus = 100;
         repairBonus = 200;
         salesBonus = 300;
-        vehicleType = VehicleType.ELECTRIC_CAR;
+        vehicleType = VehicleType.MONSTER_TRUCK;
 
         if (randomConditionNumber == 0) {
             setCondition(Condition.NEW);

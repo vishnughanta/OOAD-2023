@@ -1,0 +1,24 @@
+Intern-2 has washed Pickup-1 and made it Clean
+Intern-2 has washed Motorcycle-10 and made it Sparkling (Earned a bonus of $50.0)
+Intern-3 has washed Monster Truck Backwards Bob-1 and made it Clean
+Intern-3 has washed Monster Truck Backwards Bob-1
+Intern-5 has washed Pickup-1
+Intern-5 has washed Monster Truck Backwards Bob-1 and made it Sparkling (Earned a bonus of $100.0)
+Top 3 positions: Driver-3 with Performance Car-2 has finished in 1 position
+Daily Report..
+
+Working Staff:
+Intern-2		1700.0	800.0	17
+Intern-3		1100.0	50.0	11
+Intern-5		700.0	850.0	7
+Mechanic-2		2400.0	3550.0	12
+Mechanic-3		1000.0	940.0	11
+Mechanic-4		400.0	270.0	5
+Salesperson-0		3000.0	2670.0	10
+Salesperson-1		2100.0	570.0	7
+Salesperson-3		1800.0	480.0	13
+Driver-0		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Driver-3		0.0	0.0	0
+Departed Staff:
+No one quit the FNCD today

@@ -48,7 +48,7 @@ public class Opening extends Activity {
             }
             electricCars.add(electricCar);
             setBudget(getBudget() - electricCarCostPrice);
-            printer.printPurchasedVehiclesInOpening(electricCar);
+            printer.printPurchasedVehiclesInOpening(electricCar, subscriberObject);
             Vehicle.electricCarNumber++;
         }
     }
@@ -69,7 +69,7 @@ public class Opening extends Activity {
             }
             monsterTrucks.add(monsterTruck);
             setBudget(getBudget() - monsterTruckCostPrice);
-            printer.printPurchasedVehiclesInOpening(monsterTruck);
+            printer.printPurchasedVehiclesInOpening(monsterTruck, subscriberObject);
             Vehicle.monsterTruckNumber++;
         }
     }
@@ -90,7 +90,7 @@ public class Opening extends Activity {
             }
             motorcycles.add(motorcycle);
             setBudget(getBudget() - motorcycleCostPrice);
-            printer.printPurchasedVehiclesInOpening(motorcycle);
+            printer.printPurchasedVehiclesInOpening(motorcycle, subscriberObject);
             Vehicle.motorcycleNumber++;
         }
     }
@@ -111,7 +111,7 @@ public class Opening extends Activity {
             }
             performanceCars.add(performanceCar);
             setBudget(getBudget() - performanceCarCostPrice);
-            printer.printPurchasedVehiclesInOpening(performanceCar);
+            printer.printPurchasedVehiclesInOpening(performanceCar, subscriberObject);
             Vehicle.performanceCarNumber++;
         }
     }
@@ -132,7 +132,7 @@ public class Opening extends Activity {
             }
             pickups.add(pickup);
             setBudget(getBudget() - pickupCostPrice);
-            printer.printPurchasedVehiclesInOpening(pickup);
+            printer.printPurchasedVehiclesInOpening(pickup, subscriberObject);
             Vehicle.pickupNumber++;
         }
     }
@@ -151,7 +151,7 @@ public class Opening extends Activity {
             if(getBudget() < carCostPrice) modifyOperatingBudget();
             cars.add(car);
             setBudget(getBudget() - carCostPrice);
-            printer.printPurchasedVehiclesInOpening(car);
+            printer.printPurchasedVehiclesInOpening(car, subscriberObject);
             Vehicle.carNumber++;
         }
     }
@@ -174,7 +174,7 @@ public class Opening extends Activity {
         for(int i=0; i<driversToBeAdded; i++) {
             Staff driver = new Driver();
             drivers.add(driver);
-            printer.printHiredStaffInOpening(driver);
+            printer.printHiredStaffInOpening(driver, subscriberObject);
             Staff.driverNumber++;
         }
     }
@@ -190,7 +190,7 @@ public class Opening extends Activity {
         for(int i=0; i<internsToBeAdded; i++) {
             Staff intern = new Intern();
             interns.add(intern);
-            printer.printHiredStaffInOpening(intern);
+            printer.printHiredStaffInOpening(intern, subscriberObject);
             Staff.internNumber++;
         }
     }
@@ -206,7 +206,7 @@ public class Opening extends Activity {
         for(int i=0; i<salesPersonsToBeAdded; i++) {
             Staff salesperson = new Salesperson();
             salespersons.add(salesperson);
-            printer.printHiredStaffInOpening(salesperson);
+            printer.printHiredStaffInOpening(salesperson, subscriberObject);
             Staff.salespersonNumber++;
         }
     }
@@ -222,7 +222,7 @@ public class Opening extends Activity {
         for(int i=0; i<mechanicsToBeAdded; i++) {
             Staff mechanic = new Mechanic();
             mechanics.add(mechanic);
-            printer.printHiredStaffInOpening(mechanic);
+            printer.printHiredStaffInOpening(mechanic, subscriberObject);
             Staff.mechanicNumber++;
         }
     }

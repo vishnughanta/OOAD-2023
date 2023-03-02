@@ -1,0 +1,30 @@
+Intern-0 has washed Electric Car-1
+Intern-0 has washed Pickup-1 and made it Clean
+Intern-1 has washed Pickup-1
+Intern-1 has washed Motorcycle-4 and made it Sparkling (Earned a bonus of $50.0)
+Intern-2 has washed Electric Car-3 and made it Sparkling (Earned a bonus of $100.0)
+Intern-2 has washed Car-0 and made it Sparkling (Earned a bonus of $100.0)
+Mechanic-0 has repaired Motorcycle-4 and made it Sparkling (Earned a bonus of $70.0)
+Mechanic-0 has repaired Pickup-3 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has not repaired Monster Truck Blue Thunder-1
+Mechanic-1 has repaired Pickup-0 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-2 has repaired Motorcycle-3 and made it Sparkling (Earned a bonus of $70.0)
+Mechanic-2 has repaired Pickup-1 and made it Clean (Earned a bonus of $200.0)
+Salesperson-0 has sold Electric Car-1 for a sale price of $43860.0 (Earned a sale bonus of $300.0)
+Daily Report..
+
+Working Staff:
+Intern-0		400.0	200.0	4
+Intern-1		400.0	250.0	4
+Intern-2		400.0	400.0	4
+Mechanic-0		800.0	940.0	4
+Mechanic-1		800.0	1070.0	4
+Mechanic-2		800.0	1470.0	4
+Salesperson-0		600.0	390.0	2
+Salesperson-1		300.0	90.0	1
+Salesperson-2		600.0	0.0	2
+Driver-0		0.0	0.0	0
+Driver-1		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Departed Staff:
+No one quit the FNCD today

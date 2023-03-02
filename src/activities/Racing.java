@@ -59,7 +59,7 @@ public class Racing extends Activity {
     private void lastRacePositions() {
         for(int i=15; i<20; i++) {
             if(raceVehicles.get(i) != null) {
-                assignLostVehicles(raceVehicles.get(i), i);
+                assignLostVehicles(raceVehicles.get(i), i+1);
             }
         }
     }
@@ -69,7 +69,7 @@ public class Racing extends Activity {
         Vehicle vehicle = linkDriverToVehicle.getVehicle();
         vehicle.setCondition(Condition.BROKEN);
         assignDriverStatus(driver);
-        printer.printLastRacePositions(linkDriverToVehicle, position);
+        printer.printLastRacePositions(linkDriverToVehicle, position, subscriberObject);
     }
 
     private void assignDriverStatus(Driver driver) {
@@ -87,7 +87,7 @@ public class Racing extends Activity {
     private void firstRacePositions() {
         for(int i=0; i<3; i++) {
             if(raceVehicles.get(i) != null) {
-                assignWinVehicles(raceVehicles.get(i), i);
+                assignWinVehicles(raceVehicles.get(i), i+1);
             }
         }
     }
@@ -105,7 +105,7 @@ public class Racing extends Activity {
 
         int racesWonByDriver = driver.getRacesWon();
         driver.setRacesWon(racesWonByDriver + 1);
-        printer.printFirstRacePositions(linkDriverToVehicle, position);
+        printer.printFirstRacePositions(linkDriverToVehicle, position, subscriberObject);
     }
 
     private void assignVehicleType() {
@@ -127,7 +127,7 @@ public class Racing extends Activity {
     private void assignDriverToVehicles() {
         int countOfVehicles = 0;
 
-        while(countOfVehicles < 3 && !vehiclesToRace.isEmpty()) {
+        while(countOfVehicles < 3 && !vehiclesToRace.isEmpty() && vehiclesToRace.size() > countOfVehicles) {
             Driver driver = (Driver) shuffledDrivers.get(countOfVehicles);
             Vehicle vehicle = vehiclesToRace.get(countOfVehicles);
             driverToVehicleList.add(new LinkDriverToVehicle(driver, vehicle));

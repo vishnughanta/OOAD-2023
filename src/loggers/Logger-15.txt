@@ -1,0 +1,27 @@
+Purchased New Dirty Performance Car-5 for a cost price of 37346.0
+Intern-2 has washed Pickup-4 and made it Clean
+Intern-2 has washed Pickup-4 and made it Sparkling (Earned a bonus of $100.0)
+Intern-3 has washed Performance Car-5 and made it Clean
+Intern-3 has washed Motorcycle-9 and made it Clean
+Intern-5 has washed Motorcycle-9 and made it Sparkling (Earned a bonus of $50.0)
+Intern-5 has washed Performance Car-5 and made it Sparkling (Earned a bonus of $100.0)
+Salesperson-0 has sold Motorcycle-0 for a sale price of $42375.0 (Earned a sale bonus of $90.0)
+Salesperson-1 has sold Motorcycle-8 for a sale price of $25209.375 (Earned a sale bonus of $90.0)
+Salesperson-0 has sold Monster Truck Batman-1 for a sale price of $38139.200000000004 (Earned a sale bonus of $300.0)
+Daily Report..
+
+Working Staff:
+Intern-2		1500.0	600.0	15
+Intern-3		900.0	50.0	9
+Intern-5		500.0	550.0	5
+Mechanic-2		2200.0	3350.0	11
+Mechanic-3		800.0	800.0	10
+Mechanic-4		200.0	70.0	4
+Salesperson-0		2700.0	2670.0	9
+Salesperson-1		2100.0	570.0	7
+Salesperson-3		1500.0	480.0	12
+Driver-0		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Driver-3		0.0	0.0	0
+Departed Staff:
+No one quit the FNCD today

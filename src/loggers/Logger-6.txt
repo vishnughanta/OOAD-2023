@@ -1,0 +1,31 @@
+Purchased Broken Sparkling Motorcycle-6 for a cost price of 9867.0
+Intern-0 has washed Performance Car-3
+Intern-0 has washed Monster Truck Blue Thunder-1
+Intern-1 has washed Electric Car-4 and made it Clean
+Intern-1 has washed Motorcycle-0 and made it Clean
+Intern-2 has washed Motorcycle-0 and made it Sparkling (Earned a bonus of $50.0)
+Intern-2 has washed Electric Car-4
+Mechanic-0 has repaired Performance Car-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has not repaired Motorcycle-3
+Mechanic-1 has not repaired Monster Truck Blue Thunder-1
+Mechanic-1 has repaired Motorcycle-3 and made it Dirty (Earned a bonus of $70.0)
+Mechanic-2 has repaired Monster Truck Bear Foot (F-150)-1 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has not repaired Motorcycle-6
+Mechanic-1 has quit the FNCD
+Intern-1 has been promoted to Mechanic-3
+Daily Report..
+
+Working Staff:
+Intern-0		600.0	200.0	6
+Intern-2		600.0	450.0	6
+Mechanic-0		1200.0	1340.0	6
+Mechanic-2		1200.0	2070.0	6
+Mechanic-3		0.0	250.0	6
+Salesperson-0		1200.0	480.0	4
+Salesperson-1		600.0	90.0	2
+Salesperson-2		900.0	0.0	3
+Driver-0		0.0	0.0	0
+Driver-1		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Departed Staff:
+Mechanic-1		1200.0	1540.0	6

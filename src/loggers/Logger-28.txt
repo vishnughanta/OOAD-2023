@@ -1,0 +1,31 @@
+Purchased Used Sparkling Performance Car-10 for a cost price of 27570.4
+Purchased Used Sparkling Motorcycle-17 for a cost price of 10640.800000000001
+Intern-2 has washed Performance Car-3 and made it Sparkling (Earned a bonus of $100.0)
+Intern-2 has washed Monster Truck Bear Foot (F-150)-1
+Intern-3 has washed Motorcycle-15
+Intern-3 has washed Pickup-2
+Intern-6 has washed Pickup-1
+Intern-6 has washed Monster Truck Bear Foot (F-150)-1
+Mechanic-2 has repaired Performance Car-10 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-2 has repaired Motorcycle-17 and made it Sparkling (Earned a bonus of $70.0)
+Salesperson-3 has sold Performance Car-10 for a sale price of $68926.0 (Earned a sale bonus of $300.0)
+Salesperson-4 has sold Performance Car-10 for a sale price of $68926.0 (Earned a sale bonus of $300.0)
+Top 3 positions: Driver-2 with Monster Truck Zombie-1 has finished in 1 position
+Top 3 positions: Driver-4 with Monster Truck Blue Thunder-1 has finished in 2 position
+Intern-6 has quit the FNCD
+Daily Report..
+
+Working Staff:
+Intern-2		2800.0	1450.0	28
+Intern-3		2200.0	250.0	22
+Mechanic-2		4000.0	5770.0	20
+Mechanic-3		2000.0	1760.0	16
+Mechanic-4		800.0	410.0	7
+Salesperson-0		4800.0	3450.0	16
+Salesperson-3		4200.0	1860.0	21
+Salesperson-4		2100.0	4730.0	15
+Driver-0		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Driver-4		0.0	0.0	0
+Departed Staff:
+Intern-6		1000.0	150.0	10

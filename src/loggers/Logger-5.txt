@@ -1,0 +1,31 @@
+Purchased Broken Dirty Electric Car-4 for a cost price of 8093.5
+Intern-0 has washed Electric Car-4
+Intern-0 has washed Pickup-3 and made it Clean
+Intern-1 has washed Motorcycle-0
+Intern-1 has washed Electric Car-4 and made it Clean
+Intern-2 has washed Pickup-1
+Intern-2 has washed Pickup-3 and made it Dirty
+Mechanic-0 has repaired Monster Truck Bear Foot (F-150)-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has not repaired Monster Truck Bear Foot (F-150)-1
+Mechanic-1 has repaired Car-3 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has repaired Performance Car-3 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Electric Car-4 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Pickup-1 and made it Dirty (Earned a bonus of $200.0)
+Salesperson-0 has sold Motorcycle-5 for a sale price of $39993.6 (Earned a sale bonus of $90.0)
+Daily Report..
+
+Working Staff:
+Intern-0		500.0	200.0	5
+Intern-1		500.0	250.0	5
+Intern-2		500.0	400.0	5
+Mechanic-0		1000.0	1140.0	5
+Mechanic-1		1000.0	1470.0	5
+Mechanic-2		1000.0	1870.0	5
+Salesperson-0		900.0	480.0	3
+Salesperson-1		600.0	90.0	2
+Salesperson-2		600.0	0.0	2
+Driver-0		0.0	0.0	0
+Driver-1		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Departed Staff:
+No one quit the FNCD today

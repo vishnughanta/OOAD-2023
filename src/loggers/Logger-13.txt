@@ -1,0 +1,32 @@
+Purchased Used Dirty Motorcycle-7 for a cost price of 11941.6
+Purchased Broken Clean Motorcycle-8 for a cost price of 6722.5
+Intern-2 has washed Motorcycle-0 and made it Clean
+Intern-2 has washed Motorcycle-0 and made it Sparkling (Earned a bonus of $50.0)
+Intern-3 has washed Motorcycle-7 and made it Clean
+Intern-3 has washed Motorcycle-7
+Intern-5 has washed Motorcycle-7
+Intern-5 has washed Motorcycle-7
+Mechanic-2 has not repaired Motorcycle-8
+Mechanic-2 has repaired Motorcycle-7 and made it Clean (Earned a bonus of $70.0)
+Mechanic-3 has repaired Motorcycle-8 and made it Dirty (Earned a bonus of $70.0)
+Mechanic-3 has not repaired Motorcycle-8
+Mechanic-4 has repaired Motorcycle-8 and made it Dirty (Earned a bonus of $70.0)
+Salesperson-0 has sold Pickup-0 for a sale price of $60820.0 (Earned a sale bonus of $300.0)
+Salesperson-3 has sold Motorcycle-7 for a sale price of $29854.0 (Earned a sale bonus of $90.0)
+Daily Report..
+
+Working Staff:
+Intern-2		1300.0	500.0	13
+Intern-3		700.0	50.0	7
+Intern-5		300.0	250.0	3
+Mechanic-2		2000.0	2950.0	10
+Mechanic-3		600.0	660.0	9
+Mechanic-4		200.0	70.0	4
+Salesperson-0		2100.0	1980.0	7
+Salesperson-1		1800.0	480.0	6
+Salesperson-3		1200.0	480.0	11
+Driver-0		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Driver-3		0.0	0.0	0
+Departed Staff:
+No one quit the FNCD today

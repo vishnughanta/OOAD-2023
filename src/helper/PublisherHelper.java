@@ -47,4 +47,8 @@ public class PublisherHelper implements Publisher {
     public void setSubscriberObject(SubscriberObject subscriberObject) {
         this.subscriberObject = subscriberObject;
     }
+
+    public void closeDay() {
+        subscriberObject.setLogList(new ArrayList<>());
+    }
 }

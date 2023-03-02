@@ -13,7 +13,6 @@ import enums.Condition;
 import enums.VehicleType;
 import functions.RandomNumberGenerator;
 import printer.Printer;
-import staff.Salesperson;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -122,7 +121,8 @@ public class Selling extends Activity {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
         if(randomNumber>=1 && randomNumber<=chanceOfBuying) {
             sellVehicle(salesperson, vehicle);
-            printer.printSoldVehicles(salesperson, vehicle);
+            sellAddOns(vehicle);
+            printer.printSoldVehicles(salesperson, vehicle, subscriberObject);
             setDailySales(getDailySales() + vehicle.getSalePrice());
             dailySoldVehicles.add(vehicle);
         }
@@ -144,7 +144,7 @@ public class Selling extends Activity {
         if(randomNumber>=1 && randomNumber<=chanceOfBuying) {
             sellVehicle(salesperson, vehicle);
             sellAddOns(vehicle);
-            printer.printSoldVehicles(salesperson, vehicle);
+            printer.printSoldVehicles(salesperson, vehicle, subscriberObject);
             setDailySales(getDailySales() + vehicle.getSalePrice());
             dailySoldVehicles.add(vehicle);
         }
@@ -195,30 +195,6 @@ public class Selling extends Activity {
         staff.setBonus(staff.getBonus() + vehicle.getSalesBonus());
     }
 
-    private void sellPerformanceCar(Staff staff, Vehicle vehicle) {
-        performanceCarsToBeSold.remove(vehicle);
-        performanceCars.remove(vehicle);
-        soldVehicles.add(vehicle);
-        setBudget(getBudget() + vehicle.getSalePrice());
-        staff.setBonus(staff.getBonus() + vehicle.getSalesBonus());
-    }
-
-    private void sellPickup(Staff staff, Vehicle vehicle) {
-        pickupsToBeSold.remove(vehicle);
-        pickups.remove(vehicle);
-        soldVehicles.add(vehicle);
-        setBudget(getBudget() + vehicle.getSalePrice());
-        staff.setBonus(staff.getBonus() + vehicle.getSalesBonus());
-    }
-
-    private void sellCar(Staff staff, Vehicle vehicle) {
-        carsToBeSold.remove(vehicle);
-        cars.remove(vehicle);
-        soldVehicles.add(vehicle);
-        setBudget(getBudget() + vehicle.getSalePrice());
-        staff.setBonus(staff.getBonus() + vehicle.getSalesBonus());
-    }
-
     private void segregateVehiclesByType(List<Vehicle> vehiclesToBeSegregated) {
         if(vehiclesToBeSegregated.equals(cars)) {
             listToBeSegregated = carsToBeSold;
@@ -235,7 +211,7 @@ public class Selling extends Activity {
         else if(vehiclesToBeSegregated.equals(motorcycles)) {
             listToBeSegregated = motorcyclesToBeSold;
         }
-        else {
+        else if(vehiclesToBeSegregated.equals(monsterTrucks)){
             listToBeSegregated = monsterTrucksToBeSold;
         }
 

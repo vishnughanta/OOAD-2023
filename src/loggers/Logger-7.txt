@@ -1,0 +1,36 @@
+Hired Intern-3
+Intern-0 has washed Performance Car-3 and made it Clean
+Intern-0 has washed Performance Car-3 and made it Sparkling (Earned a bonus of $100.0)
+Intern-2 has washed Motorcycle-3
+Intern-2 has washed Pickup-3 and made it Clean
+Intern-3 has washed Pickup-1 and made it Clean
+Intern-3 has washed Pickup-3
+Mechanic-0 has repaired Performance Car-3 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has repaired Motorcycle-6 and made it Clean (Earned a bonus of $70.0)
+Mechanic-2 has repaired Motorcycle-6 and made it Dirty (Earned a bonus of $70.0)
+Mechanic-2 has repaired Monster Truck Blue Thunder-1 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-3 has repaired Electric Car-4 and made it Clean (Earned a bonus of $200.0)
+Salesperson-0 has sold Monster Truck Cyborg-1 for a sale price of $33261.9 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Monster Truck Air Force Afterburner-1 for a sale price of $23968.0 (Earned a sale bonus of $300.0)
+Salesperson-2 has sold Electric Car-2 for a sale price of $29761.2 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Performance Car-1 for a sale price of $62120.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Car-1 for a sale price of $31780.0 (Earned a sale bonus of $300.0)
+Last 5 Positions: Driver-1 with Pickup-3 has finished in 16 position
+Salesperson-2 has quit the FNCD
+Intern-0 has been promoted to Salesperson-3
+Daily Report..
+
+Working Staff:
+Intern-2		700.0	450.0	7
+Intern-3		100.0	0.0	1
+Mechanic-0		1400.0	1610.0	7
+Mechanic-2		1400.0	2340.0	7
+Mechanic-3		200.0	450.0	7
+Salesperson-0		1500.0	1680.0	5
+Salesperson-1		900.0	90.0	3
+Salesperson-3		0.0	300.0	7
+Driver-0		0.0	0.0	0
+Driver-1		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Departed Staff:
+Salesperson-2		1200.0	300.0	4

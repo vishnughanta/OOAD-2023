@@ -1,12 +1,23 @@
 package helper;
 
 import activities.*;
+import interfaces.Subscriber;
+import subscriber.Logger;
+import subscriber.Tracker;
 
 public class FNCDHelper {
     public void simulate() {
-        Activity activity = new Activity();
 
-        for(int day=0; day<30; day++) {
+        PublisherHelper publisherHelper = new PublisherHelper();
+        Subscriber tracker = new Tracker();
+        Activity activity = new Activity();
+        Activity.setSubscriberObject(publisherHelper.getSubscriberObject());
+        publisherHelper.registerSubscriber(tracker);
+
+        for(int day=1; day<=30; day++) {
+            Subscriber logger = new Logger();
+            publisherHelper.registerSubscriber(logger);
+            publisherHelper.getSubscriberObject().setDay(day);
             System.out.println("*************** FNCD Day " + day +" ***************");
             System.out.println();
             Activity opening = new Opening();
@@ -17,6 +28,9 @@ public class FNCDHelper {
                 Activity racing = new Racing();
             }
             Activity ending = new Ending();
+            publisherHelper.notifySubscribers(Activity.getSubscriberObject());
+            publisherHelper.unregisterSubscriber(logger);
+            publisherHelper.closeDay();
             System.out.println();
         }
     }

@@ -100,7 +100,7 @@ public class Washing extends Activity {
             hasCleaned = true;
         }
 
-        printer.printWashedVehicles(intern, vehicle, hasCleaned, hasBonus);
+        printer.printWashedVehicles(intern, vehicle, hasCleaned, hasBonus, subscriberObject);
     }
 
     private void shuffleVehicles() {

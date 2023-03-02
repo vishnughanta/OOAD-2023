@@ -1,0 +1,33 @@
+Purchased Used Sparkling Car-6 for a cost price of 8528.800000000001
+Purchased New Dirty Performance Car-8 for a cost price of 31227.0
+Purchased New Clean Monster Truck Batman-1 for a cost price of 19797.0
+Purchased New Sparkling Electric Car-9 for a cost price of 19439.0
+Intern-2 has washed Motorcycle-12 and made it Sparkling (Earned a bonus of $50.0)
+Intern-2 has washed Performance Car-8 and made it Sparkling (Earned a bonus of $100.0)
+Intern-3 has washed Motorcycle-13
+Intern-3 has washed Motorcycle-13 and made it Clean
+Intern-6 has washed Motorcycle-13
+Intern-6 has washed Motorcycle-13
+Mechanic-2 has repaired Car-6 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-2 has not repaired Motorcycle-12
+Mechanic-3 has repaired Motorcycle-12 and made it Clean (Earned a bonus of $70.0)
+Mechanic-3 has repaired Motorcycle-12 and made it Dirty (Earned a bonus of $70.0)
+Salesperson-4 has sold Monster Truck Batman-1 for a sale price of $39594.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Motorcycle-12 for a sale price of $50576.25 (Earned a sale bonus of $90.0)
+Daily Report..
+
+Working Staff:
+Intern-2		2200.0	1150.0	22
+Intern-3		1600.0	200.0	16
+Intern-6		400.0	0.0	4
+Mechanic-2		3200.0	4690.0	16
+Mechanic-3		1400.0	1280.0	13
+Mechanic-4		400.0	270.0	5
+Salesperson-0		4200.0	3360.0	14
+Salesperson-3		3000.0	1260.0	17
+Salesperson-4		1200.0	3650.0	12
+Driver-0		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Driver-3		0.0	0.0	0
+Departed Staff:
+No one quit the FNCD today

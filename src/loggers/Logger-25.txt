@@ -1,0 +1,34 @@
+Hired Driver-4
+Purchased New Sparkling Car-7 for a cost price of 14913.0
+Purchased Used Clean Performance Car-9 for a cost price of 29620.800000000003
+Purchased Used Sparkling Motorcycle-15 for a cost price of 15725.6
+Purchased Used Clean Motorcycle-16 for a cost price of 15788.0
+Intern-2 has washed Monster Truck Zombie-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-2 has washed Monster Truck Bear Foot (Silverado)-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-3 has washed Monster Truck Bear Foot (F-150)-1
+Intern-3 has washed Car-3
+Intern-6 has washed Motorcycle-16
+Intern-6 has washed Car-3 and made it Sparkling (Earned a bonus of $100.0)
+Mechanic-2 has repaired Motorcycle-9 and made it Sparkling (Earned a bonus of $70.0)
+Mechanic-2 has repaired Motorcycle-9 and made it Clean (Earned a bonus of $70.0)
+Mechanic-3 has repaired Motorcycle-16 and made it Clean (Earned a bonus of $70.0)
+Mechanic-3 has not repaired Motorcycle-16
+Mechanic-4 has repaired Motorcycle-15 and made it Sparkling (Earned a bonus of $70.0)
+Mechanic-4 has not repaired Performance Car-9
+Daily Report..
+
+Working Staff:
+Intern-2		2500.0	1350.0	25
+Intern-3		1900.0	200.0	19
+Intern-6		700.0	150.0	7
+Mechanic-2		3600.0	5100.0	18
+Mechanic-3		1800.0	1620.0	15
+Mechanic-4		600.0	340.0	6
+Salesperson-0		4500.0	3450.0	15
+Salesperson-3		3300.0	1260.0	18
+Salesperson-4		1500.0	4340.0	13
+Driver-0		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Driver-4		0.0	0.0	0
+Departed Staff:
+No one quit the FNCD today

@@ -1,0 +1,67 @@
+Hired Mechanic-0
+Hired Mechanic-1
+Hired Mechanic-2
+Hired Salesperson-0
+Hired Salesperson-1
+Hired Salesperson-2
+Hired Intern-0
+Hired Intern-1
+Hired Intern-2
+Hired Driver-0
+Hired Driver-1
+Hired Driver-2
+Purchased Broken Clean Car-0 for a cost price of 6757.0
+Purchased New Sparkling Car-1 for a cost price of 15890.0
+Purchased Broken Sparkling Car-2 for a cost price of 5687.0
+Purchased Broken Dirty Car-3 for a cost price of 7500.5
+Purchased Used Dirty Pickup-0 for a cost price of 24328.0
+Purchased New Dirty Pickup-1 for a cost price of 19102.0
+Purchased New Dirty Pickup-2 for a cost price of 10039.0
+Purchased Broken Dirty Pickup-3 for a cost price of 9865.0
+Purchased Used Dirty Performance Car-0 for a cost price of 22089.600000000002
+Purchased Used Clean Performance Car-1 for a cost price of 24848.0
+Purchased Used Dirty Performance Car-2 for a cost price of 16834.4
+Purchased Broken Clean Performance Car-3 for a cost price of 18911.5
+Purchased Used Dirty Motorcycle-0 for a cost price of 9040.0
+Purchased Used Dirty Motorcycle-1 for a cost price of 13940.800000000001
+Purchased Used Dirty Motorcycle-2 for a cost price of 12348.0
+Purchased Broken Sparkling Motorcycle-3 for a cost price of 9355.0
+Purchased New Clean Monster Truck Air Force Afterburner-1 for a cost price of 11984.0
+Purchased Broken Dirty Monster Truck Blue Thunder-1 for a cost price of 6316.0
+Purchased Broken Sparkling Monster Truck Bear Foot (F-150)-1 for a cost price of 6863.5
+Purchased New Dirty Monster Truck Cyborg-1 for a cost price of 15839.0
+Purchased Used Dirty Electric Car-0 for a cost price of 11506.400000000001
+Purchased Used Dirty Electric Car-1 for a cost price of 14620.0
+Purchased New Clean Electric Car-2 for a cost price of 14172.0
+Purchased Broken Dirty Electric Car-3 for a cost price of 5457.0
+Intern-0 has washed Pickup-0 and made it Sparkling (Earned a bonus of $100.0)
+Intern-0 has washed Electric Car-1 and made it Clean
+Intern-1 has washed Performance Car-2
+Intern-1 has washed Electric Car-0 and made it Sparkling (Earned a bonus of $100.0)
+Intern-2 has washed Performance Car-0 and made it Clean
+Intern-2 has washed Electric Car-1
+Mechanic-0 has not repaired Motorcycle-2
+Mechanic-0 has repaired Car-2 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-1 has repaired Electric Car-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has not repaired Car-0
+Mechanic-2 has repaired Performance Car-0 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Electric Car-0 and made it Sparkling (Earned a bonus of $200.0)
+Salesperson-0 has sold Motorcycle-1 for a sale price of $33457.920000000006 (Earned a sale bonus of $90.0)
+Salesperson-1 has sold Motorcycle-2 for a sale price of $24696.0 (Earned a sale bonus of $90.0)
+Daily Report..
+
+Working Staff:
+Intern-0		100.0	100.0	1
+Intern-1		100.0	100.0	1
+Intern-2		100.0	0.0	1
+Mechanic-0		200.0	200.0	1
+Mechanic-1		200.0	200.0	1
+Mechanic-2		200.0	400.0	1
+Salesperson-0		300.0	90.0	1
+Salesperson-1		300.0	90.0	1
+Salesperson-2		300.0	0.0	1
+Driver-0		0.0	0.0	0
+Driver-1		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Departed Staff:
+No one quit the FNCD today

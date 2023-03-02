@@ -31,7 +31,7 @@ public class Ending extends Activity {
     }
 
     private void generateDailyReport() {
-        printer.printDailyReport(interns, mechanics, salespersons, drivers, cars, performanceCars, pickups, electricCars, motorcycles, monsterTrucks, dailyDepartingStaff, dailySoldVehicles, dailySales);
+        printer.printDailyReport(interns, mechanics, salespersons, drivers, cars, performanceCars, pickups, electricCars, motorcycles, monsterTrucks, dailyDepartingStaff, dailySoldVehicles, dailySales, subscriberObject);
     }
 
     private void quitStaff() {
@@ -49,7 +49,7 @@ public class Ending extends Activity {
                 iterator.remove();
                 departedStaff.add(driver);
                 dailyDepartingStaff.add(driver);
-                printer.printQuitStaff(driver);
+                printer.printQuitStaff(driver, subscriberObject);
             }
         }
     }
@@ -71,8 +71,8 @@ public class Ending extends Activity {
 
             Staff newMechanic = new Mechanic(addedIntern.getTotalDaysWorked(), addedIntern.getBonus());
             Staff.mechanicNumber++;
-            printer.printQuitStaff(removedMechanic);
-            printer.printPromotedStaff(addedIntern, newMechanic);
+            printer.printQuitStaff(removedMechanic, subscriberObject);
+            printer.printPromotedStaff(addedIntern, newMechanic, subscriberObject);
             mechanics.add(newMechanic);
         }
     }
@@ -94,8 +94,8 @@ public class Ending extends Activity {
             Staff newSalesperson = new Salesperson(addedIntern.getTotalDaysWorked(), addedIntern.getBonus());
             Staff.salespersonNumber++;
 
-            printer.printQuitStaff(removedSalesperson);
-            printer.printPromotedStaff(addedIntern, newSalesperson);
+            printer.printQuitStaff(removedSalesperson, subscriberObject);
+            printer.printPromotedStaff(addedIntern, newSalesperson, subscriberObject);
             salespersons.add(newSalesperson);
         }
     }
@@ -108,7 +108,7 @@ public class Ending extends Activity {
             interns.remove(removedIntern);
             departedStaff.add(removedIntern);
             dailyDepartingStaff.add(removedIntern);
-            printer.printQuitStaff(removedIntern);
+            printer.printQuitStaff(removedIntern, subscriberObject);
         }
     }
 

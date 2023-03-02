@@ -69,7 +69,7 @@ public class Repairing extends Activity {
             }
             mechanic.setBonus(mechanic.getBonus() + vehicle.getRepairBonus());
         }
-        printer.printRepairedVehicles(mechanic, vehicle, hasRepaired);
+        printer.printRepairedVehicles(mechanic, vehicle, hasRepaired, subscriberObject);
     }
 
     private void shuffleVehicles() {

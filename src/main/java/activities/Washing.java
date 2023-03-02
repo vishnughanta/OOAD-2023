@@ -68,6 +68,7 @@ public class Washing extends Activity {
 
     private void setInternBonus(Staff intern, Vehicle vehicle) {
         double washBonus = vehicle.getWashBonus();
+        updateStaffAmount(subscriberObject, washBonus);
         intern.setBonus(intern.getBonus() + washBonus);
     }
 

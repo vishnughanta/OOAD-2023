@@ -19,72 +19,72 @@ Hired Driver-0
 Hired Driver-1
 Hired Driver-2
 
-Purchased Broken Sparkling Car-0 for a cost price of 6632.5
-Purchased New Dirty Car-1 for a cost price of 14755.0
-Purchased Used Clean Car-2 for a cost price of 9252.0
-Purchased New Dirty Car-3 for a cost price of 14125.0
+Purchased Broken Sparkling Car-0 for a cost price of 5404.0
+Purchased Used Clean Car-1 for a cost price of 9608.800000000001
+Purchased New Clean Car-2 for a cost price of 12063.0
+Purchased Used Dirty Car-3 for a cost price of 11883.2
 
-Purchased New Dirty Pickup-0 for a cost price of 17318.0
-Purchased Broken Dirty Pickup-1 for a cost price of 8998.5
-Purchased Used Dirty Pickup-2 for a cost price of 13662.400000000001
-Purchased Broken Dirty Pickup-3 for a cost price of 14917.5
+Purchased Used Dirty Pickup-0 for a cost price of 12760.800000000001
+Purchased Used Dirty Pickup-1 for a cost price of 26820.800000000003
+Purchased Broken Dirty Pickup-2 for a cost price of 14294.0
+Purchased Used Dirty Pickup-3 for a cost price of 26772.0
 
-Purchased Used Clean Performance Car-0 for a cost price of 18112.0
-Purchased New Dirty Performance Car-1 for a cost price of 22635.0
-Purchased New Dirty Performance Car-2 for a cost price of 22087.0
-Purchased Used Sparkling Performance Car-3 for a cost price of 17474.4
+Purchased New Sparkling Performance Car-0 for a cost price of 22066.0
+Purchased New Dirty Performance Car-1 for a cost price of 28921.0
+Purchased Used Clean Performance Car-2 for a cost price of 20168.0
+Purchased Broken Dirty Performance Car-3 for a cost price of 18773.0
 
-Purchased Used Sparkling Motorcycle-0 for a cost price of 12067.2
-Purchased Used Sparkling Motorcycle-1 for a cost price of 10054.400000000001
-Purchased New Dirty Motorcycle-2 for a cost price of 19561.0
-Purchased Used Dirty Motorcycle-3 for a cost price of 8823.2
+Purchased New Sparkling Motorcycle-0 for a cost price of 11186.0
+Purchased New Dirty Motorcycle-1 for a cost price of 13708.0
+Purchased Used Dirty Motorcycle-2 for a cost price of 13013.6
+Purchased New Clean Motorcycle-3 for a cost price of 12666.0
 
-Purchased Broken Dirty Monster Truck Blue Thunder-1 for a cost price of 9889.5
-Purchased Used Dirty Monster Truck Bear Foot (Silverado)-1 for a cost price of 12984.800000000001
-Purchased Broken Clean Monster Truck Bear Foot (Silverado)-1 for a cost price of 8611.0
-Purchased New Clean Monster Truck Snake Bite-1 for a cost price of 19884.0
+Purchased New Sparkling Monster Truck Monster Mutt-1 for a cost price of 12370.0
+Purchased Used Dirty Monster Truck El Toro Loco-1 for a cost price of 11024.800000000001
+Purchased Broken Clean Monster Truck Snake Bite-1 for a cost price of 7501.5
+Purchased Broken Dirty Monster Truck BlackSmith-1 for a cost price of 5437.0
 
-Purchased Broken Clean Electric Car-0 for a cost price of 7202.5
-Purchased New Clean Electric Car-1 for a cost price of 13173.0
-Purchased Used Clean Electric Car-2 for a cost price of 8254.4
-Purchased Used Sparkling Electric Car-3 for a cost price of 13409.6
+Purchased Broken Dirty Electric Car-0 for a cost price of 8565.5
+Purchased Broken Dirty Electric Car-1 for a cost price of 9069.0
+Purchased Broken Dirty Electric Car-2 for a cost price of 5222.5
+Purchased Used Sparkling Electric Car-3 for a cost price of 13908.800000000001
 
 Washing..
 
-Intern-0 has washed Car-3 and made it Sparkling (Earned a bonus of $100.0)
-Intern-0 has washed Monster Truck Blue Thunder-1 and made it Clean
-Intern-1 has washed Performance Car-2 and made it Clean
+Intern-0 has washed Monster Truck BlackSmith-1
+Intern-0 has washed Performance Car-3 and made it Clean
+Intern-1 has washed Electric Car-1 and made it Clean
 Intern-1 has washed Motorcycle-2 and made it Clean
-Intern-2 has washed Monster Truck Bear Foot (Silverado)-1
-Intern-2 has washed Motorcycle-3 and made it Clean
+Intern-2 has washed Car-3 and made it Clean
+Intern-2 has washed Pickup-3 and made it Sparkling (Earned a bonus of $100.0)
 
 Repairing..
 
-Mechanic-0 has repaired Pickup-2 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-0 has repaired Car-2 and made it Clean (Earned a bonus of $200.0)
-Mechanic-1 has repaired Car-0 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-1 has repaired Motorcycle-0 and made it Sparkling (Earned a bonus of $70.0)
-Mechanic-2 has repaired Monster Truck Bear Foot (Silverado)-1 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Electric Car-0 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has repaired Pickup-0 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has not repaired Car-0
+Mechanic-1 has repaired Monster Truck El Toro Loco-1 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has not repaired Pickup-2
+Mechanic-2 has repaired Car-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Pickup-2 and made it Dirty (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-2 has sold Electric Car-3 for a sale price of $26819.2 (Earned a sale bonus of $300.0)
-Salesperson-0 has sold Performance Car-1 for a sale price of $45270.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Car-2 for a sale price of $24126.0 (Earned a sale bonus of $300.0)
+Salesperson-2 has sold Monster Truck Monster Mutt-1 for a sale price of $29688.0 (Earned a sale bonus of $300.0)
 
 Ending..
 
 
 Daily Report..
 
-Intern-0		100.0	100.0	1
+Intern-0		100.0	0.0	1
 Intern-1		100.0	0.0	1
-Intern-2		100.0	0.0	1
-Mechanic-0		200.0	400.0	1
-Mechanic-1		200.0	270.0	1
+Intern-2		100.0	100.0	1
+Mechanic-0		200.0	200.0	1
+Mechanic-1		200.0	200.0	1
 Mechanic-2		200.0	400.0	1
 Salesperson-0		300.0	300.0	1
-Salesperson-1		300.0	0.0	1
+Salesperson-1		0.0	0.0	0
 Salesperson-2		300.0	300.0	1
 Driver-0		0.0	0.0	0
 Driver-1		0.0	0.0	0
@@ -94,279 +94,267 @@ Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	Used	In Stock
-Car-1			14755.0	29510.0	Dirty	New	In Stock
-Car-2			9252.0	18504.0	Dirty	New	In Stock
-Car-3			14125.0	28250.0	Sparkling	New	In Stock
-Performance Car-0			18112.0	36224.0	Clean	Used	In Stock
-Performance Car-2			22087.0	44174.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	Used	In Stock
-Pickup-0			17318.0	34636.0	Dirty	New	In Stock
-Pickup-1			8998.5	17997.0	Dirty	Broken	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Dirty	New	In Stock
-Pickup-3			14917.5	29835.0	Dirty	Broken	In Stock
-Electric Car-0			7202.5	14405.0	Dirty	Used	In Stock
-Electric Car-1			13173.0	26346.0	Clean	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	Used	In Stock
-Motorcycle-0			12067.2	24134.4	Clean	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Sparkling	Used	In Stock
-Motorcycle-2			19561.0	39122.0	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Clean	Used	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	Broken	In Stock
-Monster Truck Bear Foot (Silverado)-1			12984.800000000001	25969.600000000002	Dirty	Used	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Dirty	Used	In Stock
-Monster Truck Snake Bite-1			19884.0	39768.0	Clean	New	In Stock
+Car-0			5404.0	10808.0	Clean	Broken	In Stock
+Car-1			9608.800000000001	19217.600000000002	Dirty	New	In Stock
+Car-3			11883.2	23766.4	Clean	Used	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Dirty	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	Used	In Stock
+Performance Car-3			18773.0	37546.0	Clean	Broken	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Dirty	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Dirty	Used	In Stock
+Pickup-2			14294.0	28588.0	Dirty	Used	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	Broken	In Stock
+Electric Car-0			8565.5	17131.0	Dirty	Broken	In Stock
+Electric Car-1			9069.0	18138.0	Clean	Broken	In Stock
+Electric Car-2			5222.5	10445.0	Dirty	Broken	In Stock
+Electric Car-3			13908.800000000001	27817.600000000002	Sparkling	Used	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-1			13708.0	27416.0	Dirty	New	In Stock
+Motorcycle-2			13013.6	26027.2	Clean	Used	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Monster Truck El Toro Loco-1			11024.800000000001	22049.600000000002	Dirty	New	In Stock
+Monster Truck Snake Bite-1			7501.5	15003.0	Clean	Broken	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Dirty	New	In Stock
 
 Sold Vehicles:
-Electric Car-3		13409.6	26819.2	Sparkling	Used	Sold
-Performance Car-1		22635.0	45270.0	Dirty	New	Sold
+Car-2		12063.0	24126.0	Clean	New	Sold
+Monster Truck Monster Mutt-1		12370.0	29688.0	Sparkling	New	Sold
 
-Total sales for the day: 72089.2
+Total sales for the day: 53814.0
 
 Tracker Results...
 
 Tracker: Day 1
-Total money earned by all staff: $3570.00
-Total money earned by the FNCD: $72089.20
+Total money earned by all staff: $3000.00
+Total money earned by the FNCD: $53814.00
 
 
 *************** FNCD Day 2 ***************
 
 Opening..
-Current budget: 174316.09999999992
+Current budget: 165292.70000000004
 
-Purchased Used Dirty Performance Car-4 for a cost price of 17544.0
+Purchased Broken Sparkling Car-4 for a cost price of 9441.0
 
-Purchased New Sparkling Electric Car-4 for a cost price of 18811.0
+Purchased Used Sparkling Monster Truck Predator-1 for a cost price of 10714.400000000001
 
 Washing..
 
-Intern-0 has washed Monster Truck Bear Foot (Silverado)-1 and made it Clean
-Intern-0 has washed Car-1
-Intern-1 has washed Electric Car-0 and made it Clean
-Intern-1 has washed Monster Truck Bear Foot (Silverado)-1 and made it Clean
-Intern-2 has washed Monster Truck Bear Foot (Silverado)-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-2 has washed Pickup-3 and made it Clean
+Intern-0 has washed Electric Car-0 and made it Clean
+Intern-0 has washed Car-1 and made it Clean
+Intern-1 has washed Motorcycle-1 and made it Clean
+Intern-1 has washed Electric Car-0
+Intern-2 has washed Electric Car-0 and made it Sparkling (Earned a bonus of $100.0)
+Intern-2 has washed Pickup-1 and made it Clean
 
 Repairing..
 
-Mechanic-0 has not repaired Performance Car-3
-Mechanic-0 has repaired Monster Truck Bear Foot (Silverado)-1 and made it Clean (Earned a bonus of $200.0)
-Mechanic-1 has repaired Pickup-1 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-1 has repaired Performance Car-0 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Motorcycle-1 and made it Sparkling (Earned a bonus of $70.0)
-Mechanic-2 has repaired Monster Truck Bear Foot (Silverado)-1 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has not repaired Car-0
+Mechanic-0 has repaired Electric Car-0 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-1 has repaired Car-3 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has repaired Electric Car-0 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Performance Car-3 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Pickup-2 and made it Dirty (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-2 has sold Car-1 for a sale price of $29510.0 (Earned a sale bonus of $300.0)
-Salesperson-0 has sold Monster Truck Snake Bite-1 for a sale price of $39768.0 (Earned a sale bonus of $300.0)
-Salesperson-2 has sold Monster Truck Bear Foot (Silverado)-1 for a sale price of $38954.40000000001 (Earned a sale bonus of $300.0)
 
 Ending..
 
-Mechanic-1 has quit the FNCD
-Intern-1 has been promoted to Mechanic-3
 
 Daily Report..
 
-Intern-0		200.0	100.0	2
-Intern-2		200.0	100.0	2
-Mechanic-0		400.0	600.0	2
-Mechanic-2		400.0	670.0	2
-Mechanic-3		0.0	0.0	2
-Salesperson-0		600.0	600.0	2
+Intern-0		200.0	0.0	2
+Intern-1		200.0	0.0	2
+Intern-2		200.0	200.0	2
+Mechanic-0		400.0	400.0	2
+Mechanic-1		400.0	600.0	2
+Mechanic-2		400.0	800.0	2
+Salesperson-0		600.0	300.0	2
 Salesperson-1		300.0	0.0	1
-Salesperson-2		600.0	900.0	2
+Salesperson-2		600.0	300.0	2
 Driver-0		0.0	0.0	0
 Driver-1		0.0	0.0	0
 Driver-2		0.0	0.0	0
 
 Departed Staff:
-Mechanic-1		400.0	670.0	2
+No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	Used	In Stock
-Car-2			9252.0	18504.0	Dirty	New	In Stock
-Car-3			14125.0	28250.0	Sparkling	New	In Stock
-Performance Car-0			18112.0	36224.0	Dirty	New	In Stock
-Performance Car-2			22087.0	44174.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Clean	Used	In Stock
-Performance Car-4			17544.0	35088.0	Dirty	Used	In Stock
-Pickup-0			17318.0	34636.0	Dirty	New	In Stock
-Pickup-1			8998.5	17997.0	Dirty	Used	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Dirty	New	In Stock
-Pickup-3			14917.5	29835.0	Clean	Broken	In Stock
-Electric Car-0			7202.5	14405.0	Clean	Used	In Stock
-Electric Car-1			13173.0	26346.0	Clean	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	Used	In Stock
-Electric Car-4			18811.0	37622.0	Sparkling	New	In Stock
-Motorcycle-0			12067.2	24134.4	Clean	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-2			19561.0	39122.0	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Clean	Used	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	Broken	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Dirty	New	In Stock
+Car-0			5404.0	10808.0	Dirty	Broken	In Stock
+Car-1			9608.800000000001	19217.600000000002	Clean	New	In Stock
+Car-3			11883.2	23766.4	Dirty	New	In Stock
+Car-4			9441.0	18882.0	Sparkling	Broken	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Dirty	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	Used	In Stock
+Performance Car-3			18773.0	37546.0	Dirty	Used	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Dirty	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	Used	In Stock
+Pickup-2			14294.0	28588.0	Dirty	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	Broken	In Stock
+Electric Car-0			8565.5	17131.0	Dirty	New	In Stock
+Electric Car-1			9069.0	18138.0	Clean	Broken	In Stock
+Electric Car-2			5222.5	10445.0	Dirty	Broken	In Stock
+Electric Car-3			13908.800000000001	27817.600000000002	Sparkling	Used	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-1			13708.0	27416.0	Clean	New	In Stock
+Motorcycle-2			13013.6	26027.2	Clean	Used	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Monster Truck El Toro Loco-1			11024.800000000001	22049.600000000002	Dirty	New	In Stock
+Monster Truck Snake Bite-1			7501.5	15003.0	Clean	Broken	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Dirty	New	In Stock
+Monster Truck Predator-1			10714.400000000001	21428.800000000003	Sparkling	Used	In Stock
 
 Sold Vehicles:
-Car-1		14755.0	29510.0	Dirty	New	Sold
-Monster Truck Snake Bite-1		19884.0	39768.0	Clean	New	Sold
-Monster Truck Bear Foot (Silverado)-1		12984.800000000001	38954.40000000001	Clean	New	Sold
+No vehicle was sold in the FNCD today
 
-Total sales for the day: 108232.40000000001
+Total sales for the day: 0.0
 
 Tracker Results...
 
 Tracker: Day 2
-Total money earned by all staff: $6940.00
-Total money earned by the FNCD: $180321.60
+Total money earned by all staff: $5900.00
+Total money earned by the FNCD: $53814.00
 
 
 *************** FNCD Day 3 ***************
 
 Opening..
-Current budget: 136461.09999999992
-
-Hired Intern-3
-
-Purchased Broken Sparkling Car-4 for a cost price of 7684.0
-
-Purchased New Clean Monster Truck El Toro Loco-1 for a cost price of 17060.0
-Purchased New Clean Monster Truck Gunslinger-1 for a cost price of 16690.0
+Current budget: 143337.30000000005
 
 Washing..
 
-Intern-0 has washed Pickup-1 and made it Clean
-Intern-0 has washed Car-2
-Intern-2 has washed Monster Truck Bear Foot (Silverado)-1 and made it Clean
-Intern-2 has washed Pickup-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-3 has washed Pickup-2 and made it Clean
-Intern-3 has washed Pickup-2
+Intern-0 has washed Car-0
+Intern-0 has washed Performance Car-1 and made it Clean
+Intern-1 has washed Car-3 and made it Clean
+Intern-1 has washed Car-0 and made it Clean
+Intern-2 has washed Performance Car-1
+Intern-2 has washed Pickup-0 and made it Clean
 
 Repairing..
 
-Mechanic-0 has repaired Electric Car-0 and made it Clean (Earned a bonus of $200.0)
-Mechanic-0 has not repaired Pickup-3
-Mechanic-2 has repaired Monster Truck Blue Thunder-1 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Motorcycle-3 and made it Clean (Earned a bonus of $70.0)
-Mechanic-3 has not repaired Electric Car-2
-Mechanic-3 has repaired Pickup-3 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has repaired Car-4 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has repaired Electric Car-3 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-1 has repaired Performance Car-2 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has repaired Car-0 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Car-4 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Pickup-3 and made it Sparkling (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-1 has sold Monster Truck El Toro Loco-1 for a sale price of $34120.0 (Earned a sale bonus of $300.0)
-Salesperson-2 has sold Monster Truck Gunslinger-1 for a sale price of $33380.0 (Earned a sale bonus of $300.0)
-Salesperson-1 has sold Motorcycle-2 for a sale price of $39122.0 (Earned a sale bonus of $90.0)
+Salesperson-0 has sold Motorcycle-1 for a sale price of $28786.8 (Earned a sale bonus of $90.0)
+Salesperson-1 has sold Car-3 for a sale price of $29708.0 (Earned a sale bonus of $300.0)
 
 Racing..
 
 
 Ending..
 
-Salesperson-1 has quit the FNCD
-Intern-2 has been promoted to Salesperson-3
 
 Daily Report..
 
-Intern-0		300.0	100.0	3
-Intern-3		100.0	0.0	1
+Intern-0		300.0	0.0	3
+Intern-1		300.0	0.0	3
+Intern-2		300.0	200.0	3
 Mechanic-0		600.0	800.0	3
-Mechanic-2		600.0	940.0	3
-Mechanic-3		200.0	200.0	3
-Salesperson-0		600.0	600.0	2
-Salesperson-2		900.0	1200.0	3
-Salesperson-3		0.0	200.0	3
+Mechanic-1		600.0	1000.0	3
+Mechanic-2		600.0	1200.0	3
+Salesperson-0		900.0	390.0	3
+Salesperson-1		600.0	300.0	2
+Salesperson-2		900.0	300.0	3
 Driver-0		350.0	0.0	1
 Driver-1		350.0	0.0	1
 Driver-2		350.0	0.0	1
 
 Departed Staff:
-Salesperson-1		600.0	390.0	2
+No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	Used	In Stock
-Car-2			9252.0	18504.0	Dirty	New	In Stock
-Car-3			14125.0	28250.0	Sparkling	New	In Stock
-Car-4			7684.0	15368.0	Sparkling	Broken	In Stock
-Performance Car-0			18112.0	36224.0	Dirty	New	In Stock
-Performance Car-2			22087.0	44174.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Clean	Used	In Stock
-Performance Car-4			17544.0	35088.0	Dirty	Used	In Stock
-Pickup-0			17318.0	34636.0	Dirty	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	Used	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Dirty	Used	In Stock
-Electric Car-0			7202.5	14405.0	Dirty	New	In Stock
-Electric Car-1			13173.0	26346.0	Clean	New	In Stock
-Electric Car-2			8254.4	16508.8	Dirty	Used	In Stock
-Electric Car-4			18811.0	37622.0	Sparkling	New	In Stock
-Motorcycle-0			12067.2	24134.4	Clean	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Dirty	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Dirty	Used	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
+Car-0			5404.0	10808.0	Dirty	Used	In Stock
+Car-1			9608.800000000001	19217.600000000002	Clean	New	In Stock
+Car-4			9441.0	18882.0	Dirty	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Dirty	New	In Stock
+Performance Car-3			18773.0	37546.0	Dirty	Used	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	Broken	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	Used	In Stock
+Pickup-2			14294.0	28588.0	Dirty	New	In Stock
+Pickup-3			26772.0	53544.0	Clean	Used	In Stock
+Electric Car-0			8565.5	17131.0	Dirty	New	In Stock
+Electric Car-1			9069.0	18138.0	Clean	Broken	In Stock
+Electric Car-2			5222.5	10445.0	Dirty	Broken	In Stock
+Electric Car-3			13908.800000000001	27817.600000000002	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-2			13013.6	26027.2	Clean	Used	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Monster Truck El Toro Loco-1			11024.800000000001	22049.600000000002	Dirty	New	In Stock
+Monster Truck Snake Bite-1			7501.5	15003.0	Clean	Broken	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Dirty	New	In Stock
+Monster Truck Predator-1			10714.400000000001	21428.800000000003	Sparkling	Used	In Stock
 
 Sold Vehicles:
-Monster Truck El Toro Loco-1		17060.0	34120.0	Clean	New	Sold
-Monster Truck Gunslinger-1		16690.0	33380.0	Clean	New	Sold
-Motorcycle-2		19561.0	39122.0	Clean	New	Sold
+Motorcycle-1		13708.0	28786.8	Clean	New	Sold
+Car-3		11883.2	29708.0	Clean	New	Sold
 
-Total sales for the day: 106622.0
+Total sales for the day: 58494.8
 
 Tracker Results...
 
 Tracker: Day 3
-Total money earned by all staff: $10950.00
-Total money earned by the FNCD: $286943.60
+Total money earned by all staff: $10340.00
+Total money earned by the FNCD: $112308.80
 
 
 *************** FNCD Day 4 ***************
 
 Opening..
-Current budget: 92477.09999999992
+Current budget: 140487.30000000005
 
-Hired Intern-4
+Purchased Used Dirty Car-5 for a cost price of 9029.6
 
-Purchased Used Sparkling Motorcycle-4 for a cost price of 13258.400000000001
-
-Purchased Used Sparkling Monster Truck Lucas Oil Crusader-1 for a cost price of 14517.6
-Purchased Used Clean Monster Truck Cyborg-1 for a cost price of 15589.6
+Purchased Used Clean Motorcycle-4 for a cost price of 9845.6
 
 Washing..
 
-Intern-0 has washed Pickup-3 and made it Clean
-Intern-0 has washed Performance Car-0 and made it Sparkling (Earned a bonus of $100.0)
-Intern-3 has washed Monster Truck Blue Thunder-1
-Intern-3 has washed Car-2 and made it Sparkling (Earned a bonus of $100.0)
-Intern-4 has washed Pickup-3 and made it Sparkling (Earned a bonus of $100.0)
-Intern-4 has washed Electric Car-2
+Intern-0 has washed Pickup-2 and made it Clean
+Intern-0 has washed Pickup-2 and made it Sparkling (Earned a bonus of $100.0)
+Intern-1 has washed Performance Car-2 and made it Clean
+Intern-1 has washed Car-5 and made it Clean
+Intern-2 has washed Monster Truck El Toro Loco-1 and made it Clean
+Intern-2 has washed Car-5 and made it Sparkling (Earned a bonus of $100.0)
 
 Repairing..
 
-Mechanic-0 has repaired Performance Car-3 and made it Clean (Earned a bonus of $200.0)
-Mechanic-0 has repaired Car-0 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Electric Car-2 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-2 has not repaired Monster Truck Lucas Oil Crusader-1
-Mechanic-3 has repaired Car-4 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-3 has repaired Monster Truck Lucas Oil Crusader-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has repaired Pickup-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has not repaired Motorcycle-4
+Mechanic-1 has not repaired Electric Car-1
+Mechanic-1 has repaired Monster Truck Snake Bite-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has not repaired Electric Car-1
+Mechanic-2 has repaired Electric Car-1 and made it Dirty (Earned a bonus of $200.0)
 
 Selling..
 
+Salesperson-2 has sold Electric Car-3 for a sale price of $34772.0 (Earned a sale bonus of $300.0)
+Salesperson-2 has sold Monster Truck El Toro Loco-1 for a sale price of $27562.000000000004 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Car-1 for a sale price of $28826.400000000005 (Earned a sale bonus of $300.0)
 
 Ending..
 
 
 Daily Report..
 
-Intern-0		400.0	200.0	4
-Intern-3		200.0	100.0	2
-Intern-4		100.0	100.0	1
-Mechanic-0		800.0	1200.0	4
-Mechanic-2		800.0	1140.0	4
-Mechanic-3		400.0	600.0	4
-Salesperson-0		900.0	600.0	3
-Salesperson-2		900.0	1200.0	3
-Salesperson-3		300.0	200.0	4
+Intern-0		400.0	100.0	4
+Intern-1		400.0	0.0	4
+Intern-2		400.0	300.0	4
+Mechanic-0		800.0	1000.0	4
+Mechanic-1		800.0	1200.0	4
+Mechanic-2		800.0	1400.0	4
+Salesperson-0		900.0	390.0	3
+Salesperson-1		900.0	600.0	3
+Salesperson-2		1200.0	900.0	4
 Driver-0		350.0	0.0	1
 Driver-1		350.0	0.0	1
 Driver-2		350.0	0.0	1
@@ -375,86 +363,89 @@ Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Dirty	New	In Stock
-Car-2			9252.0	18504.0	Sparkling	New	In Stock
-Car-3			14125.0	28250.0	Sparkling	New	In Stock
-Car-4			7684.0	15368.0	Clean	Used	In Stock
-Performance Car-0			18112.0	36224.0	Sparkling	New	In Stock
-Performance Car-2			22087.0	44174.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Dirty	New	In Stock
-Performance Car-4			17544.0	35088.0	Dirty	Used	In Stock
-Pickup-0			17318.0	34636.0	Dirty	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	Used	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Dirty	New	In Stock
-Electric Car-1			13173.0	26346.0	Clean	New	In Stock
-Electric Car-2			8254.4	16508.8	Dirty	New	In Stock
-Electric Car-4			18811.0	37622.0	Sparkling	New	In Stock
-Motorcycle-0			12067.2	24134.4	Clean	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Dirty	New	In Stock
-Motorcycle-4			13258.400000000001	26516.800000000003	Sparkling	Used	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Dirty	Used	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck Lucas Oil Crusader-1			14517.6	29035.2	Dirty	New	In Stock
-Monster Truck Cyborg-1			15589.6	31179.2	Clean	Used	In Stock
+Car-0			5404.0	10808.0	Dirty	Used	In Stock
+Car-4			9441.0	18882.0	Dirty	New	In Stock
+Car-5			9029.6	18059.2	Sparkling	Used	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Dirty	Used	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	Broken	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Dirty	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Clean	Used	In Stock
+Electric Car-0			8565.5	17131.0	Dirty	New	In Stock
+Electric Car-1			9069.0	18138.0	Dirty	Used	In Stock
+Electric Car-2			5222.5	10445.0	Dirty	Broken	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-2			13013.6	26027.2	Clean	Used	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Dirty	Used	In Stock
+Monster Truck Snake Bite-1			7501.5	15003.0	Dirty	Used	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Dirty	New	In Stock
+Monster Truck Predator-1			10714.400000000001	21428.800000000003	Sparkling	Used	In Stock
 
 Sold Vehicles:
-No vehicle was sold in the FNCD today
+Electric Car-3		13908.800000000001	34772.0	Clean	New	Sold
+Monster Truck El Toro Loco-1		11024.800000000001	27562.000000000004	Clean	New	Sold
+Car-1		9608.800000000001	28826.400000000005	Clean	New	Sold
 
-Total sales for the day: 0.0
+Total sales for the day: 91160.40000000001
 
 Tracker Results...
 
 Tracker: Day 4
-Total money earned by all staff: $13750.00
-Total money earned by the FNCD: $286943.60
+Total money earned by all staff: $13540.00
+Total money earned by the FNCD: $203469.20
 
 
 *************** FNCD Day 5 ***************
 
 Opening..
-Current budget: 47611.49999999993
+Current budget: 120112.10000000003
+
+Purchased Broken Dirty Car-6 for a cost price of 6336.0
+
+Purchased Used Sparkling Monster Truck Bear Foot (1979)-1 for a cost price of 14696.0
+
+Purchased New Dirty Electric Car-4 for a cost price of 13256.0
 
 Washing..
 
-Intern-0 has washed Performance Car-4
-Intern-0 has washed Electric Car-0 and made it Sparkling (Earned a bonus of $100.0)
-Intern-3 has washed Performance Car-3 and made it Clean
-Intern-3 has washed Performance Car-3 and made it Dirty
-Intern-4 has washed Monster Truck Blue Thunder-1 and made it Clean
-Intern-4 has washed Performance Car-3
+Intern-0 has washed Monster Truck BlackSmith-1 and made it Clean
+Intern-0 has washed Pickup-1 and made it Clean
+Intern-1 has washed Monster Truck Snake Bite-1 and made it Clean
+Intern-1 has washed Pickup-1
+Intern-2 has washed Car-0 and made it Clean
+Intern-2 has washed Monster Truck BlackSmith-1
 
 Repairing..
 
-Mechanic-0 has repaired Monster Truck Cyborg-1 and made it Clean (Earned a bonus of $200.0)
-Mechanic-0 has repaired Car-4 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Performance Car-4 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-2 has not repaired Motorcycle-4
-Mechanic-3 has repaired Pickup-1 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-3 has repaired Motorcycle-4 and made it Clean (Earned a bonus of $70.0)
+Mechanic-0 has repaired Car-6 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has not repaired Monster Truck Predator-1
+Mechanic-1 has repaired Car-6 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has repaired Electric Car-1 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has repaired Electric Car-2 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has repaired Pickup-0 and made it Clean (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-0 has sold Motorcycle-4 for a sale price of $33146.0 (Earned a sale bonus of $90.0)
-Salesperson-3 has sold Car-3 for a sale price of $33900.0 (Earned a sale bonus of $300.0)
-Salesperson-3 has sold Car-2 for a sale price of $23130.0 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Car-4 for a sale price of $35403.75 (Earned a sale bonus of $300.0)
 
 Ending..
 
 
 Daily Report..
 
-Intern-0		500.0	300.0	5
-Intern-3		300.0	100.0	3
-Intern-4		200.0	100.0	2
-Mechanic-0		1000.0	1600.0	5
-Mechanic-2		1000.0	1340.0	5
-Mechanic-3		600.0	870.0	5
-Salesperson-0		1200.0	690.0	4
-Salesperson-2		1200.0	1200.0	4
-Salesperson-3		600.0	800.0	5
+Intern-0		500.0	100.0	5
+Intern-1		500.0	0.0	5
+Intern-2		500.0	300.0	5
+Mechanic-0		1000.0	1200.0	5
+Mechanic-1		1000.0	1600.0	5
+Mechanic-2		1000.0	1800.0	5
+Salesperson-0		900.0	390.0	3
+Salesperson-1		1200.0	900.0	4
+Salesperson-2		1500.0	900.0	5
 Driver-0		350.0	0.0	1
 Driver-1		350.0	0.0	1
 Driver-2		350.0	0.0	1
@@ -463,277 +454,268 @@ Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Dirty	New	In Stock
-Car-4			7684.0	15368.0	Dirty	New	In Stock
-Performance Car-0			18112.0	36224.0	Sparkling	New	In Stock
-Performance Car-2			22087.0	44174.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Dirty	New	In Stock
-Performance Car-4			17544.0	35088.0	Dirty	New	In Stock
-Pickup-0			17318.0	34636.0	Dirty	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-1			13173.0	26346.0	Clean	New	In Stock
-Electric Car-2			8254.4	16508.8	Dirty	New	In Stock
-Electric Car-4			18811.0	37622.0	Sparkling	New	In Stock
-Motorcycle-0			12067.2	24134.4	Clean	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Dirty	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck Lucas Oil Crusader-1			14517.6	29035.2	Dirty	New	In Stock
-Monster Truck Cyborg-1			15589.6	31179.2	Dirty	New	In Stock
+Car-0			5404.0	10808.0	Clean	Broken	In Stock
+Car-5			9029.6	18059.2	Sparkling	Used	In Stock
+Car-6			6336.0	12672.0	Dirty	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Dirty	Used	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Dirty	Used	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Clean	Used	In Stock
+Electric Car-0			8565.5	17131.0	Dirty	New	In Stock
+Electric Car-1			9069.0	18138.0	Dirty	New	In Stock
+Electric Car-2			5222.5	10445.0	Dirty	Used	In Stock
+Electric Car-4			13256.0	26512.0	Dirty	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-2			13013.6	26027.2	Clean	Used	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Dirty	Used	In Stock
+Monster Truck Snake Bite-1			7501.5	15003.0	Clean	Used	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Predator-1			10714.400000000001	21428.800000000003	Clean	Used	In Stock
+Monster Truck Bear Foot (1979)-1			14696.0	29392.0	Sparkling	Used	In Stock
 
 Sold Vehicles:
-Motorcycle-4		13258.400000000001	33146.0	Dirty	New	Sold
-Car-3		14125.0	33900.0	Sparkling	New	Sold
-Car-2		9252.0	23130.0	Sparkling	New	Sold
+Car-4		9441.0	35403.75	Dirty	New	Sold
 
-Total sales for the day: 90176.0
+Total sales for the day: 35403.75
 
 Tracker Results...
 
 Tracker: Day 5
-Total money earned by all staff: $17210.00
-Total money earned by the FNCD: $377119.60
+Total money earned by all staff: $16340.00
+Total money earned by the FNCD: $238872.95
 
 
 *************** FNCD Day 6 ***************
 
 Opening..
-Current budget: 45811.49999999993
+Current budget: 84324.10000000003
 
-Purchased Broken Dirty Car-5 for a cost price of 9763.0
-Purchased Used Sparkling Car-6 for a cost price of 14233.6
-
-Purchased Broken Clean Motorcycle-5 for a cost price of 6264.0
+Purchased Used Sparkling Car-7 for a cost price of 15108.800000000001
 
 Washing..
 
-Intern-0 has washed Electric Car-2 and made it Clean
-Intern-0 has washed Performance Car-4 and made it Clean
-Intern-3 has washed Car-5 and made it Clean
-Intern-3 has washed Motorcycle-3 and made it Sparkling (Earned a bonus of $50.0)
-Intern-4 has washed Car-0 and made it Clean
-Intern-4 has washed Car-0 and made it Dirty
+Intern-0 has washed Performance Car-3
+Intern-0 has washed Electric Car-1 and made it Clean
+Intern-1 has washed Performance Car-3
+Intern-1 has washed Electric Car-1
+Intern-2 has washed Pickup-0 and made it Clean
+Intern-2 has washed Electric Car-0 and made it Clean
 
 Repairing..
 
-Mechanic-0 has repaired Car-6 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-0 has repaired Car-5 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Motorcycle-5 and made it Clean (Earned a bonus of $70.0)
-Mechanic-2 has repaired Motorcycle-5 and made it Dirty (Earned a bonus of $70.0)
-Mechanic-3 has repaired Car-5 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has repaired Monster Truck Snake Bite-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has not repaired Pickup-0
+Mechanic-1 has repaired Electric Car-2 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has repaired Car-7 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-2 has repaired Pickup-3 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Pickup-0 and made it Dirty (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-0 has sold Car-6 for a sale price of $35584.0 (Earned a sale bonus of $300.0)
-Salesperson-3 has sold Electric Car-4 for a sale price of $37622.0 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Electric Car-4 for a sale price of $26512.0 (Earned a sale bonus of $300.0)
 
 Ending..
 
-Salesperson-3 has quit the FNCD
-Intern-0 has been promoted to Salesperson-4
 
 Daily Report..
 
-Intern-3		400.0	150.0	4
-Intern-4		300.0	100.0	3
-Mechanic-0		1200.0	2000.0	6
-Mechanic-2		1200.0	1480.0	6
-Mechanic-3		800.0	1070.0	6
-Salesperson-0		1500.0	990.0	5
-Salesperson-2		1500.0	1200.0	5
-Salesperson-4		0.0	300.0	6
+Intern-0		600.0	100.0	6
+Intern-1		600.0	0.0	6
+Intern-2		600.0	300.0	6
+Mechanic-0		1200.0	1400.0	6
+Mechanic-1		1200.0	2000.0	6
+Mechanic-2		1200.0	2200.0	6
+Salesperson-0		1200.0	390.0	4
+Salesperson-1		1500.0	1200.0	5
+Salesperson-2		1500.0	900.0	5
 Driver-0		350.0	0.0	1
 Driver-1		350.0	0.0	1
 Driver-2		350.0	0.0	1
 
 Departed Staff:
-Salesperson-3		900.0	1100.0	6
+No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Dirty	New	In Stock
-Car-4			7684.0	15368.0	Dirty	New	In Stock
-Car-5			9763.0	19526.0	Dirty	New	In Stock
-Performance Car-0			18112.0	36224.0	Sparkling	New	In Stock
-Performance Car-2			22087.0	44174.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Dirty	New	In Stock
-Performance Car-4			17544.0	35088.0	Clean	New	In Stock
-Pickup-0			17318.0	34636.0	Dirty	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-1			13173.0	26346.0	Clean	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Motorcycle-0			12067.2	24134.4	Clean	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Dirty	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck Lucas Oil Crusader-1			14517.6	29035.2	Dirty	New	In Stock
-Monster Truck Cyborg-1			15589.6	31179.2	Dirty	New	In Stock
+Car-0			5404.0	10808.0	Clean	Broken	In Stock
+Car-5			9029.6	18059.2	Sparkling	Used	In Stock
+Car-6			6336.0	12672.0	Dirty	New	In Stock
+Car-7			15108.800000000001	30217.600000000002	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Dirty	Used	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Dirty	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Dirty	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-1			9069.0	18138.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Dirty	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-2			13013.6	26027.2	Clean	Used	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Dirty	Used	In Stock
+Monster Truck Snake Bite-1			7501.5	15003.0	Dirty	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Predator-1			10714.400000000001	21428.800000000003	Clean	Used	In Stock
+Monster Truck Bear Foot (1979)-1			14696.0	29392.0	Sparkling	Used	In Stock
 
 Sold Vehicles:
-Car-6		14233.6	35584.0	Clean	New	Sold
-Electric Car-4		18811.0	37622.0	Sparkling	New	Sold
+Electric Car-4		13256.0	26512.0	Dirty	New	Sold
 
-Total sales for the day: 73206.0
+Total sales for the day: 26512.0
 
 Tracker Results...
 
 Tracker: Day 6
-Total money earned by all staff: $20400.00
-Total money earned by the FNCD: $450325.60
+Total money earned by all staff: $19140.00
+Total money earned by the FNCD: $265384.95
 
 
 *************** FNCD Day 7 ***************
 
 Opening..
-Current budget: 13750.899999999929
+Current budget: 67715.30000000003
 
-Hired Intern-5
-
-Adding 250000 to the operating budget
-Purchased New Sparkling Car-7 for a cost price of 18798.0
-
-Purchased Broken Clean Electric Car-5 for a cost price of 8325.5
+Purchased New Sparkling Electric Car-5 for a cost price of 13194.0
 
 Washing..
 
-Intern-3 has washed Pickup-0 and made it Clean
-Intern-3 has washed Motorcycle-5 and made it Sparkling (Earned a bonus of $50.0)
-Intern-4 has washed Performance Car-3 and made it Clean
-Intern-4 has washed Pickup-0 and made it Dirty
-Intern-5 has washed Performance Car-3
-Intern-5 has washed Car-4 and made it Clean
+Intern-0 has washed Electric Car-2 and made it Clean
+Intern-0 has washed Car-6 and made it Clean
+Intern-1 has washed Pickup-3 and made it Sparkling (Earned a bonus of $100.0)
+Intern-1 has washed Monster Truck Snake Bite-1 and made it Clean
+Intern-2 has washed Electric Car-2 and made it Dirty
+Intern-2 has washed Performance Car-3 and made it Clean
 
 Repairing..
 
-Mechanic-0 has not repaired Electric Car-5
-Mechanic-0 has repaired Car-4 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has not repaired Electric Car-5
-Mechanic-2 has repaired Electric Car-5 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-3 has repaired Car-4 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-3 has repaired Electric Car-5 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has repaired Car-5 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has repaired Electric Car-2 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has repaired Monster Truck Bear Foot (1979)-1 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-1 has not repaired Monster Truck Predator-1
+Mechanic-2 has repaired Electric Car-2 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has repaired Car-0 and made it Clean (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-0 has sold Motorcycle-0 for a sale price of $30168.0 (Earned a sale bonus of $90.0)
-Salesperson-2 has sold Performance Car-2 for a sale price of $44174.0 (Earned a sale bonus of $300.0)
-Salesperson-2 has sold Electric Car-1 for a sale price of $27663.3 (Earned a sale bonus of $300.0)
+Salesperson-2 has sold Motorcycle-2 for a sale price of $26027.2 (Earned a sale bonus of $90.0)
+Salesperson-0 has sold Monster Truck Bear Foot (1979)-1 for a sale price of $36740.0 (Earned a sale bonus of $300.0)
 
 Racing..
 
 
 Ending..
 
+Intern-0 has quit the FNCD
 
 Daily Report..
 
-Intern-3		500.0	200.0	5
-Intern-4		400.0	100.0	4
-Intern-5		100.0	0.0	1
-Mechanic-0		1400.0	2200.0	7
-Mechanic-2		1400.0	1680.0	7
-Mechanic-3		1000.0	1470.0	7
-Salesperson-0		1800.0	1080.0	6
-Salesperson-2		1800.0	1800.0	6
-Salesperson-4		300.0	300.0	7
+Intern-1		700.0	100.0	7
+Intern-2		700.0	300.0	7
+Mechanic-0		1400.0	1800.0	7
+Mechanic-1		1400.0	2200.0	7
+Mechanic-2		1400.0	2600.0	7
+Salesperson-0		1500.0	690.0	5
+Salesperson-1		1500.0	1200.0	5
+Salesperson-2		1800.0	990.0	6
 Driver-0		700.0	0.0	2
 Driver-1		700.0	0.0	2
 Driver-2		700.0	0.0	2
 
 Departed Staff:
-No one quit the FNCD today
+Intern-0		700.0	100.0	7
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Dirty	New	In Stock
-Car-4			7684.0	15368.0	Dirty	New	In Stock
-Car-5			9763.0	19526.0	Dirty	New	In Stock
-Car-7			18798.0	37596.0	Sparkling	New	In Stock
-Performance Car-0			18112.0	36224.0	Sparkling	New	In Stock
-Performance Car-3			17474.4	34948.8	Clean	New	In Stock
-Performance Car-4			17544.0	35088.0	Clean	New	In Stock
-Pickup-0			17318.0	34636.0	Dirty	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Dirty	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck Lucas Oil Crusader-1			14517.6	29035.2	Dirty	New	In Stock
-Monster Truck Cyborg-1			15589.6	31179.2	Dirty	New	In Stock
+Car-0			5404.0	10808.0	Dirty	Used	In Stock
+Car-5			9029.6	18059.2	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-7			15108.800000000001	30217.600000000002	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	Used	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Dirty	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-1			9069.0	18138.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Dirty	New	In Stock
+Electric Car-5			13194.0	26388.0	Sparkling	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Dirty	Used	In Stock
+Monster Truck Snake Bite-1			7501.5	15003.0	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Predator-1			10714.400000000001	21428.800000000003	Dirty	Used	In Stock
 
 Sold Vehicles:
-Motorcycle-0		12067.2	30168.0	Clean	New	Sold
-Performance Car-2		22087.0	44174.0	Clean	New	Sold
-Electric Car-1		13173.0	27663.3	Clean	New	Sold
+Motorcycle-2		13013.6	26027.2	Clean	Used	Sold
+Monster Truck Bear Foot (1979)-1		14696.0	36740.0	Clean	New	Sold
 
-Total sales for the day: 102005.3
+Total sales for the day: 62767.2
 
 Tracker Results...
 
 Tracker: Day 7
-Total money earned by all staff: $24790.00
-Total money earned by the FNCD: $552330.90
+Total money earned by all staff: $23180.00
+Total money earned by the FNCD: $328152.15
 
 
 *************** FNCD Day 8 ***************
 
 Opening..
-Current budget: 233777.3999999999
+Current budget: 51971.30000000003
 
-Purchased Used Clean Performance Car-5 for a cost price of 16403.2
+Hired Intern-3
 
-Purchased Used Dirty Motorcycle-6 for a cost price of 8117.6
+Purchased New Sparkling Motorcycle-5 for a cost price of 13349.0
 
-Purchased Broken Sparkling Electric Car-6 for a cost price of 8458.0
+Purchased Broken Dirty Monster Truck War Wizard-1 for a cost price of 6953.0
 
 Washing..
 
-Intern-3 has washed Monster Truck Cyborg-1
-Intern-3 has washed Motorcycle-6
-Intern-4 has washed Pickup-0 and made it Clean
-Intern-4 has washed Car-4 and made it Clean
-Intern-5 has washed Motorcycle-6 and made it Clean
-Intern-5 has washed Pickup-0
+Intern-1 has washed Car-0 and made it Clean
+Intern-1 has washed Motorcycle-4 and made it Clean
+Intern-2 has washed Electric Car-2 and made it Clean
+Intern-2 has washed Monster Truck War Wizard-1 and made it Clean
+Intern-3 has washed Motorcycle-4
+Intern-3 has washed Motorcycle-4
 
 Repairing..
 
-Mechanic-0 has not repaired Electric Car-6
-Mechanic-0 has repaired Performance Car-5 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Motorcycle-6 and made it Clean (Earned a bonus of $70.0)
-Mechanic-2 has repaired Electric Car-6 and made it Clean (Earned a bonus of $200.0)
-Mechanic-3 has repaired Electric Car-6 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has repaired Motorcycle-4 and made it Clean (Earned a bonus of $70.0)
+Mechanic-0 has repaired Car-0 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has not repaired Monster Truck Predator-1
+Mechanic-1 has repaired Monster Truck Predator-1 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has repaired Monster Truck War Wizard-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Motorcycle-4 and made it Dirty (Earned a bonus of $70.0)
 
 Selling..
 
-Salesperson-4 has sold Performance Car-0 for a sale price of $45280.0 (Earned a sale bonus of $300.0)
-Salesperson-2 has sold Monster Truck Cyborg-1 for a sale price of $38974.0 (Earned a sale bonus of $300.0)
+Salesperson-2 has sold Monster Truck Predator-1 for a sale price of $26786.000000000004 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Electric Car-5 for a sale price of $26388.0 (Earned a sale bonus of $300.0)
 
 Ending..
 
 
 Daily Report..
 
-Intern-3		600.0	200.0	6
-Intern-4		500.0	100.0	5
-Intern-5		200.0	0.0	2
-Mechanic-0		1600.0	2400.0	8
-Mechanic-2		1600.0	1950.0	8
-Mechanic-3		1200.0	1670.0	8
-Salesperson-0		2100.0	1080.0	7
-Salesperson-2		2100.0	2100.0	7
-Salesperson-4		600.0	600.0	8
+Intern-1		800.0	100.0	8
+Intern-2		800.0	300.0	8
+Intern-3		100.0	0.0	1
+Mechanic-0		1600.0	2070.0	8
+Mechanic-1		1600.0	2400.0	8
+Mechanic-2		1600.0	2870.0	8
+Salesperson-0		1800.0	990.0	6
+Salesperson-1		1800.0	1200.0	6
+Salesperson-2		2100.0	1290.0	7
 Driver-0		700.0	0.0	2
 Driver-1		700.0	0.0	2
 Driver-2		700.0	0.0	2
@@ -742,83 +724,87 @@ Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Dirty	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Dirty	New	In Stock
-Car-7			18798.0	37596.0	Sparkling	New	In Stock
-Performance Car-3			17474.4	34948.8	Clean	New	In Stock
-Performance Car-4			17544.0	35088.0	Clean	New	In Stock
-Performance Car-5			16403.2	32806.4	Dirty	New	In Stock
-Pickup-0			17318.0	34636.0	Clean	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Dirty	New	In Stock
-Electric Car-6			8458.0	16916.0	Dirty	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Dirty	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck Lucas Oil Crusader-1			14517.6	29035.2	Dirty	New	In Stock
+Car-0			5404.0	10808.0	Dirty	New	In Stock
+Car-5			9029.6	18059.2	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-7			15108.800000000001	30217.600000000002	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	Used	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Dirty	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-1			9069.0	18138.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Dirty	New	In Stock
+Motorcycle-5			13349.0	26698.0	Sparkling	New	In Stock
+Monster Truck Snake Bite-1			7501.5	15003.0	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Dirty	Used	In Stock
 
 Sold Vehicles:
-Performance Car-0		18112.0	45280.0	Sparkling	New	Sold
-Monster Truck Cyborg-1		15589.6	38974.0	Dirty	New	Sold
+Monster Truck Predator-1		10714.400000000001	26786.000000000004	Dirty	New	Sold
+Electric Car-5		13194.0	26388.0	Sparkling	New	Sold
 
-Total sales for the day: 84254.0
+Total sales for the day: 53174.0
 
 Tracker Results...
 
 Tracker: Day 8
-Total money earned by all staff: $27860.00
-Total money earned by the FNCD: $636584.90
+Total money earned by all staff: $26320.00
+Total money earned by the FNCD: $381326.15
 
 
 *************** FNCD Day 9 ***************
 
 Opening..
-Current budget: 198998.5999999999
+Current budget: 29869.300000000032
 
-Purchased Used Dirty Performance Car-6 for a cost price of 24245.600000000002
+Purchased Used Sparkling Monster Truck Sudden Impact-1 for a cost price of 11485.6
 
-Purchased Broken Dirty Monster Truck The Destroyer-1 for a cost price of 8207.0
+Purchased Used Sparkling Electric Car-6 for a cost price of 15979.2
 
 Washing..
 
-Intern-3 has washed Monster Truck The Destroyer-1
-Intern-3 has washed Car-5 and made it Clean
-Intern-4 has washed Performance Car-5 and made it Clean
-Intern-4 has washed Monster Truck The Destroyer-1
-Intern-5 has washed Performance Car-5
-Intern-5 has washed Monster Truck Lucas Oil Crusader-1
+Intern-1 has washed Car-0 and made it Clean
+Intern-1 has washed Motorcycle-4 and made it Clean
+Intern-2 has washed Monster Truck War Wizard-1 and made it Clean
+Intern-2 has washed Pickup-0 and made it Clean
+Intern-3 has washed Pickup-0
+Intern-3 has washed Motorcycle-4
 
 Repairing..
 
-Mechanic-0 has repaired Monster Truck The Destroyer-1 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-0 has repaired Monster Truck The Destroyer-1 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-2 has repaired Performance Car-6 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has repaired Monster Truck Sudden Impact-1 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has repaired Performance Car-3 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has not repaired Electric Car-6
+Mechanic-1 has repaired Electric Car-6 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Monster Truck War Wizard-1 and made it Clean (Earned a bonus of $200.0)
 
 Selling..
 
+Salesperson-1 has sold Motorcycle-5 for a sale price of $32037.6 (Earned a sale bonus of $90.0)
+Salesperson-0 has sold Monster Truck Sudden Impact-1 for a sale price of $28714.0 (Earned a sale bonus of $300.0)
 
 Ending..
 
 
 Daily Report..
 
-Intern-3		700.0	200.0	7
-Intern-4		600.0	100.0	6
-Intern-5		300.0	0.0	3
-Mechanic-0		1800.0	2800.0	9
-Mechanic-2		1800.0	2150.0	9
-Mechanic-3		1200.0	1670.0	8
-Salesperson-0		2100.0	1080.0	7
-Salesperson-2		2100.0	2100.0	7
-Salesperson-4		600.0	600.0	8
+Intern-1		900.0	100.0	9
+Intern-2		900.0	300.0	9
+Intern-3		200.0	0.0	2
+Mechanic-0		1800.0	2470.0	9
+Mechanic-1		1800.0	2600.0	9
+Mechanic-2		1800.0	3070.0	9
+Salesperson-0		2100.0	1290.0	7
+Salesperson-1		2100.0	1290.0	7
+Salesperson-2		2400.0	1290.0	8
 Driver-0		700.0	0.0	2
 Driver-1		700.0	0.0	2
 Driver-2		700.0	0.0	2
@@ -827,676 +813,73 @@ Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Dirty	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Car-7			18798.0	37596.0	Sparkling	New	In Stock
-Performance Car-3			17474.4	34948.8	Clean	New	In Stock
-Performance Car-4			17544.0	35088.0	Clean	New	In Stock
-Performance Car-5			16403.2	32806.4	Clean	New	In Stock
-Performance Car-6			24245.600000000002	48491.200000000004	Dirty	New	In Stock
-Pickup-0			17318.0	34636.0	Clean	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Dirty	New	In Stock
-Electric Car-6			8458.0	16916.0	Dirty	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Dirty	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck Lucas Oil Crusader-1			14517.6	29035.2	Dirty	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Dirty	New	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-5			9029.6	18059.2	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-7			15108.800000000001	30217.600000000002	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Dirty	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-1			9069.0	18138.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-6			15979.2	31958.4	Dirty	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Monster Truck Snake Bite-1			7501.5	15003.0	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Dirty	New	In Stock
 
 Sold Vehicles:
-No vehicle was sold in the FNCD today
+Motorcycle-5		13349.0	32037.6	Sparkling	New	Sold
+Monster Truck Sudden Impact-1		11485.6	28714.0	Clean	New	Sold
 
-Total sales for the day: 0.0
+Total sales for the day: 60751.6
 
 Tracker Results...
 
 Tracker: Day 9
-Total money earned by all staff: $29160.00
-Total money earned by the FNCD: $636584.90
+Total money earned by all staff: $29310.00
+Total money earned by the FNCD: $442077.75
 
 
 *************** FNCD Day 10 ***************
 
 Opening..
-Current budget: 165845.99999999988
+Current budget: 604.5000000000327
+
+Adding 250000 to the operating budget
+Purchased New Sparkling Motorcycle-6 for a cost price of 12983.0
+
+Purchased Used Clean Monster Truck Madusa-1 for a cost price of 14506.400000000001
 
 Washing..
 
-Intern-3 has washed Monster Truck Lucas Oil Crusader-1 and made it Clean
-Intern-3 has washed Monster Truck The Destroyer-1 and made it Clean
-Intern-4 has washed Motorcycle-6 and made it Clean
-Intern-4 has washed Performance Car-6
-Intern-5 has washed Electric Car-6 and made it Clean
-Intern-5 has washed Car-0 and made it Clean
+Intern-1 has washed Performance Car-3 and made it Clean
+Intern-1 has washed Monster Truck War Wizard-1 and made it Clean
+Intern-2 has washed Monster Truck War Wizard-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-2 has washed Performance Car-3
+Intern-3 has washed Electric Car-6 and made it Clean
+Intern-3 has washed Performance Car-3
 
 Repairing..
 
+Mechanic-0 has repaired Monster Truck Madusa-1 and made it Clean (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-4 has sold Car-7 for a sale price of $37596.0 (Earned a sale bonus of $300.0)
+Salesperson-2 has sold Monster Truck Madusa-1 for a sale price of $36266.0 (Earned a sale bonus of $300.0)
+Salesperson-2 has sold Monster Truck Snake Bite-1 for a sale price of $28130.625 (Earned a sale bonus of $300.0)
 
 Racing..
 
-
-Ending..
-
-Salesperson-0 has quit the FNCD
-Intern-4 has been promoted to Salesperson-5
-Intern-5 has quit the FNCD
-
-Daily Report..
-
-Intern-3		800.0	200.0	8
-Mechanic-0		1800.0	2800.0	9
-Mechanic-2		1800.0	2150.0	9
-Mechanic-3		1200.0	1670.0	8
-Salesperson-2		2100.0	2100.0	7
-Salesperson-4		900.0	900.0	9
-Salesperson-5		0.0	100.0	7
-Driver-0		1050.0	0.0	3
-Driver-1		1050.0	0.0	3
-Driver-2		1050.0	0.0	3
-
-Departed Staff:
-Salesperson-0		2400.0	1080.0	8
-Intern-5		400.0	0.0	4
-
-Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Clean	New	In Stock
-Performance Car-4			17544.0	35088.0	Clean	New	In Stock
-Performance Car-5			16403.2	32806.4	Clean	New	In Stock
-Performance Car-6			24245.600000000002	48491.200000000004	Dirty	New	In Stock
-Pickup-0			17318.0	34636.0	Clean	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Dirty	New	In Stock
-Electric Car-6			8458.0	16916.0	Clean	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck Lucas Oil Crusader-1			14517.6	29035.2	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-
-Sold Vehicles:
-Car-7		18798.0	37596.0	Sparkling	New	Sold
-
-Total sales for the day: 37596.0
-
-Tracker Results...
-
-Tracker: Day 10
-Total money earned by all staff: $31410.00
-Total money earned by the FNCD: $674180.90
-
-
-*************** FNCD Day 11 ***************
-
-Opening..
-Current budget: 163895.99999999988
-
-Hired Intern-6
-Hired Intern-7
-
-Purchased New Clean Car-8 for a cost price of 10987.0
-
-Washing..
-
-Intern-3 has washed Performance Car-6 and made it Sparkling (Earned a bonus of $100.0)
-Intern-3 has washed Electric Car-5 and made it Clean
-Intern-6 has washed Electric Car-5 and made it Sparkling (Earned a bonus of $100.0)
-Intern-6 has washed Pickup-1 and made it Dirty
-Intern-7 has washed Performance Car-5 and made it Dirty
-Intern-7 has washed Electric Car-6 and made it Dirty
-
-Repairing..
-
-
-Selling..
-
-Salesperson-4 has sold Monster Truck Lucas Oil Crusader-1 for a sale price of $36294.0 (Earned a sale bonus of $300.0)
-
-Ending..
-
-
-Daily Report..
-
-Intern-3		900.0	300.0	9
-Intern-6		100.0	100.0	1
-Intern-7		100.0	0.0	1
-Mechanic-0		1800.0	2800.0	9
-Mechanic-2		1800.0	2150.0	9
-Mechanic-3		1200.0	1670.0	8
-Salesperson-2		2100.0	2100.0	7
-Salesperson-4		1200.0	1200.0	10
-Salesperson-5		300.0	100.0	8
-Driver-0		1050.0	0.0	3
-Driver-1		1050.0	0.0	3
-Driver-2		1050.0	0.0	3
-
-Departed Staff:
-No one quit the FNCD today
-
-Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Car-8			10987.0	21974.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Clean	New	In Stock
-Performance Car-4			17544.0	35088.0	Clean	New	In Stock
-Performance Car-5			16403.2	32806.4	Dirty	New	In Stock
-Performance Car-6			24245.600000000002	48491.200000000004	Sparkling	New	In Stock
-Pickup-0			17318.0	34636.0	Clean	New	In Stock
-Pickup-1			8998.5	17997.0	Dirty	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Electric Car-6			8458.0	16916.0	Dirty	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-
-Sold Vehicles:
-Monster Truck Lucas Oil Crusader-1		14517.6	36294.0	Clean	New	Sold
-
-Total sales for the day: 36294.0
-
-Tracker Results...
-
-Tracker: Day 11
-Total money earned by all staff: $32810.00
-Total money earned by the FNCD: $710474.90
-
-
-*************** FNCD Day 12 ***************
-
-Opening..
-Current budget: 152008.99999999988
-
-Purchased Used Clean Monster Truck Madusa-1 for a cost price of 12860.0
-
-Washing..
-
-Intern-3 has washed Pickup-1 and made it Clean
-Intern-3 has washed Pickup-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-6 has washed Performance Car-5 and made it Clean
-Intern-6 has washed Performance Car-5 and made it Sparkling (Earned a bonus of $100.0)
-Intern-7 has washed Electric Car-6 and made it Clean
-Intern-7 has washed Electric Car-6
-
-Repairing..
-
-Mechanic-0 has not repaired Monster Truck Madusa-1
-Mechanic-0 has not repaired Monster Truck Madusa-1
-Mechanic-2 has repaired Monster Truck Madusa-1 and made it Dirty (Earned a bonus of $200.0)
-
-Selling..
-
-Salesperson-4 has sold Monster Truck Madusa-1 for a sale price of $32150.0 (Earned a sale bonus of $300.0)
-Salesperson-4 has sold Electric Car-6 for a sale price of $31717.5 (Earned a sale bonus of $300.0)
-
-Ending..
-
-Salesperson-5 has quit the FNCD
-Intern-7 has been promoted to Salesperson-6
-
-Daily Report..
-
-Intern-3		1000.0	400.0	10
-Intern-6		200.0	200.0	2
-Mechanic-0		2000.0	2800.0	10
-Mechanic-2		2000.0	2350.0	10
-Mechanic-3		1200.0	1670.0	8
-Salesperson-2		2400.0	2100.0	8
-Salesperson-4		1500.0	1800.0	11
-Salesperson-6		0.0	0.0	2
-Driver-0		1050.0	0.0	3
-Driver-1		1050.0	0.0	3
-Driver-2		1050.0	0.0	3
-
-Departed Staff:
-Salesperson-5		600.0	100.0	9
-
-Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Car-8			10987.0	21974.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Clean	New	In Stock
-Performance Car-4			17544.0	35088.0	Clean	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Performance Car-6			24245.600000000002	48491.200000000004	Sparkling	New	In Stock
-Pickup-0			17318.0	34636.0	Clean	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-
-Sold Vehicles:
-Monster Truck Madusa-1		12860.0	32150.0	Dirty	New	Sold
-Electric Car-6		8458.0	31717.5	Clean	New	Sold
-
-Total sales for the day: 63867.5
-
-Tracker Results...
-
-Tracker: Day 12
-Total money earned by all staff: $35410.00
-Total money earned by the FNCD: $774342.40
-
-
-*************** FNCD Day 13 ***************
-
-Opening..
-Current budget: 137548.99999999988
-
-Hired Intern-8
-
-Purchased New Dirty Monster Truck War Wizard-1 for a cost price of 13400.0
-
-Purchased New Clean Electric Car-7 for a cost price of 18258.0
-
-Washing..
-
-Intern-3 has washed Monster Truck War Wizard-1
-Intern-3 has washed Monster Truck War Wizard-1
-Intern-6 has washed Monster Truck War Wizard-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-6 has washed Performance Car-4
-Intern-8 has washed Monster Truck The Destroyer-1
-Intern-8 has washed Car-8 and made it Sparkling (Earned a bonus of $100.0)
-
-Repairing..
-
-
-Selling..
-
-Salesperson-4 has sold Performance Car-6 for a sale price of $60614.00000000001 (Earned a sale bonus of $300.0)
-Salesperson-2 has sold Monster Truck War Wizard-1 for a sale price of $27336.0 (Earned a sale bonus of $300.0)
-
-Ending..
-
-
-Daily Report..
-
-Intern-3		1100.0	400.0	11
-Intern-6		300.0	300.0	3
-Intern-8		100.0	100.0	1
-Mechanic-0		2000.0	2800.0	10
-Mechanic-2		2000.0	2350.0	10
-Mechanic-3		1200.0	1670.0	8
-Salesperson-2		2700.0	2400.0	9
-Salesperson-4		1800.0	2100.0	12
-Salesperson-6		0.0	0.0	2
-Driver-0		1050.0	0.0	3
-Driver-1		1050.0	0.0	3
-Driver-2		1050.0	0.0	3
-
-Departed Staff:
-No one quit the FNCD today
-
-Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Car-8			10987.0	21974.0	Sparkling	New	In Stock
-Performance Car-3			17474.4	34948.8	Clean	New	In Stock
-Performance Car-4			17544.0	35088.0	Clean	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Pickup-0			17318.0	34636.0	Clean	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Electric Car-7			18258.0	36516.0	Clean	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-
-Sold Vehicles:
-Performance Car-6		24245.600000000002	60614.00000000001	Sparkling	New	Sold
-Monster Truck War Wizard-1		13400.0	27336.0	Sparkling	New	Sold
-
-Total sales for the day: 87950.0
-
-Tracker Results...
-
-Tracker: Day 13
-Total money earned by all staff: $37110.00
-Total money earned by the FNCD: $801678.40
-
-
-*************** FNCD Day 14 ***************
-
-Opening..
-Current budget: 165604.99999999988
-
-Purchased New Dirty Performance Car-7 for a cost price of 39537.0
-
-Purchased Used Sparkling Monster Truck Bear Foot (Silverado)-1 for a cost price of 11777.6
-
-Washing..
-
-Intern-3 has washed Performance Car-7 and made it Sparkling (Earned a bonus of $100.0)
-Intern-3 has washed Performance Car-4 and made it Sparkling (Earned a bonus of $100.0)
-Intern-6 has washed Pickup-0
-Intern-6 has washed Car-0
-Intern-8 has washed Performance Car-3 and made it Sparkling (Earned a bonus of $100.0)
-Intern-8 has washed Pickup-2
-
-Repairing..
-
-Mechanic-0 has repaired Monster Truck Bear Foot (Silverado)-1 and made it Sparkling (Earned a bonus of $200.0)
-
-Selling..
-
-
-Racing..
-
-Top 3 positions: Driver-2 with Monster Truck Blue Thunder-1 has finished in 3 position
-Last 5 Positions: Driver-1 with Monster Truck The Destroyer-1 has finished in 20 position
-
-Ending..
-
-Intern-6 has quit the FNCD
-
-Daily Report..
-
-Intern-3		1200.0	600.0	12
-Intern-8		200.0	200.0	2
-Mechanic-0		2200.0	3000.0	11
-Mechanic-2		2000.0	2350.0	10
-Mechanic-3		1200.0	1670.0	8
-Salesperson-2		3000.0	2400.0	10
-Salesperson-4		2100.0	2100.0	13
-Salesperson-6		300.0	0.0	3
-Driver-0		1400.0	0.0	4
-Driver-1		1400.0	0.0	4
-Driver-2		1400.0	0.0	4
-
-Departed Staff:
-Intern-6		400.0	300.0	4
-
-Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Car-8			10987.0	21974.0	Sparkling	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Performance Car-7			39537.0	79074.0	Sparkling	New	In Stock
-Pickup-0			17318.0	34636.0	Clean	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Electric Car-7			18258.0	36516.0	Clean	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	Broken	In Stock
-Monster Truck Bear Foot (Silverado)-1			11777.6	23555.2	Clean	New	In Stock
-
-Sold Vehicles:
-No vehicle was sold in the FNCD today
-
-Total sales for the day: 0.0
-
-Tracker Results...
-
-Tracker: Day 14
-Total money earned by all staff: $40060.00
-Total money earned by the FNCD: $801678.40
-
-
-*************** FNCD Day 15 ***************
-
-Opening..
-Current budget: 111840.39999999988
-
-Hired Intern-9
-
-Washing..
-
-Intern-3 has washed Pickup-0 and made it Sparkling (Earned a bonus of $100.0)
-Intern-3 has washed Electric Car-2
-Intern-8 has washed Pickup-2
-Intern-8 has washed Monster Truck Bear Foot (Silverado)-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-9 has washed Pickup-2
-Intern-9 has washed Motorcycle-6
-
-Repairing..
-
-Mechanic-0 has repaired Monster Truck The Destroyer-1 and made it Clean (Earned a bonus of $200.0)
-Mechanic-0 has repaired Pickup-2 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Monster Truck The Destroyer-1 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-2 has repaired Pickup-2 and made it Dirty (Earned a bonus of $200.0)
-
-Selling..
-
-Salesperson-4 has sold Performance Car-7 for a sale price of $79074.0 (Earned a sale bonus of $300.0)
-Salesperson-2 has sold Monster Truck Bear Foot (Silverado)-1 for a sale price of $30916.2 (Earned a sale bonus of $300.0)
-
-Ending..
-
-
-Daily Report..
-
-Intern-3		1300.0	700.0	13
-Intern-8		300.0	300.0	3
-Intern-9		100.0	0.0	1
-Mechanic-0		2400.0	3400.0	12
-Mechanic-2		2200.0	2750.0	11
-Mechanic-3		1200.0	1670.0	8
-Salesperson-2		3300.0	2700.0	11
-Salesperson-4		2400.0	2400.0	14
-Salesperson-6		300.0	0.0	3
-Driver-0		1400.0	0.0	4
-Driver-1		1400.0	0.0	4
-Driver-2		1400.0	0.0	4
-
-Departed Staff:
-No one quit the FNCD today
-
-Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Car-8			10987.0	21974.0	Sparkling	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Dirty	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Electric Car-7			18258.0	36516.0	Clean	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Dirty	New	In Stock
-
-Sold Vehicles:
-Performance Car-7		39537.0	79074.0	Sparkling	New	Sold
-Monster Truck Bear Foot (Silverado)-1		11777.6	30916.2	Sparkling	New	Sold
-
-Total sales for the day: 109990.2
-
-Tracker Results...
-
-Tracker: Day 15
-Total money earned by all staff: $42960.00
-Total money earned by the FNCD: $911668.60
-
-
-*************** FNCD Day 16 ***************
-
-Opening..
-Current budget: 110540.39999999988
-
-Purchased Used Sparkling Performance Car-8 for a cost price of 22039.2
-
-Purchased Broken Dirty Monster Truck Madusa-1 for a cost price of 7063.5
-
-Washing..
-
-Intern-3 has washed Monster Truck Madusa-1 and made it Clean
-Intern-3 has washed Monster Truck The Destroyer-1 and made it Clean
-Intern-8 has washed Monster Truck The Destroyer-1
-Intern-8 has washed Monster Truck Madusa-1
-Intern-9 has washed Monster Truck Madusa-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-9 has washed Pickup-2 and made it Clean
-
-Repairing..
-
-Mechanic-0 has repaired Performance Car-8 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-0 has repaired Monster Truck Madusa-1 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-2 has repaired Monster Truck Madusa-1 and made it Clean (Earned a bonus of $200.0)
-
-Selling..
-
-Salesperson-2 has sold Car-8 for a sale price of $21974.0 (Earned a sale bonus of $300.0)
-
-Ending..
-
-
-Daily Report..
-
-Intern-3		1400.0	700.0	14
-Intern-8		400.0	300.0	4
-Intern-9		200.0	100.0	2
-Mechanic-0		2600.0	3800.0	13
-Mechanic-2		2400.0	2950.0	12
-Mechanic-3		1200.0	1670.0	8
-Salesperson-2		3600.0	3000.0	12
-Salesperson-4		2700.0	2400.0	15
-Salesperson-6		300.0	0.0	3
-Driver-0		1400.0	0.0	4
-Driver-1		1400.0	0.0	4
-Driver-2		1400.0	0.0	4
-
-Departed Staff:
-No one quit the FNCD today
-
-Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Performance Car-8			22039.2	44078.4	Clean	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Electric Car-7			18258.0	36516.0	Clean	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Dirty	New	In Stock
-
-Sold Vehicles:
-Car-8		10987.0	21974.0	Sparkling	New	Sold
-
-Total sales for the day: 21974.0
-
-Tracker Results...
-
-Tracker: Day 16
-Total money earned by all staff: $45260.00
-Total money earned by the FNCD: $933642.60
-
-
-*************** FNCD Day 17 ***************
-
-Opening..
-Current budget: 80137.69999999988
-
-Purchased Used Dirty Car-9 for a cost price of 11649.6
-
-Washing..
-
-Intern-3 has washed Car-9 and made it Clean
-Intern-3 has washed Car-9 and made it Sparkling (Earned a bonus of $100.0)
-Intern-8 has washed Monster Truck Madusa-1
-Intern-8 has washed Monster Truck Madusa-1 and made it Clean
-Intern-9 has washed Monster Truck Madusa-1
-Intern-9 has washed Monster Truck Madusa-1 and made it Dirty
-
-Repairing..
-
-Mechanic-0 has repaired Car-9 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-0 has repaired Monster Truck Madusa-1 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-2 has not repaired Monster Truck Madusa-1
-Mechanic-2 has repaired Monster Truck Madusa-1 and made it Dirty (Earned a bonus of $200.0)
-
-Selling..
-
-Salesperson-4 has sold Performance Car-8 for a sale price of $57852.9 (Earned a sale bonus of $300.0)
-Salesperson-2 has sold Electric Car-7 for a sale price of $37246.32 (Earned a sale bonus of $300.0)
-
-Racing..
-
-Last 5 Positions: Driver-0 with Pickup-1 has finished in 16 position
-Last 5 Positions: Driver-1 with Pickup-2 has finished in 18 position
+Last 5 Positions: Driver-1 with Monster Truck War Wizard-1 has finished in 16 position
 
 Ending..
 
@@ -1504,506 +887,1124 @@ Driver-1 has quit the FNCD
 
 Daily Report..
 
-Intern-3		1500.0	800.0	15
-Intern-8		500.0	300.0	5
-Intern-9		300.0	100.0	3
-Mechanic-0		2800.0	4200.0	14
-Mechanic-2		2600.0	3150.0	13
-Mechanic-3		1200.0	1670.0	8
-Salesperson-2		3900.0	3300.0	13
-Salesperson-4		3000.0	2700.0	16
-Salesperson-6		300.0	0.0	3
-Driver-0		1750.0	0.0	5
-Driver-2		1750.0	0.0	5
+Intern-1		1000.0	100.0	10
+Intern-2		1000.0	400.0	10
+Intern-3		300.0	0.0	3
+Mechanic-0		2000.0	2670.0	10
+Mechanic-1		1800.0	2600.0	9
+Mechanic-2		1800.0	3070.0	9
+Salesperson-0		2100.0	1290.0	7
+Salesperson-1		2100.0	1290.0	7
+Salesperson-2		2700.0	1890.0	9
+Driver-0		1050.0	0.0	3
+Driver-2		700.0	0.0	2
 
 Departed Staff:
-Driver-1		1750.0	0.0	5
+Driver-1		1050.0	0.0	3
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Car-9			11649.6	23299.2	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	Broken	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Clean	Broken	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Dirty	New	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-5			9029.6	18059.2	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-7			15108.800000000001	30217.600000000002	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-1			9069.0	18138.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-6			15979.2	31958.4	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-6			12983.0	25966.0	Sparkling	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Sparkling	Broken	In Stock
 
 Sold Vehicles:
-Performance Car-8		22039.2	57852.9	Clean	New	Sold
-Electric Car-7		18258.0	37246.32	Clean	New	Sold
+Monster Truck Madusa-1		14506.400000000001	36266.0	Dirty	New	Sold
+Monster Truck Snake Bite-1		7501.5	28130.625	Clean	New	Sold
 
-Total sales for the day: 92344.32
+Total sales for the day: 64396.625
+
+Tracker Results...
+
+Tracker: Day 10
+Total money earned by all staff: $31710.00
+Total money earned by the FNCD: $506474.37
+
+
+*************** FNCD Day 11 ***************
+
+Opening..
+Current budget: 221615.10000000003
+
+Hired Driver-3
+
+Purchased Broken Sparkling Monster Truck Blue Thunder-1 for a cost price of 5400.0
+Purchased Used Dirty Monster Truck Snake Bite-1 for a cost price of 8562.4
+
+Washing..
+
+Intern-1 has washed Monster Truck Snake Bite-1 and made it Clean
+Intern-1 has washed Monster Truck Snake Bite-1
+Intern-2 has washed Monster Truck Snake Bite-1
+Intern-2 has washed Monster Truck Snake Bite-1 and made it Dirty
+Intern-3 has washed Monster Truck Snake Bite-1 and made it Clean
+Intern-3 has washed Monster Truck Snake Bite-1
+
+Repairing..
+
+Mechanic-0 has repaired Monster Truck War Wizard-1 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has repaired Monster Truck War Wizard-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has repaired Monster Truck Blue Thunder-1 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-1 has repaired Monster Truck Snake Bite-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Monster Truck Blue Thunder-1 and made it Clean (Earned a bonus of $200.0)
+
+Selling..
+
+
+Ending..
+
+
+Daily Report..
+
+Intern-1		1100.0	100.0	11
+Intern-2		1100.0	400.0	11
+Intern-3		400.0	0.0	4
+Mechanic-0		2200.0	3070.0	11
+Mechanic-1		2000.0	3000.0	10
+Mechanic-2		2000.0	3270.0	10
+Salesperson-0		2400.0	1290.0	8
+Salesperson-1		2100.0	1290.0	7
+Salesperson-2		2700.0	1890.0	9
+Driver-0		1050.0	0.0	3
+Driver-2		700.0	0.0	2
+Driver-3		0.0	0.0	0
+
+Departed Staff:
+No one quit the FNCD today
+
+Vehicles In Inventory:
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-5			9029.6	18059.2	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-7			15108.800000000001	30217.600000000002	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-1			9069.0	18138.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-6			15979.2	31958.4	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-6			12983.0	25966.0	Sparkling	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Dirty	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Dirty	New	In Stock
+Monster Truck Snake Bite-1			8562.4	17124.8	Dirty	New	In Stock
+
+Sold Vehicles:
+No vehicle was sold in the FNCD today
+
+Total sales for the day: 0.0
+
+Tracker Results...
+
+Tracker: Day 11
+Total money earned by all staff: $33910.00
+Total money earned by the FNCD: $506474.37
+
+
+*************** FNCD Day 12 ***************
+
+Opening..
+Current budget: 206452.70000000004
+
+Washing..
+
+Intern-1 has washed Monster Truck War Wizard-1
+Intern-1 has washed Monster Truck Snake Bite-1 and made it Clean
+Intern-2 has washed Monster Truck Snake Bite-1 and made it Dirty
+Intern-2 has washed Monster Truck War Wizard-1 and made it Clean
+Intern-3 has washed Monster Truck Blue Thunder-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-3 has washed Monster Truck Snake Bite-1 and made it Clean
+
+Repairing..
+
+Mechanic-0 has repaired Monster Truck Snake Bite-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has repaired Monster Truck Snake Bite-1 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has repaired Monster Truck War Wizard-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has repaired Monster Truck War Wizard-1 and made it Dirty (Earned a bonus of $200.0)
+
+Selling..
+
+Salesperson-0 has sold Electric Car-6 for a sale price of $39948.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Car-7 for a sale price of $37772.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Motorcycle-6 for a sale price of $25966.0 (Earned a sale bonus of $90.0)
+Salesperson-0 has sold Electric Car-1 for a sale price of $34008.75 (Earned a sale bonus of $300.0)
+Salesperson-2 has sold Car-5 for a sale price of $23025.48 (Earned a sale bonus of $300.0)
+
+Ending..
+
+Salesperson-2 has quit the FNCD
+Intern-3 has been promoted to Salesperson-3
+
+Daily Report..
+
+Intern-1		1200.0	100.0	12
+Intern-2		1200.0	400.0	12
+Mechanic-0		2400.0	3470.0	12
+Mechanic-1		2200.0	3400.0	11
+Mechanic-2		2000.0	3270.0	10
+Salesperson-0		2700.0	2280.0	9
+Salesperson-1		2400.0	1290.0	8
+Salesperson-3		0.0	100.0	5
+Driver-0		1050.0	0.0	3
+Driver-2		700.0	0.0	2
+Driver-3		0.0	0.0	0
+
+Departed Staff:
+Salesperson-2		3000.0	2190.0	10
+
+Vehicles In Inventory:
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Dirty	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Snake Bite-1			8562.4	17124.8	Dirty	New	In Stock
+
+Sold Vehicles:
+Electric Car-6		15979.2	39948.0	Clean	New	Sold
+Car-7		15108.800000000001	37772.0	Clean	New	Sold
+Motorcycle-6		12983.0	25966.0	Sparkling	New	Sold
+Electric Car-1		9069.0	34008.75	Clean	New	Sold
+Car-5		9029.6	23025.48	Clean	New	Sold
+
+Total sales for the day: 160720.23
+
+Tracker Results...
+
+Tracker: Day 12
+Total money earned by all staff: $37700.00
+Total money earned by the FNCD: $667194.61
+
+
+*************** FNCD Day 13 ***************
+
+Opening..
+Current budget: 204852.70000000004
+
+Hired Intern-4
+
+Purchased Broken Dirty Car-8 for a cost price of 5823.5
+Purchased Broken Clean Car-9 for a cost price of 6959.0
+
+Purchased New Sparkling Motorcycle-7 for a cost price of 14563.0
+
+Purchased New Sparkling Electric Car-7 for a cost price of 13661.0
+Purchased Used Dirty Electric Car-8 for a cost price of 10473.6
+
+Washing..
+
+Intern-1 has washed Monster Truck War Wizard-1 and made it Clean
+Intern-1 has washed Monster Truck Snake Bite-1 and made it Clean
+Intern-2 has washed Car-8 and made it Clean
+Intern-2 has washed Electric Car-8 and made it Clean
+Intern-4 has washed Electric Car-8
+Intern-4 has washed Car-8 and made it Dirty
+
+Repairing..
+
+Mechanic-0 has repaired Car-8 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has repaired Car-8 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has repaired Car-9 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has repaired Car-9 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has repaired Electric Car-8 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has not repaired Electric Car-8
+
+Selling..
+
+Salesperson-0 has sold Performance Car-1 for a sale price of $58998.84 (Earned a sale bonus of $300.0)
+
+Ending..
+
+
+Daily Report..
+
+Intern-1		1300.0	100.0	13
+Intern-2		1300.0	400.0	13
+Intern-4		100.0	0.0	1
+Mechanic-0		2600.0	3870.0	13
+Mechanic-1		2400.0	3800.0	12
+Mechanic-2		2200.0	3470.0	11
+Salesperson-0		3000.0	2580.0	10
+Salesperson-1		2700.0	1290.0	9
+Salesperson-3		300.0	100.0	6
+Driver-0		1050.0	0.0	3
+Driver-2		700.0	0.0	2
+Driver-3		0.0	0.0	0
+
+Departed Staff:
+No one quit the FNCD today
+
+Vehicles In Inventory:
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Dirty	New	In Stock
+Car-9			6959.0	13918.0	Dirty	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-7			13661.0	27322.0	Sparkling	New	In Stock
+Electric Car-8			10473.6	20947.2	Dirty	Used	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-7			14563.0	29126.0	Sparkling	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Snake Bite-1			8562.4	17124.8	Clean	New	In Stock
+
+Sold Vehicles:
+Performance Car-1		28921.0	58998.84	Clean	New	Sold
+
+Total sales for the day: 58998.84
+
+Tracker Results...
+
+Tracker: Day 13
+Total money earned by all staff: $40800.00
+Total money earned by the FNCD: $726193.45
+
+
+*************** FNCD Day 14 ***************
+
+Opening..
+Current budget: 151572.60000000003
+
+Purchased Broken Dirty Performance Car-4 for a cost price of 11738.5
+
+Washing..
+
+Intern-1 has washed Electric Car-8 and made it Sparkling (Earned a bonus of $100.0)
+Intern-1 has washed Car-8 and made it Clean
+Intern-2 has washed Car-9 and made it Clean
+Intern-2 has washed Car-8
+Intern-4 has washed Car-8
+Intern-4 has washed Car-9
+
+Repairing..
+
+Mechanic-0 has repaired Electric Car-8 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has repaired Performance Car-4 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has repaired Electric Car-8 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has repaired Performance Car-4 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has repaired Car-8 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has not repaired Car-8
+
+Selling..
+
+Salesperson-0 has sold Monster Truck Snake Bite-1 for a sale price of $40136.25 (Earned a sale bonus of $300.0)
+Salesperson-3 has sold Motorcycle-7 for a sale price of $29126.0 (Earned a sale bonus of $90.0)
+
+Racing..
+
+Top 3 positions: Driver-3 with Pickup-2 has finished in 2 position
+Last 5 Positions: Driver-0 with Pickup-1 has finished in 20 position
+
+Ending..
+
+
+Daily Report..
+
+Intern-1		1400.0	200.0	14
+Intern-2		1400.0	400.0	14
+Intern-4		200.0	0.0	2
+Mechanic-0		2800.0	4270.0	14
+Mechanic-1		2600.0	4200.0	13
+Mechanic-2		2400.0	3670.0	12
+Salesperson-0		3300.0	2880.0	11
+Salesperson-1		3000.0	1290.0	10
+Salesperson-3		600.0	190.0	7
+Driver-0		1400.0	0.0	4
+Driver-2		1050.0	0.0	3
+Driver-3		350.0	0.0	1
+
+Departed Staff:
+No one quit the FNCD today
+
+Vehicles In Inventory:
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Dirty	Used	In Stock
+Car-9			6959.0	13918.0	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Dirty	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	Broken	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-7			13661.0	27322.0	Sparkling	New	In Stock
+Electric Car-8			10473.6	20947.2	Dirty	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+
+Sold Vehicles:
+Monster Truck Snake Bite-1		8562.4	40136.25	Clean	New	Sold
+Motorcycle-7		14563.0	29126.0	Sparkling	New	Sold
+
+Total sales for the day: 69262.25
+
+Tracker Results...
+
+Tracker: Day 14
+Total money earned by all staff: $45140.00
+Total money earned by the FNCD: $795455.70
+
+
+*************** FNCD Day 15 ***************
+
+Opening..
+Current budget: 136984.10000000003
+
+Purchased Used Clean Motorcycle-8 for a cost price of 13539.2
+
+Purchased Used Sparkling Monster Truck Gunslinger-1 for a cost price of 8208.0
+
+Washing..
+
+Intern-1 has washed Electric Car-8 and made it Clean
+Intern-1 has washed Performance Car-4
+Intern-2 has washed Electric Car-8
+Intern-2 has washed Electric Car-8 and made it Sparkling (Earned a bonus of $100.0)
+Intern-4 has washed Performance Car-4 and made it Clean
+Intern-4 has washed Performance Car-4 and made it Dirty
+
+Repairing..
+
+Mechanic-0 has repaired Motorcycle-8 and made it Clean (Earned a bonus of $70.0)
+Mechanic-0 has repaired Pickup-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has repaired Pickup-1 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has repaired Car-8 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has repaired Monster Truck Gunslinger-1 and made it Sparkling (Earned a bonus of $200.0)
+
+Selling..
+
+
+Ending..
+
+Salesperson-3 has quit the FNCD
+Intern-1 has been promoted to Salesperson-4
+
+Daily Report..
+
+Intern-2		1500.0	500.0	15
+Intern-4		300.0	0.0	3
+Mechanic-0		3000.0	4540.0	15
+Mechanic-1		2800.0	4600.0	14
+Mechanic-2		2600.0	3870.0	13
+Salesperson-0		3300.0	2880.0	11
+Salesperson-1		3000.0	1290.0	10
+Salesperson-4		0.0	200.0	15
+Driver-0		1400.0	0.0	4
+Driver-2		1050.0	0.0	3
+Driver-3		350.0	0.0	1
+
+Departed Staff:
+Salesperson-3		600.0	190.0	7
+
+Vehicles In Inventory:
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Dirty	New	In Stock
+Car-9			6959.0	13918.0	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Dirty	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Dirty	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-7			13661.0	27322.0	Sparkling	New	In Stock
+Electric Car-8			10473.6	20947.2	Sparkling	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-8			13539.2	27078.4	Dirty	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Gunslinger-1			8208.0	16416.0	Clean	New	In Stock
+
+Sold Vehicles:
+No vehicle was sold in the FNCD today
+
+Total sales for the day: 0.0
+
+Tracker Results...
+
+Tracker: Day 15
+Total money earned by all staff: $47010.00
+Total money earned by the FNCD: $795455.70
+
+
+*************** FNCD Day 16 ***************
+
+Opening..
+Current budget: 114336.90000000004
+
+Hired Intern-5
+
+Washing..
+
+Intern-2 has washed Motorcycle-8 and made it Clean
+Intern-2 has washed Motorcycle-8
+Intern-4 has washed Motorcycle-8
+Intern-4 has washed Performance Car-4 and made it Clean
+Intern-5 has washed Motorcycle-8
+Intern-5 has washed Performance Car-4
+
+Repairing..
+
+
+Selling..
+
+
+Ending..
+
+
+Daily Report..
+
+Intern-2		1600.0	500.0	16
+Intern-4		400.0	0.0	4
+Intern-5		100.0	0.0	1
+Mechanic-0		3000.0	4540.0	15
+Mechanic-1		2800.0	4600.0	14
+Mechanic-2		2600.0	3870.0	13
+Salesperson-0		3300.0	2880.0	11
+Salesperson-1		3300.0	1290.0	11
+Salesperson-4		0.0	200.0	15
+Driver-0		1400.0	0.0	4
+Driver-2		1050.0	0.0	3
+Driver-3		350.0	0.0	1
+
+Departed Staff:
+No one quit the FNCD today
+
+Vehicles In Inventory:
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Dirty	New	In Stock
+Car-9			6959.0	13918.0	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Clean	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Dirty	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-7			13661.0	27322.0	Sparkling	New	In Stock
+Electric Car-8			10473.6	20947.2	Sparkling	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-8			13539.2	27078.4	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Gunslinger-1			8208.0	16416.0	Clean	New	In Stock
+
+Sold Vehicles:
+No vehicle was sold in the FNCD today
+
+Total sales for the day: 0.0
+
+Tracker Results...
+
+Tracker: Day 16
+Total money earned by all staff: $47610.00
+Total money earned by the FNCD: $795455.70
+
+
+*************** FNCD Day 17 ***************
+
+Opening..
+Current budget: 113736.90000000004
+
+Washing..
+
+Intern-2 has washed Car-8 and made it Clean
+Intern-2 has washed Pickup-1 and made it Clean
+Intern-4 has washed Pickup-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-4 has washed Car-8
+Intern-5 has washed Car-8 and made it Sparkling (Earned a bonus of $100.0)
+Intern-5 has washed Monster Truck Gunslinger-1 and made it Dirty
+
+Repairing..
+
+
+Selling..
+
+Salesperson-1 has sold Electric Car-7 for a sale price of $27322.0 (Earned a sale bonus of $300.0)
+
+Racing..
+
+Top 3 positions: Driver-2 with Performance Car-4 has finished in 1 position
+Top 3 positions: Driver-3 with Performance Car-0 has finished in 2 position
+Last 5 Positions: Driver-0 with Performance Car-2 has finished in 18 position
+
+Ending..
+
+
+Daily Report..
+
+Intern-2		1700.0	500.0	17
+Intern-4		500.0	100.0	5
+Intern-5		200.0	100.0	2
+Mechanic-0		3000.0	4540.0	15
+Mechanic-1		2800.0	4600.0	14
+Mechanic-2		2600.0	3870.0	13
+Salesperson-0		3300.0	2880.0	11
+Salesperson-1		3600.0	1590.0	12
+Salesperson-4		300.0	200.0	16
+Driver-0		1750.0	0.0	5
+Driver-2		1400.0	0.0	4
+Driver-3		700.0	0.0	2
+
+Departed Staff:
+No one quit the FNCD today
+
+Vehicles In Inventory:
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Car-9			6959.0	13918.0	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	Broken	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Clean	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Sparkling	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-8			10473.6	20947.2	Sparkling	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-8			13539.2	27078.4	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Gunslinger-1			8208.0	16416.0	Dirty	New	In Stock
+
+Sold Vehicles:
+Electric Car-7		13661.0	27322.0	Sparkling	New	Sold
+
+Total sales for the day: 27322.0
 
 Tracker Results...
 
 Tracker: Day 17
-Total money earned by all staff: $48910.00
-Total money earned by the FNCD: $970888.92
+Total money earned by all staff: $50060.00
+Total money earned by the FNCD: $822777.70
 
 
 *************** FNCD Day 18 ***************
 
 Opening..
-Current budget: 123990.99999999988
+Current budget: 111786.90000000004
 
-Hired Driver-3
-
-Purchased Broken Clean Performance Car-9 for a cost price of 19470.5
-
-Purchased Broken Dirty Electric Car-8 for a cost price of 5749.5
+Purchased Broken Clean Electric Car-9 for a cost price of 8113.0
 
 Washing..
 
-Intern-3 has washed Electric Car-8 and made it Sparkling (Earned a bonus of $100.0)
-Intern-3 has washed Monster Truck Madusa-1
-Intern-8 has washed Monster Truck Madusa-1 and made it Clean
-Intern-8 has washed Monster Truck Madusa-1 and made it Dirty
-Intern-9 has washed Monster Truck Madusa-1 and made it Clean
-Intern-9 has washed Monster Truck Madusa-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-2 has washed Monster Truck Gunslinger-1 and made it Clean
+Intern-2 has washed Monster Truck Gunslinger-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-4 has washed Car-0
+Intern-4 has washed Performance Car-4 and made it Sparkling (Earned a bonus of $100.0)
+Intern-5 has washed Car-9
+Intern-5 has washed Electric Car-0 and made it Sparkling (Earned a bonus of $100.0)
 
 Repairing..
 
-Mechanic-0 has repaired Electric Car-8 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-0 has repaired Pickup-2 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Electric Car-8 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Performance Car-9 and made it Clean (Earned a bonus of $200.0)
-Mechanic-3 has not repaired Pickup-1
-Mechanic-3 has not repaired Performance Car-9
+Mechanic-0 has not repaired Electric Car-9
+Mechanic-0 has not repaired Performance Car-2
+Mechanic-1 has repaired Electric Car-9 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has not repaired Performance Car-2
+Mechanic-2 has not repaired Performance Car-2
+Mechanic-2 has repaired Electric Car-9 and made it Dirty (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-6 has sold Performance Car-9 for a sale price of $58411.5 (Earned a sale bonus of $300.0)
+Salesperson-4 has sold Monster Truck Gunslinger-1 for a sale price of $20520.0 (Earned a sale bonus of $300.0)
+Salesperson-4 has sold Car-9 for a sale price of $26096.25 (Earned a sale bonus of $300.0)
 
 Ending..
 
 
 Daily Report..
 
-Intern-3		1600.0	900.0	16
-Intern-8		600.0	300.0	6
-Intern-9		400.0	200.0	4
-Mechanic-0		3000.0	4600.0	15
-Mechanic-2		2800.0	3550.0	14
-Mechanic-3		1400.0	1670.0	9
-Salesperson-2		4200.0	3300.0	14
-Salesperson-4		3300.0	2700.0	17
-Salesperson-6		600.0	300.0	4
+Intern-2		1800.0	600.0	18
+Intern-4		600.0	200.0	6
+Intern-5		300.0	200.0	3
+Mechanic-0		3200.0	4540.0	16
+Mechanic-1		3000.0	4800.0	15
+Mechanic-2		2800.0	4070.0	14
+Salesperson-0		3300.0	2880.0	11
+Salesperson-1		3600.0	1590.0	12
+Salesperson-4		600.0	800.0	17
 Driver-0		1750.0	0.0	5
-Driver-2		1750.0	0.0	5
-Driver-3		0.0	0.0	0
+Driver-2		1400.0	0.0	4
+Driver-3		700.0	0.0	2
 
 Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Car-9			11649.6	23299.2	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	Broken	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Dirty	Used	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Electric Car-8			5749.5	11499.0	Dirty	New	In Stock
-Motorcycle-1			10054.400000000001	20108.800000000003	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Monster Truck Blue Thunder-1			9889.5	19779.0	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Sparkling	Broken	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Dirty	Broken	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Sparkling	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-8			10473.6	20947.2	Sparkling	New	In Stock
+Electric Car-9			8113.0	16226.0	Dirty	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-8			13539.2	27078.4	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
 
 Sold Vehicles:
-Performance Car-9		19470.5	58411.5	Dirty	Used	Sold
+Monster Truck Gunslinger-1		8208.0	20520.0	Sparkling	New	Sold
+Car-9		6959.0	26096.25	Clean	New	Sold
 
-Total sales for the day: 58411.5
+Total sales for the day: 46616.25
 
 Tracker Results...
 
 Tracker: Day 18
-Total money earned by all staff: $52010.00
-Total money earned by the FNCD: $1029300.42
+Total money earned by all staff: $52560.00
+Total money earned by the FNCD: $869393.95
 
 
 *************** FNCD Day 19 ***************
 
 Opening..
-Current budget: 96970.99999999988
+Current budget: 102473.90000000004
 
-Purchased Used Dirty Performance Car-10 for a cost price of 28119.2
+Purchased Broken Dirty Car-10 for a cost price of 9973.0
+
+Purchased New Dirty Monster Truck Grave Digger-1 for a cost price of 19739.0
 
 Washing..
 
-Intern-3 has washed Electric Car-8
-Intern-3 has washed Performance Car-10 and made it Clean
-Intern-8 has washed Performance Car-10 and made it Sparkling (Earned a bonus of $100.0)
-Intern-8 has washed Pickup-2
-Intern-9 has washed Electric Car-8 and made it Clean
-Intern-9 has washed Electric Car-8
+Intern-2 has washed Monster Truck Grave Digger-1
+Intern-2 has washed Performance Car-2 and made it Sparkling (Earned a bonus of $100.0)
+Intern-4 has washed Monster Truck Grave Digger-1 and made it Clean
+Intern-4 has washed Electric Car-9
+Intern-5 has washed Car-10 and made it Clean
+Intern-5 has washed Monster Truck Grave Digger-1
 
 Repairing..
 
-Mechanic-0 has repaired Pickup-2 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-0 has repaired Monster Truck Madusa-1 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-2 has repaired Pickup-1 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Pickup-1 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-3 has repaired Performance Car-10 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-3 has repaired Monster Truck Madusa-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has not repaired Performance Car-2
+Mechanic-0 has not repaired Car-10
+Mechanic-1 has repaired Performance Car-2 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has repaired Performance Car-2 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has repaired Car-10 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has repaired Car-10 and made it Dirty (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-2 has sold Car-9 for a sale price of $29124.0 (Earned a sale bonus of $300.0)
-Salesperson-4 has sold Motorcycle-1 for a sale price of $25136.000000000004 (Earned a sale bonus of $90.0)
-Salesperson-6 has sold Performance Car-10 for a sale price of $70298.0 (Earned a sale bonus of $300.0)
-Salesperson-6 has sold Monster Truck Blue Thunder-1 for a sale price of $32635.350000000002 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Motorcycle-8 for a sale price of $33848.0 (Earned a sale bonus of $90.0)
+Salesperson-1 has sold Electric Car-8 for a sale price of $58914.00000000001 (Earned a sale bonus of $300.0)
+Salesperson-4 has sold Pickup-1 for a sale price of $125722.5 (Earned a sale bonus of $300.0)
+Salesperson-4 has sold Pickup-3 for a sale price of $100395.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Car-10 for a sale price of $44878.5 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Car-6 for a sale price of $23760.0 (Earned a sale bonus of $300.0)
 
 Ending..
 
 
 Daily Report..
 
-Intern-3		1700.0	900.0	17
-Intern-8		700.0	400.0	7
-Intern-9		500.0	200.0	5
-Mechanic-0		3200.0	5000.0	16
-Mechanic-2		3000.0	3950.0	15
-Mechanic-3		1600.0	2070.0	10
-Salesperson-2		4500.0	3600.0	15
-Salesperson-4		3600.0	2790.0	18
-Salesperson-6		900.0	900.0	5
+Intern-2		1900.0	700.0	19
+Intern-4		700.0	200.0	7
+Intern-5		400.0	200.0	4
+Mechanic-0		3400.0	4540.0	17
+Mechanic-1		3200.0	5200.0	16
+Mechanic-2		3000.0	4470.0	15
+Salesperson-0		3600.0	3570.0	12
+Salesperson-1		3900.0	1890.0	13
+Salesperson-4		900.0	1400.0	18
 Driver-0		1750.0	0.0	5
-Driver-2		1750.0	0.0	5
-Driver-3		0.0	0.0	0
+Driver-2		1400.0	0.0	4
+Driver-3		700.0	0.0	2
 
 Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Dirty	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Dirty	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Dirty	New	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Dirty	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-9			8113.0	16226.0	Dirty	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Grave Digger-1			19739.0	39478.0	Clean	New	In Stock
 
 Sold Vehicles:
-Car-9		11649.6	29124.0	Clean	New	Sold
-Motorcycle-1		10054.400000000001	25136.000000000004	Clean	New	Sold
-Performance Car-10		28119.2	70298.0	Clean	New	Sold
-Monster Truck Blue Thunder-1		9889.5	32635.350000000002	Clean	New	Sold
+Motorcycle-8		13539.2	33848.0	Clean	New	Sold
+Electric Car-8		10473.6	58914.00000000001	Sparkling	New	Sold
+Pickup-1		26820.800000000003	125722.5	Sparkling	New	Sold
+Pickup-3		26772.0	100395.0	Sparkling	New	Sold
+Car-10		9973.0	44878.5	Dirty	New	Sold
+Car-6		6336.0	23760.0	Clean	New	Sold
 
-Total sales for the day: 157193.35
+Total sales for the day: 387518.0
 
 Tracker Results...
 
 Tracker: Day 19
-Total money earned by all staff: $56100.00
-Total money earned by the FNCD: $1186493.77
+Total money earned by all staff: $56850.00
+Total money earned by the FNCD: $1256911.94
 
 
 *************** FNCD Day 20 ***************
 
 Opening..
-Current budget: 67051.79999999989
+Current budget: 70961.90000000004
 
-Purchased Used Sparkling Car-10 for a cost price of 15061.6
+Purchased Broken Sparkling Car-11 for a cost price of 8627.5
+Purchased New Dirty Car-12 for a cost price of 17622.0
 
-Purchased Used Sparkling Performance Car-11 for a cost price of 27034.4
+Purchased Broken Dirty Pickup-4 for a cost price of 16576.0
+Adding 250000 to the operating budget
+Purchased New Dirty Pickup-5 for a cost price of 28186.0
 
-Purchased Broken Sparkling Motorcycle-7 for a cost price of 8313.0
+Purchased New Sparkling Motorcycle-9 for a cost price of 13790.0
 
-Purchased Broken Clean Monster Truck Grave Digger-1 for a cost price of 9368.0
+Purchased New Sparkling Electric Car-10 for a cost price of 18899.0
 
 Washing..
 
-Intern-3 has washed Monster Truck Madusa-1 and made it Clean
-Intern-3 has washed Pickup-1 and made it Clean
-Intern-8 has washed Pickup-1
-Intern-8 has washed Monster Truck Madusa-1
-Intern-9 has washed Monster Truck Madusa-1
-Intern-9 has washed Monster Truck Madusa-1
+Intern-2 has washed Pickup-5 and made it Clean
+Intern-2 has washed Car-12 and made it Sparkling (Earned a bonus of $100.0)
+Intern-4 has washed Electric Car-9 and made it Clean
+Intern-4 has washed Electric Car-9
+Intern-5 has washed Pickup-5
+Intern-5 has washed Electric Car-9
 
 Repairing..
 
-Mechanic-0 has repaired Monster Truck Madusa-1 and made it Clean (Earned a bonus of $200.0)
-Mechanic-0 has repaired Car-10 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-2 has repaired Monster Truck Madusa-1 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-2 has repaired Performance Car-11 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-3 has repaired Motorcycle-7 and made it Sparkling (Earned a bonus of $70.0)
-Mechanic-3 has repaired Monster Truck Grave Digger-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has repaired Pickup-4 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has repaired Pickup-4 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has repaired Car-11 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-1 has repaired Car-11 and made it Clean (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-6 has sold Monster Truck Grave Digger-1 for a sale price of $29509.2 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Electric Car-10 for a sale price of $37798.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Motorcycle-9 for a sale price of $28959.0 (Earned a sale bonus of $90.0)
 
 Ending..
 
-Intern-8 has quit the FNCD
+Mechanic-2 has quit the FNCD
+Intern-4 has been promoted to Mechanic-3
 
 Daily Report..
 
-Intern-3		1800.0	900.0	18
-Intern-9		600.0	200.0	6
-Mechanic-0		3400.0	5400.0	17
-Mechanic-2		3200.0	4350.0	16
-Mechanic-3		1800.0	2340.0	11
-Salesperson-2		4800.0	3600.0	16
-Salesperson-4		3600.0	2790.0	18
-Salesperson-6		1200.0	1200.0	6
+Intern-2		2000.0	800.0	20
+Intern-5		500.0	200.0	5
+Mechanic-0		3600.0	4940.0	18
+Mechanic-1		3400.0	5600.0	17
+Mechanic-3		0.0	200.0	8
+Salesperson-0		3900.0	3660.0	13
+Salesperson-1		4200.0	2190.0	14
+Salesperson-4		1200.0	1400.0	19
 Driver-0		1750.0	0.0	5
-Driver-2		1750.0	0.0	5
-Driver-3		0.0	0.0	0
+Driver-2		1400.0	0.0	4
+Driver-3		700.0	0.0	2
 
 Departed Staff:
-Intern-8		800.0	400.0	8
+Mechanic-2		3000.0	4470.0	15
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Car-10			15061.6	30123.2	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Performance Car-11			27034.4	54068.8	Clean	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Dirty	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Motorcycle-3			8823.2	17646.4	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Motorcycle-7			8313.0	16626.0	Clean	Used	In Stock
-Monster Truck Bear Foot (Silverado)-1			8611.0	17222.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Dirty	New	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Car-11			8627.5	17255.0	Dirty	New	In Stock
+Car-12			17622.0	35244.0	Sparkling	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Dirty	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Dirty	New	In Stock
+Pickup-5			28186.0	56372.0	Clean	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Grave Digger-1			19739.0	39478.0	Clean	New	In Stock
 
 Sold Vehicles:
-Monster Truck Grave Digger-1		9368.0	29509.2	Dirty	Used	Sold
+Electric Car-10		18899.0	37798.0	Sparkling	New	Sold
+Motorcycle-9		13790.0	28959.0	Sparkling	New	Sold
 
-Total sales for the day: 29509.2
+Total sales for the day: 66757.0
 
 Tracker Results...
 
 Tracker: Day 20
-Total money earned by all staff: $58970.00
-Total money earned by the FNCD: $1216002.97
+Total money earned by all staff: $59740.00
+Total money earned by the FNCD: $1323668.94
 
 
 *************** FNCD Day 21 ***************
 
 Opening..
-Current budget: 5774.7999999998865
+Current budget: 215661.40000000002
 
-Hired Intern-10
+Hired Intern-6
 
-Adding 250000 to the operating budget
-Purchased Broken Dirty Monster Truck Avenger-1 for a cost price of 8273.0
+Purchased Broken Clean Motorcycle-10 for a cost price of 6894.0
+
+Purchased New Clean Electric Car-11 for a cost price of 11679.0
 
 Washing..
 
-Intern-3 has washed Monster Truck Madusa-1 and made it Clean
-Intern-3 has washed Monster Truck Avenger-1 and made it Clean
-Intern-9 has washed Monster Truck Avenger-1
-Intern-9 has washed Monster Truck Avenger-1
-Intern-10 has washed Monster Truck Avenger-1
-Intern-10 has washed Monster Truck Madusa-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-2 has washed Performance Car-2 and made it Clean
+Intern-2 has washed Car-11 and made it Clean
+Intern-5 has washed Performance Car-2
+Intern-5 has washed Performance Car-2 and made it Sparkling (Earned a bonus of $100.0)
+Intern-6 has washed Car-11
+Intern-6 has washed Pickup-4 and made it Sparkling (Earned a bonus of $100.0)
 
 Repairing..
 
-Mechanic-0 has repaired Monster Truck Avenger-1 and made it Clean (Earned a bonus of $200.0)
-Mechanic-0 has repaired Motorcycle-7 and made it Clean (Earned a bonus of $70.0)
-Mechanic-2 has not repaired Monster Truck Avenger-1
-Mechanic-2 has repaired Monster Truck Avenger-1 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has repaired Motorcycle-10 and made it Clean (Earned a bonus of $70.0)
+Mechanic-0 has repaired Motorcycle-10 and made it Dirty (Earned a bonus of $70.0)
 
 Selling..
 
-Salesperson-2 has sold Motorcycle-3 for a sale price of $22499.16 (Earned a sale bonus of $90.0)
-Salesperson-6 has sold Monster Truck Bear Foot (Silverado)-1 for a sale price of $32291.25 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Monster Truck Grave Digger-1 for a sale price of $39478.0 (Earned a sale bonus of $300.0)
+Salesperson-4 has sold Motorcycle-3 for a sale price of $25332.0 (Earned a sale bonus of $90.0)
+Salesperson-4 has sold Car-12 for a sale price of $42292.8 (Earned a sale bonus of $300.0)
+Salesperson-4 has sold Monster Truck War Wizard-1 for a sale price of $109998.6328125 (Earned a sale bonus of $300.0)
 
 Racing..
 
-Last 5 Positions: Driver-2 with Performance Car-5 has finished in 16 position
-
-Ending..
-
-Salesperson-6 has quit the FNCD
-Intern-3 has been promoted to Salesperson-7
-Driver-2 has quit the FNCD
-
-Daily Report..
-
-Intern-9		700.0	200.0	7
-Intern-10		100.0	100.0	1
-Mechanic-0		3600.0	5670.0	18
-Mechanic-2		3400.0	4550.0	17
-Mechanic-3		1800.0	2340.0	11
-Salesperson-2		5100.0	3690.0	17
-Salesperson-4		3900.0	2790.0	19
-Salesperson-7		0.0	900.0	19
-Driver-0		2100.0	0.0	6
-Driver-3		350.0	0.0	1
-
-Departed Staff:
-Salesperson-6		1500.0	1500.0	7
-Driver-2		2100.0	0.0	6
-
-Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Car-10			15061.6	30123.2	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	Broken	In Stock
-Performance Car-11			27034.4	54068.8	Clean	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Dirty	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Motorcycle-7			8313.0	16626.0	Dirty	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Sparkling	New	In Stock
-Monster Truck Avenger-1			8273.0	16546.0	Dirty	New	In Stock
-
-Sold Vehicles:
-Motorcycle-3		8823.2	22499.16	Sparkling	New	Sold
-Monster Truck Bear Foot (Silverado)-1		8611.0	32291.25	Clean	New	Sold
-
-Total sales for the day: 54790.41
-
-Tracker Results...
-
-Tracker: Day 21
-Total money earned by all staff: $62580.00
-Total money earned by the FNCD: $1270793.38
-
-
-*************** FNCD Day 22 ***************
-
-Opening..
-Current budget: 244851.79999999987
-
-Hired Intern-11
-
-Hired Driver-4
-
-Purchased Broken Dirty Motorcycle-8 for a cost price of 6418.0
-
-Purchased Used Dirty Monster Truck King Krunch-1 for a cost price of 15123.2
-
-Washing..
-
-Intern-9 has washed Pickup-2 and made it Clean
-Intern-9 has washed Motorcycle-8 and made it Clean
-Intern-10 has washed Motorcycle-7 and made it Clean
-Intern-10 has washed Monster Truck Avenger-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-11 has washed Pickup-2 and made it Sparkling (Earned a bonus of $100.0)
-Intern-11 has washed Monster Truck King Krunch-1
-
-Repairing..
-
-Mechanic-0 has repaired Motorcycle-8 and made it Clean (Earned a bonus of $70.0)
-Mechanic-0 has repaired Monster Truck King Krunch-1 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-2 has repaired Motorcycle-8 and made it Dirty (Earned a bonus of $70.0)
-Mechanic-2 has repaired Performance Car-5 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-3 has repaired Performance Car-5 and made it Clean (Earned a bonus of $200.0)
-
-Selling..
-
 
 Ending..
 
 
 Daily Report..
 
-Intern-9		800.0	200.0	8
-Intern-10		200.0	200.0	2
-Intern-11		100.0	100.0	1
-Mechanic-0		3800.0	5940.0	19
-Mechanic-2		3600.0	4820.0	18
-Mechanic-3		2000.0	2540.0	12
-Salesperson-2		5100.0	3690.0	17
-Salesperson-4		3900.0	2790.0	19
-Salesperson-7		0.0	900.0	19
+Intern-2		2100.0	800.0	21
+Intern-5		600.0	300.0	6
+Intern-6		100.0	100.0	1
+Mechanic-0		3800.0	5080.0	19
+Mechanic-1		3400.0	5600.0	17
+Mechanic-3		0.0	200.0	8
+Salesperson-0		3900.0	3660.0	13
+Salesperson-1		4500.0	2490.0	15
+Salesperson-4		1500.0	2090.0	20
 Driver-0		2100.0	0.0	6
-Driver-3		350.0	0.0	1
-Driver-4		0.0	0.0	0
+Driver-2		1400.0	0.0	4
+Driver-3		1050.0	0.0	3
 
 Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Car-10			15061.6	30123.2	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Dirty	New	In Stock
-Performance Car-11			27034.4	54068.8	Clean	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Sparkling	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-5			8325.5	16651.0	Sparkling	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Motorcycle-7			8313.0	16626.0	Clean	New	In Stock
-Motorcycle-8			6418.0	12836.0	Dirty	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Sparkling	New	In Stock
-Monster Truck Avenger-1			8273.0	16546.0	Sparkling	New	In Stock
-Monster Truck King Krunch-1			15123.2	30246.4	Dirty	New	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Car-11			8627.5	17255.0	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Sparkling	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Sparkling	New	In Stock
+Pickup-5			28186.0	56372.0	Clean	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Electric Car-11			11679.0	23358.0	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-10			6894.0	13788.0	Dirty	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+
+Sold Vehicles:
+Monster Truck Grave Digger-1		19739.0	39478.0	Clean	New	Sold
+Motorcycle-3		12666.0	25332.0	Clean	New	Sold
+Car-12		17622.0	42292.8	Sparkling	New	Sold
+Monster Truck War Wizard-1		6953.0	109998.6328125	Clean	New	Sold
+
+Total sales for the day: 217101.4328125
+
+Tracker Results...
+
+Tracker: Day 21
+Total money earned by all staff: $62870.00
+Total money earned by the FNCD: $1540770.38
+
+
+*************** FNCD Day 22 ***************
+
+Opening..
+Current budget: 195288.40000000002
+
+Purchased New Dirty Car-13 for a cost price of 14569.0
+
+Purchased New Clean Motorcycle-11 for a cost price of 16290.0
+
+Purchased Used Clean Monster Truck Monster Mutt Dalmation-1 for a cost price of 11809.6
+Purchased Used Dirty Monster Truck Snake Bite-1 for a cost price of 14037.6
+
+Washing..
+
+Intern-2 has washed Monster Truck Snake Bite-1 and made it Clean
+Intern-2 has washed Car-13
+Intern-5 has washed Monster Truck Snake Bite-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-5 has washed Car-13 and made it Clean
+Intern-6 has washed Motorcycle-10 and made it Clean
+Intern-6 has washed Car-13
+
+Repairing..
+
+Mechanic-0 has repaired Monster Truck Snake Bite-1 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has repaired Monster Truck Monster Mutt Dalmation-1 and made it Clean (Earned a bonus of $200.0)
+
+Selling..
+
+
+Ending..
+
+
+Daily Report..
+
+Intern-2		2200.0	800.0	22
+Intern-5		700.0	400.0	7
+Intern-6		200.0	100.0	2
+Mechanic-0		4000.0	5480.0	20
+Mechanic-1		3400.0	5600.0	17
+Mechanic-3		0.0	200.0	8
+Salesperson-0		3900.0	3660.0	13
+Salesperson-1		4800.0	2490.0	16
+Salesperson-4		1800.0	2090.0	21
+Driver-0		2100.0	0.0	6
+Driver-2		1400.0	0.0	4
+Driver-3		1050.0	0.0	3
+
+Departed Staff:
+No one quit the FNCD today
+
+Vehicles In Inventory:
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Car-11			8627.5	17255.0	Clean	New	In Stock
+Car-13			14569.0	29138.0	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Sparkling	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Sparkling	New	In Stock
+Pickup-5			28186.0	56372.0	Clean	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Electric Car-11			11679.0	23358.0	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-10			6894.0	13788.0	Clean	New	In Stock
+Motorcycle-11			16290.0	32580.0	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Monster Mutt Dalmation-1			11809.6	23619.2	Dirty	New	In Stock
+Monster Truck Snake Bite-1			14037.6	28075.2	Clean	New	In Stock
 
 Sold Vehicles:
 No vehicle was sold in the FNCD today
@@ -2013,561 +2014,574 @@ Total sales for the day: 0.0
 Tracker Results...
 
 Tracker: Day 22
-Total money earned by all staff: $64420.00
-Total money earned by the FNCD: $1270793.38
+Total money earned by all staff: $64470.00
+Total money earned by the FNCD: $1540770.38
 
 
 *************** FNCD Day 23 ***************
 
 Opening..
-Current budget: 222410.59999999986
+Current budget: 137482.2
 
 Washing..
 
-Intern-9 has washed Performance Car-5 and made it Sparkling (Earned a bonus of $100.0)
-Intern-9 has washed Monster Truck King Krunch-1 and made it Clean
-Intern-10 has washed Monster Truck King Krunch-1
-Intern-10 has washed Motorcycle-8 and made it Clean
-Intern-11 has washed Monster Truck King Krunch-1
-Intern-11 has washed Motorcycle-8
+Intern-2 has washed Monster Truck Monster Mutt Dalmation-1 and made it Clean
+Intern-2 has washed Monster Truck Monster Mutt Dalmation-1
+Intern-5 has washed Monster Truck Monster Mutt Dalmation-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-5 has washed Car-0
+Intern-6 has washed Electric Car-2 and made it Dirty
+Intern-6 has washed Electric Car-9
 
 Repairing..
 
 
 Selling..
 
-Salesperson-2 has sold Electric Car-5 for a sale price of $31220.625 (Earned a sale bonus of $300.0)
-Salesperson-4 has sold Car-10 for a sale price of $37654.0 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Pickup-5 for a sale price of $56372.0 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Car-13 for a sale price of $29138.0 (Earned a sale bonus of $300.0)
 
 Ending..
 
-Intern-11 has quit the FNCD
 
 Daily Report..
 
-Intern-9		900.0	300.0	9
-Intern-10		300.0	200.0	3
-Mechanic-0		3800.0	5940.0	19
-Mechanic-2		3600.0	4820.0	18
-Mechanic-3		2000.0	2540.0	12
-Salesperson-2		5400.0	3990.0	18
-Salesperson-4		4200.0	3090.0	20
-Salesperson-7		300.0	900.0	20
+Intern-2		2300.0	800.0	23
+Intern-5		800.0	500.0	8
+Intern-6		300.0	100.0	3
+Mechanic-0		4000.0	5480.0	20
+Mechanic-1		3400.0	5600.0	17
+Mechanic-3		0.0	200.0	8
+Salesperson-0		4200.0	3660.0	14
+Salesperson-1		5100.0	3090.0	17
+Salesperson-4		2100.0	2090.0	22
 Driver-0		2100.0	0.0	6
-Driver-3		350.0	0.0	1
-Driver-4		0.0	0.0	0
+Driver-2		1400.0	0.0	4
+Driver-3		1050.0	0.0	3
 
 Departed Staff:
-Intern-11		200.0	100.0	2
+No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Performance Car-11			27034.4	54068.8	Clean	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Sparkling	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Clean	New	In Stock
-Motorcycle-7			8313.0	16626.0	Clean	New	In Stock
-Motorcycle-8			6418.0	12836.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Sparkling	New	In Stock
-Monster Truck Avenger-1			8273.0	16546.0	Sparkling	New	In Stock
-Monster Truck King Krunch-1			15123.2	30246.4	Clean	New	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Car-11			8627.5	17255.0	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Sparkling	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Dirty	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Electric Car-11			11679.0	23358.0	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-10			6894.0	13788.0	Clean	New	In Stock
+Motorcycle-11			16290.0	32580.0	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Monster Mutt Dalmation-1			11809.6	23619.2	Sparkling	New	In Stock
+Monster Truck Snake Bite-1			14037.6	28075.2	Clean	New	In Stock
 
 Sold Vehicles:
-Electric Car-5		8325.5	31220.625	Sparkling	New	Sold
-Car-10		15061.6	37654.0	Clean	New	Sold
+Pickup-5		28186.0	56372.0	Clean	New	Sold
+Car-13		14569.0	29138.0	Clean	New	Sold
 
-Total sales for the day: 68874.625
+Total sales for the day: 85510.0
 
 Tracker Results...
 
 Tracker: Day 23
-Total money earned by all staff: $66320.00
-Total money earned by the FNCD: $1339668.01
+Total money earned by all staff: $66370.00
+Total money earned by the FNCD: $1569908.38
 
 
 *************** FNCD Day 24 ***************
 
 Opening..
-Current budget: 221210.59999999986
+Current budget: 192654.2
 
-Hired Intern-12
+Purchased Used Sparkling Car-14 for a cost price of 14128.0
 
-Purchased Used Sparkling Car-11 for a cost price of 13286.400000000001
-
-Purchased Used Sparkling Electric Car-9 for a cost price of 12939.2
+Purchased Broken Dirty Pickup-6 for a cost price of 11892.0
 
 Washing..
 
-Intern-9 has washed Motorcycle-8
-Intern-9 has washed Performance Car-11
-Intern-10 has washed Motorcycle-6 and made it Sparkling (Earned a bonus of $50.0)
-Intern-10 has washed Car-5 and made it Dirty
-Intern-12 has washed Motorcycle-7
-Intern-12 has washed Motorcycle-7
+Intern-2 has washed Electric Car-2 and made it Clean
+Intern-2 has washed Pickup-6 and made it Clean
+Intern-5 has washed Electric Car-2
+Intern-5 has washed Electric Car-2
+Intern-6 has washed Pickup-6 and made it Sparkling (Earned a bonus of $100.0)
+Intern-6 has washed Electric Car-2 and made it Sparkling (Earned a bonus of $100.0)
 
 Repairing..
 
-Mechanic-0 has repaired Electric Car-9 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-0 has repaired Car-11 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-2 has not repaired Motorcycle-7
-Mechanic-2 has repaired Motorcycle-7 and made it Dirty (Earned a bonus of $70.0)
-Mechanic-3 has repaired Motorcycle-7 and made it Dirty (Earned a bonus of $70.0)
+Mechanic-0 has not repaired Electric Car-2
+Mechanic-0 has repaired Car-14 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-1 has not repaired Electric Car-2
+Mechanic-1 has repaired Pickup-6 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-3 has repaired Electric Car-2 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-3 has repaired Electric Car-2 and made it Dirty (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-7 has sold Motorcycle-7 for a sale price of $58450.78125 (Earned a sale bonus of $90.0)
+Salesperson-4 has sold Performance Car-0 for a sale price of $58254.240000000005 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Performance Car-0 for a sale price of $48545.200000000004 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Performance Car-0 for a sale price of $49516.10400000001 (Earned a sale bonus of $300.0)
 
 Racing..
 
-Top 3 positions: Driver-0 with Performance Car-5 has finished in 2 position
-Top 3 positions: Driver-4 with Performance Car-4 has finished in 3 position
 
 Ending..
 
-Mechanic-0 has quit the FNCD
-Intern-9 has been promoted to Mechanic-4
 
 Daily Report..
 
-Intern-10		400.0	250.0	4
-Intern-12		100.0	0.0	1
-Mechanic-2		3800.0	4890.0	19
-Mechanic-3		2200.0	2610.0	13
-Mechanic-4		0.0	300.0	10
-Salesperson-2		5700.0	3990.0	19
-Salesperson-4		4500.0	3090.0	21
-Salesperson-7		600.0	990.0	21
+Intern-2		2400.0	800.0	24
+Intern-5		900.0	500.0	9
+Intern-6		400.0	300.0	4
+Mechanic-0		4200.0	5680.0	21
+Mechanic-1		3600.0	5800.0	18
+Mechanic-3		200.0	600.0	9
+Salesperson-0		4500.0	3960.0	15
+Salesperson-1		5400.0	3390.0	18
+Salesperson-4		2400.0	2390.0	23
 Driver-0		2450.0	0.0	7
-Driver-3		700.0	0.0	2
-Driver-4		350.0	0.0	1
+Driver-2		1750.0	0.0	5
+Driver-3		1400.0	0.0	4
 
 Departed Staff:
-Mechanic-0		4000.0	6340.0	20
+No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Dirty	New	In Stock
-Car-11			13286.400000000001	26572.800000000003	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Performance Car-11			27034.4	54068.8	Clean	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Clean	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Sparkling	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Electric Car-9			12939.2	25878.4	Clean	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Sparkling	New	In Stock
-Motorcycle-8			6418.0	12836.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Sparkling	New	In Stock
-Monster Truck Avenger-1			8273.0	16546.0	Sparkling	New	In Stock
-Monster Truck King Krunch-1			15123.2	30246.4	Clean	New	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Car-11			8627.5	17255.0	Clean	New	In Stock
+Car-14			14128.0	28256.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Sparkling	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Sparkling	New	In Stock
+Pickup-6			11892.0	23784.0	Clean	Used	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Dirty	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Electric Car-11			11679.0	23358.0	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-10			6894.0	13788.0	Clean	New	In Stock
+Motorcycle-11			16290.0	32580.0	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Monster Mutt Dalmation-1			11809.6	23619.2	Sparkling	New	In Stock
+Monster Truck Snake Bite-1			14037.6	28075.2	Clean	New	In Stock
 
 Sold Vehicles:
-Motorcycle-7		8313.0	58450.78125	Dirty	New	Sold
+Performance Car-0		22066.0	49516.10400000001	Sparkling	New	Sold
+Performance Car-0		22066.0	49516.10400000001	Sparkling	New	Sold
+Performance Car-0		22066.0	49516.10400000001	Sparkling	New	Sold
 
-Total sales for the day: 58450.78125
+Total sales for the day: 146606.50400000002
 
 Tracker Results...
 
 Tracker: Day 24
-Total money earned by all staff: $69850.00
-Total money earned by the FNCD: $1398118.79
+Total money earned by all staff: $71120.00
+Total money earned by the FNCD: $1619424.48
 
 
 *************** FNCD Day 25 ***************
 
 Opening..
-Current budget: 192134.99999999985
+Current budget: 270583.64
 
-Hired Intern-13
-
-Purchased Used Clean Motorcycle-9 for a cost price of 14926.400000000001
+Purchased Broken Clean Performance Car-5 for a cost price of 10643.0
 
 Washing..
 
-Intern-10 has washed Car-5 and made it Sparkling (Earned a bonus of $100.0)
-Intern-10 has washed Pickup-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-12 has washed Performance Car-11
-Intern-12 has washed Monster Truck King Krunch-1
-Intern-13 has washed Car-11 and made it Dirty
-Intern-13 has washed Monster Truck The Destroyer-1
+Intern-2 has washed Electric Car-2 and made it Clean
+Intern-2 has washed Electric Car-2
+Intern-5 has washed Electric Car-2
+Intern-5 has washed Electric Car-2
+Intern-6 has washed Electric Car-2 and made it Sparkling (Earned a bonus of $100.0)
+Intern-6 has washed Car-14
 
 Repairing..
 
-Mechanic-2 has repaired Motorcycle-9 and made it Clean (Earned a bonus of $70.0)
+Mechanic-0 has not repaired Pickup-6
+Mechanic-0 has repaired Pickup-6 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-1 has not repaired Performance Car-5
+Mechanic-1 has repaired Performance Car-5 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-3 has not repaired Performance Car-5
+Mechanic-3 has repaired Performance Car-5 and made it Dirty (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-7 has sold Car-11 for a sale price of $33216.0 (Earned a sale bonus of $300.0)
+Salesperson-4 has sold Motorcycle-11 for a sale price of $39096.0 (Earned a sale bonus of $90.0)
+Salesperson-1 has sold Performance Car-2 for a sale price of $94537.5 (Earned a sale bonus of $300.0)
 
 Ending..
 
-Intern-13 has quit the FNCD
 
 Daily Report..
 
-Intern-10		500.0	450.0	5
-Intern-12		200.0	0.0	2
-Mechanic-2		4000.0	4960.0	20
-Mechanic-3		2200.0	2610.0	13
-Mechanic-4		0.0	300.0	10
-Salesperson-2		6000.0	3990.0	20
-Salesperson-4		4500.0	3090.0	21
-Salesperson-7		900.0	1290.0	22
+Intern-2		2500.0	800.0	25
+Intern-5		1000.0	500.0	10
+Intern-6		500.0	400.0	5
+Mechanic-0		4400.0	5880.0	22
+Mechanic-1		3800.0	6000.0	19
+Mechanic-3		400.0	800.0	10
+Salesperson-0		4500.0	3960.0	15
+Salesperson-1		5700.0	3690.0	19
+Salesperson-4		2700.0	2480.0	24
 Driver-0		2450.0	0.0	7
-Driver-3		700.0	0.0	2
-Driver-4		350.0	0.0	1
+Driver-2		1750.0	0.0	5
+Driver-3		1400.0	0.0	4
 
 Departed Staff:
-Intern-13		100.0	0.0	1
+No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Sparkling	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Performance Car-11			27034.4	54068.8	Clean	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Sparkling	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Clean	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Electric Car-9			12939.2	25878.4	Clean	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Sparkling	New	In Stock
-Motorcycle-8			6418.0	12836.0	Clean	New	In Stock
-Motorcycle-9			14926.400000000001	29852.800000000003	Dirty	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Sparkling	New	In Stock
-Monster Truck Avenger-1			8273.0	16546.0	Sparkling	New	In Stock
-Monster Truck King Krunch-1			15123.2	30246.4	Clean	New	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Car-11			8627.5	17255.0	Clean	New	In Stock
+Car-14			14128.0	28256.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Performance Car-5			10643.0	21286.0	Dirty	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Sparkling	New	In Stock
+Pickup-6			11892.0	23784.0	Dirty	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Sparkling	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Electric Car-11			11679.0	23358.0	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-10			6894.0	13788.0	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Monster Mutt Dalmation-1			11809.6	23619.2	Sparkling	New	In Stock
+Monster Truck Snake Bite-1			14037.6	28075.2	Clean	New	In Stock
 
 Sold Vehicles:
-Car-11		13286.400000000001	33216.0	Dirty	New	Sold
+Motorcycle-11		16290.0	39096.0	Clean	New	Sold
+Performance Car-2		20168.0	94537.5	Sparkling	New	Sold
 
-Total sales for the day: 33216.0
+Total sales for the day: 133633.5
 
 Tracker Results...
 
 Tracker: Day 25
-Total money earned by all staff: $71520.00
-Total money earned by the FNCD: $1431334.79
+Total money earned by all staff: $73710.00
+Total money earned by the FNCD: $1753057.98
 
 
 *************** FNCD Day 26 ***************
 
 Opening..
-Current budget: 176108.59999999986
+Current budget: 258440.64
 
-Hired Intern-14
+Purchased Broken Dirty Performance Car-6 for a cost price of 12078.0
 
-Purchased Used Sparkling Car-12 for a cost price of 11532.0
+Purchased Broken Clean Motorcycle-12 for a cost price of 7061.0
 
 Washing..
 
-Intern-10 has washed Motorcycle-9 and made it Sparkling (Earned a bonus of $50.0)
-Intern-10 has washed Performance Car-11
-Intern-12 has washed Electric Car-2 and made it Sparkling (Earned a bonus of $100.0)
-Intern-12 has washed Car-4
-Intern-14 has washed Car-4
-Intern-14 has washed Performance Car-11 and made it Sparkling (Earned a bonus of $100.0)
+Intern-2 has washed Performance Car-5 and made it Clean
+Intern-2 has washed Performance Car-6 and made it Clean
+Intern-5 has washed Pickup-6 and made it Clean
+Intern-5 has washed Performance Car-5 and made it Dirty
+Intern-6 has washed Performance Car-6 and made it Sparkling (Earned a bonus of $100.0)
+Intern-6 has washed Performance Car-5
 
 Repairing..
 
-Mechanic-2 has repaired Performance Car-11 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-2 has repaired Car-12 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-3 has not repaired Performance Car-11
-Mechanic-3 has repaired Performance Car-11 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has repaired Motorcycle-12 and made it Clean (Earned a bonus of $70.0)
+Mechanic-0 has not repaired Motorcycle-12
+Mechanic-1 has repaired Motorcycle-12 and made it Dirty (Earned a bonus of $70.0)
+Mechanic-1 has repaired Performance Car-6 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-3 has not repaired Performance Car-6
+Mechanic-3 has repaired Performance Car-6 and made it Dirty (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-4 has sold Monster Truck King Krunch-1 for a sale price of $37808.0 (Earned a sale bonus of $300.0)
-Salesperson-2 has sold Motorcycle-9 for a sale price of $37316.0 (Earned a sale bonus of $90.0)
-Salesperson-4 has sold Car-12 for a sale price of $28830.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Monster Truck Snake Bite-1 for a sale price of $35094.0 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Car-14 for a sale price of $35320.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Car-11 for a sale price of $33970.78125 (Earned a sale bonus of $300.0)
 
 Ending..
 
 
 Daily Report..
 
-Intern-10		600.0	500.0	6
-Intern-12		300.0	100.0	3
-Intern-14		100.0	100.0	1
-Mechanic-2		4200.0	5360.0	21
-Mechanic-3		2400.0	2810.0	14
-Mechanic-4		0.0	300.0	10
-Salesperson-2		6300.0	4080.0	21
-Salesperson-4		4800.0	3690.0	22
-Salesperson-7		1200.0	1290.0	23
+Intern-2		2600.0	800.0	26
+Intern-5		1100.0	500.0	11
+Intern-6		600.0	500.0	6
+Mechanic-0		4600.0	5950.0	23
+Mechanic-1		4000.0	6270.0	20
+Mechanic-3		600.0	1000.0	11
+Salesperson-0		4800.0	4560.0	16
+Salesperson-1		6000.0	3990.0	20
+Salesperson-4		3000.0	2480.0	25
 Driver-0		2450.0	0.0	7
-Driver-3		700.0	0.0	2
-Driver-4		350.0	0.0	1
+Driver-2		1750.0	0.0	5
+Driver-3		1400.0	0.0	4
 
 Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-5			9763.0	19526.0	Sparkling	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Performance Car-11			27034.4	54068.8	Dirty	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Sparkling	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Sparkling	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Electric Car-9			12939.2	25878.4	Clean	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Sparkling	New	In Stock
-Motorcycle-8			6418.0	12836.0	Clean	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Sparkling	New	In Stock
-Monster Truck Avenger-1			8273.0	16546.0	Sparkling	New	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Performance Car-5			10643.0	21286.0	Dirty	New	In Stock
+Performance Car-6			12078.0	24156.0	Dirty	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Sparkling	New	In Stock
+Pickup-6			11892.0	23784.0	Clean	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Sparkling	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Electric Car-11			11679.0	23358.0	Clean	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-10			6894.0	13788.0	Clean	New	In Stock
+Motorcycle-12			7061.0	14122.0	Dirty	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Monster Mutt Dalmation-1			11809.6	23619.2	Sparkling	New	In Stock
 
 Sold Vehicles:
-Monster Truck King Krunch-1		15123.2	37808.0	Clean	New	Sold
-Motorcycle-9		14926.400000000001	37316.0	Sparkling	New	Sold
-Car-12		11532.0	28830.0	Clean	New	Sold
+Monster Truck Snake Bite-1		14037.6	35094.0	Clean	New	Sold
+Car-14		14128.0	35320.0	Clean	New	Sold
+Car-11		8627.5	33970.78125	Clean	New	Sold
 
-Total sales for the day: 103954.0
+Total sales for the day: 104384.78125
 
 Tracker Results...
 
 Tracker: Day 26
-Total money earned by all staff: $74660.00
-Total money earned by the FNCD: $1535288.79
+Total money earned by all staff: $77050.00
+Total money earned by the FNCD: $1857442.76
 
 
 *************** FNCD Day 27 ***************
 
 Opening..
-Current budget: 162976.59999999986
+Current budget: 237501.64
 
-Purchased New Dirty Car-13 for a cost price of 18227.0
+Purchased Used Clean Car-15 for a cost price of 13051.2
+Purchased Used Dirty Car-16 for a cost price of 13804.800000000001
 
-Purchased Used Clean Motorcycle-10 for a cost price of 14584.0
-
-Purchased Broken Sparkling Monster Truck Stone Crusher-1 for a cost price of 8912.5
+Purchased Used Sparkling Monster Truck Madusa-1 for a cost price of 8904.0
 
 Washing..
 
-Intern-10 has washed Car-13 and made it Clean
-Intern-10 has washed Car-13
-Intern-12 has washed Performance Car-11 and made it Clean
-Intern-12 has washed Car-13
-Intern-14 has washed Car-13 and made it Dirty
-Intern-14 has washed Car-13 and made it Clean
+Intern-2 has washed Motorcycle-12 and made it Sparkling (Earned a bonus of $50.0)
+Intern-2 has washed Performance Car-5 and made it Clean
+Intern-5 has washed Car-16 and made it Clean
+Intern-5 has washed Performance Car-6 and made it Clean
+Intern-6 has washed Performance Car-5 and made it Sparkling (Earned a bonus of $100.0)
+Intern-6 has washed Car-16
 
 Repairing..
 
-Mechanic-2 has not repaired Monster Truck Stone Crusher-1
-Mechanic-2 has repaired Motorcycle-10 and made it Clean (Earned a bonus of $70.0)
-Mechanic-3 has repaired Monster Truck Stone Crusher-1 and made it Clean (Earned a bonus of $200.0)
-Mechanic-3 has repaired Monster Truck Stone Crusher-1 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has repaired Car-16 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has repaired Car-15 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has not repaired Monster Truck Madusa-1
+Mechanic-1 has repaired Monster Truck Madusa-1 and made it Clean (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-7 has sold Car-13 for a sale price of $43744.8 (Earned a sale bonus of $300.0)
-Salesperson-2 has sold Car-5 for a sale price of $43933.5 (Earned a sale bonus of $300.0)
-Salesperson-4 has sold Electric Car-9 for a sale price of $32348.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Motorcycle-0 for a sale price of $22372.0 (Earned a sale bonus of $90.0)
 
 Ending..
 
 
 Daily Report..
 
-Intern-10		700.0	500.0	7
-Intern-12		400.0	100.0	4
-Intern-14		200.0	100.0	2
-Mechanic-2		4400.0	5430.0	22
-Mechanic-3		2600.0	3210.0	15
-Mechanic-4		0.0	300.0	10
-Salesperson-2		6600.0	4380.0	22
-Salesperson-4		5100.0	3990.0	23
-Salesperson-7		1500.0	1590.0	24
+Intern-2		2700.0	850.0	27
+Intern-5		1200.0	500.0	12
+Intern-6		700.0	600.0	7
+Mechanic-0		4800.0	6350.0	24
+Mechanic-1		4200.0	6470.0	21
+Mechanic-3		600.0	1000.0	11
+Salesperson-0		5100.0	4650.0	17
+Salesperson-1		6300.0	3990.0	21
+Salesperson-4		3000.0	2480.0	25
 Driver-0		2450.0	0.0	7
-Driver-3		700.0	0.0	2
-Driver-4		350.0	0.0	1
+Driver-2		1750.0	0.0	5
+Driver-3		1400.0	0.0	4
 
 Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Performance Car-11			27034.4	54068.8	Clean	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Sparkling	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Sparkling	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Sparkling	New	In Stock
-Motorcycle-8			6418.0	12836.0	Clean	New	In Stock
-Motorcycle-10			14584.0	29168.0	Dirty	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Sparkling	New	In Stock
-Monster Truck Avenger-1			8273.0	16546.0	Sparkling	New	In Stock
-Monster Truck Stone Crusher-1			8912.5	17825.0	Dirty	New	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Car-15			13051.2	26102.4	Dirty	New	In Stock
+Car-16			13804.800000000001	27609.600000000002	Dirty	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Performance Car-5			10643.0	21286.0	Sparkling	New	In Stock
+Performance Car-6			12078.0	24156.0	Clean	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Sparkling	New	In Stock
+Pickup-6			11892.0	23784.0	Clean	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Sparkling	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Electric Car-11			11679.0	23358.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-10			6894.0	13788.0	Clean	New	In Stock
+Motorcycle-12			7061.0	14122.0	Sparkling	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Monster Mutt Dalmation-1			11809.6	23619.2	Sparkling	New	In Stock
+Monster Truck Madusa-1			8904.0	17808.0	Dirty	New	In Stock
 
 Sold Vehicles:
-Car-13		18227.0	43744.8	Clean	New	Sold
-Car-5		9763.0	43933.5	Sparkling	New	Sold
-Electric Car-9		12939.2	32348.0	Clean	New	Sold
+Motorcycle-0		11186.0	22372.0	Sparkling	New	Sold
 
-Total sales for the day: 120026.3
+Total sales for the day: 22372.0
 
 Tracker Results...
 
 Tracker: Day 27
-Total money earned by all staff: $77630.00
-Total money earned by the FNCD: $1655315.09
+Total money earned by all staff: $79190.00
+Total money earned by the FNCD: $1879814.76
 
 
 *************** FNCD Day 28 ***************
 
 Opening..
-Current budget: 119653.09999999986
+Current budget: 200441.64
 
-Purchased Used Dirty Car-14 for a cost price of 14336.800000000001
-Purchased Used Dirty Car-15 for a cost price of 11264.0
-
-Purchased New Dirty Electric Car-10 for a cost price of 14167.0
+Purchased New Sparkling Motorcycle-13 for a cost price of 15006.0
 
 Washing..
 
-Intern-10 has washed Car-14 and made it Sparkling (Earned a bonus of $100.0)
-Intern-10 has washed Electric Car-10 and made it Sparkling (Earned a bonus of $100.0)
-Intern-12 has washed Monster Truck Stone Crusher-1
-Intern-12 has washed Monster Truck Stone Crusher-1 and made it Clean
-Intern-14 has washed Monster Truck Stone Crusher-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-14 has washed Car-15 and made it Clean
+Intern-2 has washed Monster Truck Madusa-1 and made it Clean
+Intern-2 has washed Monster Truck Madusa-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-5 has washed Car-15 and made it Sparkling (Earned a bonus of $100.0)
+Intern-5 has washed Car-16 and made it Clean
+Intern-6 has washed Car-16
+Intern-6 has washed Car-16
 
 Repairing..
 
-Mechanic-2 has repaired Car-14 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-2 has repaired Car-15 and made it Clean (Earned a bonus of $200.0)
-Mechanic-3 has repaired Car-15 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-0 has repaired Monster Truck Madusa-1 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has repaired Monster Truck Madusa-1 and made it Clean (Earned a bonus of $200.0)
 
 Selling..
 
-Salesperson-4 has sold Performance Car-11 for a sale price of $126723.75 (Earned a sale bonus of $300.0)
+Salesperson-4 has sold Car-16 for a sale price of $34512.0 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Car-15 for a sale price of $32628.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Car-8 for a sale price of $49135.78125 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Car-0 for a sale price of $36477.0 (Earned a sale bonus of $300.0)
 
 Racing..
 
-Last 5 Positions: Driver-3 with Monster Truck Stone Crusher-1 has finished in 18 position
+Top 3 positions: Driver-3 with Pickup-6 has finished in 2 position
+Last 5 Positions: Driver-0 with Pickup-0 has finished in 20 position
 
 Ending..
 
+Salesperson-0 has quit the FNCD
+Intern-2 has been promoted to Salesperson-5
 
 Daily Report..
 
-Intern-10		800.0	700.0	8
-Intern-12		500.0	100.0	5
-Intern-14		300.0	200.0	3
-Mechanic-2		4600.0	5830.0	23
-Mechanic-3		2800.0	3410.0	16
-Mechanic-4		0.0	300.0	10
-Salesperson-2		6600.0	4380.0	22
-Salesperson-4		5400.0	4290.0	24
-Salesperson-7		1800.0	1590.0	25
+Intern-5		1300.0	600.0	13
+Intern-6		800.0	600.0	8
+Mechanic-0		5000.0	6750.0	25
+Mechanic-1		4200.0	6470.0	21
+Mechanic-3		600.0	1000.0	11
+Salesperson-1		6600.0	4590.0	22
+Salesperson-4		3300.0	2780.0	26
+Salesperson-5		0.0	950.0	28
 Driver-0		2800.0	0.0	8
-Driver-3		1050.0	0.0	3
-Driver-4		700.0	0.0	2
+Driver-2		2100.0	0.0	6
+Driver-3		1750.0	0.0	5
 
 Departed Staff:
-No one quit the FNCD today
+Salesperson-0		5400.0	4950.0	18
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-14			14336.800000000001	28673.600000000002	Clean	New	In Stock
-Car-15			11264.0	22528.0	Dirty	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Sparkling	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Sparkling	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Electric Car-10			14167.0	28334.0	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Sparkling	New	In Stock
-Motorcycle-8			6418.0	12836.0	Clean	New	In Stock
-Motorcycle-10			14584.0	29168.0	Dirty	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Sparkling	New	In Stock
-Monster Truck Avenger-1			8273.0	16546.0	Sparkling	New	In Stock
-Monster Truck Stone Crusher-1			8912.5	17825.0	Sparkling	Broken	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Performance Car-5			10643.0	21286.0	Sparkling	New	In Stock
+Performance Car-6			12078.0	24156.0	Clean	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	Broken	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Sparkling	New	In Stock
+Pickup-6			11892.0	23784.0	Clean	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Sparkling	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Electric Car-11			11679.0	23358.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-10			6894.0	13788.0	Clean	New	In Stock
+Motorcycle-12			7061.0	14122.0	Sparkling	New	In Stock
+Motorcycle-13			15006.0	30012.0	Sparkling	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Monster Mutt Dalmation-1			11809.6	23619.2	Sparkling	New	In Stock
+Monster Truck Madusa-1			8904.0	17808.0	Dirty	New	In Stock
 
 Sold Vehicles:
-Performance Car-11		27034.4	126723.75	Clean	New	Sold
+Car-16		13804.800000000001	34512.0	Clean	New	Sold
+Car-15		13051.2	32628.0	Sparkling	New	Sold
+Car-8		5823.5	49135.78125	Sparkling	New	Sold
+Car-0		5404.0	36477.0	Clean	New	Sold
 
-Total sales for the day: 126723.75
+Total sales for the day: 152752.78125
 
 Tracker Results...
 
 Tracker: Day 28
-Total money earned by all staff: $81180.00
-Total money earned by the FNCD: $1782038.84
+Total money earned by all staff: $83440.00
+Total money earned by the FNCD: $2032567.54
 
 
 *************** FNCD Day 29 ***************
 
 Opening..
-Current budget: 77535.29999999986
+Current budget: 182985.64
 
-Purchased New Sparkling Performance Car-12 for a cost price of 22424.0
+Hired Intern-7
+
+Purchased Broken Sparkling Car-17 for a cost price of 5158.5
+Purchased Broken Sparkling Car-18 for a cost price of 8369.0
+Purchased Used Sparkling Car-19 for a cost price of 14934.400000000001
+Purchased New Clean Car-20 for a cost price of 18998.0
 
 Washing..
 
-Intern-10 has washed Motorcycle-10 and made it Clean
-Intern-10 has washed Car-15 and made it Clean
-Intern-12 has washed Motorcycle-10
-Intern-12 has washed Car-15
-Intern-14 has washed Motorcycle-10 and made it Sparkling (Earned a bonus of $50.0)
-Intern-14 has washed Car-15
+Intern-5 has washed Monster Truck Madusa-1 and made it Clean
+Intern-5 has washed Monster Truck Madusa-1
+Intern-6 has washed Monster Truck Madusa-1
+Intern-6 has washed Monster Truck Madusa-1
+Intern-7 has washed Monster Truck Madusa-1
+Intern-7 has washed Monster Truck Madusa-1
 
 Repairing..
 
-Mechanic-2 has repaired Monster Truck Stone Crusher-1 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-2 has repaired Monster Truck Stone Crusher-1 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has repaired Car-17 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has repaired Car-17 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has repaired Car-18 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-1 has repaired Pickup-0 and made it Clean (Earned a bonus of $200.0)
+Mechanic-3 has repaired Car-18 and made it Clean (Earned a bonus of $200.0)
+Mechanic-3 has repaired Car-19 and made it Sparkling (Earned a bonus of $200.0)
 
 Selling..
 
@@ -2577,47 +2591,47 @@ Ending..
 
 Daily Report..
 
-Intern-10		900.0	700.0	9
-Intern-12		600.0	100.0	6
-Intern-14		400.0	250.0	4
-Mechanic-2		4800.0	6230.0	24
-Mechanic-3		2800.0	3410.0	16
-Mechanic-4		0.0	300.0	10
-Salesperson-2		6600.0	4380.0	22
-Salesperson-4		5400.0	4290.0	24
-Salesperson-7		2100.0	1590.0	26
+Intern-5		1400.0	600.0	14
+Intern-6		900.0	600.0	9
+Intern-7		100.0	0.0	1
+Mechanic-0		5200.0	7150.0	26
+Mechanic-1		4400.0	6870.0	22
+Mechanic-3		800.0	1400.0	12
+Salesperson-1		6600.0	4590.0	22
+Salesperson-4		3300.0	2780.0	26
+Salesperson-5		0.0	950.0	28
 Driver-0		2800.0	0.0	8
-Driver-3		1050.0	0.0	3
-Driver-4		700.0	0.0	2
+Driver-2		2100.0	0.0	6
+Driver-3		1750.0	0.0	5
 
 Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-14			14336.800000000001	28673.600000000002	Clean	New	In Stock
-Car-15			11264.0	22528.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Performance Car-12			22424.0	44848.0	Sparkling	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Sparkling	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Sparkling	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Electric Car-10			14167.0	28334.0	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Sparkling	New	In Stock
-Motorcycle-8			6418.0	12836.0	Clean	New	In Stock
-Motorcycle-10			14584.0	29168.0	Sparkling	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Sparkling	New	In Stock
-Monster Truck Avenger-1			8273.0	16546.0	Sparkling	New	In Stock
-Monster Truck Stone Crusher-1			8912.5	17825.0	Dirty	New	In Stock
+Car-17			5158.5	10317.0	Dirty	New	In Stock
+Car-18			8369.0	16738.0	Dirty	New	In Stock
+Car-19			14934.400000000001	29868.800000000003	Clean	New	In Stock
+Car-20			18998.0	37996.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Performance Car-5			10643.0	21286.0	Sparkling	New	In Stock
+Performance Car-6			12078.0	24156.0	Clean	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Dirty	Used	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Sparkling	New	In Stock
+Pickup-6			11892.0	23784.0	Clean	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Sparkling	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Electric Car-11			11679.0	23358.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-10			6894.0	13788.0	Clean	New	In Stock
+Motorcycle-12			7061.0	14122.0	Sparkling	New	In Stock
+Motorcycle-13			15006.0	30012.0	Sparkling	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Monster Mutt Dalmation-1			11809.6	23619.2	Sparkling	New	In Stock
+Monster Truck Madusa-1			8904.0	17808.0	Clean	New	In Stock
 
 Sold Vehicles:
 No vehicle was sold in the FNCD today
@@ -2627,84 +2641,87 @@ Total sales for the day: 0.0
 Tracker Results...
 
 Tracker: Day 29
-Total money earned by all staff: $82430.00
-Total money earned by the FNCD: $1782038.84
+Total money earned by all staff: $85540.00
+Total money earned by the FNCD: $2032567.54
 
 
 *************** FNCD Day 30 ***************
 
 Opening..
-Current budget: 54311.29999999986
+Current budget: 134625.74000000002
 
 Washing..
 
-Intern-10 has washed Monster Truck Stone Crusher-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-10 has washed Car-14 and made it Sparkling (Earned a bonus of $100.0)
-Intern-12 has washed Car-4
-Intern-12 has washed Car-15
-Intern-14 has washed Electric Car-8
-Intern-14 has washed Monster Truck The Destroyer-1
+Intern-5 has washed Pickup-0 and made it Sparkling (Earned a bonus of $100.0)
+Intern-5 has washed Car-17 and made it Clean
+Intern-6 has washed Car-17
+Intern-6 has washed Car-17 and made it Sparkling (Earned a bonus of $100.0)
+Intern-7 has washed Car-18 and made it Clean
+Intern-7 has washed Car-18
 
 Repairing..
 
+Mechanic-0 has not repaired Pickup-0
+Mechanic-0 has repaired Pickup-0 and made it Clean (Earned a bonus of $200.0)
 
 Selling..
 
+Salesperson-1 has sold Car-20 for a sale price of $39895.8 (Earned a sale bonus of $300.0)
+Salesperson-5 has sold Electric Car-11 for a sale price of $23358.0 (Earned a sale bonus of $300.0)
 
 Ending..
 
 
 Daily Report..
 
-Intern-10		1000.0	900.0	10
-Intern-12		700.0	100.0	7
-Intern-14		500.0	250.0	5
-Mechanic-2		4800.0	6230.0	24
-Mechanic-3		2800.0	3410.0	16
-Mechanic-4		0.0	300.0	10
-Salesperson-2		6600.0	4380.0	22
-Salesperson-4		5400.0	4290.0	24
-Salesperson-7		2100.0	1590.0	26
+Intern-5		1500.0	700.0	15
+Intern-6		1000.0	700.0	10
+Intern-7		200.0	0.0	2
+Mechanic-0		5400.0	7350.0	27
+Mechanic-1		4400.0	6870.0	22
+Mechanic-3		800.0	1400.0	12
+Salesperson-1		6900.0	4890.0	23
+Salesperson-4		3300.0	2780.0	26
+Salesperson-5		300.0	1250.0	29
 Driver-0		2800.0	0.0	8
-Driver-3		1050.0	0.0	3
-Driver-4		700.0	0.0	2
+Driver-2		2100.0	0.0	6
+Driver-3		1750.0	0.0	5
 
 Departed Staff:
 No one quit the FNCD today
 
 Vehicles In Inventory:
-Car-0			6632.5	13265.0	Clean	New	In Stock
-Car-4			7684.0	15368.0	Clean	New	In Stock
-Car-14			14336.800000000001	28673.600000000002	Sparkling	New	In Stock
-Car-15			11264.0	22528.0	Clean	New	In Stock
-Performance Car-3			17474.4	34948.8	Sparkling	New	In Stock
-Performance Car-4			17544.0	35088.0	Sparkling	New	In Stock
-Performance Car-5			16403.2	32806.4	Sparkling	New	In Stock
-Performance Car-12			22424.0	44848.0	Sparkling	New	In Stock
-Pickup-0			17318.0	34636.0	Sparkling	New	In Stock
-Pickup-1			8998.5	17997.0	Sparkling	New	In Stock
-Pickup-2			13662.400000000001	27324.800000000003	Sparkling	New	In Stock
-Pickup-3			14917.5	29835.0	Sparkling	New	In Stock
-Electric Car-0			7202.5	14405.0	Sparkling	New	In Stock
-Electric Car-2			8254.4	16508.8	Sparkling	New	In Stock
-Electric Car-8			5749.5	11499.0	Clean	New	In Stock
-Electric Car-10			14167.0	28334.0	Sparkling	New	In Stock
-Motorcycle-5			6264.0	12528.0	Sparkling	New	In Stock
-Motorcycle-6			8117.6	16235.2	Sparkling	New	In Stock
-Motorcycle-8			6418.0	12836.0	Clean	New	In Stock
-Motorcycle-10			14584.0	29168.0	Sparkling	New	In Stock
-Monster Truck The Destroyer-1			8207.0	16414.0	Clean	New	In Stock
-Monster Truck Madusa-1			7063.5	14127.0	Sparkling	New	In Stock
-Monster Truck Avenger-1			8273.0	16546.0	Sparkling	New	In Stock
-Monster Truck Stone Crusher-1			8912.5	17825.0	Sparkling	New	In Stock
+Car-17			5158.5	10317.0	Sparkling	New	In Stock
+Car-18			8369.0	16738.0	Clean	New	In Stock
+Car-19			14934.400000000001	29868.800000000003	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Performance Car-5			10643.0	21286.0	Sparkling	New	In Stock
+Performance Car-6			12078.0	24156.0	Clean	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Dirty	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Sparkling	New	In Stock
+Pickup-6			11892.0	23784.0	Clean	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Sparkling	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-10			6894.0	13788.0	Clean	New	In Stock
+Motorcycle-12			7061.0	14122.0	Sparkling	New	In Stock
+Motorcycle-13			15006.0	30012.0	Sparkling	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Monster Mutt Dalmation-1			11809.6	23619.2	Sparkling	New	In Stock
+Monster Truck Madusa-1			8904.0	17808.0	Clean	New	In Stock
 
 Sold Vehicles:
-No vehicle was sold in the FNCD today
+Car-20		18998.0	39895.8	Clean	New	Sold
+Electric Car-11		11679.0	23358.0	Clean	New	Sold
 
-Total sales for the day: 0.0
+Total sales for the day: 63253.8
 
 Tracker Results...
 
 Tracker: Day 30
-Total money earned by all staff: $82930.00
-Total money earned by the FNCD: $1782038.84
+Total money earned by all staff: $87640.00
+Total money earned by the FNCD: $2095821.34

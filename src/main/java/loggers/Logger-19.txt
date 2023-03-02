@@ -1,56 +1,63 @@
-Purchased Used Clean Performance Car-11 for a cost price of 19063.2
-Intern-1 has washed Car-11 and made it Clean
-Intern-1 has washed Car-11
-Intern-4 has washed Car-11
-Intern-4 has washed Car-11
-Intern-6 has washed Car-11
-Intern-6 has washed Car-11
-Mechanic-0 has repaired Car-11 and made it Clean (Earned a bonus of $200.0)
-Mechanic-0 has repaired Car-11 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-3 has repaired Performance Car-11 and made it Clean (Earned a bonus of $200.0)
-Salesperson-1 has sold Motorcycle-3 for a sale price of $41726.25 (Earned a sale bonus of $90.0)
-Salesperson-3 has sold Motorcycle-7 for a sale price of $16398.0 (Earned a sale bonus of $90.0)
-Salesperson-0 has sold Motorcycle-8 for a sale price of $27255.0 (Earned a sale bonus of $90.0)
+Purchased Broken Dirty Car-10 for a cost price of 9973.0
+Purchased New Dirty Monster Truck Grave Digger-1 for a cost price of 19739.0
+Intern-2 has washed Monster Truck Grave Digger-1
+Intern-2 has washed Performance Car-2 and made it Sparkling (Earned a bonus of $100.0)
+Intern-4 has washed Monster Truck Grave Digger-1 and made it Clean
+Intern-4 has washed Electric Car-9
+Intern-5 has washed Car-10 and made it Clean
+Intern-5 has washed Monster Truck Grave Digger-1
+Mechanic-0 has not repaired Performance Car-2
+Mechanic-0 has not repaired Car-10
+Mechanic-1 has repaired Performance Car-2 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has repaired Performance Car-2 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has repaired Car-10 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-2 has repaired Car-10 and made it Dirty (Earned a bonus of $200.0)
+Salesperson-0 has sold Motorcycle-8 for a sale price of $33848.0 (Earned a sale bonus of $90.0)
+Salesperson-1 has sold Electric Car-8 for a sale price of $58914.00000000001 (Earned a sale bonus of $300.0)
+Salesperson-4 has sold Pickup-1 for a sale price of $125722.5 (Earned a sale bonus of $300.0)
+Salesperson-4 has sold Pickup-3 for a sale price of $100395.0 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Car-10 for a sale price of $44878.5 (Earned a sale bonus of $300.0)
+Salesperson-0 has sold Car-6 for a sale price of $23760.0 (Earned a sale bonus of $300.0)
 Daily Report..
 
 Working Staff:
-Intern-1		1900.0	450.0	19
-Intern-4		1700.0	850.0	17
-Intern-6		200.0	0.0	2
-Mechanic-0		3600.0	5340.0	18
-Mechanic-3		2600.0	3710.0	14
-Mechanic-4		1600.0	1870.0	10
-Salesperson-0		3900.0	2580.0	13
-Salesperson-1		4200.0	3780.0	14
-Salesperson-3		1500.0	1380.0	16
-Driver-0		0.0	0.0	0
-Driver-2		0.0	0.0	0
-Driver-3		0.0	0.0	0
+Intern-2		1900.0	700.0	19
+Intern-4		700.0	200.0	7
+Intern-5		400.0	200.0	4
+Mechanic-0		3400.0	4540.0	17
+Mechanic-1		3200.0	5200.0	16
+Mechanic-2		3000.0	4470.0	15
+Salesperson-0		3600.0	3570.0	12
+Salesperson-1		3900.0	1890.0	13
+Salesperson-4		900.0	1400.0	18
+Driver-0		1750.0	0.0	5
+Driver-2		1400.0	0.0	4
+Driver-3		700.0	0.0	2
 Departed Staff:
 No one quit the FNCD today
 Vehicles In Inventory:
-Car-3			6596.0	13192.0	Clean	New	In Stock
-Car-8			7396.0	14792.0	Sparkling	New	In Stock
-Car-10			7849.5	15699.0	Clean	New	In Stock
-Car-11			8964.0	17928.0	Dirty	New	In Stock
-Performance Car-3			14602.0	29204.0	Clean	New	In Stock
-Performance Car-8			19388.0	38776.0	Clean	New	In Stock
-Performance Car-9			15970.0	31940.0	Sparkling	New	In Stock
-Performance Car-11			19063.2	38126.4	Dirty	New	In Stock
-Pickup-0			14266.5	28533.0	Sparkling	New	In Stock
-Pickup-1			7940.5	15881.0	Sparkling	New	In Stock
-Pickup-2			15592.800000000001	31185.600000000002	Clean	New	In Stock
-Pickup-3			16707.5	33415.0	Sparkling	New	In Stock
-Electric Car-0			6199.5	12399.0	Clean	New	In Stock
-Electric Car-4			10782.0	21564.0	Sparkling	New	In Stock
-Electric Car-6			9908.800000000001	19817.600000000002	Clean	New	In Stock
-Electric Car-8			14291.2	28582.4	Clean	New	In Stock
-Motorcycle-5			5438.5	10877.0	Clean	New	In Stock
-Monster Truck BlackSmith-1			8106.5	16213.0	Clean	New	In Stock
-Monster Truck Bear Foot USA-1			6841.5	13683.0	Sparkling	New	In Stock
-Monster Truck USA-1-1			7548.0	15096.0	Sparkling	New	In Stock
-Monster Truck Mohawk Warrior-1			14936.800000000001	29873.600000000002	Clean	New	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-8			5823.5	11647.0	Sparkling	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-2			20168.0	40336.0	Dirty	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-9			8113.0	16226.0	Dirty	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Grave Digger-1			19739.0	39478.0	Clean	New	In Stock
 Sold Vehicles:
-Motorcycle-3		11127.0	41726.25	Clean	New	Sold
-Motorcycle-7		8199.0	16398.0	Sparkling	New	Sold
-Motorcycle-8		7268.0	27255.0	Clean	New	Sold
+Motorcycle-8		13539.2	33848.0	Clean	New	Sold
+Electric Car-8		10473.6	58914.00000000001	Sparkling	New	Sold
+Pickup-1		26820.800000000003	125722.5	Sparkling	New	Sold
+Pickup-3		26772.0	100395.0	Sparkling	New	Sold
+Car-10		9973.0	44878.5	Dirty	New	Sold
+Car-6		6336.0	23760.0	Clean	New	Sold

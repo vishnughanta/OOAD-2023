@@ -1,57 +1,53 @@
-Purchased Broken Sparkling Electric Car-12 for a cost price of 8526.0
-Intern-1 has washed Car-17
-Intern-1 has washed Car-17 and made it Clean
-Intern-11 has washed Performance Car-3 and made it Clean
-Intern-11 has washed Performance Car-3 and made it Sparkling (Earned a bonus of $100.0)
-Intern-12 has washed Electric Car-11 and made it Clean
-Intern-12 has washed Electric Car-11 and made it Sparkling (Earned a bonus of $100.0)
-Mechanic-6 has not repaired Car-18
-Mechanic-6 has repaired Electric Car-12 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-7 has repaired Electric Car-12 and made it Clean (Earned a bonus of $200.0)
-Mechanic-7 has repaired Car-18 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-8 has repaired Car-18 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-8 has not repaired Car-17
+Intern-5 has washed Pickup-0 and made it Sparkling (Earned a bonus of $100.0)
+Intern-5 has washed Car-17 and made it Clean
+Intern-6 has washed Car-17
+Intern-6 has washed Car-17 and made it Sparkling (Earned a bonus of $100.0)
+Intern-7 has washed Car-18 and made it Clean
+Intern-7 has washed Car-18
+Mechanic-0 has not repaired Pickup-0
+Mechanic-0 has repaired Pickup-0 and made it Clean (Earned a bonus of $200.0)
+Salesperson-1 has sold Car-20 for a sale price of $39895.8 (Earned a sale bonus of $300.0)
+Salesperson-5 has sold Electric Car-11 for a sale price of $23358.0 (Earned a sale bonus of $300.0)
 Daily Report..
 
 Working Staff:
-Intern-1		3000.0	500.0	30
-Intern-11		400.0	300.0	4
-Intern-12		300.0	200.0	3
-Mechanic-6		1600.0	2060.0	10
-Mechanic-7		1400.0	2210.0	8
-Mechanic-8		800.0	1350.0	7
-Salesperson-0		6000.0	4170.0	20
-Salesperson-1		6900.0	5670.0	23
-Salesperson-4		600.0	600.0	5
-Driver-0		0.0	0.0	0
-Driver-2		0.0	0.0	0
-Driver-4		0.0	0.0	0
+Intern-5		1500.0	700.0	15
+Intern-6		1000.0	700.0	10
+Intern-7		200.0	0.0	2
+Mechanic-0		5400.0	7350.0	27
+Mechanic-1		4400.0	6870.0	22
+Mechanic-3		800.0	1400.0	12
+Salesperson-1		6900.0	4890.0	23
+Salesperson-4		3300.0	2780.0	26
+Salesperson-5		300.0	1250.0	29
+Driver-0		2800.0	0.0	8
+Driver-2		2100.0	0.0	6
+Driver-3		1750.0	0.0	5
 Departed Staff:
 No one quit the FNCD today
 Vehicles In Inventory:
-Car-12			6052.5	12105.0	Clean	New	In Stock
-Car-14			5624.5	11249.0	Clean	New	In Stock
-Car-17			8540.5	17081.0	Dirty	Broken	In Stock
-Car-18			8140.5	16281.0	Dirty	New	In Stock
-Performance Car-3			14602.0	29204.0	Sparkling	New	In Stock
-Performance Car-9			15970.0	31940.0	Sparkling	New	In Stock
-Performance Car-13			10662.5	21325.0	Clean	New	In Stock
-Performance Car-15			15384.5	30769.0	Sparkling	New	In Stock
-Pickup-0			14266.5	28533.0	Sparkling	New	In Stock
-Pickup-1			7940.5	15881.0	Sparkling	New	In Stock
-Pickup-2			15592.800000000001	31185.600000000002	Clean	New	In Stock
-Pickup-3			16707.5	33415.0	Sparkling	New	In Stock
-Electric Car-0			6199.5	12399.0	Clean	New	In Stock
-Electric Car-6			9908.800000000001	19817.600000000002	Clean	New	In Stock
-Electric Car-11			9549.5	19099.0	Sparkling	New	In Stock
-Electric Car-12			8526.0	17052.0	Dirty	New	In Stock
-Motorcycle-5			5438.5	10877.0	Clean	New	In Stock
-Motorcycle-9			6052.5	12105.0	Clean	New	In Stock
-Motorcycle-14			11468.0	22936.0	Clean	New	In Stock
-Motorcycle-15			8363.5	16727.0	Clean	New	In Stock
-Monster Truck BlackSmith-1			8106.5	16213.0	Clean	New	In Stock
-Monster Truck Bear Foot USA-1			6841.5	13683.0	Sparkling	New	In Stock
-Monster Truck USA-1-1			7548.0	15096.0	Sparkling	New	In Stock
-Monster Truck Bear Foot (F-150)-1			6473.0	12946.0	Sparkling	New	In Stock
+Car-17			5158.5	10317.0	Sparkling	New	In Stock
+Car-18			8369.0	16738.0	Clean	New	In Stock
+Car-19			14934.400000000001	29868.800000000003	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Clean	New	In Stock
+Performance Car-4			11738.5	23477.0	Sparkling	New	In Stock
+Performance Car-5			10643.0	21286.0	Sparkling	New	In Stock
+Performance Car-6			12078.0	24156.0	Clean	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Dirty	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-4			16576.0	33152.0	Sparkling	New	In Stock
+Pickup-6			11892.0	23784.0	Clean	New	In Stock
+Electric Car-0			8565.5	17131.0	Sparkling	New	In Stock
+Electric Car-2			5222.5	10445.0	Sparkling	New	In Stock
+Electric Car-9			8113.0	16226.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Motorcycle-10			6894.0	13788.0	Clean	New	In Stock
+Motorcycle-12			7061.0	14122.0	Sparkling	New	In Stock
+Motorcycle-13			15006.0	30012.0	Sparkling	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck Blue Thunder-1			5400.0	10800.0	Sparkling	New	In Stock
+Monster Truck Monster Mutt Dalmation-1			11809.6	23619.2	Sparkling	New	In Stock
+Monster Truck Madusa-1			8904.0	17808.0	Clean	New	In Stock
 Sold Vehicles:
-No vehicle was sold in the FNCD today
+Car-20		18998.0	39895.8	Clean	New	Sold
+Electric Car-11		11679.0	23358.0	Clean	New	Sold

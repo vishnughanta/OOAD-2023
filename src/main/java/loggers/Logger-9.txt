@@ -1,57 +1,58 @@
-Purchased Used Sparkling Car-6 for a cost price of 12601.6
-Intern-1 has washed Monster Truck Bad News Travel Fast-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-1 has washed Monster Truck Bear Foot USA-1
-Intern-3 has washed Performance Car-5 and made it Clean
-Intern-3 has washed Electric Car-6 and made it Clean
-Intern-4 has washed Performance Car-5 and made it Sparkling (Earned a bonus of $100.0)
-Intern-4 has washed Electric Car-6
-Mechanic-0 has not repaired Monster Truck Bear Foot USA-1
-Mechanic-0 has repaired Car-6 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-3 has repaired Performance Car-5 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-3 has repaired Monster Truck Bad News Travel Fast-1 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-4 has repaired Monster Truck Bear Foot USA-1 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-4 has repaired Monster Truck Bear Foot USA-1 and made it Dirty (Earned a bonus of $200.0)
+Purchased Used Sparkling Monster Truck Sudden Impact-1 for a cost price of 11485.6
+Purchased Used Sparkling Electric Car-6 for a cost price of 15979.2
+Intern-1 has washed Car-0 and made it Clean
+Intern-1 has washed Motorcycle-4 and made it Clean
+Intern-2 has washed Monster Truck War Wizard-1 and made it Clean
+Intern-2 has washed Pickup-0 and made it Clean
+Intern-3 has washed Pickup-0
+Intern-3 has washed Motorcycle-4
+Mechanic-0 has repaired Monster Truck Sudden Impact-1 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has repaired Performance Car-3 and made it Clean (Earned a bonus of $200.0)
+Mechanic-1 has not repaired Electric Car-6
+Mechanic-1 has repaired Electric Car-6 and made it Clean (Earned a bonus of $200.0)
+Mechanic-2 has repaired Monster Truck War Wizard-1 and made it Clean (Earned a bonus of $200.0)
+Salesperson-1 has sold Motorcycle-5 for a sale price of $32037.6 (Earned a sale bonus of $90.0)
+Salesperson-0 has sold Monster Truck Sudden Impact-1 for a sale price of $28714.0 (Earned a sale bonus of $300.0)
 Daily Report..
 
 Working Staff:
-Intern-1		900.0	200.0	9
-Intern-3		800.0	200.0	8
-Intern-4		700.0	500.0	7
+Intern-1		900.0	100.0	9
+Intern-2		900.0	300.0	9
+Intern-3		200.0	0.0	2
 Mechanic-0		1800.0	2470.0	9
-Mechanic-3		1400.0	2240.0	8
-Mechanic-4		1200.0	1270.0	8
-Salesperson-0		1500.0	990.0	5
-Salesperson-1		1200.0	2100.0	4
-Salesperson-2		600.0	780.0	2
-Driver-0		0.0	0.0	0
-Driver-2		0.0	0.0	0
-Driver-3		0.0	0.0	0
+Mechanic-1		1800.0	2600.0	9
+Mechanic-2		1800.0	3070.0	9
+Salesperson-0		2100.0	1290.0	7
+Salesperson-1		2100.0	1290.0	7
+Salesperson-2		2400.0	1290.0	8
+Driver-0		700.0	0.0	2
+Driver-1		700.0	0.0	2
+Driver-2		700.0	0.0	2
 Departed Staff:
 No one quit the FNCD today
 Vehicles In Inventory:
-Car-1			8653.6	17307.2	Sparkling	New	In Stock
-Car-3			6596.0	13192.0	Clean	New	In Stock
-Car-5			8704.0	17408.0	Sparkling	New	In Stock
-Car-6			12601.6	25203.2	Clean	New	In Stock
-Performance Car-1			30103.2	60206.4	Clean	New	In Stock
-Performance Car-2			24855.0	49710.0	Clean	New	In Stock
-Performance Car-3			14602.0	29204.0	Clean	New	In Stock
-Performance Car-5			30917.0	61834.0	Clean	New	In Stock
-Pickup-0			14266.5	28533.0	Sparkling	New	In Stock
-Pickup-1			7940.5	15881.0	Clean	New	In Stock
-Pickup-2			15592.800000000001	31185.600000000002	Clean	New	In Stock
-Pickup-3			16707.5	33415.0	Clean	New	In Stock
-Electric Car-0			6199.5	12399.0	Clean	New	In Stock
-Electric Car-4			10782.0	21564.0	Sparkling	New	In Stock
-Electric Car-5			11850.0	23700.0	Sparkling	New	In Stock
-Electric Car-6			9908.800000000001	19817.600000000002	Clean	New	In Stock
-Motorcycle-3			11127.0	22254.0	Clean	New	In Stock
-Motorcycle-4			11568.0	23136.0	Sparkling	New	In Stock
-Motorcycle-5			5438.5	10877.0	Clean	New	In Stock
-Motorcycle-6			14526.0	29052.0	Clean	New	In Stock
-Monster Truck BlackSmith-1			8106.5	16213.0	Clean	New	In Stock
-Monster Truck Bear Foot USA-1			6841.5	13683.0	Dirty	New	In Stock
-Monster Truck USA-1-1			7548.0	15096.0	Sparkling	New	In Stock
-Monster Truck Bad News Travel Fast-1			12950.400000000001	25900.800000000003	Clean	Used	In Stock
+Car-0			5404.0	10808.0	Clean	New	In Stock
+Car-5			9029.6	18059.2	Clean	New	In Stock
+Car-6			6336.0	12672.0	Clean	New	In Stock
+Car-7			15108.800000000001	30217.600000000002	Clean	New	In Stock
+Performance Car-0			22066.0	44132.0	Sparkling	New	In Stock
+Performance Car-1			28921.0	57842.0	Clean	New	In Stock
+Performance Car-2			20168.0	40336.0	Clean	New	In Stock
+Performance Car-3			18773.0	37546.0	Dirty	New	In Stock
+Pickup-0			12760.800000000001	25521.600000000002	Clean	New	In Stock
+Pickup-1			26820.800000000003	53641.600000000006	Clean	New	In Stock
+Pickup-2			14294.0	28588.0	Sparkling	New	In Stock
+Pickup-3			26772.0	53544.0	Sparkling	New	In Stock
+Electric Car-0			8565.5	17131.0	Clean	New	In Stock
+Electric Car-1			9069.0	18138.0	Clean	New	In Stock
+Electric Car-2			5222.5	10445.0	Clean	New	In Stock
+Electric Car-6			15979.2	31958.4	Dirty	New	In Stock
+Motorcycle-0			11186.0	22372.0	Sparkling	New	In Stock
+Motorcycle-3			12666.0	25332.0	Clean	New	In Stock
+Motorcycle-4			9845.6	19691.2	Clean	New	In Stock
+Monster Truck Snake Bite-1			7501.5	15003.0	Clean	New	In Stock
+Monster Truck BlackSmith-1			5437.0	10874.0	Clean	New	In Stock
+Monster Truck War Wizard-1			6953.0	13906.0	Dirty	New	In Stock
 Sold Vehicles:
-No vehicle was sold in the FNCD today
+Motorcycle-5		13349.0	32037.6	Sparkling	New	Sold
+Monster Truck Sudden Impact-1		11485.6	28714.0	Clean	New	Sold

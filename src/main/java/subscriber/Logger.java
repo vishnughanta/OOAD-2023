@@ -7,7 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Logger implements Subscriber {
-    private String filePath = "/Users/nik/Downloads/Spring2023/OOAD/Assignments/2/OOAD_2.2_Project/OOAD-2023/src/loggers";
+    private String filePath = "/Users/nik/Downloads/Spring2023/OOAD/Assignments/2/OOAD-3.2/OOAD-2023/src/main/java/loggers";
     public void update(SubscriberObject subscriberObject) {
         createLogFile(subscriberObject);
     }

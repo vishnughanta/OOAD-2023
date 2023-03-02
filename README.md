@@ -2,7 +2,7 @@
 #### Team Members: Nikhil Panda & Vishnu Ghanta
 #### Java Version: Java 18
 
-### Project 2.2
+### Project 3.2
 
 The FNCD class contains the main() method.
 

@@ -1,0 +1,56 @@
+Purchased Used Clean Performance Car-6 for a cost price of 28916.0
+Intern-1 has washed Monster Truck Bad News Travel Fast-1 and made it Clean
+Intern-1 has washed Monster Truck Bad News Travel Fast-1
+Intern-3 has washed Monster Truck Bad News Travel Fast-1
+Intern-3 has washed Monster Truck Bad News Travel Fast-1
+Intern-4 has washed Monster Truck Bad News Travel Fast-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-4 has washed Motorcycle-6 and made it Sparkling (Earned a bonus of $50.0)
+Mechanic-0 has repaired Monster Truck Bad News Travel Fast-1 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-0 has repaired Performance Car-6 and made it Clean (Earned a bonus of $200.0)
+Mechanic-3 has repaired Monster Truck Bad News Travel Fast-1 and made it Clean (Earned a bonus of $200.0)
+Salesperson-1 has sold Electric Car-5 for a sale price of $28440.0 (Earned a sale bonus of $300.0)
+Salesperson-2 has sold Performance Car-1 for a sale price of $75258.0 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Car-6 for a sale price of $37804.8 (Earned a sale bonus of $300.0)
+Daily Report..
+
+Working Staff:
+Intern-1		1100.0	200.0	11
+Intern-3		1000.0	300.0	10
+Intern-4		900.0	750.0	9
+Mechanic-0		2200.0	3070.0	11
+Mechanic-3		1600.0	2440.0	9
+Mechanic-4		1200.0	1270.0	8
+Salesperson-0		1800.0	1290.0	6
+Salesperson-1		1800.0	2700.0	6
+Salesperson-2		900.0	1080.0	3
+Driver-0		0.0	0.0	0
+Driver-2		0.0	0.0	0
+Driver-3		0.0	0.0	0
+Departed Staff:
+No one quit the FNCD today
+Vehicles In Inventory:
+Car-1			8653.6	17307.2	Sparkling	New	In Stock
+Car-3			6596.0	13192.0	Clean	New	In Stock
+Car-5			8704.0	17408.0	Sparkling	New	In Stock
+Performance Car-2			24855.0	49710.0	Clean	New	In Stock
+Performance Car-3			14602.0	29204.0	Clean	New	In Stock
+Performance Car-6			28916.0	57832.0	Dirty	New	In Stock
+Pickup-0			14266.5	28533.0	Sparkling	New	In Stock
+Pickup-1			7940.5	15881.0	Sparkling	New	In Stock
+Pickup-2			15592.800000000001	31185.600000000002	Clean	New	In Stock
+Pickup-3			16707.5	33415.0	Clean	New	In Stock
+Electric Car-0			6199.5	12399.0	Clean	New	In Stock
+Electric Car-4			10782.0	21564.0	Sparkling	New	In Stock
+Electric Car-6			9908.800000000001	19817.600000000002	Clean	New	In Stock
+Motorcycle-3			11127.0	22254.0	Clean	New	In Stock
+Motorcycle-4			11568.0	23136.0	Sparkling	New	In Stock
+Motorcycle-5			5438.5	10877.0	Clean	New	In Stock
+Motorcycle-6			14526.0	29052.0	Sparkling	New	In Stock
+Monster Truck BlackSmith-1			8106.5	16213.0	Clean	New	In Stock
+Monster Truck Bear Foot USA-1			6841.5	13683.0	Sparkling	New	In Stock
+Monster Truck USA-1-1			7548.0	15096.0	Sparkling	New	In Stock
+Monster Truck Bad News Travel Fast-1			12950.400000000001	25900.800000000003	Dirty	New	In Stock
+Sold Vehicles:
+Electric Car-5		11850.0	28440.0	Sparkling	New	Sold
+Performance Car-1		30103.2	75258.0	Clean	New	Sold
+Car-6		12601.6	37804.8	Clean	New	Sold

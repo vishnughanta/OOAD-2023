@@ -186,4 +186,14 @@ public class Activity {
     public static void setSubscriberObject(SubscriberObject subscriberObject) {
         Activity.subscriberObject = subscriberObject;
     }
+
+    public void updateStaffAmount(SubscriberObject subscriberObject, double amountToBeAdded) {
+        double currStaffAmount = subscriberObject.getTotalMoneyStaff();
+        subscriberObject.setTotalMoneyStaff(currStaffAmount + amountToBeAdded);
+    }
+
+    public void updateFNCDAmount(SubscriberObject subscriberObject, double amountToBeAdded) {
+        double currFNCDAmount = subscriberObject.getTotalMoneyFNCD();
+        subscriberObject.setTotalMoneyFNCD(currFNCDAmount + amountToBeAdded);
+    }
 }

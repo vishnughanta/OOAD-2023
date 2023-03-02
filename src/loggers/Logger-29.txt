@@ -1,30 +1,57 @@
-Hired Intern-7
-Purchased Broken Clean Performance Car-11 for a cost price of 11350.5
-Intern-2 has washed Motorcycle-15 and made it Sparkling (Earned a bonus of $50.0)
-Intern-2 has washed Pickup-2 and made it Sparkling (Earned a bonus of $100.0)
-Intern-3 has washed Pickup-1
-Intern-3 has washed Monster Truck Bear Foot (F-150)-1
-Intern-7 has washed Motorcycle-17 and made it Sparkling (Earned a bonus of $50.0)
-Intern-7 has washed Monster Truck Bear Foot (F-150)-1
-Mechanic-2 has repaired Performance Car-11 and made it Clean (Earned a bonus of $200.0)
-Mechanic-2 has repaired Performance Car-11 and made it Dirty (Earned a bonus of $200.0)
-Salesperson-3 has sold Pickup-1 for a sale price of $85959.0 (Earned a sale bonus of $300.0)
-Salesperson-3 has sold Motorcycle-15 for a sale price of $39314.0 (Earned a sale bonus of $90.0)
-Salesperson-0 has sold Performance Car-3 for a sale price of $70918.125 (Earned a sale bonus of $300.0)
+Purchased Broken Dirty Car-18 for a cost price of 8140.5
+Intern-1 has washed Motorcycle-15 and made it Clean
+Intern-1 has washed Car-17
+Intern-11 has washed Car-17 and made it Sparkling (Earned a bonus of $100.0)
+Intern-11 has washed Car-18 and made it Clean
+Intern-12 has washed Electric Car-11 and made it Clean
+Intern-12 has washed Motorcycle-15
+Mechanic-6 has not repaired Performance Car-3
+Mechanic-6 has repaired Performance Car-3 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-7 has repaired Performance Car-3 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-7 has not repaired Car-17
+Mechanic-8 has repaired Car-17 and made it Clean (Earned a bonus of $200.0)
+Mechanic-8 has repaired Electric Car-11 and made it Clean (Earned a bonus of $200.0)
+Salesperson-4 has sold Electric Car-10 for a sale price of $34340.0 (Earned a sale bonus of $300.0)
 Daily Report..
 
 Working Staff:
-Intern-2		2900.0	1600.0	29
-Intern-3		2300.0	250.0	23
-Intern-7		100.0	50.0	1
-Mechanic-2		4200.0	6170.0	21
-Mechanic-3		2000.0	1760.0	16
-Mechanic-4		800.0	410.0	7
-Salesperson-0		5100.0	3750.0	17
-Salesperson-3		4500.0	2250.0	22
-Salesperson-4		2100.0	4730.0	15
+Intern-1		2900.0	500.0	29
+Intern-11		300.0	200.0	3
+Intern-12		200.0	100.0	2
+Mechanic-6		1400.0	1860.0	9
+Mechanic-7		1200.0	1810.0	7
+Mechanic-8		600.0	1150.0	6
+Salesperson-0		6000.0	4170.0	20
+Salesperson-1		6900.0	5670.0	23
+Salesperson-4		600.0	600.0	5
 Driver-0		0.0	0.0	0
 Driver-2		0.0	0.0	0
 Driver-4		0.0	0.0	0
 Departed Staff:
 No one quit the FNCD today
+Vehicles In Inventory:
+Car-12			6052.5	12105.0	Clean	New	In Stock
+Car-14			5624.5	11249.0	Clean	New	In Stock
+Car-17			8540.5	17081.0	Dirty	New	In Stock
+Car-18			8140.5	16281.0	Clean	Broken	In Stock
+Performance Car-3			14602.0	29204.0	Dirty	New	In Stock
+Performance Car-9			15970.0	31940.0	Sparkling	New	In Stock
+Performance Car-13			10662.5	21325.0	Clean	New	In Stock
+Performance Car-15			15384.5	30769.0	Sparkling	New	In Stock
+Pickup-0			14266.5	28533.0	Sparkling	New	In Stock
+Pickup-1			7940.5	15881.0	Sparkling	New	In Stock
+Pickup-2			15592.800000000001	31185.600000000002	Clean	New	In Stock
+Pickup-3			16707.5	33415.0	Sparkling	New	In Stock
+Electric Car-0			6199.5	12399.0	Clean	New	In Stock
+Electric Car-6			9908.800000000001	19817.600000000002	Clean	New	In Stock
+Electric Car-11			9549.5	19099.0	Dirty	New	In Stock
+Motorcycle-5			5438.5	10877.0	Clean	New	In Stock
+Motorcycle-9			6052.5	12105.0	Clean	New	In Stock
+Motorcycle-14			11468.0	22936.0	Clean	New	In Stock
+Motorcycle-15			8363.5	16727.0	Clean	New	In Stock
+Monster Truck BlackSmith-1			8106.5	16213.0	Clean	New	In Stock
+Monster Truck Bear Foot USA-1			6841.5	13683.0	Sparkling	New	In Stock
+Monster Truck USA-1-1			7548.0	15096.0	Sparkling	New	In Stock
+Monster Truck Bear Foot (F-150)-1			6473.0	12946.0	Sparkling	New	In Stock
+Sold Vehicles:
+Electric Car-10		13736.0	34340.0	Clean	New	Sold

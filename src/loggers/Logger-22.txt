@@ -1,33 +1,62 @@
-Purchased Used Sparkling Car-6 for a cost price of 8528.800000000001
-Purchased New Dirty Performance Car-8 for a cost price of 31227.0
-Purchased New Clean Monster Truck Batman-1 for a cost price of 19797.0
-Purchased New Sparkling Electric Car-9 for a cost price of 19439.0
-Intern-2 has washed Motorcycle-12 and made it Sparkling (Earned a bonus of $50.0)
-Intern-2 has washed Performance Car-8 and made it Sparkling (Earned a bonus of $100.0)
-Intern-3 has washed Motorcycle-13
-Intern-3 has washed Motorcycle-13 and made it Clean
-Intern-6 has washed Motorcycle-13
-Intern-6 has washed Motorcycle-13
-Mechanic-2 has repaired Car-6 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-2 has not repaired Motorcycle-12
-Mechanic-3 has repaired Motorcycle-12 and made it Clean (Earned a bonus of $70.0)
-Mechanic-3 has repaired Motorcycle-12 and made it Dirty (Earned a bonus of $70.0)
-Salesperson-4 has sold Monster Truck Batman-1 for a sale price of $39594.0 (Earned a sale bonus of $300.0)
-Salesperson-0 has sold Motorcycle-12 for a sale price of $50576.25 (Earned a sale bonus of $90.0)
+Hired Driver-4
+Purchased Broken Sparkling Performance Car-13 for a cost price of 10662.5
+Purchased New Dirty Motorcycle-12 for a cost price of 14489.0
+Purchased New Sparkling Motorcycle-13 for a cost price of 15589.0
+Purchased Broken Sparkling Monster Truck Bear Foot (F-150)-1 for a cost price of 6473.0
+Intern-1 has washed Motorcycle-9 and made it Clean
+Intern-1 has washed Motorcycle-12
+Intern-6 has washed Motorcycle-12 and made it Clean
+Intern-6 has washed Motorcycle-12
+Intern-7 has washed Motorcycle-9 and made it Sparkling (Earned a bonus of $50.0)
+Intern-7 has washed Motorcycle-12
+Mechanic-3 has repaired Performance Car-13 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-3 has repaired Motorcycle-9 and made it Sparkling (Earned a bonus of $70.0)
+Mechanic-4 has repaired Performance Car-13 and made it Clean (Earned a bonus of $200.0)
+Mechanic-4 has repaired Performance Car-11 and made it Clean (Earned a bonus of $200.0)
+Mechanic-5 has not repaired Motorcycle-9
+Mechanic-5 has not repaired Performance Car-11
+Mechanic-3 has quit the FNCD
+Intern-7 has been promoted to Mechanic-6
 Daily Report..
 
 Working Staff:
-Intern-2		2200.0	1150.0	22
-Intern-3		1600.0	200.0	16
-Intern-6		400.0	0.0	4
-Mechanic-2		3200.0	4690.0	16
-Mechanic-3		1400.0	1280.0	13
-Mechanic-4		400.0	270.0	5
-Salesperson-0		4200.0	3360.0	14
-Salesperson-3		3000.0	1260.0	17
-Salesperson-4		1200.0	3650.0	12
+Intern-1		2200.0	450.0	22
+Intern-6		500.0	50.0	5
+Mechanic-4		2000.0	2340.0	12
+Mechanic-5		200.0	950.0	19
+Mechanic-6		0.0	50.0	2
+Salesperson-0		4200.0	2580.0	14
+Salesperson-1		4800.0	4170.0	16
+Salesperson-3		2100.0	2070.0	18
 Driver-0		0.0	0.0	0
 Driver-2		0.0	0.0	0
-Driver-3		0.0	0.0	0
+Driver-4		0.0	0.0	0
 Departed Staff:
-No one quit the FNCD today
+Mechanic-3		3000.0	4120.0	16
+Vehicles In Inventory:
+Car-3			6596.0	13192.0	Clean	New	In Stock
+Car-8			7396.0	14792.0	Sparkling	New	In Stock
+Car-10			7849.5	15699.0	Clean	New	In Stock
+Car-11			8964.0	17928.0	Sparkling	New	In Stock
+Performance Car-3			14602.0	29204.0	Clean	New	In Stock
+Performance Car-9			15970.0	31940.0	Sparkling	New	In Stock
+Performance Car-11			19063.2	38126.4	Dirty	Used	In Stock
+Performance Car-13			10662.5	21325.0	Dirty	New	In Stock
+Pickup-0			14266.5	28533.0	Sparkling	New	In Stock
+Pickup-1			7940.5	15881.0	Sparkling	New	In Stock
+Pickup-2			15592.800000000001	31185.600000000002	Clean	New	In Stock
+Pickup-3			16707.5	33415.0	Sparkling	New	In Stock
+Electric Car-0			6199.5	12399.0	Clean	New	In Stock
+Electric Car-4			10782.0	21564.0	Sparkling	New	In Stock
+Electric Car-6			9908.800000000001	19817.600000000002	Clean	New	In Stock
+Electric Car-8			14291.2	28582.4	Clean	New	In Stock
+Motorcycle-5			5438.5	10877.0	Clean	New	In Stock
+Motorcycle-9			6052.5	12105.0	Dirty	Used	In Stock
+Motorcycle-12			14489.0	28978.0	Clean	Broken	In Stock
+Motorcycle-13			15589.0	31178.0	Sparkling	New	In Stock
+Monster Truck BlackSmith-1			8106.5	16213.0	Clean	New	In Stock
+Monster Truck Bear Foot USA-1			6841.5	13683.0	Sparkling	New	In Stock
+Monster Truck USA-1-1			7548.0	15096.0	Sparkling	New	In Stock
+Monster Truck Bear Foot (F-150)-1			6473.0	12946.0	Sparkling	Broken	In Stock
+Sold Vehicles:
+No vehicle was sold in the FNCD today

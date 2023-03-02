@@ -1,31 +1,57 @@
-Purchased Used Dirty Motorcycle-10 for a cost price of 14124.800000000001
-Purchased Used Sparkling Motorcycle-11 for a cost price of 8292.800000000001
-Purchased Broken Clean Monster Truck Backwards Bob-1 for a cost price of 9822.5
-Intern-2 has washed Motorcycle-10 and made it Sparkling (Earned a bonus of $50.0)
-Intern-2 has washed Monster Truck Backwards Bob-1 and made it Sparkling (Earned a bonus of $100.0)
-Intern-3 has washed Car-3
-Intern-3 has washed Pickup-1 and made it Dirty
-Intern-5 has washed Pickup-3 and made it Sparkling (Earned a bonus of $100.0)
-Intern-5 has washed Performance Car-4 and made it Sparkling (Earned a bonus of $100.0)
-Mechanic-2 has not repaired Motorcycle-10
-Mechanic-2 has repaired Monster Truck Backwards Bob-1 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-3 has repaired Motorcycle-10 and made it Clean (Earned a bonus of $70.0)
-Mechanic-3 has repaired Motorcycle-11 and made it Sparkling (Earned a bonus of $70.0)
-Mechanic-4 has repaired Monster Truck Backwards Bob-1 and made it Clean (Earned a bonus of $200.0)
+Purchased Broken Clean Performance Car-9 for a cost price of 15970.0
+Intern-1 has washed Motorcycle-7 and made it Sparkling (Earned a bonus of $50.0)
+Intern-1 has washed Car-8 and made it Clean
+Intern-4 has washed Car-8 and made it Sparkling (Earned a bonus of $100.0)
+Intern-4 has washed Electric Car-6
+Intern-5 has washed Performance Car-8
+Intern-5 has washed Car-9
+Mechanic-0 has repaired Performance Car-9 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has not repaired Performance Car-9
+Mechanic-3 has repaired Performance Car-9 and made it Dirty (Earned a bonus of $200.0)
+Salesperson-3 has sold Car-9 for a sale price of $28354.2 (Earned a sale bonus of $300.0)
+Salesperson-3 has sold Performance Car-7 for a sale price of $74186.25 (Earned a sale bonus of $300.0)
+Salesperson-1 has sold Motorcycle-4 for a sale price of $23598.72 (Earned a sale bonus of $90.0)
+Salesperson-0 has sold Electric Car-7 for a sale price of $30909.6 (Earned a sale bonus of $300.0)
 Daily Report..
 
 Working Staff:
-Intern-2		1600.0	750.0	16
-Intern-3		1000.0	50.0	10
-Intern-5		600.0	750.0	6
-Mechanic-2		2400.0	3550.0	12
-Mechanic-3		1000.0	940.0	11
-Mechanic-4		400.0	270.0	5
-Salesperson-0		2700.0	2670.0	9
-Salesperson-1		2100.0	570.0	7
-Salesperson-3		1500.0	480.0	12
+Intern-1		1600.0	350.0	16
+Intern-4		1400.0	850.0	14
+Intern-5		400.0	100.0	4
+Mechanic-0		3000.0	4270.0	15
+Mechanic-3		2200.0	3240.0	12
+Mechanic-4		1400.0	1670.0	9
+Salesperson-0		3000.0	2190.0	10
+Salesperson-1		3300.0	3390.0	11
+Salesperson-3		900.0	1290.0	14
 Driver-0		0.0	0.0	0
 Driver-2		0.0	0.0	0
 Driver-3		0.0	0.0	0
 Departed Staff:
 No one quit the FNCD today
+Vehicles In Inventory:
+Car-1			8653.6	17307.2	Sparkling	New	In Stock
+Car-3			6596.0	13192.0	Clean	New	In Stock
+Car-8			7396.0	14792.0	Sparkling	New	In Stock
+Performance Car-3			14602.0	29204.0	Clean	New	In Stock
+Performance Car-8			19388.0	38776.0	Clean	New	In Stock
+Performance Car-9			15970.0	31940.0	Dirty	New	In Stock
+Pickup-0			14266.5	28533.0	Sparkling	New	In Stock
+Pickup-1			7940.5	15881.0	Sparkling	New	In Stock
+Pickup-2			15592.800000000001	31185.600000000002	Clean	New	In Stock
+Pickup-3			16707.5	33415.0	Clean	New	In Stock
+Electric Car-0			6199.5	12399.0	Clean	New	In Stock
+Electric Car-4			10782.0	21564.0	Sparkling	New	In Stock
+Electric Car-6			9908.800000000001	19817.600000000002	Clean	New	In Stock
+Motorcycle-3			11127.0	22254.0	Clean	New	In Stock
+Motorcycle-5			5438.5	10877.0	Clean	New	In Stock
+Motorcycle-7			8199.0	16398.0	Sparkling	New	In Stock
+Monster Truck BlackSmith-1			8106.5	16213.0	Clean	New	In Stock
+Monster Truck Bear Foot USA-1			6841.5	13683.0	Sparkling	New	In Stock
+Monster Truck USA-1-1			7548.0	15096.0	Sparkling	New	In Stock
+Monster Truck Mohawk Warrior-1			14936.800000000001	29873.600000000002	Clean	New	In Stock
+Sold Vehicles:
+Car-9		13502.0	28354.2	Clean	New	Sold
+Performance Car-7		19783.0	74186.25	Clean	New	Sold
+Motorcycle-4		11568.0	23598.72	Sparkling	New	Sold
+Electric Car-7		12879.0	30909.6	Clean	New	Sold

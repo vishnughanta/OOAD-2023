@@ -39,29 +39,38 @@ public class Printer {
         vehiclesInInventory.addAll(motorcycles);
         vehiclesInInventory.addAll(monsterTrucks);
 
-        printVehicleDetails(vehiclesInInventory, dailySoldVehicles);
+        printVehicleDetails(vehiclesInInventory, dailySoldVehicles, subscriberObject);
 
         System.out.println("Total sales for the day: " + dailySales);
 
     }
 
-    private void printVehicleDetails(List<Vehicle> vehiclesInInventory, List<Vehicle> dailySoldVehicles) {
-        System.out.println("Vehicles In Inventory:");
+    private void printVehicleDetails(List<Vehicle> vehiclesInInventory, List<Vehicle> dailySoldVehicles, SubscriberObject subscriberObject) {
+        stringToBeAppended = "Vehicles In Inventory:";
+        updateLogList(subscriberObject,stringToBeAppended);
+        System.out.println(stringToBeAppended);
 
         for(Vehicle vehicle : vehiclesInInventory) {
-            System.out.println(vehicle.getName() + "\t" +"\t" +"\t" + vehicle.getCostPrice() + "\t" + vehicle.getFinalSalePrice() + "\t" + getCleanlinessOfVehicle(vehicle) + "\t" + getConditionOfVehicle(vehicle) + "\t" + "In Stock");
+            stringToBeAppended = vehicle.getName() + "\t" +"\t" +"\t" + vehicle.getCostPrice() + "\t" + vehicle.getFinalSalePrice() + "\t" + getCleanlinessOfVehicle(vehicle) + "\t" + getConditionOfVehicle(vehicle) + "\t" + "In Stock";
+            updateLogList(subscriberObject,stringToBeAppended);
+            System.out.println(stringToBeAppended);
         }
 
         System.out.println();
-        System.out.println("Sold Vehicles:");
+        stringToBeAppended = "Sold Vehicles:";
+        updateLogList(subscriberObject, stringToBeAppended);
+        System.out.println(stringToBeAppended);
 
         if(!dailySoldVehicles.isEmpty()) {
             for (Vehicle vehicle : dailySoldVehicles) {
-                System.out.println(vehicle.getName() + "\t"  +"\t"+ vehicle.getCostPrice() + "\t" + vehicle.getFinalSalePrice() + "\t" + getCleanlinessOfVehicle(vehicle) + "\t" + getConditionOfVehicle(vehicle) + "\t" + "Sold");
-
+                stringToBeAppended = vehicle.getName() + "\t"  +"\t"+ vehicle.getCostPrice() + "\t" + vehicle.getFinalSalePrice() + "\t" + getCleanlinessOfVehicle(vehicle) + "\t" + getConditionOfVehicle(vehicle) + "\t" + "Sold";
+                updateLogList(subscriberObject, stringToBeAppended);
+                System.out.println(stringToBeAppended);
             }
         } else{
-            System.out.println("No vehicle was sold in the FNCD today");
+            stringToBeAppended = "No vehicle was sold in the FNCD today";
+            updateLogList(subscriberObject, stringToBeAppended);
+            System.out.println(stringToBeAppended);
         }
     System.out.println();
     }

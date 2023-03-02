@@ -1,30 +1,60 @@
-Intern-0 has washed Electric Car-1
-Intern-0 has washed Pickup-1 and made it Clean
-Intern-1 has washed Pickup-1
-Intern-1 has washed Motorcycle-4 and made it Sparkling (Earned a bonus of $50.0)
-Intern-2 has washed Electric Car-3 and made it Sparkling (Earned a bonus of $100.0)
-Intern-2 has washed Car-0 and made it Sparkling (Earned a bonus of $100.0)
-Mechanic-0 has repaired Motorcycle-4 and made it Sparkling (Earned a bonus of $70.0)
-Mechanic-0 has repaired Pickup-3 and made it Clean (Earned a bonus of $200.0)
-Mechanic-1 has not repaired Monster Truck Blue Thunder-1
-Mechanic-1 has repaired Pickup-0 and made it Sparkling (Earned a bonus of $200.0)
-Mechanic-2 has repaired Motorcycle-3 and made it Sparkling (Earned a bonus of $70.0)
-Mechanic-2 has repaired Pickup-1 and made it Clean (Earned a bonus of $200.0)
-Salesperson-0 has sold Electric Car-1 for a sale price of $43860.0 (Earned a sale bonus of $300.0)
+Purchased New Clean Car-4 for a cost price of 18973.0
+Purchased New Sparkling Motorcycle-4 for a cost price of 11568.0
+Purchased New Dirty Monster Truck WCW Nitro Machine-1 for a cost price of 18329.0
+Intern-1 has washed Car-1
+Intern-1 has washed Car-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-3 has washed Pickup-2 and made it Clean
+Intern-3 has washed Motorcycle-3 and made it Clean
+Intern-4 has washed Monster Truck BlackSmith-1 and made it Clean
+Intern-4 has washed Pickup-3 and made it Clean
+Mechanic-0 has repaired Pickup-2 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has not repaired Performance Car-3
+Mechanic-3 has repaired Performance Car-3 and made it Dirty (Earned a bonus of $200.0)
+Mechanic-3 has not repaired Pickup-3
+Mechanic-4 has not repaired Pickup-3
+Mechanic-4 has not repaired Electric Car-0
+Salesperson-2 has sold Monster Truck WCW Nitro Machine-1 for a sale price of $38490.9 (Earned a sale bonus of $300.0)
+Salesperson-2 has sold Motorcycle-2 for a sale price of $32146.0 (Earned a sale bonus of $90.0)
 Daily Report..
 
 Working Staff:
-Intern-0		400.0	200.0	4
-Intern-1		400.0	250.0	4
-Intern-2		400.0	400.0	4
-Mechanic-0		800.0	940.0	4
-Mechanic-1		800.0	1070.0	4
-Mechanic-2		800.0	1470.0	4
+Intern-1		400.0	100.0	4
+Intern-3		300.0	100.0	3
+Intern-4		200.0	0.0	2
+Mechanic-0		800.0	1070.0	4
+Mechanic-3		600.0	900.0	4
+Mechanic-4		400.0	270.0	4
 Salesperson-0		600.0	390.0	2
-Salesperson-1		300.0	90.0	1
-Salesperson-2		600.0	0.0	2
+Salesperson-1		300.0	300.0	1
+Salesperson-2		300.0	390.0	1
 Driver-0		0.0	0.0	0
 Driver-1		0.0	0.0	0
 Driver-2		0.0	0.0	0
 Departed Staff:
 No one quit the FNCD today
+Vehicles In Inventory:
+Car-0			11285.6	22571.2	Clean	New	In Stock
+Car-1			8653.6	17307.2	Sparkling	New	In Stock
+Car-3			6596.0	13192.0	Clean	New	In Stock
+Car-4			18973.0	37946.0	Clean	New	In Stock
+Performance Car-0			35930.0	71860.0	Clean	New	In Stock
+Performance Car-1			30103.2	60206.4	Clean	New	In Stock
+Performance Car-2			24855.0	49710.0	Clean	New	In Stock
+Performance Car-3			14602.0	29204.0	Dirty	Used	In Stock
+Pickup-0			14266.5	28533.0	Sparkling	New	In Stock
+Pickup-1			7940.5	15881.0	Clean	New	In Stock
+Pickup-2			15592.800000000001	31185.600000000002	Dirty	New	In Stock
+Pickup-3			16707.5	33415.0	Dirty	Used	In Stock
+Electric Car-0			6199.5	12399.0	Dirty	Used	In Stock
+Electric Car-1			14392.0	28784.0	Clean	New	In Stock
+Electric Car-2			12285.0	24570.0	Sparkling	New	In Stock
+Electric Car-3			16207.0	32414.0	Sparkling	New	In Stock
+Motorcycle-1			13204.0	26408.0	Dirty	New	In Stock
+Motorcycle-3			11127.0	22254.0	Clean	New	In Stock
+Motorcycle-4			11568.0	23136.0	Sparkling	New	In Stock
+Monster Truck Bad News Travel Fast-1			9533.6	19067.2	Clean	New	In Stock
+Monster Truck BlackSmith-1			8106.5	16213.0	Clean	Broken	In Stock
+Monster Truck Bear Foot USA-1			6841.5	13683.0	Clean	New	In Stock
+Sold Vehicles:
+Monster Truck WCW Nitro Machine-1		18329.0	38490.9	Dirty	New	Sold
+Motorcycle-2		16073.0	32146.0	Clean	New	Sold

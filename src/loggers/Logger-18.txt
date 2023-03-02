@@ -1,24 +1,54 @@
-Intern-2 has washed Monster Truck Bear Foot (F-150)-1
-Intern-2 has washed Electric Car-4 and made it Sparkling (Earned a bonus of $100.0)
-Intern-3 has washed Performance Car-2
-Intern-3 has washed Monster Truck Bear Foot (F-150)-1
-Intern-5 has washed Electric Car-5 and made it Sparkling (Earned a bonus of $100.0)
-Intern-5 has washed Performance Car-2 and made it Dirty
-Salesperson-1 has quit the FNCD
-Intern-5 has been promoted to Salesperson-4
+Hired Intern-6
+Purchased Broken Clean Car-11 for a cost price of 8964.0
+Intern-1 has washed Motorcycle-8 and made it Clean
+Intern-1 has washed Car-10 and made it Clean
+Intern-4 has washed Motorcycle-8
+Intern-4 has washed Motorcycle-8
+Intern-6 has washed Car-10
+Intern-6 has washed Car-10
+Mechanic-0 has repaired Car-11 and made it Clean (Earned a bonus of $200.0)
+Mechanic-0 has repaired Car-11 and made it Dirty (Earned a bonus of $200.0)
+Salesperson-0 has sold Performance Car-10 for a sale price of $66256.0 (Earned a sale bonus of $300.0)
 Daily Report..
 
 Working Staff:
-Intern-2		1800.0	900.0	18
-Intern-3		1200.0	50.0	12
-Mechanic-2		2400.0	3550.0	12
-Mechanic-3		1000.0	940.0	11
-Mechanic-4		400.0	270.0	5
-Salesperson-0		3300.0	2670.0	11
-Salesperson-3		2100.0	480.0	14
-Salesperson-4		0.0	950.0	8
+Intern-1		1800.0	450.0	18
+Intern-4		1600.0	850.0	16
+Intern-6		100.0	0.0	1
+Mechanic-0		3400.0	4940.0	17
+Mechanic-3		2400.0	3510.0	13
+Mechanic-4		1600.0	1870.0	10
+Salesperson-0		3600.0	2490.0	12
+Salesperson-1		3900.0	3690.0	13
+Salesperson-3		1200.0	1290.0	15
 Driver-0		0.0	0.0	0
 Driver-2		0.0	0.0	0
 Driver-3		0.0	0.0	0
 Departed Staff:
-Salesperson-1		2100.0	570.0	7
+No one quit the FNCD today
+Vehicles In Inventory:
+Car-3			6596.0	13192.0	Clean	New	In Stock
+Car-8			7396.0	14792.0	Sparkling	New	In Stock
+Car-10			7849.5	15699.0	Clean	New	In Stock
+Car-11			8964.0	17928.0	Dirty	New	In Stock
+Performance Car-3			14602.0	29204.0	Clean	New	In Stock
+Performance Car-8			19388.0	38776.0	Clean	New	In Stock
+Performance Car-9			15970.0	31940.0	Sparkling	New	In Stock
+Pickup-0			14266.5	28533.0	Sparkling	New	In Stock
+Pickup-1			7940.5	15881.0	Sparkling	New	In Stock
+Pickup-2			15592.800000000001	31185.600000000002	Clean	New	In Stock
+Pickup-3			16707.5	33415.0	Sparkling	New	In Stock
+Electric Car-0			6199.5	12399.0	Clean	New	In Stock
+Electric Car-4			10782.0	21564.0	Sparkling	New	In Stock
+Electric Car-6			9908.800000000001	19817.600000000002	Clean	New	In Stock
+Electric Car-8			14291.2	28582.4	Clean	New	In Stock
+Motorcycle-3			11127.0	22254.0	Clean	New	In Stock
+Motorcycle-5			5438.5	10877.0	Clean	New	In Stock
+Motorcycle-7			8199.0	16398.0	Sparkling	New	In Stock
+Motorcycle-8			7268.0	14536.0	Clean	New	In Stock
+Monster Truck BlackSmith-1			8106.5	16213.0	Clean	New	In Stock
+Monster Truck Bear Foot USA-1			6841.5	13683.0	Sparkling	New	In Stock
+Monster Truck USA-1-1			7548.0	15096.0	Sparkling	New	In Stock
+Monster Truck Mohawk Warrior-1			14936.800000000001	29873.600000000002	Clean	New	In Stock
+Sold Vehicles:
+Performance Car-10		33128.0	66256.0	Clean	New	Sold

@@ -8,6 +8,7 @@ import main.java.functions.ElbowGrease;
 import main.java.functions.RandomNumberGenerator;
 import main.java.abstracts.Staff;
 import main.java.abstracts.Vehicle;
+import main.java.interfaces.RandomGenerator;
 import main.java.staff.Intern;
 import main.java.printer.Printer;
 
@@ -18,31 +19,39 @@ import java.util.List;
 This class is for the Washing activity.
 Contains all the methods for washing.
  */
-public class Washing extends Activity {
-    private List<Vehicle> dirtyVehicles;
-    private List<Vehicle> cleanVehicles;
+public class Washing {
+    private main.java.interfaces.WashingMethod washingMethod;
+    private RandomGenerator randomGenerator;
+    private Printer printer;
+    private List<Vehicle> dirtyVehicles, cleanVehicles;
 
     public Washing() {
+
+    }
+
+    public void startWashing(Activity activity) {
         System.out.println("Washing..");
         System.out.println();
         dirtyVehicles = new ArrayList<>();
         cleanVehicles = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
         printer = new Printer();
-        segregateVehicles();
+        segregateVehicles(activity);
         shuffleVehicles();
-        cleanCarsByInterns();
+        cleanCarsByInterns(activity);
         System.out.println();
+
     }
 
-    private void cleanCarsByInterns() {
+    private void cleanCarsByInterns(Activity activity) {
+        List<Staff> interns = activity.getInterns();
         for(Staff intern : interns) {
             for(int i = 0; i<2; i++) {
                 if(!dirtyVehicles.isEmpty()) {
-                    assignVehicle(intern, dirtyVehicles);
+                    assignVehicle(intern, dirtyVehicles, activity);
                 }
                 else if(!cleanVehicles.isEmpty()) {
-                    assignVehicle(intern, cleanVehicles);
+                    assignVehicle(intern, cleanVehicles, activity);
                 }
                 else {
                     break;
@@ -52,10 +61,10 @@ public class Washing extends Activity {
         }
     }
 
-    private void assignVehicle(Staff intern, List<Vehicle> listOfVehiclesToBeCleaned) {
+    private void assignVehicle(Staff intern, List<Vehicle> listOfVehiclesToBeCleaned, Activity activity) {
         int indexOfWashedVehicle = randomGenerator.generateRandomNumber(0,listOfVehiclesToBeCleaned.size()-1);
         Vehicle vehicle = listOfVehiclesToBeCleaned.get(indexOfWashedVehicle);
-        cleanVehicles(intern, vehicle);
+        cleanVehicles(intern, vehicle, activity);
         setInternWorkedStatus(intern);
         if(vehicle.getCleanliness().equals(Cleanliness.SPARKLING)) {
             listOfVehiclesToBeCleaned.remove(indexOfWashedVehicle);
@@ -66,13 +75,13 @@ public class Washing extends Activity {
         intern.setWorked(true);
     }
 
-    private void setInternBonus(Staff intern, Vehicle vehicle) {
+    private void setInternBonus(Staff intern, Vehicle vehicle, Activity activity) {
         double washBonus = vehicle.getWashBonus();
-        updateStaffAmount(subscriberObject, washBonus);
+        activity.updateStaffAmount(activity.getSubscriberObject(), washBonus);
         intern.setBonus(intern.getBonus() + washBonus);
     }
 
-    private void cleanVehicles(Staff intern, Vehicle vehicle) {
+    private void cleanVehicles(Staff intern, Vehicle vehicle, Activity activity) {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
         Cleanliness initialCleanliness = vehicle.getCleanliness();
         boolean hasCleaned = false;
@@ -94,14 +103,14 @@ public class Washing extends Activity {
         }
 
         if(vehicle.getCleanliness() == Cleanliness.SPARKLING) {
-            setInternBonus(intern, vehicle);
+            setInternBonus(intern, vehicle, activity);
             hasBonus = true;
         }
         if(vehicle.getCleanliness() != initialCleanliness) {
             hasCleaned = true;
         }
 
-        printer.printWashedVehicles(intern, vehicle, hasCleaned, hasBonus, subscriberObject);
+        printer.printWashedVehicles(intern, vehicle, hasCleaned, hasBonus, activity.getSubscriberObject());
     }
 
     private void shuffleVehicles() {
@@ -109,13 +118,13 @@ public class Washing extends Activity {
         Collections.shuffle(cleanVehicles);
     }
 
-    private void segregateVehicles() {
-        segregateVehiclesOfType(cars);
-        segregateVehiclesOfType(performanceCars);
-        segregateVehiclesOfType(pickups);
-        segregateVehiclesOfType(electricCars);
-        segregateVehiclesOfType(monsterTrucks);
-        segregateVehiclesOfType(motorcycles);
+    private void segregateVehicles(Activity activity) {
+        segregateVehiclesOfType(activity.getCars());
+        segregateVehiclesOfType(activity.getPickups());
+        segregateVehiclesOfType(activity.getPerformanceCars());
+        segregateVehiclesOfType(activity.getElectricCars());
+        segregateVehiclesOfType(activity.getMotorcycles());
+        segregateVehiclesOfType(activity.getMonsterTrucks());
     }
 
     private void segregateVehiclesOfType(List<Vehicle> vehiclesToBeSegregated) {

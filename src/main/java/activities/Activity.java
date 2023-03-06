@@ -16,7 +16,8 @@ Contains the common attributes for all the activities.
  */
 public class Activity {
     protected RandomGenerator randomGenerator;
-    protected static double budget, dailySales;
+    protected String nameOfFNCD;
+    protected double budget, dailySales;
     protected List<Staff> interns, salespersons, mechanics, drivers, departedStaff, dailyDepartingStaff;
     protected List<Vehicle> cars, pickups, performanceCars, electricCars, monsterTrucks, motorcycles, soldVehicles, dailySoldVehicles;
     protected WashingMethod washingMethod;
@@ -24,7 +25,7 @@ public class Activity {
     protected Printer printer;
 
 
-    public Activity() {
+    public Activity(String nameOfFNCD) {
         setInterns(new ArrayList<>());
         setSalespersons(new ArrayList<>());
         setMechanics(new ArrayList<>());
@@ -41,151 +42,167 @@ public class Activity {
         setDailySoldVehicles(new ArrayList<>());
         setDailySales(0);
         setBudget(500000);
+        setNameOfFNCD(nameOfFNCD);
     }
 
-    protected static double getBudget() {
+    protected void modifyOperatingBudget(Activity activity) {
+        //add subscriber object
+        System.out.println("Adding 250000 to the operating budget");
+        double currentBudget = activity.getBudget();
+        activity.setBudget(currentBudget + 250000);
+    }
+
+    public String getNameOfFNCD() {
+        return nameOfFNCD;
+    }
+
+    public void setNameOfFNCD(String nameOfFNCD) {
+        this.nameOfFNCD = nameOfFNCD;
+    }
+
+    public double getBudget() {
         return budget;
     }
 
-    protected static void setBudget(double budget) {
-        Activity.budget = budget;
+    public void setBudget(double budget) {
+        this.budget = budget;
     }
 
-    protected void modifyOperatingBudget() {
-        //add subscriber object
-        System.out.println("Adding 250000 to the operating budget");
-        double currentBudget = getBudget();
-        setBudget(currentBudget + 250000);
-    }
-
-    public static double getDailySales() {
+    public double getDailySales() {
         return dailySales;
     }
 
-    public static void setDailySales(double dailySales) {
-        Activity.dailySales = dailySales;
+    public void setDailySales(double dailySales) {
+        this.dailySales = dailySales;
     }
 
-    public static List<Staff> getInterns() {
+    public List<Staff> getInterns() {
         return interns;
     }
 
-    public static void setInterns(List<Staff> interns) {
-        Activity.interns = interns;
+    public void setInterns(List<Staff> interns) {
+        this.interns = interns;
     }
 
-    public static List<Staff> getSalespersons() {
+    public List<Staff> getSalespersons() {
         return salespersons;
     }
 
-    public static void setSalespersons(List<Staff> salespersons) {
-        Activity.salespersons = salespersons;
+    public void setSalespersons(List<Staff> salespersons) {
+        this.salespersons = salespersons;
     }
 
-    public static List<Staff> getMechanics() {
+    public List<Staff> getMechanics() {
         return mechanics;
     }
 
-    public static void setMechanics(List<Staff> mechanics) {
-        Activity.mechanics = mechanics;
+    public void setMechanics(List<Staff> mechanics) {
+        this.mechanics = mechanics;
     }
 
-    public static List<Staff> getDrivers() {
+    public List<Staff> getDrivers() {
         return drivers;
     }
 
-    public static void setDrivers(List<Staff> drivers) {
-        Activity.drivers = drivers;
+    public void setDrivers(List<Staff> drivers) {
+        this.drivers = drivers;
     }
 
-    public static List<Vehicle> getCars() {
-        return cars;
-    }
-
-    public static void setCars(List<Vehicle> cars) {
-        Activity.cars = cars;
-    }
-
-    public static List<Vehicle> getPickups() {
-        return pickups;
-    }
-
-    public static void setPickups(List<Vehicle> pickups) {
-        Activity.pickups = pickups;
-    }
-
-    public static List<Vehicle> getPerformanceCars() {
-        return performanceCars;
-    }
-
-    public static void setPerformanceCars(List<Vehicle> performanceCars) {
-        Activity.performanceCars = performanceCars;
-    }
-
-    public static List<Vehicle> getElectricCars() {
-        return electricCars;
-    }
-
-    public static void setElectricCars(List<Vehicle> electricCars) {
-        Activity.electricCars = electricCars;
-    }
-
-    public static List<Vehicle> getMonsterTrucks() {
-        return monsterTrucks;
-    }
-
-    public static void setMonsterTrucks(List<Vehicle> monsterTrucks) {
-        Activity.monsterTrucks = monsterTrucks;
-    }
-
-    public static List<Vehicle> getMotorcycles() {
-        return motorcycles;
-    }
-
-    public static void setMotorcycles(List<Vehicle> motorcycles) {
-        Activity.motorcycles = motorcycles;
-    }
-
-    public static List<Vehicle> getSoldVehicles() {
-        return soldVehicles;
-    }
-
-    public static void setSoldVehicles(List<Vehicle> soldVehicles) {
-        Activity.soldVehicles = soldVehicles;
-    }
-
-    public static List<Staff> getDepartedStaff() {
+    public List<Staff> getDepartedStaff() {
         return departedStaff;
     }
 
-    public static void setDepartedStaff(List<Staff> departedStaff) {
-        Activity.departedStaff = departedStaff;
+    public void setDepartedStaff(List<Staff> departedStaff) {
+        this.departedStaff = departedStaff;
     }
 
-    public static List<Staff> getDailyDepartingStaff() {
+    public List<Staff> getDailyDepartingStaff() {
         return dailyDepartingStaff;
     }
 
-    public static void setDailyDepartingStaff(List<Staff> dailyDepartingStaff) {
-        Activity.dailyDepartingStaff = dailyDepartingStaff;
+    public void setDailyDepartingStaff(List<Staff> dailyDepartingStaff) {
+        this.dailyDepartingStaff = dailyDepartingStaff;
     }
 
-    public static List<Vehicle> getDailySoldVehicles() {
+    public List<Vehicle> getCars() {
+        return cars;
+    }
+
+    public void setCars(List<Vehicle> cars) {
+        this.cars = cars;
+    }
+
+    public List<Vehicle> getPickups() {
+        return pickups;
+    }
+
+    public void setPickups(List<Vehicle> pickups) {
+        this.pickups = pickups;
+    }
+
+    public List<Vehicle> getPerformanceCars() {
+        return performanceCars;
+    }
+
+    public void setPerformanceCars(List<Vehicle> performanceCars) {
+        this.performanceCars = performanceCars;
+    }
+
+    public List<Vehicle> getElectricCars() {
+        return electricCars;
+    }
+
+    public void setElectricCars(List<Vehicle> electricCars) {
+        this.electricCars = electricCars;
+    }
+
+    public List<Vehicle> getMonsterTrucks() {
+        return monsterTrucks;
+    }
+
+    public void setMonsterTrucks(List<Vehicle> monsterTrucks) {
+        this.monsterTrucks = monsterTrucks;
+    }
+
+    public List<Vehicle> getMotorcycles() {
+        return motorcycles;
+    }
+
+    public void setMotorcycles(List<Vehicle> motorcycles) {
+        this.motorcycles = motorcycles;
+    }
+
+    public List<Vehicle> getSoldVehicles() {
+        return soldVehicles;
+    }
+
+    public void setSoldVehicles(List<Vehicle> soldVehicles) {
+        this.soldVehicles = soldVehicles;
+    }
+
+    public List<Vehicle> getDailySoldVehicles() {
         return dailySoldVehicles;
     }
 
-    public static void setDailySoldVehicles(List<Vehicle> dailySoldVehicles) {
-        Activity.dailySoldVehicles = dailySoldVehicles;
+    public void setDailySoldVehicles(List<Vehicle> dailySoldVehicles) {
+        this.dailySoldVehicles = dailySoldVehicles;
     }
 
-    public static SubscriberObject getSubscriberObject() {
+    public WashingMethod getWashingMethod() {
+        return washingMethod;
+    }
+
+    public void setWashingMethod(WashingMethod washingMethod) {
+        this.washingMethod = washingMethod;
+    }
+
+    public SubscriberObject getSubscriberObject() {
         return subscriberObject;
     }
 
-    public static void setSubscriberObject(SubscriberObject subscriberObject) {
-        Activity.subscriberObject = subscriberObject;
+    public void setSubscriberObject(SubscriberObject subscriberObject) {
+        this.subscriberObject = subscriberObject;
     }
-
     public void updateStaffAmount(SubscriberObject subscriberObject, double amountToBeAdded) {
         double currStaffAmount = subscriberObject.getTotalMoneyStaff();
         subscriberObject.setTotalMoneyStaff(currStaffAmount + amountToBeAdded);

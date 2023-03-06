@@ -1,9 +1,9 @@
-package buyer;
+package main.java.buyer;
 
-import abstracts.Buyers;
-import enums.BuyingType;
-import enums.VehicleType;
-import functions.RandomNumberGenerator;
+import main.java.abstracts.Buyers;
+import main.java.enums.BuyingType;
+import main.java.enums.VehicleType;
+import main.java.functions.RandomNumberGenerator;
 
 public class Buyer extends Buyers {
     public Buyer() {

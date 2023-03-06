@@ -1,7 +1,7 @@
-package decorator;
+package main.java.decorator;
 
-import abstracts.AddOnDecorator;
-import abstracts.Vehicle;
+import main.java.abstracts.AddOnDecorator;
+import main.java.abstracts.Vehicle;
 
 public class RoadRescueCoverage extends AddOnDecorator {
     public RoadRescueCoverage(Vehicle vehicle) {

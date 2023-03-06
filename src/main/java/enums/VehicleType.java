@@ -1,4 +1,4 @@
-package enums;
+package main.java.enums;
 
 public enum VehicleType {
     PERFORMANCE_CAR,

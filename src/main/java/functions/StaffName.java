@@ -1,6 +1,6 @@
-package functions;
+package main.java.functions;
 
-import interfaces.NameGenerator;
+import main.java.interfaces.NameGenerator;
 
 import java.util.HashSet;
 import java.util.Set;

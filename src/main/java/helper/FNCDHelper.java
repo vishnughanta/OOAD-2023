@@ -1,9 +1,9 @@
-package helper;
+package main.java.helper;
 
-import activities.*;
-import interfaces.Subscriber;
-import subscriber.Logger;
-import subscriber.Tracker;
+import main.java.activities.*;
+import main.java.interfaces.Subscriber;
+import main.java.subscriber.Logger;
+import main.java.subscriber.Tracker;
 
 public class FNCDHelper {
     public void simulate() {

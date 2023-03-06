@@ -1,6 +1,6 @@
-package functions;
+package main.java.functions;
 
-import interfaces.RandomGenerator;
+import main.java.interfaces.RandomGenerator;
 
 import java.util.Random;
 

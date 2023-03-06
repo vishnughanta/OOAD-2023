@@ -1,12 +1,12 @@
-package printer;
+package main.java.printer;
 
-import abstracts.Staff;
-import abstracts.Vehicle;
-import enums.Cleanliness;
-import enums.Condition;
-import functions.LinkDriverToVehicle;
-import staff.Driver;
-import subscriber.SubscriberObject;
+import main.java.abstracts.Staff;
+import main.java.abstracts.Vehicle;
+import main.java.enums.Cleanliness;
+import main.java.enums.Condition;
+import main.java.functions.LinkDriverToVehicle;
+import main.java.staff.Driver;
+import main.java.subscriber.SubscriberObject;
 
 import java.util.ArrayList;
 import java.util.List;

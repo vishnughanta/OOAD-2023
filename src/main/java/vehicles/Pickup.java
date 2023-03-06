@@ -1,17 +1,17 @@
-package vehicles;
+package main.java.vehicles;
 /*
 This class is for attributes of the Pickup type.
  */
-import abstracts.Vehicle;
-import enums.Cleanliness;
-import enums.Condition;
-import enums.VehicleType;
-import functions.RandomNumberGenerator;
-import functions.VehicleName;
+import main.java.abstracts.Vehicle;
+import main.java.enums.Cleanliness;
+import main.java.enums.Condition;
+import main.java.enums.VehicleType;
+import main.java.functions.RandomNumberGenerator;
+import main.java.functions.VehicleName;
+import main.java.interfaces.RandomGenerator;
 
 public class Pickup extends Vehicle {
     public Pickup() {
-        nameGenerator = new VehicleName();
         randomNumberGenerator = new RandomNumberGenerator();
         this.name = "Pickup" + "-" + Vehicle.pickupNumber;
         this.costPrice = randomNumberGenerator.generateRandomNumber(10000,40000);

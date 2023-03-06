@@ -1,15 +1,15 @@
-package activities;
+package main.java.activities;
 
-import enums.Cleanliness;
-import enums.WashingMethod;
-import functions.Chemical;
-import functions.Detailed;
-import functions.ElbowGrease;
-import functions.RandomNumberGenerator;
-import abstracts.Staff;
-import abstracts.Vehicle;
-import printer.Printer;
-import staff.Intern;
+import main.java.enums.Cleanliness;
+import main.java.enums.WashingMethod;
+import main.java.functions.Chemical;
+import main.java.functions.Detailed;
+import main.java.functions.ElbowGrease;
+import main.java.functions.RandomNumberGenerator;
+import main.java.abstracts.Staff;
+import main.java.abstracts.Vehicle;
+import main.java.staff.Intern;
+import main.java.printer.Printer;
 
 import java.util.ArrayList;
 import java.util.Collections;

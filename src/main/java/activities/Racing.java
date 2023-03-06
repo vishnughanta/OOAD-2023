@@ -1,12 +1,12 @@
-package activities;
+package main.java.activities;
 
-import abstracts.Staff;
-import abstracts.Vehicle;
-import enums.Condition;
-import functions.LinkDriverToVehicle;
-import functions.RandomNumberGenerator;
-import printer.Printer;
-import staff.Driver;
+import main.java.abstracts.Staff;
+import main.java.abstracts.Vehicle;
+import main.java.enums.Condition;
+import main.java.functions.LinkDriverToVehicle;
+import main.java.functions.RandomNumberGenerator;
+import main.java.printer.Printer;
+import main.java.staff.Driver;
 
 import java.util.ArrayList;
 import java.util.Collections;

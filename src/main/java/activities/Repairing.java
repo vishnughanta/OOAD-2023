@@ -1,11 +1,11 @@
-package activities;
+package main.java.activities;
 
-import abstracts.Staff;
-import abstracts.Vehicle;
-import enums.Cleanliness;
-import enums.Condition;
-import functions.RandomNumberGenerator;
-import printer.Printer;
+import main.java.abstracts.Staff;
+import main.java.abstracts.Vehicle;
+import main.java.enums.Cleanliness;
+import main.java.enums.Condition;
+import main.java.functions.RandomNumberGenerator;
+import main.java.printer.Printer;
 
 import java.util.ArrayList;
 import java.util.Collections;

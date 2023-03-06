@@ -1,6 +1,6 @@
-package interfaces;
+package main.java.interfaces;
 
-import abstracts.Vehicle;
+import main.java.abstracts.Vehicle;
 
 public interface WashingMethod {
     public void wash(Vehicle vehicle);

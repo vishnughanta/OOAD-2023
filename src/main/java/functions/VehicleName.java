@@ -1,7 +1,7 @@
-package functions;
+package main.java.functions;
 
-import abstracts.Vehicle;
-import interfaces.NameGenerator;
+import main.java.abstracts.Vehicle;
+import main.java.interfaces.NameGenerator;
 
 import java.util.HashSet;
 import java.util.Set;

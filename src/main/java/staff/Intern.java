@@ -1,18 +1,16 @@
-package staff;
+package main.java.staff;
 /*
 This class is for attributes of the Intern type.
  */
-import abstracts.Staff;
-import enums.WashingMethod;
-import functions.RandomNumberGenerator;
-import functions.StaffName;
-import interfaces.RandomGenerator;
+import main.java.abstracts.Staff;
+import main.java.enums.WashingMethod;
+import main.java.functions.RandomNumberGenerator;
+import main.java.interfaces.RandomGenerator;
 
 public class Intern extends Staff {
     private WashingMethod washingMethod;
 
     public Intern(){
-        nameGenerator = new StaffName();
         this.salary = 100;
         this.name = "Intern-" + Staff.internNumber;
         this.worked = false;

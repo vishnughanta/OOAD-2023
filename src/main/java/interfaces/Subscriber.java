@@ -1,6 +1,6 @@
-package interfaces;
+package main.java.interfaces;
 
-import subscriber.SubscriberObject;
+import main.java.subscriber.SubscriberObject;
 
 public interface Subscriber {
     void update(SubscriberObject subscriberObject);

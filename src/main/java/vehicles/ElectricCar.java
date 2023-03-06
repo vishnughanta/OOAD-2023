@@ -1,10 +1,10 @@
-package vehicles;
+package main.java.vehicles;
 
-import abstracts.Vehicle;
-import enums.Cleanliness;
-import enums.Condition;
-import enums.VehicleType;
-import functions.RandomNumberGenerator;
+import main.java.abstracts.Vehicle;
+import main.java.enums.Cleanliness;
+import main.java.enums.Condition;
+import main.java.enums.VehicleType;
+import main.java.functions.RandomNumberGenerator;
 
 public class ElectricCar extends Vehicle {
     protected double range;

@@ -1,10 +1,9 @@
-package functions;
+package main.java.functions;
 
-import abstracts.Vehicle;
-import enums.Cleanliness;
-import enums.Condition;
-import interfaces.RandomGenerator;
-import interfaces.WashingMethod;
+import main.java.abstracts.Vehicle;
+import main.java.enums.Cleanliness;
+import main.java.interfaces.RandomGenerator;
+import main.java.interfaces.WashingMethod;
 
 public class Detailed implements WashingMethod {
     private RandomGenerator randomGenerator;

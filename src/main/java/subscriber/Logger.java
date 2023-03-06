@@ -1,6 +1,6 @@
-package subscriber;
+package main.java.subscriber;
 
-import interfaces.Subscriber;
+import main.java.interfaces.Subscriber;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -32,5 +32,4 @@ public class Logger implements Subscriber {
             System.out.println("Unable to write to file due to an exception");
         }
     }
-
 }

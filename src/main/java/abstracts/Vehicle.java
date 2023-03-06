@@ -1,12 +1,12 @@
-package abstracts;
+package main.java.abstracts;
 /*
 This abstract class is the parent of all the types of Vehicles.
  */
-import enums.Cleanliness;
-import enums.Condition;
-import enums.VehicleType;
-import interfaces.NameGenerator;
-import interfaces.RandomGenerator;
+import main.java.enums.Cleanliness;
+import main.java.enums.Condition;
+import main.java.enums.VehicleType;
+import main.java.interfaces.NameGenerator;
+import main.java.interfaces.RandomGenerator;
 
 
 public abstract class Vehicle {

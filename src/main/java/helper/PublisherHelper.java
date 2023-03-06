@@ -1,8 +1,8 @@
-package helper;
+package main.java.helper;
 
-import interfaces.Publisher;
-import interfaces.Subscriber;
-import subscriber.SubscriberObject;
+import main.java.interfaces.Publisher;
+import main.java.interfaces.Subscriber;
+import main.java.subscriber.SubscriberObject;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,14 +1,14 @@
-package activities;
+package main.java.activities;
 /*
 This class is for the Ending activity.
 Contains all the methods for ending the day.
  */
-import abstracts.Staff;
-import functions.RandomNumberGenerator;
-import printer.Printer;
-import staff.Driver;
-import staff.Mechanic;
-import staff.Salesperson;
+import main.java.abstracts.Staff;
+import main.java.functions.RandomNumberGenerator;
+import main.java.printer.Printer;
+import main.java.staff.Driver;
+import main.java.staff.Mechanic;
+import main.java.staff.Salesperson;
 
 import java.util.ArrayList;
 import java.util.Iterator;

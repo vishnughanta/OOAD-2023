@@ -1,11 +1,11 @@
-package activities;
+package main.java.activities;
 
-import interfaces.RandomGenerator;
-import abstracts.Staff;
-import abstracts.Vehicle;
-import interfaces.WashingMethod;
-import printer.Printer;
-import subscriber.SubscriberObject;
+import main.java.interfaces.RandomGenerator;
+import main.java.abstracts.Staff;
+import main.java.abstracts.Vehicle;
+import main.java.interfaces.WashingMethod;
+import main.java.printer.Printer;
+import main.java.subscriber.SubscriberObject;
 
 import java.util.ArrayList;
 import java.util.List;

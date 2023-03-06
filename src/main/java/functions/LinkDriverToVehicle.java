@@ -1,7 +1,7 @@
-package functions;
+package main.java.functions;
 
-import abstracts.Vehicle;
-import staff.Driver;
+import main.java.abstracts.Vehicle;
+import main.java.staff.Driver;
 
 
 public class LinkDriverToVehicle {

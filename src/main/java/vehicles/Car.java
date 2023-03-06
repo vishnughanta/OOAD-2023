@@ -1,17 +1,15 @@
-package vehicles;
+package main.java.vehicles;
 /*
 This class is for attributes of the Car type.
  */
-import abstracts.Vehicle;
-import enums.Cleanliness;
-import enums.Condition;
-import enums.VehicleType;
-import functions.RandomNumberGenerator;
-import functions.VehicleName;
+import main.java.abstracts.Vehicle;
+import main.java.enums.Cleanliness;
+import main.java.enums.Condition;
+import main.java.enums.VehicleType;
+import main.java.functions.RandomNumberGenerator;
 
 public class Car extends Vehicle {
     public Car() {
-        nameGenerator = new VehicleName();
         randomNumberGenerator = new RandomNumberGenerator();
         this.name = "Car" + "-" + Vehicle.carNumber;
         this.costPrice = randomNumberGenerator.generateRandomNumber(10000,20000);

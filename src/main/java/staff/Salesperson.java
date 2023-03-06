@@ -1,13 +1,12 @@
-package staff;
+package main.java.staff;
 /*
 This class is for attributes of the Salesperson type - Inheritance
  */
-import abstracts.Staff;
-import functions.StaffName;
+import main.java.abstracts.Staff;
+import main.java.functions.StaffName;
 
 public class Salesperson extends Staff {
     public Salesperson() {
-        nameGenerator = new StaffName();
         this.salary = 300;
         this.name = "Salesperson-" + Staff.salespersonNumber;
         this.worked = false;

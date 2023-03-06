@@ -1,6 +1,6 @@
-package subscriber;
+package main.java.subscriber;
 
-import interfaces.Subscriber;
+import main.java.interfaces.Subscriber;
 
 public class Tracker implements Subscriber {
     public void update(SubscriberObject subscriberObject) {

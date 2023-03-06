@@ -1,8 +1,8 @@
-package abstracts;
+package main.java.abstracts;
 /*
 This abstract class is the parent of all the types of Staff.
  */
-import interfaces.NameGenerator;
+import main.java.interfaces.NameGenerator;
 
 public abstract class Staff {
     public static int internNumber = 0;

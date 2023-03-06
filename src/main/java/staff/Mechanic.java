@@ -1,13 +1,11 @@
-package staff;
+package main.java.staff;
 /*
 This class is for attributes of the Mechanic type.
  */
-import abstracts.Staff;
-import functions.StaffName;
+import main.java.abstracts.Staff;
 
 public class Mechanic extends Staff {
     public Mechanic() {
-        nameGenerator = new StaffName();
         this.salary = 200;
         this.name = "Mechanic-" +Staff.mechanicNumber;
         this.worked = false;

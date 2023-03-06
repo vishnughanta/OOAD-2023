@@ -1,6 +1,6 @@
-package staff;
+package main.java.staff;
 
-import abstracts.Staff;
+import main.java.abstracts.Staff;
 
 public class Driver extends Staff {
     private int racesWon;

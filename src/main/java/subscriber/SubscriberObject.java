@@ -1,4 +1,4 @@
-package subscriber;
+package main.java.subscriber;
 
 import java.util.List;
 import java.util.ArrayList;

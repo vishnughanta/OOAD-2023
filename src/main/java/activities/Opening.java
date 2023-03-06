@@ -1,13 +1,13 @@
-package activities;
+package main.java.activities;
 
-import printer.Printer;
-import staff.Driver;
-import staff.Intern;
-import staff.Mechanic;
-import staff.Salesperson;
-import abstracts.Staff;
-import vehicles.*;
-import abstracts.Vehicle;
+import main.java.printer.Printer;
+import main.java.staff.Driver;
+import main.java.staff.Intern;
+import main.java.staff.Mechanic;
+import main.java.staff.Salesperson;
+import main.java.abstracts.Staff;
+import main.java.vehicles.*;
+import main.java.abstracts.Vehicle;
 /*
 This class is for the Opening activity.
 Contains all the methods for opening the day.

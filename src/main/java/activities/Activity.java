@@ -17,33 +17,30 @@ Contains the common attributes for all the activities.
 public class Activity {
     protected RandomGenerator randomGenerator;
     protected static double budget, dailySales;
-    protected static List<Staff> interns, salespersons, mechanics, drivers, departedStaff, dailyDepartingStaff;
-    protected static List<Vehicle> cars, pickups, performanceCars, electricCars, monsterTrucks, motorcycles, soldVehicles, dailySoldVehicles;
+    protected List<Staff> interns, salespersons, mechanics, drivers, departedStaff, dailyDepartingStaff;
+    protected List<Vehicle> cars, pickups, performanceCars, electricCars, monsterTrucks, motorcycles, soldVehicles, dailySoldVehicles;
     protected WashingMethod washingMethod;
-    protected static SubscriberObject subscriberObject;
+    protected SubscriberObject subscriberObject;
     protected Printer printer;
 
-    static {
-        interns = new ArrayList<>();
-        salespersons = new ArrayList<>();
-        mechanics = new ArrayList<>();
-        drivers = new ArrayList<>();
-        cars = new ArrayList<>();
-        pickups = new ArrayList<>();
-        performanceCars = new ArrayList<>();
-        electricCars = new ArrayList<>();
-        monsterTrucks = new ArrayList<>();
-        motorcycles = new ArrayList<>();
-        soldVehicles = new ArrayList<>();
-        departedStaff = new ArrayList<>();
-        dailyDepartingStaff = new ArrayList<>();
-        dailySoldVehicles = new ArrayList<>();
-        dailySales = 0;
-        budget = 500000;
-    }
 
     public Activity() {
-
+        setInterns(new ArrayList<>());
+        setSalespersons(new ArrayList<>());
+        setMechanics(new ArrayList<>());
+        setDrivers(new ArrayList<>());
+        setCars(new ArrayList<>());
+        setPickups(new ArrayList<>());
+        setPerformanceCars(new ArrayList<>());
+        setElectricCars(new ArrayList<>());
+        setMonsterTrucks(new ArrayList<>());
+        setMotorcycles(new ArrayList<>());
+        setSoldVehicles(new ArrayList<>());
+        setDepartedStaff(new ArrayList<>());
+        setDailyDepartingStaff(new ArrayList<>());
+        setDailySoldVehicles(new ArrayList<>());
+        setDailySales(0);
+        setBudget(500000);
     }
 
     protected static double getBudget() {
@@ -55,8 +52,10 @@ public class Activity {
     }
 
     protected void modifyOperatingBudget() {
+        //add subscriber object
         System.out.println("Adding 250000 to the operating budget");
-        Activity.budget += 250000;
+        double currentBudget = getBudget();
+        setBudget(currentBudget + 250000);
     }
 
     public static double getDailySales() {

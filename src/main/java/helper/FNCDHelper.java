@@ -2,6 +2,7 @@ package main.java.helper;
 
 import main.java.activities.Opening;
 import main.java.activities.Activity;
+import main.java.activities.Repairing;
 import main.java.activities.Washing;
 import main.java.interfaces.Subscriber;
 import main.java.subscriber.Logger;
@@ -26,6 +27,8 @@ public class FNCDHelper {
             opening.startOpening(activity);
             Washing washing = new Washing();
             washing.startWashing(activity);
+            Repairing repairing = new Repairing();
+            repairing.startRepairing(activity);
 //            Activity washing = new Washing();
 //            Activity repairing = new Repairing();
 //            Activity selling = new Selling(day);

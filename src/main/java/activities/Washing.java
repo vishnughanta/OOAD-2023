@@ -26,7 +26,6 @@ public class Washing {
     private List<Vehicle> dirtyVehicles, cleanVehicles;
 
     public Washing() {
-
     }
 
     public void startWashing(Activity activity) {
@@ -82,7 +81,6 @@ public class Washing {
     }
 
     private void cleanVehicles(Staff intern, Vehicle vehicle, Activity activity) {
-        int randomNumber = randomGenerator.generateRandomNumber(1,100);
         Cleanliness initialCleanliness = vehicle.getCleanliness();
         boolean hasCleaned = false;
         boolean hasBonus = false;

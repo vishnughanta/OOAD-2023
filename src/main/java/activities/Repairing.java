@@ -5,6 +5,7 @@ import main.java.abstracts.Vehicle;
 import main.java.enums.Cleanliness;
 import main.java.enums.Condition;
 import main.java.functions.RandomNumberGenerator;
+import main.java.interfaces.RandomGenerator;
 import main.java.printer.Printer;
 
 import java.util.ArrayList;
@@ -14,27 +15,34 @@ import java.util.List;
 This class is for the Repairing activity.
 Contains all the methods for repairing.
  */
-public class Repairing extends Activity {
+public class Repairing {
     private List<Vehicle> vehiclesToBeRepaired;
+    private RandomGenerator randomGenerator;
+    private Printer printer;
     public Repairing() {
+
+    }
+
+    public void startRepairing(Activity activity) {
         System.out.println("Repairing..");
         System.out.println();
         vehiclesToBeRepaired = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
         printer = new Printer();
-        segregateVehicles();
+        segregateVehicles(activity);
         shuffleVehicles();
-        repairVehiclesMechanics();
+        repairVehiclesMechanics(activity);
         System.out.println();
     }
 
-    private void repairVehiclesMechanics() {
+    private void repairVehiclesMechanics(Activity activity) {
+        List<Staff> mechanics = activity.getMechanics();
         for(Staff mechanic : mechanics) {
             for(int i=0; i<2; i++) {
                 if(vehiclesToBeRepaired.isEmpty()) break;
                 int indexOfVehicleToBeRepaired = randomGenerator.generateRandomNumber(0, vehiclesToBeRepaired.size()-1);
                 Vehicle vehicle = vehiclesToBeRepaired.get(indexOfVehicleToBeRepaired);
-                repairVehicles(mechanic, vehicle);
+                repairVehicles(mechanic, vehicle, activity);
                 updateCleanlinessState(vehicle);
                 mechanic.setWorked(true);
                 if(vehicle.getCondition() == Condition.NEW) {
@@ -54,7 +62,7 @@ public class Repairing extends Activity {
         }
     }
 
-    private void repairVehicles(Staff mechanic, Vehicle vehicle) {
+    private void repairVehicles(Staff mechanic, Vehicle vehicle, Activity activity) {
         int randomNumber = randomGenerator.generateRandomNumber(1,100);
         boolean hasRepaired = false;
         if(randomNumber > 0 && randomNumber <= 80) {
@@ -68,23 +76,23 @@ public class Repairing extends Activity {
                 vehicle.setSalePrice(1.25 * vehicle.getSalePrice());
             }
             double repairBonus = vehicle.getRepairBonus();
-            updateStaffAmount(subscriberObject, repairBonus);
+            activity.updateStaffAmount(activity.getSubscriberObject(), repairBonus);
             mechanic.setBonus(mechanic.getBonus() + repairBonus);
         }
-        printer.printRepairedVehicles(mechanic, vehicle, hasRepaired, subscriberObject);
+        printer.printRepairedVehicles(mechanic, vehicle, hasRepaired, activity.getSubscriberObject());
     }
 
     private void shuffleVehicles() {
         Collections.shuffle(vehiclesToBeRepaired);
     }
 
-    private void segregateVehicles() {
-        segregateVehiclesOfType(cars);
-        segregateVehiclesOfType(performanceCars);
-        segregateVehiclesOfType(pickups);
-        segregateVehiclesOfType(electricCars);
-        segregateVehiclesOfType(monsterTrucks);
-        segregateVehiclesOfType(motorcycles);
+    private void segregateVehicles(Activity activity) {
+        segregateVehiclesOfType(activity.getCars());
+        segregateVehiclesOfType(activity.getPickups());
+        segregateVehiclesOfType(activity.getPerformanceCars());
+        segregateVehiclesOfType(activity.getElectricCars());
+        segregateVehiclesOfType(activity.getMotorcycles());
+        segregateVehiclesOfType(activity.getMonsterTrucks());
     }
 
     private void segregateVehiclesOfType(List<Vehicle> vehiclesToBeSegregated) {

@@ -1,9 +1,6 @@
 package main.java.helper;
 
-import main.java.activities.Opening;
-import main.java.activities.Activity;
-import main.java.activities.Repairing;
-import main.java.activities.Washing;
+import main.java.activities.*;
 import main.java.interfaces.Subscriber;
 import main.java.subscriber.Logger;
 import main.java.subscriber.Tracker;
@@ -13,7 +10,8 @@ public class FNCDHelper {
 
         PublisherHelper publisherHelper = new PublisherHelper();
         Subscriber tracker = new Tracker();
-        Activity activity = new Activity("North");
+        Activity activity = new Activity();
+        activity.startActivity("North");
         activity.setSubscriberObject(publisherHelper.getSubscriberObject());
         publisherHelper.registerSubscriber(tracker);
 
@@ -29,8 +27,12 @@ public class FNCDHelper {
             washing.startWashing(activity);
             Repairing repairing = new Repairing();
             repairing.startRepairing(activity);
-//            Activity washing = new Washing();
-//            Activity repairing = new Repairing();
+            Racing racing = new Racing();
+            racing.startRacing(activity);
+            Selling selling = new Selling();
+            selling.startSelling(activity, day);
+            Ending ending = new Ending();
+            ending.startEnding(activity);
 //            Activity selling = new Selling(day);
 //            if(day%7==3 || day%7==0) {
 //                Activity racing = new Racing();

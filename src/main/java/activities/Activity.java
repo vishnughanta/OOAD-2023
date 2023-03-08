@@ -15,34 +15,61 @@ This class is for initiating the activity on a whole.
 Contains the common attributes for all the activities.
  */
 public class Activity {
-    protected RandomGenerator randomGenerator;
-    protected String nameOfFNCD;
-    protected double budget, dailySales;
-    protected List<Staff> interns, salespersons, mechanics, drivers, departedStaff, dailyDepartingStaff;
-    protected List<Vehicle> cars, pickups, performanceCars, electricCars, monsterTrucks, motorcycles, soldVehicles, dailySoldVehicles;
-    protected WashingMethod washingMethod;
-    protected SubscriberObject subscriberObject;
-    protected Printer printer;
+    private String nameOfFNCD;
+    private double budget, dailySales;
+    private int carID, pickupID, performanceCarID, electricCarID, motorcycleID, monsterTruckID, internID, mechanicID, salespersonID, driverID;
+    private List<Staff> interns, salespersons, mechanics, drivers, departedStaff, dailyDepartingStaff;
+    private List<Vehicle> cars, pickups, performanceCars, electricCars, monsterTrucks, motorcycles, soldVehicles, dailySoldVehicles;
+    private SubscriberObject subscriberObject;
 
+    public void startActivity(String nameOfFNCD) {
+        setID();
+        setStaff();
+        setVehicle();
+        setDailyActivities();
+        setDeparted();
+        setDailySales(0);
+        setBudget(500000);
+        setNameOfFNCD(nameOfFNCD);
+    }
 
-    public Activity(String nameOfFNCD) {
-        setInterns(new ArrayList<>());
-        setSalespersons(new ArrayList<>());
-        setMechanics(new ArrayList<>());
-        setDrivers(new ArrayList<>());
+    private void setDeparted() {
+        setSoldVehicles(new ArrayList<>());
+        setDepartedStaff(new ArrayList<>());
+    }
+
+    private void setDailyActivities() {
+        setDailyDepartingStaff(new ArrayList<>());
+        setDailySoldVehicles(new ArrayList<>());
+    }
+
+    private void setVehicle() {
         setCars(new ArrayList<>());
         setPickups(new ArrayList<>());
         setPerformanceCars(new ArrayList<>());
         setElectricCars(new ArrayList<>());
         setMonsterTrucks(new ArrayList<>());
         setMotorcycles(new ArrayList<>());
-        setSoldVehicles(new ArrayList<>());
-        setDepartedStaff(new ArrayList<>());
-        setDailyDepartingStaff(new ArrayList<>());
-        setDailySoldVehicles(new ArrayList<>());
-        setDailySales(0);
-        setBudget(500000);
-        setNameOfFNCD(nameOfFNCD);
+    }
+
+    private void setStaff() {
+        setInterns(new ArrayList<>());
+        setSalespersons(new ArrayList<>());
+        setMechanics(new ArrayList<>());
+        setDrivers(new ArrayList<>());
+    }
+
+    private void setID() {
+        setCarID(1);
+        setPickupID(1);
+        setPerformanceCarID(1);
+        setElectricCarID(1);
+        setMotorcycleID(1);
+        setMonsterTruckID(1);
+        setInternID(1);
+        setMechanicID(1);
+        setSalespersonID(1);
+        setDriverID(1);
     }
 
     protected void modifyOperatingBudget(Activity activity) {
@@ -50,6 +77,86 @@ public class Activity {
         System.out.println("Adding 250000 to the operating budget");
         double currentBudget = activity.getBudget();
         activity.setBudget(currentBudget + 250000);
+    }
+
+    public int getCarID() {
+        return carID;
+    }
+
+    public void setCarID(int carID) {
+        this.carID = carID;
+    }
+
+    public int getPickupID() {
+        return pickupID;
+    }
+
+    public void setPickupID(int pickupID) {
+        this.pickupID = pickupID;
+    }
+
+    public int getPerformanceCarID() {
+        return performanceCarID;
+    }
+
+    public void setPerformanceCarID(int performanceCarID) {
+        this.performanceCarID = performanceCarID;
+    }
+
+    public int getElectricCarID() {
+        return electricCarID;
+    }
+
+    public void setElectricCarID(int electricCarID) {
+        this.electricCarID = electricCarID;
+    }
+
+    public int getMotorcycleID() {
+        return motorcycleID;
+    }
+
+    public void setMotorcycleID(int motorcycleID) {
+        this.motorcycleID = motorcycleID;
+    }
+
+    public int getMonsterTruckID() {
+        return monsterTruckID;
+    }
+
+    public void setMonsterTruckID(int monsterTruckID) {
+        this.monsterTruckID = monsterTruckID;
+    }
+
+    public int getInternID() {
+        return internID;
+    }
+
+    public void setInternID(int internID) {
+        this.internID = internID;
+    }
+
+    public int getMechanicID() {
+        return mechanicID;
+    }
+
+    public void setMechanicID(int mechanicID) {
+        this.mechanicID = mechanicID;
+    }
+
+    public int getSalespersonID() {
+        return salespersonID;
+    }
+
+    public void setSalespersonID(int salespersonID) {
+        this.salespersonID = salespersonID;
+    }
+
+    public int getDriverID() {
+        return driverID;
+    }
+
+    public void setDriverID(int driverID) {
+        this.driverID = driverID;
     }
 
     public String getNameOfFNCD() {
@@ -124,6 +231,7 @@ public class Activity {
         this.dailyDepartingStaff = dailyDepartingStaff;
     }
 
+
     public List<Vehicle> getCars() {
         return cars;
     }
@@ -186,14 +294,6 @@ public class Activity {
 
     public void setDailySoldVehicles(List<Vehicle> dailySoldVehicles) {
         this.dailySoldVehicles = dailySoldVehicles;
-    }
-
-    public WashingMethod getWashingMethod() {
-        return washingMethod;
-    }
-
-    public void setWashingMethod(WashingMethod washingMethod) {
-        this.washingMethod = washingMethod;
     }
 
     public SubscriberObject getSubscriberObject() {

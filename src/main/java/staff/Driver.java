@@ -1,13 +1,16 @@
 package main.java.staff;
 
 import main.java.abstracts.Staff;
+import main.java.activities.Activity;
+import main.java.interfaces.FNCDFactory;
 
 public class Driver extends Staff {
     private int racesWon;
     private boolean isInjured;
-    public Driver() {
+    public Driver(Activity activity) {
         setSalary(350);
-        setName("Driver-" + Staff.driverNumber);
+        setName("Driver-" + activity.getDriverID());
+        activity.setDriverID(activity.getDriverID() + 1);
         setWorked(false);
         setTotalDaysWorked(0);
         setBonus(0);

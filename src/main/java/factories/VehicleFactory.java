@@ -1,6 +1,7 @@
 package main.java.factories;
 
 import main.java.abstracts.Vehicle;
+import main.java.activities.Activity;
 import main.java.interfaces.FNCDFactory;
 import main.java.staff.Driver;
 import main.java.staff.Intern;
@@ -11,24 +12,24 @@ import main.java.vehicles.*;
 public class VehicleFactory implements FNCDFactory<Vehicle> {
 
     @Override
-    public Vehicle create(int type) {
+    public Vehicle create(int type, Activity activity) {
         if(type == 1) {
-            return new Car();
+            return new Car(activity);
         }
         else if(type == 2) {
-            return new Pickup();
+            return new Pickup(activity);
         }
         else if(type == 3) {
-            return new PerformanceCar();
+            return new PerformanceCar(activity);
         }
         else if(type == 4){
-            return new ElectricCar();
+            return new ElectricCar(activity);
         }
         else if(type == 5) {
-            return new Motorcycle();
+            return new Motorcycle(activity);
         }
         else {
-            return new MonsterTruck();
+            return new MonsterTruck(activity);
         }
     }
 }

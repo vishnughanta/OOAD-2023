@@ -3,6 +3,7 @@ package main.java.vehicles;
 This class is for attributes of the Pickup type.
  */
 import main.java.abstracts.Vehicle;
+import main.java.activities.Activity;
 import main.java.enums.Cleanliness;
 import main.java.enums.Condition;
 import main.java.enums.VehicleType;
@@ -11,9 +12,10 @@ import main.java.functions.VehicleName;
 import main.java.interfaces.RandomGenerator;
 
 public class Pickup extends Vehicle {
-    public Pickup() {
+    public Pickup(Activity activity) {
         randomNumberGenerator = new RandomNumberGenerator();
-        this.name = "Pickup" + "-" + Vehicle.pickupNumber;
+        this.name = "Pickup" + "-" + activity.getPickupID();
+        activity.setPickupID(activity.getPickupID() + 1);
         this.costPrice = randomNumberGenerator.generateRandomNumber(10000,40000);
         int randomConditionNumber = randomNumberGenerator.generateRandomNumber(0,2);
         int randomCleanlinessNumber = randomNumberGenerator.generateRandomNumber(1,100);

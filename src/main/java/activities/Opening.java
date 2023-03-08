@@ -52,19 +52,19 @@ public class Opening {
         for(int i=0; i<staffNumberToBeAdded; i++) {
             if(listOfStaffToBeCheckedAndAdded.equals(activity.getInterns())) {
                 FNCDFactory<Staff> staffFNCDFactory = new StaffFactory();
-                staffToBeAdded = staffFNCDFactory.create(1);
+                staffToBeAdded = staffFNCDFactory.create(1, activity);
             }
             else if(listOfStaffToBeCheckedAndAdded.equals(activity.getMechanics())) {
                 FNCDFactory<Staff> staffFNCDFactory = new StaffFactory();
-                staffToBeAdded = staffFNCDFactory.create(2);
+                staffToBeAdded = staffFNCDFactory.create(2, activity);
             }
             else if(listOfStaffToBeCheckedAndAdded.equals(activity.getSalespersons())) {
                 FNCDFactory<Staff> staffFNCDFactory = new StaffFactory();
-                staffToBeAdded = staffFNCDFactory.create(3);
+                staffToBeAdded = staffFNCDFactory.create(3, activity);
             }
             else if(listOfStaffToBeCheckedAndAdded.equals(activity.getDrivers())){
                 FNCDFactory<Staff> staffFNCDFactory = new StaffFactory();
-                staffToBeAdded = staffFNCDFactory.create(4);
+                staffToBeAdded = staffFNCDFactory.create(4, activity);
             }
 
             listOfStaffToBeCheckedAndAdded.add(staffToBeAdded);
@@ -82,7 +82,7 @@ public class Opening {
     }
 
     private void checkAndAddVehicles(Activity activity, List<Vehicle> listOfVehiclesToBeCheckedAndAdded) {
-        if(listOfVehiclesToBeCheckedAndAdded.size() != countOfStaff) {
+        if(listOfVehiclesToBeCheckedAndAdded.size() != countOfVehicles) {
             addVehicles(activity, listOfVehiclesToBeCheckedAndAdded);
         }
     }
@@ -94,22 +94,22 @@ public class Opening {
         for(int i=0; i<vehiclesToBeAdded; i++) {
             FNCDFactory<Vehicle> vehicleFNCDFactory = new VehicleFactory();
             if(listOfVehiclesToBeCheckedAndAdded.equals(activity.getCars())) {
-                vehicleToBeAdded = vehicleFNCDFactory.create(1);
+                vehicleToBeAdded = vehicleFNCDFactory.create(1, activity);
             }
             else if(listOfVehiclesToBeCheckedAndAdded.equals(activity.getPickups())) {
-                vehicleToBeAdded = vehicleFNCDFactory.create(2);
+                vehicleToBeAdded = vehicleFNCDFactory.create(2, activity);
             }
             else if(listOfVehiclesToBeCheckedAndAdded.equals(activity.getPerformanceCars())) {
-                vehicleToBeAdded = vehicleFNCDFactory.create(3);
+                vehicleToBeAdded = vehicleFNCDFactory.create(3, activity);
             }
             else if(listOfVehiclesToBeCheckedAndAdded.equals(activity.getElectricCars())) {
-                vehicleToBeAdded = vehicleFNCDFactory.create(4);
+                vehicleToBeAdded = vehicleFNCDFactory.create(4, activity);
             }
             else if(listOfVehiclesToBeCheckedAndAdded.equals(activity.getMotorcycles())) {
-                vehicleToBeAdded = vehicleFNCDFactory.create(5);
+                vehicleToBeAdded = vehicleFNCDFactory.create(5, activity);
             }
             else if(listOfVehiclesToBeCheckedAndAdded.equals(activity.getMonsterTrucks())) {
-                vehicleToBeAdded = vehicleFNCDFactory.create(6);
+                vehicleToBeAdded = vehicleFNCDFactory.create(6, activity);
             }
 
             double vehicleCostPrice = vehicleToBeAdded.getCostPrice();
@@ -119,7 +119,6 @@ public class Opening {
             listOfVehiclesToBeCheckedAndAdded.add(vehicleToBeAdded);
             activity.setBudget(activity.getBudget() - vehicleCostPrice);
             printer.printPurchasedVehiclesInOpening(vehicleToBeAdded, activity.getSubscriberObject());
-
         }
     }
 }

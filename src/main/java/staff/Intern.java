@@ -3,6 +3,7 @@ package main.java.staff;
 This class is for attributes of the Intern type.
  */
 import main.java.abstracts.Staff;
+import main.java.activities.Activity;
 import main.java.enums.WashingMethod;
 import main.java.functions.RandomNumberGenerator;
 import main.java.interfaces.RandomGenerator;
@@ -10,9 +11,10 @@ import main.java.interfaces.RandomGenerator;
 public class Intern extends Staff {
     private WashingMethod washingMethod;
 
-    public Intern(){
+    public Intern(Activity activity){
         this.salary = 100;
-        this.name = "Intern-" + Staff.internNumber;
+        this.name = "Intern-" + activity.getInternID();
+        activity.setInternID(activity.getInternID() + 1);
         this.worked = false;
         this.totalDaysWorked = 0;
         this.bonus = 0;

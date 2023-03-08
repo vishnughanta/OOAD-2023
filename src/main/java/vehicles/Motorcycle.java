@@ -1,6 +1,7 @@
 package main.java.vehicles;
 
 import main.java.abstracts.Vehicle;
+import main.java.activities.Activity;
 import main.java.enums.Cleanliness;
 import main.java.enums.Condition;
 import main.java.enums.VehicleType;
@@ -10,10 +11,10 @@ import java.util.Random;
 
 public class Motorcycle extends Vehicle {
     protected double volumeSize;
-    public Motorcycle() {
-
+    public Motorcycle(Activity activity) {
         randomNumberGenerator = new RandomNumberGenerator();
-        this.name = "Motorcycle" + "-" + Vehicle.motorcycleNumber;
+        this.name = "Motorcycle" + "-" + activity.getMotorcycleID();
+        activity.setMotorcycleID(activity.getMotorcycleID() + 1);
         this.costPrice = randomNumberGenerator.generateRandomNumber(10000,20000);
         int randomConditionNumber = randomNumberGenerator.generateRandomNumber(0,2);
         int randomCleanlinessNumber = randomNumberGenerator.generateRandomNumber(0,2);

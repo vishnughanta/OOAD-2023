@@ -3,15 +3,17 @@ package main.java.vehicles;
 This class is for attributes of the Performance Car type.
  */
 import main.java.abstracts.Vehicle;
+import main.java.activities.Activity;
 import main.java.enums.Cleanliness;
 import main.java.enums.Condition;
 import main.java.enums.VehicleType;
 import main.java.functions.RandomNumberGenerator;
 
 public class PerformanceCar extends Vehicle {
-    public PerformanceCar() {
+    public PerformanceCar(Activity activity) {
         randomNumberGenerator = new RandomNumberGenerator();
-        this.name = "Performance Car" + "-" + Vehicle.performanceCarNumber;
+        this.name = "Performance Car" + "-" + activity.getPerformanceCarID();
+        activity.setPerformanceCarID(activity.getPerformanceCarID() + 1);
         this.costPrice = randomNumberGenerator.generateRandomNumber(20000,40000);
         int randomConditionNumber = randomNumberGenerator.generateRandomNumber(0,2);
         int randomCleanlinessNumber = randomNumberGenerator.generateRandomNumber(0,2);

@@ -1,6 +1,7 @@
 package main.java.vehicles;
 
 import main.java.abstracts.Vehicle;
+import main.java.activities.Activity;
 import main.java.enums.Cleanliness;
 import main.java.enums.Condition;
 import main.java.enums.VehicleType;
@@ -16,7 +17,7 @@ public class MonsterTruck extends Vehicle {
     private Map<String, Integer> monsterTruckNamesHashMap;
     private int monsterTruckIndex;
 
-    public MonsterTruck() {
+    public MonsterTruck(Activity activity) {
         monsterTruckIndex = -1;
         monsterTruckNamesHashMap = new HashMap<>();
         monsterTruckNames = new ArrayList<>();

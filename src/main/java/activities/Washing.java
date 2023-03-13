@@ -123,6 +123,9 @@ public class Washing {
         segregateVehiclesOfType(activity.getElectricCars());
         segregateVehiclesOfType(activity.getMotorcycles());
         segregateVehiclesOfType(activity.getMonsterTrucks());
+        segregateVehiclesOfType(activity.getCoupes());
+        segregateVehiclesOfType(activity.getMinivans());
+        segregateVehiclesOfType(activity.getSuvs());
     }
 
     private void segregateVehiclesOfType(List<Vehicle> vehiclesToBeSegregated) {

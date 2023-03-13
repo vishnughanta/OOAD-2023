@@ -17,7 +17,7 @@ public class Printer {
     public Printer() {
         stringToBeAppended = "";
     }
-    public void printDailyReport(List<Staff> interns, List<Staff> mechanics, List<Staff> salespersons, List<Staff> drivers, List<Vehicle> cars, List<Vehicle> performanceCars, List<Vehicle> pickups, List<Vehicle> electricCars, List<Vehicle> motorcycles, List<Vehicle> monsterTrucks, List<Staff> dailyDepartingStaff, List<Vehicle> dailySoldVehicles, double dailySales, SubscriberObject subscriberObject) {
+    public void printDailyReport(List<Staff> interns, List<Staff> mechanics, List<Staff> salespersons, List<Staff> drivers, List<Vehicle> cars, List<Vehicle> performanceCars, List<Vehicle> pickups, List<Vehicle> electricCars, List<Vehicle> motorcycles, List<Vehicle> monsterTrucks, List<Vehicle> coupes, List<Vehicle> minivans, List<Vehicle> suvs, List<Staff> dailyDepartingStaff, List<Vehicle> dailySoldVehicles, double dailySales, SubscriberObject subscriberObject) {
         stringToBeAppended = "Daily Report.." + System.lineSeparator();
         updateLogList(subscriberObject, stringToBeAppended);
         System.out.println(stringToBeAppended);
@@ -38,6 +38,9 @@ public class Printer {
         vehiclesInInventory.addAll(electricCars);
         vehiclesInInventory.addAll(motorcycles);
         vehiclesInInventory.addAll(monsterTrucks);
+        vehiclesInInventory.addAll(coupes);
+        vehiclesInInventory.addAll(minivans);
+        vehiclesInInventory.addAll(suvs);
 
         printVehicleDetails(vehiclesInInventory, dailySoldVehicles, subscriberObject);
 

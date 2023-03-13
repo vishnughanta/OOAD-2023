@@ -23,7 +23,7 @@ This class is for the Selling activity.
 Contains all the methods for selling.
  */
 public class Selling {
-    private List<Vehicle> listToBeSegregated, carsToBeSold, performanceCarsToBeSold, pickupsToBeSold, electricCarsToBeSold, motorcyclesToBeSold, monsterTrucksToBeSold;
+    private List<Vehicle> listToBeSegregated, carsToBeSold, performanceCarsToBeSold, pickupsToBeSold, electricCarsToBeSold, motorcyclesToBeSold, monsterTrucksToBeSold, coupesToBeSold, suvsToBeSold, minivansToBeSold;
     private List<Vehicle> listToBeSoldOfType, listToBeSoldNotOfType;
     private int numberOfBuyers;
     private Printer printer;
@@ -39,6 +39,9 @@ public class Selling {
         electricCarsToBeSold = new ArrayList<>();
         motorcyclesToBeSold = new ArrayList<>();
         monsterTrucksToBeSold = new ArrayList<>();
+        suvsToBeSold = new ArrayList<>();
+        minivansToBeSold = new ArrayList<>();
+        coupesToBeSold = new ArrayList<>();
         listToBeSoldOfType = new ArrayList<>();
         listToBeSoldNotOfType = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
@@ -55,6 +58,9 @@ public class Selling {
         segregateVehiclesByType(activity, activity.getElectricCars());
         segregateVehiclesByType(activity, activity.getMotorcycles());
         segregateVehiclesByType(activity, activity.getMotorcycles());
+        segregateVehiclesByType(activity, activity.getCoupes());
+        segregateVehiclesByType(activity, activity.getMinivans());
+        segregateVehiclesByType(activity, activity.getSuvs());
     }
 
     public void sellVehicles(int day, Activity activity) {
@@ -73,44 +79,59 @@ public class Selling {
     private void sellVehiclesByType(Staff staff, Buyer buyer, Activity activity) {
         if(buyer.getVehicleType() == VehicleType.CAR) {
             if(!carsToBeSold.isEmpty()) listToBeSoldOfType = carsToBeSold;
-            else addVehiclesNotOfType(pickupsToBeSold, performanceCarsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, monsterTrucksToBeSold);
+            else addVehiclesNotOfType(pickupsToBeSold, performanceCarsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, monsterTrucksToBeSold, coupesToBeSold, minivansToBeSold, suvsToBeSold);
         }
 
         else if(buyer.getVehicleType() == VehicleType.PERFORMANCE_CAR) {
             if(!performanceCarsToBeSold.isEmpty()) listToBeSoldOfType = performanceCarsToBeSold;
-            else addVehiclesNotOfType(pickupsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, monsterTrucksToBeSold);
+            else addVehiclesNotOfType(pickupsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, monsterTrucksToBeSold, coupesToBeSold, minivansToBeSold, suvsToBeSold);
         }
 
         else if(buyer.getVehicleType() == VehicleType.PICKUP) {
             if(!pickupsToBeSold.isEmpty()) listToBeSoldOfType = pickupsToBeSold;
-            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, monsterTrucksToBeSold);
+            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, monsterTrucksToBeSold, coupesToBeSold, minivansToBeSold, suvsToBeSold);
         }
 
         else if(buyer.getVehicleType() == VehicleType.ELECTRIC_CAR) {
             if(!electricCarsToBeSold.isEmpty()) listToBeSoldOfType = electricCarsToBeSold;
-            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, pickupsToBeSold, monsterTrucksToBeSold);
+            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, pickupsToBeSold, monsterTrucksToBeSold, coupesToBeSold, minivansToBeSold, suvsToBeSold);
         }
 
         else if(buyer.getVehicleType() == VehicleType.MOTORCYCLE) {
             if(!motorcyclesToBeSold.isEmpty()) listToBeSoldOfType = motorcyclesToBeSold;
-            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, pickupsToBeSold, electricCarsToBeSold, monsterTrucksToBeSold);
+            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, pickupsToBeSold, electricCarsToBeSold, monsterTrucksToBeSold, coupesToBeSold, minivansToBeSold, suvsToBeSold);
         }
 
         else if(buyer.getVehicleType() == VehicleType.MONSTER_TRUCK) {
             if(!monsterTrucksToBeSold.isEmpty()) listToBeSoldOfType = monsterTrucksToBeSold;
-            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, pickupsToBeSold);
+            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, pickupsToBeSold, coupesToBeSold, minivansToBeSold, suvsToBeSold);
+        }
+        else if(buyer.getVehicleType() == VehicleType.COUPE) {
+            if(!coupesToBeSold.isEmpty()) listToBeSoldOfType = coupesToBeSold;
+            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, pickupsToBeSold, monsterTrucksToBeSold, minivansToBeSold, suvsToBeSold);
+        }
+        else if(buyer.getVehicleType() == VehicleType.MINIVAN) {
+            if(!minivansToBeSold.isEmpty()) listToBeSoldOfType = minivansToBeSold;
+            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, pickupsToBeSold, coupesToBeSold, monsterTrucksToBeSold, suvsToBeSold);
+        }
+        else {
+            if(!suvsToBeSold.isEmpty()) listToBeSoldOfType = suvsToBeSold;
+            else addVehiclesNotOfType(performanceCarsToBeSold, carsToBeSold, motorcyclesToBeSold, electricCarsToBeSold, pickupsToBeSold, coupesToBeSold, minivansToBeSold, monsterTrucksToBeSold);
         }
 
         if(!listToBeSoldOfType.isEmpty()) sellVehicleOfType(staff, buyer,listToBeSoldOfType, activity);
         else sellVehiclesNotOfType(staff, buyer, listToBeSoldNotOfType, activity);
     }
 
-    private void addVehiclesNotOfType(List<Vehicle> list1, List<Vehicle> list2, List<Vehicle> list3, List<Vehicle> list4, List<Vehicle> list5) {
+    private void addVehiclesNotOfType(List<Vehicle> list1, List<Vehicle> list2, List<Vehicle> list3, List<Vehicle> list4, List<Vehicle> list5, List<Vehicle> list6, List<Vehicle> list7, List<Vehicle> list8) {
         listToBeSoldNotOfType.addAll(list1);
         listToBeSoldNotOfType.addAll(list2);
         listToBeSoldNotOfType.addAll(list3);
         listToBeSoldNotOfType.addAll(list4);
         listToBeSoldNotOfType.addAll(list5);
+        listToBeSoldNotOfType.addAll(list6);
+        listToBeSoldNotOfType.addAll(list7);
+        listToBeSoldNotOfType.addAll(list8);
     }
 
     private void sellVehicleOfType(Staff salesperson, Buyer buyer, List<Vehicle> list, Activity activity) {
@@ -190,18 +211,69 @@ public class Selling {
         else if(vehicle.getVehicleType() == VehicleType.PERFORMANCE_CAR) sellAndRemoveVehicleOfType(activity, salesperson, vehicle, performanceCarsToBeSold, activity.getPerformanceCars());
         else if(vehicle.getVehicleType() == VehicleType.ELECTRIC_CAR) sellAndRemoveVehicleOfType(activity, salesperson, vehicle, electricCarsToBeSold, activity.getElectricCars());
         else if(vehicle.getVehicleType() == VehicleType.MOTORCYCLE) sellAndRemoveVehicleOfType(activity, salesperson, vehicle, motorcyclesToBeSold, activity.getMotorcycles());
-        else sellAndRemoveVehicleOfType(activity, salesperson, vehicle, monsterTrucksToBeSold, activity.getMonsterTrucks());
+        else if(vehicle.getVehicleType() == VehicleType.MONSTER_TRUCK) sellAndRemoveVehicleOfType(activity, salesperson, vehicle, monsterTrucksToBeSold, activity.getMonsterTrucks());
+        else if(vehicle.getVehicleType() == VehicleType.COUPE) sellAndRemoveVehicleOfType(activity, salesperson, vehicle, coupesToBeSold, activity.getCoupes());
+        else if(vehicle.getVehicleType() == VehicleType.MINIVAN) sellAndRemoveVehicleOfType(activity, salesperson, vehicle, minivansToBeSold, activity.getMinivans());
+        else sellAndRemoveVehicleOfType(activity, salesperson, vehicle, suvsToBeSold, activity.getSuvs());
     }
 
     private void sellAndRemoveVehicleOfType(Activity activity, Staff staff, Vehicle vehicle, List<Vehicle> listOfVehicleTypeSold, List<Vehicle> listOfVehicle) {
         listOfVehicleTypeSold.remove(vehicle);
-        listOfVehicle.remove(vehicle);
+        removeVehicle(activity, vehicle, listOfVehicle);
         List<Vehicle> soldVehicles = activity.getSoldVehicles();
         soldVehicles.add(vehicle);
         activity.setSoldVehicles(soldVehicles);
         double saleBonus = vehicle.getSalesBonus();
         activity.updateStaffAmount(activity.getSubscriberObject(), saleBonus);
         staff.setBonus(staff.getBonus() + saleBonus);
+    }
+
+    private void removeVehicle(Activity activity, Vehicle vehicle, List<Vehicle> listOfVehicle) {
+        if(listOfVehicle.equals(activity.getCars())) {
+            List<Vehicle> vehicles = activity.getCars();
+            vehicles.remove(vehicle);
+            activity.setCars(vehicles);
+        }
+        else if(listOfVehicle.equals(activity.getPerformanceCars())) {
+            List<Vehicle> vehicles = activity.getPerformanceCars();
+            vehicles.remove(vehicle);
+            activity.setPerformanceCars(vehicles);
+        }
+        else if(listOfVehicle.equals(activity.getPickups())) {
+            List<Vehicle> vehicles = activity.getPickups();
+            vehicles.remove(vehicle);
+            activity.setPickups(vehicles);
+        }
+        else if(listOfVehicle.equals(activity.getMotorcycles())) {
+            List<Vehicle> vehicles = activity.getMotorcycles();
+            vehicles.remove(vehicle);
+            activity.setMotorcycles(vehicles);
+        }
+        else if(listOfVehicle.equals(activity.getElectricCars())) {
+            List<Vehicle> vehicles = activity.getElectricCars();
+            vehicles.remove(vehicle);
+            activity.setElectricCars(vehicles);
+        }
+        else if(listOfVehicle.equals(activity.getMonsterTrucks())) {
+            List<Vehicle> vehicles = activity.getMonsterTrucks();
+            vehicles.remove(vehicle);
+            activity.setMonsterTrucks(vehicles);
+        }
+        else if(listOfVehicle.equals(activity.getCoupes())) {
+            List<Vehicle> vehicles = activity.getCoupes();
+            vehicles.remove(vehicle);
+            activity.setCoupes(vehicles);
+        }
+        else if(listOfVehicle.equals(activity.getMinivans())) {
+            List<Vehicle> vehicles = activity.getMinivans();
+            vehicles.remove(vehicle);
+            activity.setMinivans(vehicles);
+        }
+        else if(listOfVehicle.equals(activity.getSuvs())) {
+            List<Vehicle> vehicles = activity.getSuvs();
+            vehicles.remove(vehicle);
+            activity.setSuvs(vehicles);
+        }
     }
 
     private void segregateVehiclesByType(Activity activity, List<Vehicle> vehiclesToBeSegregated) {
@@ -222,6 +294,15 @@ public class Selling {
         }
         else if(vehiclesToBeSegregated.equals(activity.getMonsterTrucks())){
             listToBeSegregated = monsterTrucksToBeSold;
+        }
+        else if(vehiclesToBeSegregated.equals(activity.getCoupes())) {
+            listToBeSegregated = coupesToBeSold;
+        }
+        else if(vehiclesToBeSegregated.equals(activity.getSuvs())) {
+            listToBeSegregated = suvsToBeSold;
+        }
+        else if(vehiclesToBeSegregated.equals(activity.getMinivans())) {
+            listToBeSegregated = minivansToBeSold;
         }
 
         for(Vehicle vehicle : vehiclesToBeSegregated) {

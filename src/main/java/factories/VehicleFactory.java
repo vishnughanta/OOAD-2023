@@ -28,8 +28,17 @@ public class VehicleFactory implements FNCDFactory<Vehicle> {
         else if(type == 5) {
             return new Motorcycle(activity);
         }
-        else {
+        else if(type == 6){
             return new MonsterTruck(activity);
+        }
+        else if(type == 7) {
+            return new Coupe(activity);
+        }
+        else if(type == 8) {
+            return new Minivan(activity);
+        }
+        else {
+            return new SportUtilityVehicle(activity);
         }
     }
 }

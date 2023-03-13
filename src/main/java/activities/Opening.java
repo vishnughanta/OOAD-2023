@@ -79,6 +79,9 @@ public class Opening {
         checkAndAddVehicles(activity, activity.getElectricCars());
         checkAndAddVehicles(activity, activity.getMotorcycles());
         checkAndAddVehicles(activity, activity.getMonsterTrucks());
+        checkAndAddVehicles(activity, activity.getCoupes());
+        checkAndAddVehicles(activity, activity.getMinivans());
+        checkAndAddVehicles(activity, activity.getSuvs());
     }
 
     private void checkAndAddVehicles(Activity activity, List<Vehicle> listOfVehiclesToBeCheckedAndAdded) {
@@ -110,6 +113,15 @@ public class Opening {
             }
             else if(listOfVehiclesToBeCheckedAndAdded.equals(activity.getMonsterTrucks())) {
                 vehicleToBeAdded = vehicleFNCDFactory.create(6, activity);
+            }
+            else if(listOfVehiclesToBeCheckedAndAdded.equals(activity.getCoupes())) {
+                vehicleToBeAdded = vehicleFNCDFactory.create(7, activity);
+            }
+            else if(listOfVehiclesToBeCheckedAndAdded.equals(activity.getMinivans())) {
+                vehicleToBeAdded = vehicleFNCDFactory.create(8, activity);
+            }
+            else {
+                vehicleToBeAdded = vehicleFNCDFactory.create(9, activity);
             }
 
             double vehicleCostPrice = vehicleToBeAdded.getCostPrice();

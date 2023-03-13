@@ -1,10 +1,7 @@
 package main.java.activities;
 
-import main.java.interfaces.RandomGenerator;
 import main.java.abstracts.Staff;
 import main.java.abstracts.Vehicle;
-import main.java.interfaces.WashingMethod;
-import main.java.printer.Printer;
 import main.java.subscriber.SubscriberObject;
 
 import java.util.ArrayList;
@@ -17,9 +14,11 @@ Contains the common attributes for all the activities.
 public class Activity {
     private String nameOfFNCD;
     private double budget, dailySales;
-    private int carID, pickupID, performanceCarID, electricCarID, motorcycleID, monsterTruckID, internID, mechanicID, salespersonID, driverID;
+    private int carID, pickupID, performanceCarID, electricCarID, motorcycleID, monsterTruckID, coupeID, minivanID, SUVID;
+    private int internID, mechanicID, salespersonID, driverID;
     private List<Staff> interns, salespersons, mechanics, drivers, departedStaff, dailyDepartingStaff;
-    private List<Vehicle> cars, pickups, performanceCars, electricCars, monsterTrucks, motorcycles, soldVehicles, dailySoldVehicles;
+    private List<Vehicle> cars, pickups, performanceCars, electricCars, monsterTrucks, motorcycles, coupes, minivans, suvs;
+    private List<Vehicle> soldVehicles, dailySoldVehicles;
     private SubscriberObject subscriberObject;
 
     public void startActivity(String nameOfFNCD) {
@@ -50,6 +49,9 @@ public class Activity {
         setElectricCars(new ArrayList<>());
         setMonsterTrucks(new ArrayList<>());
         setMotorcycles(new ArrayList<>());
+        setCoupes(new ArrayList<>());
+        setMinivans(new ArrayList<>());
+        setSuvs(new ArrayList<>());
     }
 
     private void setStaff() {
@@ -66,6 +68,9 @@ public class Activity {
         setElectricCarID(1);
         setMotorcycleID(1);
         setMonsterTruckID(1);
+        setCoupeID(1);
+        setMinivanID(1);
+        setSUVID(1);
         setInternID(1);
         setMechanicID(1);
         setSalespersonID(1);
@@ -125,6 +130,30 @@ public class Activity {
 
     public void setMonsterTruckID(int monsterTruckID) {
         this.monsterTruckID = monsterTruckID;
+    }
+
+    public int getCoupeID() {
+        return coupeID;
+    }
+
+    public void setCoupeID(int coupeID) {
+        this.coupeID = coupeID;
+    }
+
+    public int getMinivanID() {
+        return minivanID;
+    }
+
+    public void setMinivanID(int minivanID) {
+        this.minivanID = minivanID;
+    }
+
+    public int getSUVID() {
+        return SUVID;
+    }
+
+    public void setSUVID(int SUVID) {
+        this.SUVID = SUVID;
     }
 
     public int getInternID() {
@@ -278,6 +307,30 @@ public class Activity {
 
     public void setMotorcycles(List<Vehicle> motorcycles) {
         this.motorcycles = motorcycles;
+    }
+
+    public List<Vehicle> getCoupes() {
+        return coupes;
+    }
+
+    public void setCoupes(List<Vehicle> coupes) {
+        this.coupes = coupes;
+    }
+
+    public List<Vehicle> getMinivans() {
+        return minivans;
+    }
+
+    public void setMinivans(List<Vehicle> minivans) {
+        this.minivans = minivans;
+    }
+
+    public List<Vehicle> getSuvs() {
+        return suvs;
+    }
+
+    public void setSuvs(List<Vehicle> suvs) {
+        this.suvs = suvs;
     }
 
     public List<Vehicle> getSoldVehicles() {

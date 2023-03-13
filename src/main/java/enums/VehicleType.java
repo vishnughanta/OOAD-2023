@@ -6,5 +6,8 @@ public enum VehicleType {
     PICKUP,
     ELECTRIC_CAR,
     MONSTER_TRUCK,
-    MOTORCYCLE
+    MOTORCYCLE,
+    COUPE,
+    MINIVAN,
+    SPORT_UTILITY_VEHICLE
 }

@@ -35,7 +35,7 @@ public class Ending {
     }
 
     private void generateDailyReport(Activity activity) {
-        printer.printDailyReport(activity.getInterns(), activity.getMechanics(), activity.getSalespersons(), activity.getDrivers(), activity.getCars(), activity.getPerformanceCars(), activity.getPickups(), activity.getElectricCars(), activity.getMotorcycles(), activity.getMonsterTrucks(), activity.getDailyDepartingStaff(), activity.getDailySoldVehicles(), activity.getDailySales(), activity.getSubscriberObject());
+        printer.printDailyReport(activity.getInterns(), activity.getMechanics(), activity.getSalespersons(), activity.getDrivers(), activity.getCars(), activity.getPerformanceCars(), activity.getPickups(), activity.getElectricCars(), activity.getMotorcycles(), activity.getMonsterTrucks(), activity.getCoupes(), activity.getMinivans(), activity.getSuvs(), activity.getDailyDepartingStaff(), activity.getDailySoldVehicles(), activity.getDailySales(), activity.getSubscriberObject());
     }
 
     private void quitStaff(Activity activity) {

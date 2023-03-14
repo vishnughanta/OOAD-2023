@@ -5,6 +5,9 @@ import main.java.interfaces.Subscriber;
 import main.java.subscriber.Logger;
 import main.java.subscriber.Tracker;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class FNCDHelper {
     public void simulate() {
 
@@ -14,8 +17,10 @@ public class FNCDHelper {
         activity.startActivity("North");
         activity.setSubscriberObject(publisherHelper.getSubscriberObject());
         publisherHelper.registerSubscriber(tracker);
+        List<Activity> listOfActivity = new ArrayList<>();
+        listOfActivity.add(activity);
 
-        for(int day=1; day<=30; day++) {
+        for(int day=1; day<=31; day++) {
             Subscriber logger = new Logger();
             publisherHelper.registerSubscriber(logger);
             publisherHelper.getSubscriberObject().setDay(day);
@@ -33,6 +38,11 @@ public class FNCDHelper {
             selling.startSelling(activity, day);
             Ending ending = new Ending();
             ending.startEnding(activity);
+
+            if(day == 31) {
+                CommandLine commandLine = new CommandLine();
+                commandLine.startHumanComputerInteraction(listOfActivity);
+            }
 //            Activity selling = new Selling(day);
 //            if(day%7==3 || day%7==0) {
 //                Activity racing = new Racing();

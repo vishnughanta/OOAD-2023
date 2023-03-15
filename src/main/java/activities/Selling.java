@@ -33,7 +33,7 @@ public class Selling {
     private boolean isCommandLine;
     private Scanner scanner;
     public Selling(Activity activity) {
-        System.out.println("Selling..");
+        System.out.println("Selling in " + activity.getNameOfFNCD() + "..");
         System.out.println();
         printer = new Printer();
         carsToBeSold = new ArrayList<>();

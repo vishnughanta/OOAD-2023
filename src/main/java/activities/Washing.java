@@ -29,7 +29,7 @@ public class Washing {
     }
 
     public void startWashing(Activity activity) {
-        System.out.println("Washing..");
+        System.out.println("Washing in " + activity.getNameOfFNCD() + "..");
         System.out.println();
         dirtyVehicles = new ArrayList<>();
         cleanVehicles = new ArrayList<>();

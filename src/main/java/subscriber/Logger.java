@@ -12,18 +12,19 @@ public class Logger implements Subscriber {
 
     public static Logger getLogger() {
         return logger;
-
     }
-    private String filePath = "/Users/nik/Downloads/Spring2023/OOAD/Assignments/2/OOAD-3.2/OOAD-2023/src/main/java/loggers";
     public void update(SubscriberObject subscriberObject) {
         createLogFile(subscriberObject);
     }
 
     public void createLogFile(SubscriberObject subscriberObject) {
-//        filePath += "/" + subscriberObject;
-//        filePath += "/north/Logger-" + subObj.getDay() + ".txt";
-        //Create a log file
-        filePath += "/Logger-" + subscriberObject.getDay() +".txt";
+        String filePath = "/Users/nik/Downloads/Spring2023/OOAD/Assignments/4/4.2/OOAD-2023/src/main/java/loggers";
+        if(subscriberObject.getNameOfFNCD().equals("North")) {
+            filePath += "/North/Logger-" + subscriberObject.getDay() + ".txt";
+        }
+        else {
+            filePath += "/South/Logger-" + subscriberObject.getDay() + ".txt";
+        }
 
         /*
          * sources

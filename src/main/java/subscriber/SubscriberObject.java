@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class SubscriberObject {
+    private String nameOfFNCD;
     private List<String> logList;
     private double totalMoneyFNCD;
     private double totalMoneyStaff;
@@ -46,5 +47,13 @@ public class SubscriberObject {
 
     public void setDay(int day) {
         this.day = day;
+    }
+
+    public String getNameOfFNCD() {
+        return nameOfFNCD;
+    }
+
+    public void setNameOfFNCD(String nameOfFNCD) {
+        this.nameOfFNCD = nameOfFNCD;
     }
 }

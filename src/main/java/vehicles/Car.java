@@ -13,7 +13,7 @@ public class Car extends Vehicle {
     public Car(Activity activity) {
         randomNumberGenerator = new RandomNumberGenerator();
         this.name = "Car" + "-" + activity.getCarID();
-        activity.setCarID(activity.getCarID() + 1);
+        Activity.setCarID(Activity.getCarID() + 1);
         this.costPrice = randomNumberGenerator.generateRandomNumber(10000,20000);
         int randomConditionNumber = randomNumberGenerator.generateRandomNumber(0,2);
         int randomCleanlinessNumber = randomNumberGenerator.generateRandomNumber(0,2);

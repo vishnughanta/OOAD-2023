@@ -10,7 +10,7 @@ public class Driver extends Staff {
     public Driver(Activity activity) {
         setSalary(350);
         setName("Driver-" + activity.getDriverID());
-        activity.setDriverID(activity.getDriverID() + 1);
+        Activity.setDriverID(Activity.getDriverID() + 1);
         setWorked(false);
         setTotalDaysWorked(0);
         setBonus(0);

@@ -24,7 +24,7 @@ public class Opening {
     }
 
     public void startOpening(Activity activity) {
-        System.out.println("Opening..");
+        System.out.println("Opening in " + activity.getNameOfFNCD() + "..");
         System.out.println("Current budget: " + activity.getBudget());
         System.out.println();
         printer = new Printer();

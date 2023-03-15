@@ -30,12 +30,11 @@ public class Racing {
         driverToVehicleList = new ArrayList<>();
         raceVehicles = new ArrayList<>();
         printer = new Printer();
-        System.out.println("Racing..");
+        System.out.println("Racing in " + activity.getNameOfFNCD() + "..");
         System.out.println();
         shuffleDrivers(activity);
         simulateRace(activity);
         System.out.println();
-
     }
 
     private void assignNullAndShuffleRaceVehicles() {

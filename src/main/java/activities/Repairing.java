@@ -24,7 +24,7 @@ public class Repairing {
     }
 
     public void startRepairing(Activity activity) {
-        System.out.println("Repairing..");
+        System.out.println("Repairing in " + activity.getNameOfFNCD() + "..");
         System.out.println();
         vehiclesToBeRepaired = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();

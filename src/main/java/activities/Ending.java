@@ -19,7 +19,7 @@ public class Ending {
     private RandomGenerator randomGenerator;
     private Printer printer;
     public void startEnding(Activity activity) {
-        System.out.println("Ending..");
+        System.out.println("Ending in " + activity.getNameOfFNCD() + "..");
         System.out.println();
         randomGenerator = new RandomNumberGenerator();
         printer = new Printer();

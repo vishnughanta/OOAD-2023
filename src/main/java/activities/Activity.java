@@ -14,8 +14,8 @@ Contains the common attributes for all the activities.
 public class Activity {
     private String nameOfFNCD;
     private double budget, dailySales;
-    private int carID, pickupID, performanceCarID, electricCarID, motorcycleID, monsterTruckID, coupeID, minivanID, SUVID;
-    private int internID, mechanicID, salespersonID, driverID;
+    private static int carID, pickupID, performanceCarID, electricCarID, motorcycleID, monsterTruckID, coupeID, minivanID, SUVID;
+    private static int internID, mechanicID, salespersonID, driverID;
     private List<Staff> interns, salespersons, mechanics, drivers, departedStaff, dailyDepartingStaff;
     private List<Vehicle> cars, pickups, performanceCars, electricCars, monsterTrucks, motorcycles, coupes, minivans, suvs;
     private List<Vehicle> soldVehicles, dailySoldVehicles;
@@ -84,108 +84,108 @@ public class Activity {
         activity.setBudget(currentBudget + 250000);
     }
 
-    public int getCarID() {
+    public static int getCarID() {
         return carID;
     }
 
-    public void setCarID(int carID) {
-        this.carID = carID;
+    public static void setCarID(int carID) {
+        Activity.carID = carID;
     }
 
-    public int getPickupID() {
+    public static int getPickupID() {
         return pickupID;
     }
 
-    public void setPickupID(int pickupID) {
-        this.pickupID = pickupID;
+    public static void setPickupID(int pickupID) {
+        Activity.pickupID = pickupID;
     }
 
-    public int getPerformanceCarID() {
+    public static int getPerformanceCarID() {
         return performanceCarID;
     }
 
-    public void setPerformanceCarID(int performanceCarID) {
-        this.performanceCarID = performanceCarID;
+    public static void setPerformanceCarID(int performanceCarID) {
+        Activity.performanceCarID = performanceCarID;
     }
 
-    public int getElectricCarID() {
+    public static int getElectricCarID() {
         return electricCarID;
     }
 
-    public void setElectricCarID(int electricCarID) {
-        this.electricCarID = electricCarID;
+    public static void setElectricCarID(int electricCarID) {
+        Activity.electricCarID = electricCarID;
     }
 
-    public int getMotorcycleID() {
+    public static int getMotorcycleID() {
         return motorcycleID;
     }
 
-    public void setMotorcycleID(int motorcycleID) {
-        this.motorcycleID = motorcycleID;
+    public static void setMotorcycleID(int motorcycleID) {
+        Activity.motorcycleID = motorcycleID;
     }
 
-    public int getMonsterTruckID() {
+    public static int getMonsterTruckID() {
         return monsterTruckID;
     }
 
-    public void setMonsterTruckID(int monsterTruckID) {
-        this.monsterTruckID = monsterTruckID;
+    public static void setMonsterTruckID(int monsterTruckID) {
+        Activity.monsterTruckID = monsterTruckID;
     }
 
-    public int getCoupeID() {
+    public static int getCoupeID() {
         return coupeID;
     }
 
-    public void setCoupeID(int coupeID) {
-        this.coupeID = coupeID;
+    public static void setCoupeID(int coupeID) {
+        Activity.coupeID = coupeID;
     }
 
-    public int getMinivanID() {
+    public static int getMinivanID() {
         return minivanID;
     }
 
-    public void setMinivanID(int minivanID) {
-        this.minivanID = minivanID;
+    public static void setMinivanID(int minivanID) {
+        Activity.minivanID = minivanID;
     }
 
-    public int getSUVID() {
+    public static int getSUVID() {
         return SUVID;
     }
 
-    public void setSUVID(int SUVID) {
-        this.SUVID = SUVID;
+    public static void setSUVID(int SUVID) {
+        Activity.SUVID = SUVID;
     }
 
-    public int getInternID() {
+    public static int getInternID() {
         return internID;
     }
 
-    public void setInternID(int internID) {
-        this.internID = internID;
+    public static void setInternID(int internID) {
+        Activity.internID = internID;
     }
 
-    public int getMechanicID() {
+    public static int getMechanicID() {
         return mechanicID;
     }
 
-    public void setMechanicID(int mechanicID) {
-        this.mechanicID = mechanicID;
+    public static void setMechanicID(int mechanicID) {
+        Activity.mechanicID = mechanicID;
     }
 
-    public int getSalespersonID() {
+    public static int getSalespersonID() {
         return salespersonID;
     }
 
-    public void setSalespersonID(int salespersonID) {
-        this.salespersonID = salespersonID;
+    public static void setSalespersonID(int salespersonID) {
+        Activity.salespersonID = salespersonID;
     }
 
-    public int getDriverID() {
+    public static int getDriverID() {
         return driverID;
     }
 
-    public void setDriverID(int driverID) {
-        this.driverID = driverID;
+    public static void setDriverID(int driverID) {
+        Activity.driverID = driverID;
     }
 
     public String getNameOfFNCD() {

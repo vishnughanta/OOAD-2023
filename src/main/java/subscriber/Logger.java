@@ -7,12 +7,21 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class Logger implements Subscriber {
+    private static Logger logger = new Logger();
+    private Logger() {}
+
+    public static Logger getLogger() {
+        return logger;
+
+    }
     private String filePath = "/Users/nik/Downloads/Spring2023/OOAD/Assignments/2/OOAD-3.2/OOAD-2023/src/main/java/loggers";
     public void update(SubscriberObject subscriberObject) {
         createLogFile(subscriberObject);
     }
 
     public void createLogFile(SubscriberObject subscriberObject) {
+//        filePath += "/" + subscriberObject;
+//        filePath += "/north/Logger-" + subObj.getDay() + ".txt";
         //Create a log file
         filePath += "/Logger-" + subscriberObject.getDay() +".txt";
 

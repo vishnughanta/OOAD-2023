@@ -21,8 +21,8 @@ public class FNCDHelper {
         listOfActivity.add(activity);
 
         for(int day=1; day<=31; day++) {
-            Subscriber logger = new Logger();
-            publisherHelper.registerSubscriber(logger);
+//            Subscriber logger = new Logger();
+//            publisherHelper.registerSubscriber(logger);
             publisherHelper.getSubscriberObject().setDay(day);
             System.out.println("*************** FNCD Day " + day +" ***************");
             System.out.println();
@@ -34,15 +34,18 @@ public class FNCDHelper {
             repairing.startRepairing(activity);
             Racing racing = new Racing();
             racing.startRacing(activity);
-            Selling selling = new Selling();
-            selling.startSelling(activity, day);
-            Ending ending = new Ending();
-            ending.startEnding(activity);
-
-            if(day == 31) {
+            if(day!=31) {
+                Selling selling = new Selling(activity);
+                selling.startSelling(activity, day);
+            }
+            else {
                 CommandLine commandLine = new CommandLine();
                 commandLine.startHumanComputerInteraction(listOfActivity);
             }
+
+            Ending ending = new Ending();
+            ending.startEnding(activity);
+
 //            Activity selling = new Selling(day);
 //            if(day%7==3 || day%7==0) {
 //                Activity racing = new Racing();

@@ -22,51 +22,102 @@ public class CommandLine {
     private int indexOfAssignedSalesperson;
     private List<Vehicle> currentInventory;
     private Vehicle vehicle;
-    private boolean selectVehicle;
 
     public CommandLine() {
         currentInventory = new ArrayList<>();
         commandLineController = new CommandLineController();
         scanner = new Scanner(System.in);
         randomGenerator = new RandomNumberGenerator();
-        selectVehicle = false;
     }
 
     public void startHumanComputerInteraction(List<Activity> listOfActivity) {
+        System.out.println("It's Day 31. Welcome to the Human Computer Interaction!");
+        System.out.println("Please select the location of FNCD that you are interested in");
+        int indexOfFNCD = 1;
+        for(Activity activity : listOfActivity) {
+            System.out.println(indexOfFNCD + ": " + activity.getNameOfFNCD());
+            indexOfFNCD++;
+        }
         selectFNCDLocation(listOfActivity);
-        askSalespersonName();
-        askSalespersonTime();
-        changeSalesperson();
-        showCurrentInventory();
-        showDetailOfSelectedInventory();
+        addVehicles();
+        String input = "";
 
+        while(true) {
+            System.out.println();
+            displayOptions();
+            System.out.println();
+            input = scanner.next();
+            if(input.equals("a")) {
+                selectFNCDLocation(listOfActivity);
+            }
+            else if(input.equals("b")) {
+                askSalespersonName();
+            }
+            else if(input.equals("c")) {
+                askSalespersonTime();
+            }
+            else if(input.equals("d")) {
+                changeSalesperson();
+            }
+            else if(input.equals("e")) {
+                showCurrentInventory();
+            }
+            else if(input.equals("f")) {
+                showDetailOfSelectedInventory();
+            }
+            else if(input.equals("g")) {
+                buyCarFromInventory();
+            }
+            else if(input.equals("q")) {
+                break;
+            }
+        }
+    }
+
+    private void displayOptions() {
+        System.out.println("a: Change the location of FNCD");
+        System.out.println("b: Ask the name of the Salesperson assigned");
+        System.out.println("c: Ask the time to the Salesperson");
+        System.out.println("d: Change the salesperson assigned");
+        System.out.println("e: See the current inventory");
+        System.out.println("f: Detail of a selected vehicle from inventory");
+        System.out.println("g: Buy a car from inventory");
+        System.out.println("q: Exit the Human Computer Interaction");
+    }
+
+    private void buyCarFromInventory() {
+        Command askCurrentInventory = new CurrentInventoryCommand(currentInventory);
+        commandLineController.setCommand(askCurrentInventory);
+        commandLineController.executeCommand();
+
+        int input = -1;
+        System.out.println("Please enter the index of the vehicle");
+        input = scanInputByUser(input, currentInventory.size());
+        vehicle = currentInventory.get(input-1);
+        Command buyVehicleFromInventory = new BuyInventoryCommand(salesperson, activity, vehicle);
+        commandLineController.setCommand(buyVehicleFromInventory);
+        commandLineController.executeCommand();
     }
 
     private void showDetailOfSelectedInventory() {
-        System.out.println("Do you want the detail of any vehicle in the current inventory? (Y/N)");
-        String inputByUser = scanner.next();
-        int input = -1;
-        if (inputByUser.toLowerCase().equals("y")) {
-            selectVehicle = true;
-            System.out.println("Please enter the index of the vehicle");
-            input = scanInputByUser(input, currentInventory.size());
-            vehicle = currentInventory.get(input-1);
-            Command detailOfInventory = new DetailInventoryCommand(vehicle);
-            commandLineController.setCommand(detailOfInventory);
-            commandLineController.executeCommand();
-        }
+        Command askCurrentInventory = new CurrentInventoryCommand(currentInventory);
+        commandLineController.setCommand(askCurrentInventory);
+        commandLineController.executeCommand();
 
+        int input = -1;
+        System.out.println("Please enter the index of the vehicle");
+        input = scanInputByUser(input, currentInventory.size());
+        vehicle = currentInventory.get(input-1);
+        Command detailOfInventory = new DetailInventoryCommand(vehicle);
+        commandLineController.setCommand(detailOfInventory);
+        commandLineController.executeCommand();
     }
 
     private void showCurrentInventory() {
-        addVehicles();
-        System.out.println("Do you want to see the current inventory in the FNCD? (Y/N)");
-        String inputByUser = scanner.next();
-        if (inputByUser.toLowerCase().equals("y")) {
-            Command askCurrentInventory = new CurrentInventoryCommand(currentInventory);
-            commandLineController.setCommand(askCurrentInventory);
-            commandLineController.executeCommand();
-        }
+        Command askCurrentInventory = new CurrentInventoryCommand(currentInventory);
+        commandLineController.setCommand(askCurrentInventory);
+        commandLineController.executeCommand();
+
     }
 
     private void addVehicles() {
@@ -83,58 +134,43 @@ public class CommandLine {
 
     private void changeSalesperson() {
         List<Staff> salespersonList = activity.getSalespersons();
-        System.out.println("Do you want to change the salesperson? (Y/N)");
-        String inputByUser = scanner.next();
-        if(inputByUser.toLowerCase().equals("y")) {
-            int nextAssignedSalesperson = randomGenerator.generateRandomNumber(0, salespersonList.size()-1);
-            while(nextAssignedSalesperson == indexOfAssignedSalesperson) {
-                nextAssignedSalesperson = randomGenerator.generateRandomNumber(0, salespersonList.size()-1);
-            }
-            indexOfAssignedSalesperson = nextAssignedSalesperson;
-            salesperson = salespersonList.get(indexOfAssignedSalesperson);
-            Command changeSalesperson = new ChangeSalespersonCommand(salesperson);
-            commandLineController.setCommand(changeSalesperson);
-            commandLineController.executeCommand();
+
+        int nextAssignedSalesperson = randomGenerator.generateRandomNumber(0, salespersonList.size()-1);
+        while(nextAssignedSalesperson == indexOfAssignedSalesperson) {
+            nextAssignedSalesperson = randomGenerator.generateRandomNumber(0, salespersonList.size()-1);
         }
+        indexOfAssignedSalesperson = nextAssignedSalesperson;
+        salesperson = salespersonList.get(indexOfAssignedSalesperson);
+
+        Command changeSalesperson = new ChangeSalespersonCommand(salesperson);
+        commandLineController.setCommand(changeSalesperson);
+        commandLineController.executeCommand();
+
     }
 
     private void askSalespersonTime() {
-        System.out.println("Do you want to ask the time to the salesperson? (Y/N)");
-        String inputByUser = scanner.next();
-        if(inputByUser.toLowerCase().equals("y")) {
-            Date date = new Date();
+        Date date = new Date();
 
-            Command salespersonTimeCommand = new SalespersonTimeCommand(date);
-            commandLineController.setCommand(salespersonTimeCommand);
-            commandLineController.executeCommand();
-        }
+        Command salespersonTimeCommand = new SalespersonTimeCommand(date);
+        commandLineController.setCommand(salespersonTimeCommand);
+        commandLineController.executeCommand();
     }
 
     private void askSalespersonName() {
-        System.out.println("Congratulations! You have been assigned a salesperson.");
-        System.out.println("Do you want to know the Salespersons' name? (Y/N)");
-        String inputByUser = scanner.next();
-        if(inputByUser.toLowerCase().equals("y")) {
-            List<Staff> salespersonsList = activity.getSalespersons();
-            indexOfAssignedSalesperson = randomGenerator.generateRandomNumber(0, salespersonsList.size()-1);
-            salesperson = salespersonsList.get(indexOfAssignedSalesperson);
-            Command salespersonNameCommand = new SalespersonNameCommand(salesperson);
-            commandLineController.setCommand(salespersonNameCommand);
-            commandLineController.executeCommand();
-        }
+        Command salespersonNameCommand = new SalespersonNameCommand(salesperson);
+        commandLineController.setCommand(salespersonNameCommand);
+        commandLineController.executeCommand();
     }
 
     private void selectFNCDLocation(List<Activity> listOfActivity) {
-        System.out.println("It's Day 31. Welcome to the Human Computer Interaction!");
-        System.out.println("Please select the location of FNCD that you are interested in");
-        int indexOfFNCD = 1;
         int inputByUser = -1;
-        for(Activity activity : listOfActivity) {
-            System.out.println(indexOfFNCD + ": " + activity.getNameOfFNCD());
-            indexOfFNCD++;
-        }
         inputByUser = scanInputByUser(inputByUser, listOfActivity.size());
         activity = listOfActivity.get(inputByUser - 1);
+
+        List<Staff> salespersonList = activity.getSalespersons();
+        indexOfAssignedSalesperson = randomGenerator.generateRandomNumber(0, salespersonList.size()-1);
+        salesperson = salespersonList.get(indexOfAssignedSalesperson);
+
         Command selectFNCDLocationCommand = new SelectFNCDLocationCommand(activity);
         commandLineController.setCommand(selectFNCDLocationCommand);
         commandLineController.executeCommand();

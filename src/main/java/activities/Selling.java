@@ -18,6 +18,8 @@ import main.java.printer.Printer;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.Scanner;
+
 /*
 This class is for the Selling activity.
 Contains all the methods for selling.
@@ -28,8 +30,9 @@ public class Selling {
     private int numberOfBuyers;
     private Printer printer;
     private RandomGenerator randomGenerator;
-
-    public void startSelling(Activity activity, int day) {
+    private boolean isCommandLine;
+    private Scanner scanner;
+    public Selling(Activity activity) {
         System.out.println("Selling..");
         System.out.println();
         printer = new Printer();
@@ -45,7 +48,12 @@ public class Selling {
         listToBeSoldOfType = new ArrayList<>();
         listToBeSoldNotOfType = new ArrayList<>();
         randomGenerator = new RandomNumberGenerator();
+        isCommandLine = false;
+        scanner = new Scanner(System.in);
         segregateVehicles(activity);
+    }
+
+    public void startSelling(Activity activity, int day) {
         sellVehicles(day, activity);
         System.out.println();
     }
@@ -167,7 +175,7 @@ public class Selling {
         return chanceOfBuying;
     }
 
-    private void sellVehicleHelper(Staff salesperson, Vehicle vehicle, Activity activity) {
+    public void sellVehicleHelper(Staff salesperson, Vehicle vehicle, Activity activity) {
         sellVehicle(activity, salesperson, vehicle);
         sellAddOns(vehicle);
         printer.printSoldVehicles(salesperson, vehicle, activity.getSubscriberObject());
@@ -181,25 +189,41 @@ public class Selling {
     }
 
     private void sellAddOns(Vehicle vehicle) {
+        String userInput = "n";
         Vehicle tempVehicle = vehicle;
-
+        if(isCommandLine) {
+            System.out.println("Do you want to add Extended Warranty? (Y/N)");
+            userInput = scanner.next();
+        }
         int extendedWarrantyChance = randomGenerator.generateRandomNumber(1,100);
-        if(extendedWarrantyChance >0 && extendedWarrantyChance <=25) {
+        if(extendedWarrantyChance >0 && extendedWarrantyChance <=25 || userInput.toLowerCase().equals("y")) {
             tempVehicle = new ExtendedWarranty(vehicle);
         }
 
+        if(isCommandLine) {
+            System.out.println("Do you want to add Road Rescue Coverage? (Y/N)");
+            userInput = scanner.next();
+        }
         int roadRescueCoverageChance = randomGenerator.generateRandomNumber(1,100);
-        if(roadRescueCoverageChance >0 && roadRescueCoverageChance <=5) {
+        if(roadRescueCoverageChance >0 && roadRescueCoverageChance <=5 || userInput.toLowerCase().equals("y")) {
             tempVehicle = new RoadRescueCoverage(vehicle);
         }
 
+        if(isCommandLine) {
+            System.out.println("Do you want to add Satellite Radio? (Y/N)");
+            userInput = scanner.next();
+        }
         int satelliteRadioChance = randomGenerator.generateRandomNumber(1,100);
-        if(satelliteRadioChance >0 && satelliteRadioChance <=5) {
+        if(satelliteRadioChance >0 && satelliteRadioChance <=5 || userInput.toLowerCase().equals("y")) {
             tempVehicle = new SatelliteRadio(vehicle);
         }
 
+        if(isCommandLine) {
+            System.out.println("Do you want to add Undercoating? (Y/N)");
+            userInput = scanner.next();
+        }
         int undercoatingChance = randomGenerator.generateRandomNumber(1,100);
-        if(undercoatingChance >0 && undercoatingChance <=5) {
+        if(undercoatingChance >0 && undercoatingChance <=5 || userInput.toLowerCase().equals("y")) {
             tempVehicle = new Undercoating(vehicle);
         }
         vehicle.setFinalSalePrice(tempVehicle.getFinalPriceAfterAddOns());
@@ -314,5 +338,13 @@ public class Selling {
     }
     private void sortCarsByCostPrice(List<Vehicle> list) {
         Collections.sort(list, (obj1, obj2) -> (int) (obj2.getCostPrice() - obj1.getCostPrice()));
+    }
+
+    public boolean isCommandLine() {
+        return isCommandLine;
+    }
+
+    public void setCommandLine(boolean commandLine) {
+        isCommandLine = commandLine;
     }
 }

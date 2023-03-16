@@ -104,4 +104,12 @@ public class Repairing {
             if (condition.equals(Condition.BROKEN) || condition.equals(Condition.USED)) vehiclesToBeRepaired.add(vehicle);
         }
     }
+
+    public List<Vehicle> getVehiclesToBeRepaired() {
+        return vehiclesToBeRepaired;
+    }
+
+    public void setVehiclesToBeRepaired(List<Vehicle> vehiclesToBeRepaired) {
+        this.vehiclesToBeRepaired = vehiclesToBeRepaired;
+    }
 }

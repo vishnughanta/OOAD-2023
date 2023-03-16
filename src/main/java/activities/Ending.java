@@ -4,12 +4,14 @@ This class is for the Ending activity.
 Contains all the methods for ending the day.
  */
 import main.java.abstracts.Staff;
+import main.java.functions.Graph;
 import main.java.functions.RandomNumberGenerator;
 import main.java.interfaces.RandomGenerator;
 import main.java.printer.Printer;
 import main.java.staff.Driver;
 import main.java.staff.Mechanic;
 import main.java.staff.Salesperson;
+import main.java.subscriber.SubscriberObject;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -27,11 +29,29 @@ public class Ending {
         quitStaff(activity);
         System.out.println();
         generateDailyReport(activity);
+        updateGraphPoints(activity);
         activity.setDailyDepartingStaff(new ArrayList<>());
         activity.setDailySoldVehicles(new ArrayList<>());
         activity.setDailySales(0);
         System.out.println();
 
+    }
+
+    private void updateGraphPoints(Activity activity) {
+        Graph graph = activity.getGraph();
+        SubscriberObject subscriberObject = activity.getSubscriberObject();
+
+        List<Integer> numberOfVehiclesSold = graph.getNumberOfVehiclesSold();
+        numberOfVehiclesSold.add(activity.getDailySoldVehicles().size());
+        graph.setNumberOfVehiclesSold(numberOfVehiclesSold);
+
+        List<Double> dailyFNCDAmount = graph.getDailyFNCDAmount();
+        dailyFNCDAmount.add(subscriberObject.getTotalMoneyFNCD());
+        graph.setDailyFNCDAmount(dailyFNCDAmount);
+
+        List<Double> dailyStaffAmount = graph.getDailyStaffAmount();
+        dailyStaffAmount.add(subscriberObject.getTotalMoneyStaff());
+        graph.setDailyStaffAmount(dailyStaffAmount);
     }
 
     private void generateDailyReport(Activity activity) {

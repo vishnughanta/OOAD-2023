@@ -1,16 +1,18 @@
 package main.java.helper;
 
 import main.java.activities.*;
+import main.java.functions.Graph;
 import main.java.interfaces.Subscriber;
 import main.java.subscriber.Logger;
 import main.java.subscriber.SubscriberObject;
 import main.java.subscriber.Tracker;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 public class FNCDHelper {
-    public void simulate() {
+    public void simulate() throws IOException {
         PublisherHelper publisherHelperNorth = new PublisherHelper();
         PublisherHelper publisherHelperSouth = new PublisherHelper();
 
@@ -31,6 +33,9 @@ public class FNCDHelper {
 
         activityNorth.setSubscriberObject(publisherHelperNorth.getSubscriberObject());
         activitySouth.setSubscriberObject(publisherHelperSouth.getSubscriberObject());
+
+        activityNorth.setGraph(new Graph());
+        activitySouth.setGraph(new Graph());
 
         List<Activity> listOfActivity = new ArrayList<>();
         listOfActivity.add(activityNorth);
@@ -91,9 +96,15 @@ public class FNCDHelper {
 
             publisherHelperNorth.notifySubscribers(activityNorth.getSubscriberObject());
             publisherHelperSouth.notifySubscribers(activitySouth.getSubscriberObject());
+
             publisherHelperNorth.closeDay();
             publisherHelperSouth.closeDay();
             System.out.println();
         }
+
+        Graph graphNorth = activityNorth.getGraph();
+        Graph graphSouth = activitySouth.getGraph();
+        graphNorth.plotGraphs(activityNorth);
+        graphSouth.plotGraphs(activitySouth);
     }
 }

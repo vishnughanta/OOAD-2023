@@ -2,8 +2,10 @@ package main.java.activities;
 
 import main.java.abstracts.Staff;
 import main.java.abstracts.Vehicle;
+import main.java.functions.Graph;
 import main.java.subscriber.SubscriberObject;
 
+import java.lang.management.GarbageCollectorMXBean;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -20,6 +22,7 @@ public class Activity {
     private List<Vehicle> cars, pickups, performanceCars, electricCars, monsterTrucks, motorcycles, coupes, minivans, suvs;
     private List<Vehicle> soldVehicles, dailySoldVehicles;
     private SubscriberObject subscriberObject;
+    private Graph graph;
 
     public void startActivity(String nameOfFNCD) {
         setID();
@@ -29,6 +32,7 @@ public class Activity {
         setDeparted();
         setDailySales(0);
         setBudget(500000);
+        setSubscriberObject(new SubscriberObject());
         setNameOfFNCD(nameOfFNCD);
     }
 
@@ -356,6 +360,15 @@ public class Activity {
     public void setSubscriberObject(SubscriberObject subscriberObject) {
         this.subscriberObject = subscriberObject;
     }
+
+    public Graph getGraph() {
+        return graph;
+    }
+
+    public void setGraph(Graph graph) {
+        this.graph = graph;
+    }
+
     public void updateStaffAmount(SubscriberObject subscriberObject, double amountToBeAdded) {
         double currStaffAmount = subscriberObject.getTotalMoneyStaff();
         subscriberObject.setTotalMoneyStaff(currStaffAmount + amountToBeAdded);

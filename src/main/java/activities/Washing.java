@@ -135,4 +135,20 @@ public class Washing {
             else if (cleanlinessState == Cleanliness.CLEAN) cleanVehicles.add(vehicle);
         }
     }
+
+    public List<Vehicle> getDirtyVehicles() {
+        return dirtyVehicles;
+    }
+
+    public void setDirtyVehicles(List<Vehicle> dirtyVehicles) {
+        this.dirtyVehicles = dirtyVehicles;
+    }
+
+    public List<Vehicle> getCleanVehicles() {
+        return cleanVehicles;
+    }
+
+    public void setCleanVehicles(List<Vehicle> cleanVehicles) {
+        this.cleanVehicles = cleanVehicles;
+    }
 }

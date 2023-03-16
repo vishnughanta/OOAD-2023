@@ -3,10 +3,7 @@ package main.java.factories;
 import main.java.abstracts.Vehicle;
 import main.java.activities.Activity;
 import main.java.interfaces.FNCDFactory;
-import main.java.staff.Driver;
-import main.java.staff.Intern;
-import main.java.staff.Mechanic;
-import main.java.staff.Salesperson;
+
 import main.java.vehicles.*;
 
 public class VehicleFactory implements FNCDFactory<Vehicle> {

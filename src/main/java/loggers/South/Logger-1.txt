@@ -10,144 +10,146 @@ Hired Salesperson-6
 Hired Driver-4
 Hired Driver-5
 Hired Driver-6
-Purchased Broken Dirty Car-7 for a cost price of 7171.5
-Purchased New Dirty Car-8 for a cost price of 12662.0
-Purchased New Dirty Car-9 for a cost price of 19936.0
-Purchased New Sparkling Car-10 for a cost price of 13588.0
-Purchased Broken Clean Car-11 for a cost price of 8570.0
-Purchased Broken Sparkling Car-12 for a cost price of 7010.5
-Purchased Used Dirty Pickup-7 for a cost price of 25243.2
-Purchased Broken Dirty Pickup-8 for a cost price of 18156.5
-Purchased Used Dirty Pickup-9 for a cost price of 20906.4
-Purchased Broken Dirty Pickup-10 for a cost price of 6165.5
-Purchased Broken Dirty Pickup-11 for a cost price of 14191.0
-Purchased Broken Dirty Pickup-12 for a cost price of 10802.5
-Purchased Broken Dirty Performance Car-7 for a cost price of 19882.5
-Purchased Broken Sparkling Performance Car-8 for a cost price of 19173.5
-Purchased Used Clean Performance Car-9 for a cost price of 22282.4
-Purchased Used Dirty Performance Car-10 for a cost price of 29567.2
-Purchased New Sparkling Performance Car-11 for a cost price of 31871.0
-Purchased New Clean Performance Car-12 for a cost price of 33917.0
-Purchased New Sparkling Electric Car-7 for a cost price of 10331.0
-Purchased New Sparkling Electric Car-8 for a cost price of 12365.0
-Purchased New Sparkling Electric Car-9 for a cost price of 19304.0
-Purchased Used Sparkling Electric Car-10 for a cost price of 15055.2
-Purchased Used Sparkling Electric Car-11 for a cost price of 13042.400000000001
-Purchased New Clean Electric Car-12 for a cost price of 17405.0
-Purchased New Sparkling Motorcycle-7 for a cost price of 11067.0
-Purchased Broken Dirty Motorcycle-8 for a cost price of 9869.0
-Purchased New Sparkling Motorcycle-9 for a cost price of 12670.0
-Purchased New Dirty Motorcycle-10 for a cost price of 11560.0
-Purchased New Clean Motorcycle-11 for a cost price of 13666.0
-Purchased Used Dirty Motorcycle-12 for a cost price of 12667.2
-Purchased Used Dirty Monster Truck USA-1-1 for a cost price of 15581.6
-Purchased Broken Sparkling Monster Truck Gunslinger-1 for a cost price of 6862.0
-Purchased New Clean Monster Truck Snake Bite-1 for a cost price of 14704.0
-Purchased Broken Sparkling Monster Truck Backwards Bob-1 for a cost price of 9415.5
-Purchased Broken Clean Monster Truck Blue Thunder-1 for a cost price of 9524.0
-Purchased Used Sparkling Monster Truck Cyborg-1 for a cost price of 12768.0
-Purchased New Sparkling Coupe-7 for a cost price of 17765.0
-Purchased New Sparkling Coupe-8 for a cost price of 12803.0
-Purchased Broken Sparkling Coupe-9 for a cost price of 6666.5
-Purchased Used Sparkling Coupe-10 for a cost price of 13447.2
-Purchased Broken Dirty Coupe-11 for a cost price of 7728.0
-Purchased Used Sparkling Coupe-12 for a cost price of 12862.400000000001
-Purchased Broken Clean Minivan-7 for a cost price of 6324.5
-Purchased New Sparkling Minivan-8 for a cost price of 10784.0
-Purchased Used Clean Minivan-9 for a cost price of 12344.800000000001
-Purchased Broken Dirty Minivan-10 for a cost price of 9600.0
-Purchased Used Sparkling Minivan-11 for a cost price of 10087.2
-Purchased Used Clean Minivan-12 for a cost price of 9272.0
-Purchased Broken Sparkling SUV-7 for a cost price of 9168.0
-Purchased Used Clean SUV-8 for a cost price of 13210.400000000001
-Purchased Used Dirty SUV-9 for a cost price of 14516.0
-Purchased Broken Clean SUV-10 for a cost price of 7970.5
-Purchased New Sparkling SUV-11 for a cost price of 17415.0
-Purchased Broken Sparkling SUV-12 for a cost price of 7696.0
-Intern-4 has washed Pickup-9 and made it Clean
-Intern-4 has washed SUV-9 and made it Clean
-Intern-5 has washed Pickup-8 and made it Clean
-Intern-5 has washed Pickup-7 and made it Sparkling (Earned a bonus of $100.0)
-Intern-6 has washed Performance Car-10 and made it Sparkling (Earned a bonus of $100.0)
-Intern-6 has washed Pickup-11
-Mechanic-4 has not repaired Coupe-12
-Mechanic-4 has repaired SUV-8 and made it Clean (Earned a bonus of $70.0)
-Mechanic-5 has not repaired Pickup-8
-Mechanic-5 has repaired Car-7 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-6 has not repaired Car-11
-Mechanic-6 has repaired Pickup-9 and made it Clean (Earned a bonus of $200.0)
-Salesperson-6 has sold Minivan-9 for a sale price of $25924.08 (Earned a sale bonus of $90.0)
-Salesperson-6 has sold Electric Car-9 for a sale price of $38608.0 (Earned a sale bonus of $300.0)
+Purchased Broken Sparkling Car-7 for a cost price of 9865.5
+Purchased New Clean Car-8 for a cost price of 12594.0
+Purchased Used Dirty Car-9 for a cost price of 9227.2
+Purchased New Clean Car-10 for a cost price of 12698.0
+Purchased Broken Clean Car-11 for a cost price of 9732.0
+Purchased Broken Clean Car-12 for a cost price of 6255.0
+Purchased Broken Dirty Pickup-7 for a cost price of 9374.0
+Purchased Broken Dirty Pickup-8 for a cost price of 8060.5
+Purchased Used Dirty Pickup-9 for a cost price of 31823.2
+Purchased New Dirty Pickup-10 for a cost price of 33186.0
+Purchased New Dirty Pickup-11 for a cost price of 18279.0
+Purchased Used Dirty Pickup-12 for a cost price of 17942.4
+Purchased Used Clean Performance Car-7 for a cost price of 28720.0
+Purchased New Dirty Performance Car-8 for a cost price of 32392.0
+Purchased Used Dirty Performance Car-9 for a cost price of 22815.2
+Purchased New Sparkling Performance Car-10 for a cost price of 22690.0
+Purchased Used Dirty Performance Car-11 for a cost price of 23459.2
+Purchased Used Sparkling Performance Car-12 for a cost price of 17617.600000000002
+Purchased New Clean Electric Car-7 for a cost price of 10731.0
+Purchased Used Dirty Electric Car-8 for a cost price of 9691.2
+Purchased New Clean Electric Car-9 for a cost price of 19950.0
+Purchased Used Sparkling Electric Car-10 for a cost price of 13740.0
+Purchased New Clean Electric Car-11 for a cost price of 13670.0
+Purchased Used Dirty Electric Car-12 for a cost price of 9639.2
+Purchased Broken Clean Motorcycle-7 for a cost price of 6536.0
+Purchased Broken Clean Motorcycle-8 for a cost price of 7261.5
+Purchased New Clean Motorcycle-9 for a cost price of 18998.0
+Purchased Broken Sparkling Motorcycle-10 for a cost price of 9443.5
+Purchased New Clean Motorcycle-11 for a cost price of 15210.0
+Purchased Broken Sparkling Motorcycle-12 for a cost price of 6385.5
+Purchased Broken Clean Monster Truck Black Stallion-1 for a cost price of 6354.0
+Purchased Used Sparkling Monster Truck Maximum Destruction (Max-D)-1 for a cost price of 12023.2
+Purchased Broken Clean Monster Truck Air Force Afterburner-1 for a cost price of 7283.0
+Purchased Used Dirty Monster Truck Madusa-1 for a cost price of 8448.800000000001
+Purchased New Clean Monster Truck Grave Digger-1 for a cost price of 13413.0
+Purchased New Sparkling Monster Truck Shell Camino-1 for a cost price of 18583.0
+Purchased Used Clean Coupe-7 for a cost price of 9998.400000000001
+Purchased Broken Sparkling Coupe-8 for a cost price of 7941.0
+Purchased Used Clean Coupe-9 for a cost price of 11077.6
+Purchased Broken Sparkling Coupe-10 for a cost price of 6209.5
+Purchased New Sparkling Coupe-11 for a cost price of 18721.0
+Purchased Broken Dirty Coupe-12 for a cost price of 5442.5
+Purchased New Sparkling Minivan-7 for a cost price of 15615.0
+Purchased Broken Sparkling Minivan-8 for a cost price of 7654.0
+Purchased New Sparkling Minivan-9 for a cost price of 12141.0
+Purchased Broken Clean Minivan-10 for a cost price of 7404.0
+Purchased Broken Sparkling Minivan-11 for a cost price of 5562.0
+Purchased Broken Sparkling Minivan-12 for a cost price of 6934.0
+Purchased Used Sparkling SUV-7 for a cost price of 9599.2
+Purchased Broken Dirty SUV-8 for a cost price of 6834.0
+Purchased New Dirty SUV-9 for a cost price of 19953.0
+Purchased Used Dirty SUV-10 for a cost price of 15691.2
+Purchased Used Dirty SUV-11 for a cost price of 11672.0
+Purchased Used Clean SUV-12 for a cost price of 10065.6
+Intern-4 has washed SUV-10 and made it Clean
+Intern-4 has washed SUV-10
+Intern-5 has washed Pickup-12
+Intern-5 has washed Electric Car-12
+Intern-6 has washed Car-9 and made it Sparkling (Earned a bonus of $100.0)
+Intern-6 has washed Monster Truck Madusa-1 and made it Clean
+Mechanic-4 has repaired Coupe-9 and made it Clean (Earned a bonus of $70.0)
+Mechanic-4 has repaired Minivan-11 and made it Sparkling (Earned a bonus of $70.0)
+Mechanic-5 has repaired SUV-7 and made it Sparkling (Earned a bonus of $70.0)
+Mechanic-5 has repaired Electric Car-10 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-6 has repaired Minivan-8 and made it Sparkling (Earned a bonus of $70.0)
+Mechanic-6 has repaired Pickup-8 and made it Dirty (Earned a bonus of $200.0)
+Salesperson-5 has sold Electric Car-9 for a sale price of $39900.0 (Earned a sale bonus of $300.0)
+Salesperson-6 has sold Coupe-11 for a sale price of $39314.1 (Earned a sale bonus of $90.0)
+Mechanic-4 has quit the FNCD
+Intern-4 has been promoted to Mechanic-7
+Intern-5 has quit the FNCD
 Daily Report..
 
 Working Staff:
-Intern-4		100.0	0.0	1
-Intern-5		100.0	100.0	1
 Intern-6		100.0	100.0	1
-Mechanic-4		200.0	70.0	1
-Mechanic-5		200.0	200.0	1
-Mechanic-6		200.0	200.0	1
+Mechanic-5		200.0	270.0	1
+Mechanic-6		200.0	270.0	1
+Mechanic-7		0.0	0.0	1
 Salesperson-4		0.0	0.0	0
-Salesperson-5		300.0	0.0	1
-Salesperson-6		300.0	390.0	1
+Salesperson-5		300.0	300.0	1
+Salesperson-6		300.0	90.0	1
 Driver-4		0.0	0.0	0
 Driver-5		0.0	0.0	0
 Driver-6		0.0	0.0	0
 Departed Staff:
-No one quit the FNCD today
+Mechanic-4		200.0	140.0	1
+Intern-5		100.0	0.0	1
 Vehicles In Inventory:
-Car-7			7171.5	14343.0	Dirty	Used	In Stock
-Car-8			12662.0	25324.0	Dirty	New	In Stock
-Car-9			19936.0	39872.0	Dirty	New	In Stock
-Car-10			13588.0	27176.0	Sparkling	New	In Stock
-Car-11			8570.0	17140.0	Dirty	Broken	In Stock
-Car-12			7010.5	14021.0	Sparkling	Broken	In Stock
-Performance Car-7			19882.5	39765.0	Dirty	Broken	In Stock
-Performance Car-8			19173.5	38347.0	Sparkling	Broken	In Stock
-Performance Car-9			22282.4	44564.8	Clean	Used	In Stock
-Performance Car-10			29567.2	59134.4	Sparkling	Used	In Stock
-Performance Car-11			31871.0	63742.0	Sparkling	New	In Stock
-Performance Car-12			33917.0	67834.0	Clean	New	In Stock
-Pickup-7			25243.2	50486.4	Sparkling	Broken	In Stock
-Pickup-8			18156.5	36313.0	Dirty	Broken	In Stock
-Pickup-9			20906.4	41812.8	Dirty	New	In Stock
-Pickup-10			6165.5	12331.0	Dirty	Broken	In Stock
-Pickup-11			14191.0	28382.0	Dirty	Broken	In Stock
-Pickup-12			10802.5	21605.0	Dirty	Broken	In Stock
-Electric Car-7			10331.0	20662.0	Sparkling	New	In Stock
-Electric Car-8			12365.0	24730.0	Sparkling	New	In Stock
-Electric Car-10			15055.2	30110.4	Sparkling	Used	In Stock
-Electric Car-11			13042.400000000001	26084.800000000003	Sparkling	Used	In Stock
-Electric Car-12			17405.0	34810.0	Clean	New	In Stock
-Motorcycle-7			11067.0	22134.0	Sparkling	New	In Stock
-Motorcycle-8			9869.0	19738.0	Dirty	Broken	In Stock
-Motorcycle-9			12670.0	25340.0	Sparkling	New	In Stock
-Motorcycle-10			11560.0	23120.0	Dirty	New	In Stock
-Motorcycle-11			13666.0	27332.0	Clean	New	In Stock
-Motorcycle-12			12667.2	25334.4	Dirty	Used	In Stock
-Monster Truck USA-1-1			15581.6	31163.2	Dirty	Used	In Stock
-Monster Truck Gunslinger-1			6862.0	13724.0	Sparkling	Broken	In Stock
-Monster Truck Snake Bite-1			14704.0	29408.0	Clean	New	In Stock
-Monster Truck Backwards Bob-1			9415.5	18831.0	Sparkling	Broken	In Stock
-Monster Truck Blue Thunder-1			9524.0	19048.0	Clean	Broken	In Stock
-Monster Truck Cyborg-1			12768.0	25536.0	Sparkling	Used	In Stock
-Coupe-7			17765.0	35530.0	Sparkling	New	In Stock
-Coupe-8			12803.0	25606.0	Sparkling	New	In Stock
-Coupe-9			6666.5	13333.0	Sparkling	Broken	In Stock
-Coupe-10			13447.2	26894.4	Sparkling	Used	In Stock
-Coupe-11			7728.0	15456.0	Dirty	Broken	In Stock
-Coupe-12			12862.400000000001	25724.800000000003	Clean	Used	In Stock
-Minivan-7			6324.5	12649.0	Clean	Broken	In Stock
-Minivan-8			10784.0	21568.0	Sparkling	New	In Stock
-Minivan-10			9600.0	19200.0	Dirty	Broken	In Stock
-Minivan-11			10087.2	20174.4	Sparkling	Used	In Stock
-Minivan-12			9272.0	18544.0	Clean	Used	In Stock
-SUV-7			9168.0	18336.0	Sparkling	Broken	In Stock
-SUV-8			13210.400000000001	26420.800000000003	Dirty	New	In Stock
-SUV-9			14516.0	29032.0	Clean	Used	In Stock
-SUV-10			7970.5	15941.0	Clean	Broken	In Stock
-SUV-11			17415.0	34830.0	Sparkling	New	In Stock
-SUV-12			7696.0	15392.0	Sparkling	Broken	In Stock
+Car-7			9865.5	19731.0	Sparkling	Broken	In Stock
+Car-8			12594.0	25188.0	Clean	New	In Stock
+Car-9			9227.2	18454.4	Sparkling	Used	In Stock
+Car-10			12698.0	25396.0	Clean	New	In Stock
+Car-11			9732.0	19464.0	Clean	Broken	In Stock
+Car-12			6255.0	12510.0	Clean	Broken	In Stock
+Performance Car-7			28720.0	57440.0	Clean	Used	In Stock
+Performance Car-8			32392.0	64784.0	Dirty	New	In Stock
+Performance Car-9			22815.2	45630.4	Dirty	Used	In Stock
+Performance Car-10			22690.0	45380.0	Sparkling	New	In Stock
+Performance Car-11			23459.2	46918.4	Dirty	Used	In Stock
+Performance Car-12			17617.600000000002	35235.200000000004	Sparkling	Used	In Stock
+Pickup-7			9374.0	18748.0	Dirty	Broken	In Stock
+Pickup-8			8060.5	16121.0	Dirty	Used	In Stock
+Pickup-9			31823.2	63646.4	Dirty	Used	In Stock
+Pickup-10			33186.0	66372.0	Dirty	New	In Stock
+Pickup-11			18279.0	36558.0	Dirty	New	In Stock
+Pickup-12			17942.4	35884.8	Dirty	Used	In Stock
+Electric Car-7			10731.0	21462.0	Clean	New	In Stock
+Electric Car-8			9691.2	19382.4	Dirty	Used	In Stock
+Electric Car-10			13740.0	27480.0	Clean	New	In Stock
+Electric Car-11			13670.0	27340.0	Clean	New	In Stock
+Electric Car-12			9639.2	19278.4	Dirty	Used	In Stock
+Motorcycle-7			6536.0	13072.0	Clean	Broken	In Stock
+Motorcycle-8			7261.5	14523.0	Clean	Broken	In Stock
+Motorcycle-9			18998.0	37996.0	Clean	New	In Stock
+Motorcycle-10			9443.5	18887.0	Sparkling	Broken	In Stock
+Motorcycle-11			15210.0	30420.0	Clean	New	In Stock
+Motorcycle-12			6385.5	12771.0	Sparkling	Broken	In Stock
+Monster Truck Black Stallion-1			6354.0	12708.0	Clean	Broken	In Stock
+Monster Truck Maximum Destruction (Max-D)-1			12023.2	24046.4	Sparkling	Used	In Stock
+Monster Truck Air Force Afterburner-1			7283.0	14566.0	Clean	Broken	In Stock
+Monster Truck Madusa-1			8448.800000000001	16897.600000000002	Clean	Used	In Stock
+Monster Truck Grave Digger-1			13413.0	26826.0	Clean	New	In Stock
+Monster Truck Shell Camino-1			18583.0	37166.0	Sparkling	New	In Stock
+Coupe-7			9998.400000000001	19996.800000000003	Clean	Used	In Stock
+Coupe-8			7941.0	15882.0	Sparkling	Broken	In Stock
+Coupe-9			11077.6	22155.2	Dirty	New	In Stock
+Coupe-10			6209.5	12419.0	Sparkling	Broken	In Stock
+Coupe-12			5442.5	10885.0	Dirty	Broken	In Stock
+Minivan-7			15615.0	31230.0	Sparkling	New	In Stock
+Minivan-8			7654.0	15308.0	Clean	Used	In Stock
+Minivan-9			12141.0	24282.0	Sparkling	New	In Stock
+Minivan-10			7404.0	14808.0	Clean	Broken	In Stock
+Minivan-11			5562.0	11124.0	Clean	Used	In Stock
+Minivan-12			6934.0	13868.0	Sparkling	Broken	In Stock
+SUV-7			9599.2	19198.4	Clean	New	In Stock
+SUV-8			6834.0	13668.0	Dirty	Broken	In Stock
+SUV-9			19953.0	39906.0	Dirty	New	In Stock
+SUV-10			15691.2	31382.4	Clean	Used	In Stock
+SUV-11			11672.0	23344.0	Dirty	Used	In Stock
+SUV-12			10065.6	20131.2	Clean	Used	In Stock
 Sold Vehicles:
-Minivan-9		12344.800000000001	25924.08	Clean	Used	Sold
-Electric Car-9		19304.0	38608.0	Sparkling	New	Sold
+Electric Car-9		19950.0	39900.0	Clean	New	Sold
+Coupe-11		18721.0	39314.1	Sparkling	New	Sold

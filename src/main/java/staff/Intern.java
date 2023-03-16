@@ -13,8 +13,8 @@ public class Intern extends Staff {
 
     public Intern(Activity activity){
         this.salary = 100;
-        this.name = "Intern-" + activity.getInternID();
-        activity.setInternID(activity.getInternID() + 1);
+        this.name = "Intern-" + Activity.getInternID();
+        Activity.setInternID(Activity.getInternID() + 1);
         this.worked = false;
         this.totalDaysWorked = 0;
         this.bonus = 0;

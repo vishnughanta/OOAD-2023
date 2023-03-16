@@ -144,6 +144,14 @@ public class Racing {
         raceVehicles.addAll(driverToVehicleList);
         assignNullAndShuffleRaceVehicles();
     }
+
+    public List<LinkDriverToVehicle> getRaceVehicles() {
+        return raceVehicles;
+    }
+
+    public void setRaceVehicles(List<LinkDriverToVehicle> raceVehicles) {
+        this.raceVehicles = raceVehicles;
+    }
 }
 
 

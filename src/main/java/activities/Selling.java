@@ -347,4 +347,12 @@ public class Selling {
     public void setCommandLine(boolean commandLine) {
         isCommandLine = commandLine;
     }
+
+    public int getNumberOfBuyers() {
+        return numberOfBuyers;
+    }
+
+    public void setNumberOfBuyers(int numberOfBuyers) {
+        this.numberOfBuyers = numberOfBuyers;
+    }
 }

@@ -1,85 +1,85 @@
-Hired Intern-28
-Purchased Used Sparkling Motorcycle-27 for a cost price of 14296.800000000001
-Purchased New Sparkling SUV-23 for a cost price of 18386.0
-Intern-22 has washed Performance Car-22
-Intern-22 has washed Performance Car-22
-Intern-26 has washed Performance Car-22
-Intern-26 has washed Performance Car-22 and made it Clean
-Intern-28 has washed Performance Car-22
-Intern-28 has washed Performance Car-22
-Mechanic-5 has repaired Motorcycle-27 and made it Sparkling (Earned a bonus of $70.0)
-Last 5 Positions: Driver-6 with Monster Truck Maximum Destruction (Max-D)-1 has finished in 19 position
-Driver-6 has quit the FNCD
+Intern-19 has washed Car-24 and made it Clean
+Intern-19 has washed Motorcycle-25 and made it Clean
+Intern-21 has washed Motorcycle-25
+Intern-21 has washed Car-24 and made it Sparkling (Earned a bonus of $100.0)
+Intern-22 has washed Motorcycle-25 and made it Sparkling (Earned a bonus of $50.0)
+Intern-22 has washed SUV-9
+Salesperson-13 has sold Motorcycle-1 for a sale price of $34023.9375 (Earned a sale bonus of $90.0)
+Salesperson-13 has sold SUV-2 for a sale price of $22270.5 (Earned a sale bonus of $90.0)
+Top 3 positions: Driver-7 with Monster Truck Brutus-1 has finished in 3 position
+Last 5 Positions: Driver-5 with Monster Truck Grave Digger-1 has finished in 18 position
 Daily Report..
 
 Working Staff:
-Intern-22		900.0	400.0	9
-Intern-26		200.0	0.0	2
-Intern-28		100.0	0.0	1
-Mechanic-5		6200.0	6490.0	31
-Mechanic-7		5400.0	4720.0	28
-Mechanic-14		0.0	100.0	5
-Salesperson-5		7500.0	4290.0	25
-Salesperson-9		300.0	240.0	3
-Salesperson-10		0.0	0.0	1
+Intern-19		900.0	350.0	9
+Intern-21		700.0	300.0	7
+Intern-22		500.0	350.0	5
+Mechanic-4		5800.0	8320.0	29
+Mechanic-10		1200.0	2010.0	8
+Mechanic-11		600.0	770.0	10
+Salesperson-4		4800.0	3330.0	16
+Salesperson-7		5700.0	3600.0	20
+Salesperson-13		1800.0	1070.0	27
 Driver-5		3150.0	0.0	9
-Driver-8		1050.0	0.0	3
-Departed Staff:
 Driver-6		3150.0	0.0	9
+Driver-7		1750.0	0.0	5
+Departed Staff:
+No one quit the FNCD today
 Vehicles In Inventory:
-Car-7			9865.5	19731.0	Clean	New	In Stock
-Car-9			9227.2	18454.4	Clean	New	In Stock
-Car-11			9732.0	19464.0	Clean	New	In Stock
-Car-12			6255.0	12510.0	Clean	New	In Stock
-Car-19			10258.0	20516.0	Clean	New	In Stock
-Car-24			8038.400000000001	16076.800000000001	Sparkling	New	In Stock
-Performance Car-10			22690.0	45380.0	Sparkling	New	In Stock
-Performance Car-12			17617.600000000002	35235.200000000004	Clean	New	In Stock
-Performance Car-15			22618.0	45236.0	Clean	New	In Stock
-Performance Car-21			18495.5	36991.0	Clean	New	In Stock
-Performance Car-22			17521.5	35043.0	Clean	New	In Stock
-Performance Car-26			30352.800000000003	60705.600000000006	Sparkling	New	In Stock
-Pickup-7			9374.0	18748.0	Clean	New	In Stock
-Pickup-8			8060.5	16121.0	Clean	New	In Stock
-Pickup-12			17942.4	35884.8	Clean	New	In Stock
-Pickup-13			9028.5	18057.0	Sparkling	New	In Stock
-Pickup-14			10122.0	20244.0	Clean	New	In Stock
-Pickup-20			12491.2	24982.4	Clean	New	In Stock
-Electric Car-12			9639.2	19278.4	Clean	New	In Stock
-Electric Car-13			9051.5	18103.0	Sparkling	New	In Stock
-Electric Car-16			8911.2	17822.4	Sparkling	New	In Stock
-Electric Car-21			13303.2	26606.4	Sparkling	New	In Stock
-Electric Car-22			9981.0	19962.0	Sparkling	New	In Stock
-Electric Car-25			9352.800000000001	18705.600000000002	Clean	New	In Stock
-Motorcycle-7			6536.0	13072.0	Clean	New	In Stock
-Motorcycle-12			6385.5	12771.0	Clean	New	In Stock
-Motorcycle-13			6241.5	12483.0	Clean	New	In Stock
-Motorcycle-15			6023.0	12046.0	Clean	New	In Stock
-Motorcycle-22			8736.0	17472.0	Clean	New	In Stock
-Motorcycle-27			14296.800000000001	28593.600000000002	Clean	New	In Stock
-Monster Truck Black Stallion-1			6354.0	12708.0	Sparkling	New	In Stock
-Monster Truck Maximum Destruction (Max-D)-1			12023.2	24046.4	Clean	Broken	In Stock
-Monster Truck Air Force Afterburner-1			7283.0	14566.0	Clean	New	In Stock
-Monster Truck Madusa-1			8448.800000000001	16897.600000000002	Sparkling	New	In Stock
-Monster Truck Grave Digger-1			13413.0	26826.0	Clean	New	In Stock
-Monster Truck Shell Camino-1			18583.0	37166.0	Sparkling	New	In Stock
-Coupe-8			7941.0	15882.0	Clean	New	In Stock
-Coupe-10			6209.5	12419.0	Sparkling	New	In Stock
-Coupe-12			5442.5	10885.0	Clean	New	In Stock
-Coupe-14			8672.5	17345.0	Clean	New	In Stock
-Coupe-17			6129.0	12258.0	Clean	New	In Stock
-Coupe-22			8023.5	16047.0	Clean	New	In Stock
-Minivan-8			7654.0	15308.0	Clean	New	In Stock
-Minivan-10			7404.0	14808.0	Clean	New	In Stock
-Minivan-11			5562.0	11124.0	Clean	New	In Stock
-Minivan-12			6934.0	13868.0	Clean	New	In Stock
-Minivan-24			6165.5	12331.0	Clean	New	In Stock
-Minivan-26			8322.0	16644.0	Clean	New	In Stock
-SUV-7			9599.2	19198.4	Clean	New	In Stock
-SUV-8			6834.0	13668.0	Clean	New	In Stock
-SUV-14			9715.5	19431.0	Clean	New	In Stock
-SUV-18			5580.5	11161.0	Sparkling	New	In Stock
-SUV-19			9481.0	18962.0	Sparkling	New	In Stock
-SUV-23			18386.0	36772.0	Sparkling	New	In Stock
+Car-9			9702.4	19404.8	Clean	New	In Stock
+Car-10			7061.5	14123.0	Clean	New	In Stock
+Car-16			10177.0	20354.0	Sparkling	New	In Stock
+Car-24			7380.5	14761.0	Sparkling	New	In Stock
+Car-26			5663.5	11327.0	Sparkling	New	In Stock
+Car-27			13951.2	27902.4	Clean	New	In Stock
+Performance Car-8			12348.5	24697.0	Clean	New	In Stock
+Performance Car-13			13850.0	27700.0	Clean	New	In Stock
+Performance Car-15			13700.0	27400.0	Clean	New	In Stock
+Performance Car-16			15163.0	30326.0	Clean	New	In Stock
+Performance Car-18			15233.0	30466.0	Sparkling	New	In Stock
+Performance Car-28			17022.5	34045.0	Clean	New	In Stock
+Pickup-7			11996.0	23992.0	Clean	New	In Stock
+Pickup-9			9951.5	19903.0	Clean	New	In Stock
+Pickup-10			8828.800000000001	17657.600000000002	Clean	New	In Stock
+Pickup-13			9174.5	18349.0	Clean	New	In Stock
+Pickup-21			11215.0	22430.0	Clean	New	In Stock
+Pickup-28			12464.0	24928.0	Clean	New	In Stock
+Electric Car-8			11729.6	23459.2	Clean	New	In Stock
+Electric Car-12			8463.0	16926.0	Clean	New	In Stock
+Electric Car-13			12208.0	24416.0	Clean	New	In Stock
+Electric Car-14			9696.0	19392.0	Clean	New	In Stock
+Electric Car-15			8098.5	16197.0	Clean	New	In Stock
+Electric Car-23			14260.800000000001	28521.600000000002	Clean	New	In Stock
+Motorcycle-10			6903.0	13806.0	Clean	New	In Stock
+Motorcycle-12			6834.5	13669.0	Sparkling	New	In Stock
+Motorcycle-14			7195.0	14390.0	Clean	New	In Stock
+Motorcycle-20			6828.5	13657.0	Clean	New	In Stock
+Motorcycle-21			6686.0	13372.0	Clean	New	In Stock
+Motorcycle-25			13265.0	26530.0	Sparkling	New	In Stock
+Monster Truck Grave Digger-1			9597.6	19195.2	Sparkling	Broken	In Stock
+Monster Truck Monster Mutt-1			15136.0	30272.0	Clean	New	In Stock
+Monster Truck Bounty Hunter-1			10410.400000000001	20820.800000000003	Clean	New	In Stock
+Monster Truck Brutus-1			7466.0	14932.0	Clean	New	In Stock
+Monster Truck Sudden Impact-1			8249.5	16499.0	Clean	New	In Stock
+Monster Truck USA-1-1			7888.5	15777.0	Sparkling	New	In Stock
+Coupe-7			12373.0	24746.0	Clean	New	In Stock
+Coupe-10			6623.5	13247.0	Clean	New	In Stock
+Coupe-12			8905.6	17811.2	Clean	New	In Stock
+Coupe-16			10532.0	21064.0	Clean	New	In Stock
+Coupe-17			11046.400000000001	22092.800000000003	Clean	New	In Stock
+Coupe-20			10638.0	21276.0	Sparkling	New	In Stock
+Minivan-7			9572.0	19144.0	Sparkling	New	In Stock
+Minivan-9			6263.5	12527.0	Clean	New	In Stock
+Minivan-10			5533.0	11066.0	Clean	New	In Stock
+Minivan-13			10823.0	21646.0	Clean	New	In Stock
+Minivan-15			11632.800000000001	23265.600000000002	Clean	New	In Stock
+Minivan-16			15380.0	30760.0	Clean	New	In Stock
+SUV-9			8732.5	17465.0	Clean	New	In Stock
+SUV-11			9261.5	18523.0	Clean	New	In Stock
+SUV-12			10288.0	20576.0	Sparkling	New	In Stock
+SUV-18			6475.0	12950.0	Clean	New	In Stock
+SUV-20			8615.0	17230.0	Sparkling	New	In Stock
+SUV-23			6113.5	12227.0	Clean	New	In Stock
 Sold Vehicles:
-No vehicle was sold in the FNCD today
+Motorcycle-1		8641.0	34023.9375	Clean	New	Sold
+SUV-2		8484.0	22270.5	Clean	New	Sold

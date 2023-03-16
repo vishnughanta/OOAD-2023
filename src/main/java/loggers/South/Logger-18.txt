@@ -1,91 +1,84 @@
-Purchased Broken Dirty Performance Car-21 for a cost price of 18495.5
-Purchased Broken Clean Performance Car-22 for a cost price of 17521.5
-Purchased Broken Clean Motorcycle-21 for a cost price of 8736.0
-Purchased New Sparkling SUV-16 for a cost price of 13541.0
-Intern-7 has washed Coupe-13 and made it Clean
-Intern-7 has washed Coupe-8
-Intern-13 has washed Minivan-11 and made it Clean
-Intern-13 has washed Coupe-13
-Intern-16 has washed Coupe-13 and made it Sparkling (Earned a bonus of $50.0)
-Intern-16 has washed Coupe-8 and made it Clean
-Mechanic-5 has not repaired Performance Car-21
-Mechanic-5 has not repaired Car-20
-Mechanic-6 has repaired SUV-8 and made it Sparkling (Earned a bonus of $70.0)
-Mechanic-6 has repaired Performance Car-21 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-7 has repaired Performance Car-21 and made it Dirty (Earned a bonus of $200.0)
-Mechanic-7 has repaired Performance Car-22 and made it Clean (Earned a bonus of $200.0)
-Salesperson-5 has sold Minivan-16 for a sale price of $33259.200000000004 (Earned a sale bonus of $90.0)
-Salesperson-6 has sold Coupe-7 for a sale price of $24996.000000000004 (Earned a sale bonus of $90.0)
-Intern-13 has quit the FNCD
+Purchased Used Sparkling Performance Car-21 for a cost price of 24556.800000000003
+Intern-5 has washed SUV-20
+Intern-5 has washed Car-20 and made it Clean
+Intern-8 has washed SUV-20 and made it Sparkling (Earned a bonus of $50.0)
+Intern-8 has washed Monster Truck USA-1-1 and made it Sparkling (Earned a bonus of $100.0)
+Intern-12 has washed Monster Truck Bounty Hunter-1 and made it Clean
+Intern-12 has washed Motorcycle-10 and made it Clean
+Mechanic-4 has repaired Performance Car-21 and made it Sparkling (Earned a bonus of $200.0)
+Mechanic-4 has repaired Motorcycle-12 and made it Clean (Earned a bonus of $70.0)
+Mechanic-6 has repaired Motorcycle-12 and made it Dirty (Earned a bonus of $70.0)
+Salesperson-5 has sold Motorcycle-19 for a sale price of $47623.2 (Earned a sale bonus of $90.0)
 Daily Report..
 
 Working Staff:
-Intern-7		1700.0	300.0	17
-Intern-16		200.0	150.0	2
-Mechanic-5		3600.0	3850.0	18
-Mechanic-6		3600.0	3650.0	18
-Mechanic-7		3400.0	3170.0	18
-Salesperson-5		4500.0	2850.0	15
-Salesperson-6		4200.0	1110.0	14
-Salesperson-8		600.0	1190.0	16
-Driver-4		1750.0	0.0	5
+Intern-5		1800.0	0.0	18
+Intern-8		1700.0	350.0	17
+Intern-12		700.0	150.0	7
+Mechanic-4		3600.0	4580.0	18
+Mechanic-6		3600.0	3840.0	18
+Mechanic-7		800.0	1080.0	12
+Salesperson-4		3900.0	2340.0	13
+Salesperson-5		3900.0	1950.0	13
+Salesperson-7		3600.0	1920.0	13
 Driver-5		1750.0	0.0	5
 Driver-6		1750.0	0.0	5
+Driver-7		350.0	0.0	1
 Departed Staff:
-Intern-13		400.0	0.0	4
+No one quit the FNCD today
 Vehicles In Inventory:
-Car-7			9865.5	19731.0	Clean	New	In Stock
-Car-9			9227.2	18454.4	Clean	New	In Stock
-Car-11			9732.0	19464.0	Clean	New	In Stock
-Car-12			6255.0	12510.0	Clean	New	In Stock
-Car-19			10258.0	20516.0	Clean	New	In Stock
-Car-20			13667.2	27334.4	Clean	Used	In Stock
-Performance Car-9			22815.2	45630.4	Clean	New	In Stock
-Performance Car-10			22690.0	45380.0	Sparkling	New	In Stock
-Performance Car-12			17617.600000000002	35235.200000000004	Clean	Broken	In Stock
-Performance Car-15			22618.0	45236.0	Clean	New	In Stock
-Performance Car-21			18495.5	36991.0	Dirty	New	In Stock
-Performance Car-22			17521.5	35043.0	Dirty	Used	In Stock
-Pickup-7			9374.0	18748.0	Clean	New	In Stock
-Pickup-8			8060.5	16121.0	Clean	New	In Stock
-Pickup-11			18279.0	36558.0	Clean	New	In Stock
-Pickup-12			17942.4	35884.8	Clean	New	In Stock
-Pickup-13			9028.5	18057.0	Sparkling	New	In Stock
-Pickup-14			10122.0	20244.0	Clean	New	In Stock
-Electric Car-7			10731.0	21462.0	Clean	New	In Stock
-Electric Car-8			9691.2	19382.4	Clean	New	In Stock
-Electric Car-12			9639.2	19278.4	Clean	New	In Stock
-Electric Car-13			9051.5	18103.0	Dirty	New	In Stock
-Electric Car-16			8911.2	17822.4	Sparkling	New	In Stock
-Electric Car-18			9952.5	19905.0	Clean	New	In Stock
-Motorcycle-7			6536.0	13072.0	Clean	New	In Stock
-Motorcycle-8			7261.5	14523.0	Clean	New	In Stock
-Motorcycle-12			6385.5	12771.0	Dirty	New	In Stock
-Motorcycle-13			6241.5	12483.0	Clean	New	In Stock
-Motorcycle-15			6023.0	12046.0	Dirty	New	In Stock
-Motorcycle-21			8736.0	17472.0	Clean	Broken	In Stock
-Monster Truck Black Stallion-1			6354.0	12708.0	Sparkling	New	In Stock
-Monster Truck Maximum Destruction (Max-D)-1			12023.2	24046.4	Clean	New	In Stock
-Monster Truck Air Force Afterburner-1			7283.0	14566.0	Dirty	New	In Stock
-Monster Truck Madusa-1			8448.800000000001	16897.600000000002	Sparkling	New	In Stock
-Monster Truck Grave Digger-1			13413.0	26826.0	Clean	New	In Stock
-Monster Truck Shell Camino-1			18583.0	37166.0	Sparkling	New	In Stock
-Coupe-8			7941.0	15882.0	Clean	New	In Stock
-Coupe-10			6209.5	12419.0	Sparkling	New	In Stock
-Coupe-12			5442.5	10885.0	Clean	New	In Stock
-Coupe-13			9684.0	19368.0	Sparkling	New	In Stock
-Coupe-14			8672.5	17345.0	Clean	New	In Stock
-Minivan-8			7654.0	15308.0	Clean	New	In Stock
-Minivan-10			7404.0	14808.0	Clean	New	In Stock
-Minivan-11			5562.0	11124.0	Clean	New	In Stock
-Minivan-12			6934.0	13868.0	Clean	New	In Stock
-Minivan-13			7866.5	15733.0	Clean	New	In Stock
-SUV-7			9599.2	19198.4	Clean	New	In Stock
-SUV-8			6834.0	13668.0	Clean	New	In Stock
-SUV-12			10065.6	20131.2	Sparkling	New	In Stock
-SUV-13			11060.0	22120.0	Clean	New	In Stock
-SUV-14			9715.5	19431.0	Dirty	New	In Stock
-SUV-16			13541.0	27082.0	Sparkling	New	In Stock
+Car-7			10223.0	20446.0	Clean	New	In Stock
+Car-9			9702.4	19404.8	Clean	New	In Stock
+Car-10			7061.5	14123.0	Clean	New	In Stock
+Car-15			11598.0	23196.0	Clean	New	In Stock
+Car-16			10177.0	20354.0	Clean	New	In Stock
+Car-20			10834.400000000001	21668.800000000003	Clean	New	In Stock
+Performance Car-8			12348.5	24697.0	Clean	New	In Stock
+Performance Car-13			13850.0	27700.0	Clean	New	In Stock
+Performance Car-15			13700.0	27400.0	Clean	New	In Stock
+Performance Car-16			15163.0	30326.0	Clean	New	In Stock
+Performance Car-18			15233.0	30466.0	Clean	New	In Stock
+Performance Car-21			24556.800000000003	49113.600000000006	Clean	New	In Stock
+Pickup-7			11996.0	23992.0	Clean	New	In Stock
+Pickup-9			9951.5	19903.0	Clean	New	In Stock
+Pickup-10			8828.800000000001	17657.600000000002	Clean	New	In Stock
+Pickup-12			13845.6	27691.2	Clean	New	In Stock
+Pickup-13			9174.5	18349.0	Clean	New	In Stock
+Pickup-15			23118.0	46236.0	Clean	New	In Stock
+Electric Car-8			11729.6	23459.2	Clean	New	In Stock
+Electric Car-12			8463.0	16926.0	Clean	New	In Stock
+Electric Car-13			12208.0	24416.0	Clean	New	In Stock
+Electric Car-14			9696.0	19392.0	Clean	New	In Stock
+Electric Car-15			8098.5	16197.0	Clean	New	In Stock
+Electric Car-19			13870.0	27740.0	Sparkling	New	In Stock
+Motorcycle-10			6903.0	13806.0	Clean	New	In Stock
+Motorcycle-11			8683.0	17366.0	Clean	New	In Stock
+Motorcycle-12			6834.5	13669.0	Dirty	New	In Stock
+Motorcycle-14			7195.0	14390.0	Clean	New	In Stock
+Motorcycle-18			10282.400000000001	20564.800000000003	Clean	New	In Stock
+Monster Truck Grave Digger-1			9597.6	19195.2	Clean	New	In Stock
+Monster Truck Monster Mutt-1			15136.0	30272.0	Clean	New	In Stock
+Monster Truck Bounty Hunter-1			10410.400000000001	20820.800000000003	Clean	New	In Stock
+Monster Truck Brutus-1			7466.0	14932.0	Clean	New	In Stock
+Monster Truck Sudden Impact-1			8249.5	16499.0	Clean	New	In Stock
+Monster Truck USA-1-1			7888.5	15777.0	Sparkling	New	In Stock
+Coupe-7			12373.0	24746.0	Clean	New	In Stock
+Coupe-10			6623.5	13247.0	Clean	New	In Stock
+Coupe-12			8905.6	17811.2	Clean	New	In Stock
+Coupe-16			10532.0	21064.0	Clean	New	In Stock
+Coupe-17			11046.400000000001	22092.800000000003	Clean	New	In Stock
+Coupe-20			10638.0	21276.0	Sparkling	New	In Stock
+Minivan-7			9572.0	19144.0	Sparkling	New	In Stock
+Minivan-9			6263.5	12527.0	Clean	New	In Stock
+Minivan-10			5533.0	11066.0	Clean	New	In Stock
+Minivan-13			10823.0	21646.0	Clean	New	In Stock
+Minivan-15			11632.800000000001	23265.600000000002	Clean	New	In Stock
+Minivan-16			15380.0	30760.0	Clean	New	In Stock
+SUV-9			8732.5	17465.0	Clean	New	In Stock
+SUV-11			9261.5	18523.0	Clean	New	In Stock
+SUV-12			10288.0	20576.0	Sparkling	New	In Stock
+SUV-17			10529.0	21058.0	Clean	New	In Stock
+SUV-18			6475.0	12950.0	Clean	New	In Stock
+SUV-20			8615.0	17230.0	Sparkling	New	In Stock
 Sold Vehicles:
-Minivan-16		11086.400000000001	33259.200000000004	Clean	New	Sold
-Coupe-7		9998.400000000001	24996.000000000004	Clean	New	Sold
+Motorcycle-19		19843.0	47623.2	Clean	New	Sold
